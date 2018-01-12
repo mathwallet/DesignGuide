@@ -1,0 +1,400 @@
+{
+	"list": {
+		"name": "MDS",
+		"organization": "MediShares",
+		"colors": [
+			{
+				"name": "primary_colors",
+				"colors": [
+					{
+						"name": "blue",
+						"value": "#007aff"
+					},
+					{
+						"name": "teal_blue",
+						"value": "#5ac8fa"
+					},
+					{
+						"name": "green",
+						"value": "#4cd964"
+					},
+					{
+						"name": "yellow",
+						"value": "#ffcc00"
+					},
+					{
+						"name": "orange",
+						"value": "#ff9500"
+					},
+					{
+						"name": "red",
+						"value": "#ff3b30"
+					}
+				]
+			},
+			{
+				"name": "neutral_colors",
+				"colors": [
+					{
+						"name": "white",
+						"value": "#ffffff"
+					},
+					{
+						"name": "grey_05",
+						"value": "#f7f7fa"
+					},
+					{
+						"name": "grey_10",
+						"value": "#efeff4"
+					},
+					{
+						"name": "grey_15",
+						"value": "#dddce0"
+					},
+					{
+						"name": "grey_20",
+						"value": "#c8c7cc"
+					},
+					{
+						"name": "grey_50",
+						"value": "#8a8a8f"
+					},
+					{
+						"name": "black",
+						"value": "#000000"
+					}
+				]
+			},
+			{
+				"name": "interactive_colors",
+				"colors": [
+					{
+						"name": "blue_darker",
+						"value": "#0062d9"
+					},
+					{
+						"name": "teal_blue_darker",
+						"value": "#42a1d4"
+					},
+					{
+						"name": "green_darker",
+						"value": "#36b34f"
+					},
+					{
+						"name": "yellow_darker",
+						"value": "#d9a600"
+					},
+					{
+						"name": "orange_darker",
+						"value": "#d97700"
+					},
+					{
+						"name": "red_darker",
+						"value": "#d9211e"
+					}
+				]
+			},
+			{
+				"name": "background_colors",
+				"colors": [
+					{
+						"name": "grey_05",
+						"value": "#f7f7fa"
+					},
+					{
+						"name": "white",
+						"value": "#ffffff"
+					},
+					{
+						"name": "dark",
+						"value": "#2c363f"
+					}
+				]
+			},
+			{
+				"name": "line_color",
+				"color": [
+					{
+						"name": "grey_15",
+						"value": "#dddce0"
+					},
+				]
+			},
+			{
+				"name": "text_colors",
+				"colors": [
+					{
+						"name": "black",
+						"value": "#000000"
+					},
+					{
+						"name": "grey_50",
+						"value": "#8a8a8f"
+					},
+					{
+						"name": "grey_20",
+						"value": "#c8c7cc"
+					},
+					{
+						"name": "white",
+						"value": "#ffffff"
+					}
+				]
+			}
+		],
+		"font": [
+			{
+				"name": "font_weight",
+				"variants": [
+					{
+						"name": "regular",
+						"fontWeight": "regular"
+					},
+					{
+						"name": "medium",
+						"fontWeight": "medium"
+					}
+				]
+			},
+			{
+				"name": "font_size",
+				"variants": [
+					{
+						"name": "font_size_default",
+						"unit": "pt",
+						"value": 16
+					},
+					{
+						"name": "font_size_xs",
+						"unit": "pt",
+						"value": 10
+					},
+					{
+						"name": "font_size_s",
+						"unit": "pt",
+						"value": 12
+					},
+					{
+						"name": "font_size_m",
+						"unit": "pt",
+						"value": 14
+					},
+					{
+						"name": "font_size_l",
+						"unit": "pt",
+						"value": 20
+					},
+					{
+						"name": "font_size_xl",
+						"unit": "pt",
+						"value": 24
+					},
+					{
+						"name": "font_size_xxl",
+						"unit": "pt",
+						"value": 32
+					},
+				]
+			},
+			{
+				"name": "line_height",
+				"variants": [
+					{
+						"name": "line_height_default",
+						"unit": "pt",
+						"value": 20
+					},
+					{
+						"name": "line_height_s",
+						"unit": "pt",
+						"value": 12
+					},
+					{
+						"name": "line_height_m",
+						"unit": "pt",
+						"value": 16
+					},
+					{
+						"name": "line_height_l",
+						"unit": "pt",
+						"value": 24
+					},
+					{
+						"name": "line_height_xl",
+						"unit": "pt",
+						"value": 32
+					},
+					{
+						"name": "line_height_xxl",
+						"unit": "pt",
+						"value": 40
+					},
+				]
+			},
+		],
+		"measurementSections": [
+			{
+				"name": "spacing",
+				"measurementType": "spacing",
+				"measurements": [
+					{
+						"name": "spacing_default",
+						"unit": "pt",
+						"value": 16
+					},
+					{
+						"name": "spacing_xxs",
+						"unit": "pt",
+						"value": 2
+					},
+					{
+						"name": "spacing_xs",
+						"unit": "pt",
+						"value": 4
+					},
+					{
+						"name": "spacing_s",
+						"unit": "pt",
+						"value": 8
+					},
+					{
+						"name": "spacing_m",
+						"unit": "pt",
+						"value": 12
+					},
+					{
+						"name": "spacing_l",
+						"unit": "pt",
+						"value": 24
+					},
+					{
+						"name": "spacing_xl",
+						"unit": "pt",
+						"value": 32
+					},
+					{
+						"name": "spacing_xxl",
+						"unit": "pt",
+						"value": 48
+					}
+				]
+			},
+			{
+				"name": "sizing",
+				"measurementType": "sizing",
+				"measurements": [
+					{
+						"name": "sizing_default",
+						"unit": "pt",
+						"value": 24
+					},
+					{
+						"name": "sizing_xxs",
+						"unit": "pt",
+						"value": 4
+					},
+					{
+						"name": "sizing_xs",
+						"unit": "pt",
+						"value": 8
+					},
+					{
+						"name": "sizing_s",
+						"unit": "pt",
+						"value": 12
+					},
+					{
+						"name": "sizing_m",
+						"unit": "pt",
+						"value": 16
+					},
+					{
+						"name": "sizing_l",
+						"unit": "pt",
+						"value": 32
+					},
+					{
+						"name": "sizing-xl",
+						"unit": "pt",
+						"value": 48
+					},
+					{
+						"name": "sizing_xxl",
+						"unit": "pt",
+						"value": 72
+					}
+				]
+			},
+			{
+				"name": "radius",
+				"measurementType": "radius",
+				"measurements": [
+					{
+						"name": "radius_default",
+						"unit": "pt",
+						"value": 12
+					},
+					{
+						"name": "radius_xxs",
+						"unit": "pt",
+						"value": 2
+					},
+					{
+						"name": "radius_xs",
+						"unit": "pt",
+						"value": 4
+					},
+					{
+						"name": "radius_x",
+						"unit": "pt",
+						"value": 6
+					},
+					{
+						"name": "radius_m",
+						"unit": "pt",
+						"value": 8
+					}
+				]
+			}
+		],
+		"shadowSections": [
+			{
+				"name": "shadow_bottomBar",
+				"variants": [
+					{
+						"X": "0pt",
+						"Y": "-1pt",
+						"Blur": "0pt",
+						"Spread": "0pt",
+						"Color": "#0000000c",
+					}
+				]
+			},
+			{
+				"name": "shadow_s",
+				"variants": [
+					{
+						"X": "0pt",
+						"Y": "1pt",
+						"Blur": "2pt",
+						"Spread": "0pt",
+						"Color": "#0000000c",
+					}
+				]
+			},
+			{
+				"name": "shadow_l",
+				"variants": [
+					{
+						"X": "0pt",
+						"Y": "8pt",
+						"Blur": "16pt",
+						"Spread": "0pt",
+						"Color": "#0000000c",
+					}
+				]
+			},
+		],
+		"readOnly": true
+	}
+}
