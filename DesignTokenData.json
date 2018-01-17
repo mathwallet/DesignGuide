@@ -29,9 +29,9 @@
 					{
 						"name": "red",
 						"value": "#ff3b30"
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "neutral_colors",
 				"colors": [
@@ -62,9 +62,9 @@
 					{
 						"name": "black",
 						"value": "#000000"
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "interactive_colors",
 				"colors": [
@@ -91,9 +91,9 @@
 					{
 						"name": "red_darker",
 						"value": "#d9211e"
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "background_colors",
 				"colors": [
@@ -112,18 +112,18 @@
 					{
 						"name": "alert",
 						"value": "#FFF9E6"
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "line_color",
 				"color": [
 					{
 						"name": "grey_15",
 						"value": "#dddce0"
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "text_colors",
 				"colors": [
@@ -162,7 +162,7 @@
 					{
 						"name": "warning",
 						"value": "#ff3b30"
-					},
+					}
 				]
 			}
 		],
@@ -177,9 +177,9 @@
 					{
 						"name": "medium",
 						"fontWeight": "medium"
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "font_size",
 				"variants": [
@@ -217,9 +217,9 @@
 						"name": "font_size_xxl",
 						"unit": "pt",
 						"value": 32
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "line_height",
 				"variants": [
@@ -252,9 +252,9 @@
 						"name": "line_height_xxl",
 						"unit": "pt",
 						"value": 40
-					},
+					}
 				]
-			},
+			}
 		],
 		"measurementSections": [
 			{
@@ -300,9 +300,9 @@
 						"name": "spacing_xxl",
 						"unit": "pt",
 						"value": 48
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "sizing",
 				"measurementType": "sizing",
@@ -346,9 +346,9 @@
 						"name": "sizing_xxl",
 						"unit": "pt",
 						"value": 72
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "radius",
 				"measurementType": "radius",
@@ -377,7 +377,7 @@
 						"name": "radius_m",
 						"unit": "pt",
 						"value": 8
-					},
+					}
 				]
 			}
 		],
@@ -391,9 +391,9 @@
 						"Blur": "0pt",
 						"Spread": "0pt",
 						"Color": "#0000000c",
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "shadow_s",
 				"variants": [
@@ -403,9 +403,9 @@
 						"Blur": "2pt",
 						"Spread": "0pt",
 						"Color": "#0000000c",
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "shadow_l",
 				"variants": [
@@ -415,9 +415,9 @@
 						"Blur": "16pt",
 						"Spread": "0pt",
 						"Color": "#0000000c",
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "inner_shadow_up",
 				"variants": [
@@ -427,9 +427,9 @@
 						"Blur": "0pt",
 						"Spread": "0pt",
 						"Color": "#0000000c",
-					},
+					}
 				]
-			},
+			}
 			{
 				"name": "inner_shadow_down",
 				"variants": [
@@ -439,10 +439,21 @@
 						"Blur": "0pt",
 						"Spread": "0pt",
 						"Color": "#0000000c",
-					},
+					}
 				]
-			},
+			}
+		],
+		"opacity": [
+			{
+				"name": "button_background_color",
+				"opacity": [
+					{
+						"name": "disable",
+						"value": "0.4"
+					}
+				]
+			}
 		],
 		"readOnly": true
-	},
-},
+	}
+}
