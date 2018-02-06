@@ -1,8 +1,13 @@
 # Copywriting
 
+<br>
+
 iOS Engineer: @yuzhiyou
+
 Android Engineer: @maoguangxing
+
 UX Writer: @yangzuoqi
+
 English Interpreter: 
 
 <br>
@@ -21,7 +26,9 @@ English Interpreter:
 * 遵循英文字母大小写、数字、空格及标点符号规范
 
 <br>
+
 -------
+
 <br>
 
 ##### Error
