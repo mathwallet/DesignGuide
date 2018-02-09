@@ -4,7 +4,7 @@
 
 | Versions | Description | Date |
 | :-- | :-- | :-- |
-| Version 0.1 |  | February 8, 2018 |
+| Version 0.1.1 |  | February 9, 2018 |
 
 <br>
 
