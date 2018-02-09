@@ -98,19 +98,19 @@
 				"name": "background_colors",
 				"colors": [
 					{
-						"name": "grey_05",
+						"name": "background_color_default",
 						"value": "#f7f7fa"
 					},
 					{
-						"name": "white",
+						"name": "background_color_white",
 						"value": "#ffffff"
 					},
 					{
-						"name": "dark",
+						"name": "background_color_dark",
 						"value": "#2c363f"
 					},
 					{
-						"name": "alert",
+						"name": "background_color_alert",
 						"value": "#FFF9E6"
 					}
 				]
@@ -119,7 +119,7 @@
 				"name": "line_color",
 				"color": [
 					{
-						"name": "grey_15",
+						"name": "line_color_default",
 						"value": "#dddce0"
 					}
 				]
@@ -128,39 +128,39 @@
 				"name": "text_colors",
 				"colors": [
 					{
-						"name": "black",
+						"name": "text_color_black",
 						"value": "#000000"
 					},
 					{
-						"name": "grey_50",
+						"name": "text_color_grey",
 						"value": "#8a8a8f"
 					},
 					{
-						"name": "grey_20",
+						"name": "text_color_lightgrey",
 						"value": "#c8c7cc"
 					},
 					{
-						"name": "white",
+						"name": "text_color_white",
 						"value": "#ffffff"
 					},
 					{
-						"name": "action",
+						"name": "text_color_action",
 						"value": "#007aff"
 					},
 					{
-						"name": "active",
+						"name": "text_color_active",
 						"value": "#5ac8fa"
 					},
 					{
-						"name": "success",
+						"name": "text_color_success",
 						"value": "#4cd964"
 					},
 					{
-						"name": "highlight",
+						"name": "text_color_focus",
 						"value": "#ff9500"
 					},
 					{
-						"name": "warning",
+						"name": "text_color_warning",
 						"value": "#ff3b30"
 					}
 				]
