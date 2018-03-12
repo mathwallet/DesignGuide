@@ -1,4 +1,4 @@
-/* 
+/*
   Localizable.strings
   MediShares-iOS
 
@@ -146,7 +146,7 @@
 //管理钱包
 "manage_wallet" = "Manage Wallets";
 "create_wallet" = "Create Wallet";
-"import_wallet" = "Export Wallet";
+"import_wallet" = "Import Wallet";
 
 "manage_wallet_address"="Wallet Address";
 "manage_wallet_name"="Wallet name";
@@ -262,7 +262,7 @@
 "scan_failed" = "QR Code Scanning Failed";
 
 //资产
-"home_active_account_address" = "Wallet Address：";
+"home_active_account_address" = "Wallet Address";
 "home_add_new_asset" = "New Assets";
 "home_total_asset_title" = "Total Assets";
 "cny_symbol"="￥";
@@ -271,7 +271,7 @@
 
 // TabBar
 "wallet"="Wallet";
-"insurance"="Protection";
+"insurance"="DApps";
 "mine"="Me";
 // 我
 "mine_login_hint"="Sign up";
@@ -280,7 +280,7 @@
 "mine_medishares_contacts"="Contacts";
 "mine_medishares_candy"="Collect Candies";
 "mine_medishares_wechat_group"="Add Wechat Group";
-"mine_medishares_recommend"="Share MDS APP to Your Friends";
+"mine_medishares_recommend"="Invite Friends";
 "mine_medishares_suggestion"="Feedbacks";
 "mine_medishares_about"="About MediShares";
 "mine_medishares_setting"="Settings";
@@ -317,7 +317,7 @@
 "medishares_account_page_security_subtitle"="MediShares secures your identity information.";
 
 "medishares_account_page_insurance_title"="Insurance";
-"medishares_account_page_insurance_subtitle"= "Complete identity verification to get a guarantee of digital asset from MediShares";
+"medishares_account_page_insurance_subtitle"= "Complete identity verification, the first step to join smart contract mutual aid.";
 
 "medishares_account_page_convenient_title"="Convenient and Efficient";
 "medishares_account_page_convenient_subtitle"="Exclusive sign for identity verification. Transfer efficiently and conveniently.";
@@ -333,14 +333,14 @@
 "user_photo_title"="Photo";
 "user_email_title"="Email Address";
 "user_mobile_title"="Phone number";
-"user_wallet_address_title"="Wallet Address";
+"user_wallet_address_title"="Public Wallet";
 "user_name_title"="Name";
 "user_credential_type_title"="ID Type";
 "user_credential_number_title"="ID number";
 
 "user_add_email_address"="Add Email Address";
 "user_add_mobile_number"="Add Phone Number";
-"user_add_wallet_address"="Binding Wallet Address";
+"user_add_wallet_address"="Binding Public Wallet";
 
 "user_idcard"="ID Card";
 "user_passport"="Passport";
@@ -469,11 +469,11 @@
 "unlock_face_id"="Face ID";
 "unlock_confirm"="Confirm";
 "unlock_touch_id_prompt"="Use touch to login";
-"unlock_face_id_prompt"="Click and Enable Face ID";
+"unlock_face_id_prompt"="Click and Use Face ID";
 "unlock_password_input_placeholder"="Enter Wallet Password";
-"unlock_touch_id_enable"="Enable Touch ID";
-"unlock_face_id_enable"="Enable Face ID";
-"unlock_password_enable"="Enable PassLock";
+"unlock_touch_id_enable"="Use Touch ID";
+"unlock_face_id_enable"="Use Face ID";
+"unlock_password_enable"="Use PassLock";
 
 // 领糖果
 "candy_recently_collect"="Collection record";
