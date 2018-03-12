@@ -146,7 +146,7 @@
 //管理钱包
 "manage_wallet" = "Manage Wallets";
 "create_wallet" = "Create Wallet";
-"import_wallet" = "Export Wallet";
+"import_wallet" = "Import Wallet";
 
 "manage_wallet_address"="Wallet Address";
 "manage_wallet_name"="Wallet name";
