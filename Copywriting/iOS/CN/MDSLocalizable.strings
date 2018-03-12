@@ -1,0 +1,486 @@
+/*
+ Localizable.strings
+ MediShares-iOS
+ 
+ Created by Yuzhiyou on 2018/1/17.
+ Copyright © 2018年 zhongtuobang. All rights reserved.
+ */
+
+//Errors
+"wrong_password_warning" = "密码错误";
+"wrong_unkown_warning" = "未知错误";
+
+"keystore_json_version_unsupported" = "不支持 Keystore 版本-%d";
+"keystore_json_address_invalid" = "无效 Address-%@";
+"keystore_json_kdf_invalid" = "无效 KDF 参数";
+"keystore_json_cipher_invalid" = "无效 cipher 参数";
+"keystore_json_mac_invalid" = "无效 mac 参数";
+"keystore_json_scrypt_invalid" = "无效 scrypt 参数";
+"keystore_json_other_invalid" = "AES 错误";
+"keystore_json_mnemonic_invalid" = "助记词不匹配";
+"keystore_json_backup_error" = "备份 Keystore 出错";
+
+"private_key_invalid" = "无效私钥";
+"private_key_backup_error" = "备份私钥出错";
+
+"mnemonic_phrase_invalid" = "无效助记词";
+"mnemonic_mismatch_invalid" = "助记词不匹配";
+"mnemonic_backup_error" = "备份助记词出错";
+"mnemonic_path_error" = "助记词路径格式错误";
+
+"account_create_failed" = "创建账号失败";
+"account_restore_failed" = "还原账号失败";
+"account_unlock_failed" = "账号解锁失败";
+
+"account_password_update_failed" = "密码更新失败";
+
+"network_unable_to_connect" = "网络好像连接不上，请重试";
+"network_server_timeout" = "请求服务器超时，请重试";
+"network_error_unkown" = "未知网络错误，请重试";
+"network_error_data_format" = "数据格式异常";
+
+"network_error_device_unregister" = "设备注册失败";
+// Date
+"today"="今天";
+"yesterday"="昨天";
+//Alert
+"confirm" = "确定";
+"cancel" = "取消";
+"prompt" = "提示";
+"setting" = "设置";
+"i_know" = "知道了";
+"next" = "下一步";
+"search" = "搜索";
+"submit" = "提交";
+"select_wallet"="选择钱包";
+"copy" = "复制";
+"copied" = "已复制";
+"paste"="粘贴";
+"done" = "完成";
+"add"="添加";
+"added"="已添加";
+"edit"="编辑";
+"discover_new_version"="发现新版本";
+"upgrade"="更新";
+"retry"="再试一次";
+
+// 权限
+"take_photo"="拍照";
+"photo_album"="从相册选取";
+"camera_not_supported"="当前不支持打开相机";
+"photo_library_not_supported"="当前不支持打开相册";
+"camera_permission_authorize" = "没有访问相机权限，请是否前往设置？";
+"photo_library_permission_authorize" = "没有访问相册权限，请是否前往设置？";
+"contacts_permission_authorize" = "没有访问通讯录权限，请是否前往设置？";
+
+// 页面无数据
+"empty_data_prompt" = "暂无数据";
+"empty_data_publicity"="暂无公示信息";
+"empty_data_transaction"="暂无交易记录";
+"empty_data_trasfer"="暂无转账记录";
+"empty_data_contacts"="暂无联系人";
+"empty_data_contacts_know"="暂无认识的联系人";
+"empty_data_candy"="暂无领取记录";
+"empty_data_search"="无搜索结果";
+
+//多钱包选择页面
+"wallet_create_or_import_prompt"="暂无钱包，请创建钱包或导入钱包";
+"wallet_create_or_import_type"="ETH 钱包";
+
+// 导入钱包
+"wallet_import_title"="导入钱包";
+"wallet_import_keystore_title"="通过 Keystore 导入";
+"wallet_import_keystore_recommend"="推荐";
+
+"wallet_import_privatekey_title"="通过私钥导入";
+"wallet_import_mnemonic_phrase_title"="通过助记词导入";
+
+// Keystore导入
+"wallet_import_keystore_text_placeholder"="粘贴 Keystore 文件内容";
+"wallet_import_keystore_password_title"="keystore 密码";
+"wallet_import_keystore_password_placeholder"="输入 Keystore 密码";
+"wallet_import_keystore_nickname_title"="钱包名称";
+"wallet_import_keystore_nickname_placeholder"="设置钱包名称";
+// 私钥导入
+"wallet_import_privatekey_privatekey_title"="私钥";
+"wallet_import_privatekey_privatekey_placeholder"="粘贴私钥";
+"wallet_import_privatekey_nickname_title"="钱包名称";
+"wallet_import_privatekey_nickname_placeholder"="设置钱包名称";
+"wallet_import_privatekey_password_title"="钱包密码";
+"wallet_import_privatekey_password_placeholder"="设置钱包密码，至少 8 位字符";
+"wallet_import_privatekey_repeat_password_title"="重复钱包密码";
+"wallet_import_privatekey_repeat_password_placeholder"="再次输入钱包密码";
+// 助记词导入
+"wallet_import_mnemonic_phrase_input_label"="助记词";
+"wallet_import_mnemonic_phrase_placeholder"="输入助记词，按空格分割";
+"wallet_import_mnemonic_phrase_path_title"="路径";
+"wallet_import_mnemonic_phrase_custom_path"="m/44'/60'/0'/0/0 自定义路径";
+"wallet_import_mnemonic_phrase_nickname_title"="钱包名称";
+"wallet_import_mnemonic_phrase_nickname_placeholder"="设置钱包名称";
+"wallet_import_mnemonic_phrase_password_title"="钱包密码";
+"wallet_import_mnemonic_phrase_password_placeholder"="设置钱包密码，至少 8 位字符";
+"wallet_import_mnemonic_phrase_repeat_password_title"="重复钱包密码";
+"wallet_import_mnemonic_phrase_repeat_password_placeholder"="再次输入钱包密码";
+
+//创建钱包
+"wallet_name"="钱包名称";
+"wallet_name_placeholder"="设置钱包名称";
+"wallet_password"="钱包密码";
+"wallet_password_placeholder"="设置钱包密码，至少 8 位字符";
+"wallet_repeat_password"="重复钱包密码";
+"wallet_repeat_password_placeholder"="再次输入钱包密码";
+"conditions_prompt_normal" = "我已仔细阅读并同意";
+"conditions_prompt_active" = "《服务与隐私条款》";
+"terms_of_service" = "服务与隐私条款";
+"password_strength_low" = "弱";
+"password_strength_high" = "强";
+"password_save_warning_title" = "确认钱包密码";
+"password_save_warning_message" = "我们无法提供找回钱包密码功能，请确认并妥善保管钱包密码？";
+
+"create_wallet_success_title"= "创建钱包成功";
+"create_wallet_success_backup_prompt"= "以下是钱包的 Keystore 文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。";
+"create_wallet_success_copy_prompt"= "请先复制并备份 Keystore 文件";
+"create_wallet_success_backup_completed"= "Keystore 已备份完成";
+"disclaimer_warning_title" = "免责声明";
+"disclaimer_warning_message" = "我们不承担任何因为 Keystore 丢失以及忘记密码导致的资产损失！";
+
+//管理钱包
+"manage_wallet" = "管理钱包";
+"create_wallet" = "创建钱包";
+"import_wallet" = "导入钱包";
+
+"manage_wallet_address"="钱包地址";
+"manage_wallet_name"="钱包名称";
+"manage_wallet_password"="钱包密码";
+"manage_wallet_backup_keystore"="备份 Keystore";
+"manage_wallet_backup_privatekey_important"="重要";
+"manage_wallet_backup_privatekey"="备份私钥";
+"manage_wallet_backup_mnemonic_phrase"="备份助记词";
+"remove_wallet"="删除钱包";
+"account_remove_warning_message" = "请慎重，此操作无法撤销";
+// 修改钱包名称
+"wallet_nickname_update"="修改钱包名称";
+"wallet_nickname_too_short" = "钱包名称至少 1 位字符";
+"wallet_nickname_update_completed" = "钱包名称修改成功";
+// 修改钱包密码
+"wallet_password_update"="修改钱包密码";
+"wallet_password_update_completed" = "密码修改成功";
+
+"wallet_password_old_password_title"="旧的钱包密码";
+"wallet_password_new_password_title"="新的钱包密码";
+"wallet_password_repeat_password_title"="重复新的钱包密码";
+
+"wallet_password_old_password_placeholder"="输入旧的钱包密码";
+"wallet_password_new_password_placeholder"="设置新的钱包密码，至少 8 位字符";
+"wallet_password_repeat_password_placeholder"="再次输入新的钱包密码";
+// 备份私钥
+"wallet_backup_privatekey_completed" = "备份完成";
+"wallet_backup_privatekey_prompt"= "以下是钱包的私钥信息，复制并导出至安全的地方存放。一旦丢失，无法找回。";
+// 备份助记词
+"wallet_backup_mnemonic_phrase_write_down" = "助记词已抄好";
+"wallet_backup_mnemonic_phrase_write_down_prompt"= "以下是钱包的助记词，抄写下来并导出至安全的地方存放。一旦丢失，无法找回。";
+"wallet_backup_mnemonic_phrase_completed" = "助记词已备份完成";
+"wallet_backup_mnemonic_phrase_prompt"= "按顺序点击助记词，以确认助记词抄写正确，并妥善保管助记词。一旦丢失，无法找回。";
+"wallet_backup_mnemonic_phrase_remove_prompt" = "你备份的助记词顺序验证正确，是否从 MediShares 移除改助记词？";
+// 钱包密码
+"input_trans_password_title" = "输入钱包密码";
+// 转账菜单
+"transaction_menu_contacts"="转到联系人";
+"transaction_menu_account_address"="转到钱包地址";
+"transaction_menu_scan_qrcode"="扫描二维码";
+
+"recently_transfer"="最近转账";
+//交易
+"transaction_title" = "%@ 转账";
+"slow" = "慢";
+"fast" = "快";
+"transaction_account_invalid" = "交易账户无效";
+"transaction_nonce_invalid" = "交易 nonce 无效";
+"transaction_tx_fee" = "矿工费 %@ ETH";
+"transaction_account_balance" = "当前资产 %@ %@";
+
+"transaction_to_address_placeholder" = "填写钱包地址";
+"transaction_to_address_checking_security"="正在检测账户安全";
+
+"transaction_to_value_placeholder" = "填写转账金额";
+"transaction_to_balace_low" = "余额不足";
+"transaction_to_advance_setting" = "高级设置";
+"transaction_to_advance_setting_gas_limit" = "自定义 Gas Limit";
+"transaction_to_advance_setting_gas_price" = "自定义 Gas Price";
+"transaction_to_advance_setting_hex_data" = "十六进制数据";
+
+"transaction_to_gas_limit_invalid" = "Gas Limit 不小于 %@";
+"transaction_to_gas_price_invalid" = "Gas Price 不小与 %@gwei";
+"transaction_to_hex_data_invalid" = "十六进制数据无效";
+"transaction_to_address_null" = "填写转账地址";
+"transaction_to_value_null" = "填写转账金额";
+"transaction_add_remark_hint" = "添加备注信息";
+// 确认转账信息
+"transaction_confirm_title"="确认转账信息";
+"transaction_confirm_send"="确认转账";
+// 交易完成
+"transaction_complete_status_title"="交易状态";
+"transaction_complete_to_address_title"="收款地址";
+"transaction_complete_time_title"="发起时间";
+"transaction_complete_remark_title"="备注";
+"transaction_complete_remark_add"="添加备注信息";
+
+//交易记录
+"recently_transaction_records"="最近交易记录";
+"transfer"="转账";
+"transfer_to_address"="转账-%@";
+"receipt_to_address"="收款-%@";
+"receipt"="收款";
+"confirmed_count"="确认中 %d/%d";
+"wait_to_processing"="等待打包中...";
+"transfer_status_success"="交易成功";
+"transfer_status_fail"="交易失败";
+"transfer_eth_amount"="%@%@ ETH";
+// 交易详情
+"transaction_detail_title"="交易详情";
+"transaction_etherscan_query"="交易查询";
+"transaction_detail_status_title"="交易状态";
+"transaction_detail_from_address_title"="发款地址";
+"transaction_detail_to_address_title"="收款地址";
+"transaction_detail_tx_fee_title"="旷工费";
+"transaction_detail_tx_time_title"="交易时间";
+"transaction_detail_remark_title"="备注";
+"transaction_detail_tx_hash_title"="交易单号";
+"transaction_detail_block_height_title"="区块";
+"transaction_detail_query_title"="查询 Etherscan 交易详情";
+
+//二维码 & 扫描二维码
+"account_address"="钱包地址";
+"account_address_qr_title"="钱包地址二维码";
+"copy_account_address"="复制地址";
+"scaning_qrcode" = "扫描二维码";
+"scan_failed" = "扫描二维码失败";
+//资产
+"home_active_account_address" = "地址：";
+"home_add_new_asset" = "添加资产";
+"home_total_asset_title" = "总资产";
+"cny_symbol"="￥";
+"estimate"="≈";
+"asset_placeholder"="-";
+
+// TabBar
+"wallet"="钱包";
+"insurance"="保障";
+"mine"="我";
+// 我
+"mine_login_hint"="立即登录";
+"mine_medishares_account"="MediShares 账号";
+"mine_medishares_transcations"="交易记录";
+"mine_medishares_contacts"="联系人";
+"mine_medishares_candy"="领糖果";
+"mine_medishares_wechat_group"="加入官方微信群";
+"mine_medishares_recommend"="推荐 MDS App 给好友";
+"mine_medishares_suggestion"="意见反馈";
+"mine_medishares_about"="关于 MediShares";
+"mine_medishares_setting"="设置";
+
+// 注册或登录
+"login"="登录";
+"register"="注册";
+"email_format_error"="邮箱格式不正确";
+
+"verify_code_unreceived"="没收到？";
+"verify_code_send_again"="重发验证码";
+"verify_code_send_again_timeout"="%ds 后可重发";
+
+"mobile_format_error"="手机格式错误";
+
+"register_acccount_title"="注册 MediShares 账号";
+"register_acccount_with_email"="通过邮箱注册账号";
+"register_acccount_with_mobile"="通过手机号注册账号";
+"register_account_switch_email"="或通过手机号注册";
+"register_account_switch_mobile"="或通过邮箱注册";
+
+"login_acccount_title"="登录 MediShares 账号";
+"login_acccount_with_email"="通过邮箱登录账号";
+"login_acccount_with_mobile"="通过手机号登录账号";
+"login_account_switch_email"="或通过手机号登录";
+"login_account_switch_mobile"="或通过邮箱登录";
+
+"login_success"="登录成功";
+
+// 选择国家和地区
+"country_code_title"="选择国家和地区";
+
+// MediShares账户-实名
+"medishares_account_page_security_title"="安全";
+"medishares_account_page_security_subtitle"="MediShares 保障您的实名认证信息安全";
+
+"medishares_account_page_insurance_title"="保障";
+"medishares_account_page_insurance_subtitle"="实名认证完成，赠送一份 MediShares 数字资产保障";
+
+"medishares_account_page_convenient_title"="方便快捷";
+"medishares_account_page_convenient_subtitle"="实名认证专属标志，转账交易方便快捷";
+
+"bind_kyc_status_default"="实名认证";
+"bind_kyc_status_process"="您的实名认证信息已提交，我们会尽快审核，并反馈给您。";
+"bind_kyc_status_success"="已完成实名认证 (%@)";
+"bind_kyc_status_fail"="审核失败，重新实名认证";
+
+// MediShares账户-信息
+"user_detail_title"="账号信息";
+
+"user_photo_title"="头像";
+"user_email_title"="邮箱";
+"user_mobile_title"="手机号";
+"user_wallet_address_title"="绑定钱包地址";
+"user_name_title"="姓名";
+"user_credential_type_title"="证件类型";
+"user_credential_number_title"="证件号";
+
+"user_add_email_address"="添加邮箱";
+"user_add_mobile_number"="添加手机号";
+"user_add_wallet_address"="绑定钱包地址";
+
+"user_idcard"="身份证";
+"user_passport"="护照";
+
+"user_logout"="退出账户";
+"user_logout_prompt"="确定要退出当前账号吗？";
+
+"user_update_success"="修改成功";
+
+// MediShares账户-添加邮箱或更改邮箱
+"user_update_email_address"="更新邮箱";
+"user_update_email_checked"="已验证";
+
+"user_add_email_subtitle"="添加邮箱后，也可使用邮箱登录";
+"user_update_email_subtitle"="更新邮箱后，之后登录使用新的邮箱";
+
+"user_update_email_verify"="邮箱验证";
+"user_update_email_verify_placeholder"="已给您发送 6 位验证码的邮件";
+
+"user_update_email_placeholder"="填写您的邮箱";
+"user_update_email_code_placeholder"="填写 6 位验证码";
+// MediShares账户-添加手机号或更改手机号
+"user_update_mobile_number"="更新手机号";
+"user_update_mobile_checked"="已验证";
+
+"user_add_mobile_subtitle"="添加手机号后，也可使用手机号登录";
+"user_update_mobile_subtitle"="更换手机号后，之后登录使用新的手机号";
+
+"user_update_mobile_sms_verify"="短信验证";
+"user_update_mobile_sms_placeholder"="已给您发送 6 位验证码的短信";
+
+"user_update_mobile_placeholder"="填写您的手机号";
+"user_update_mobile_code_placeholder"="填写 6 位验证码";
+// MediShares账户-绑定钱包地址
+"user_update_wallet_address"="更换钱包地址";
+"user_unbind_wallet_address"="解除绑定";
+"user_unbind_wallet_address_success"="解绑钱包地址成功";
+
+"bind_account_page_title"="绑定钱包地址";
+"bind_account_page_subtitle"="选择一个 ETH 钱包地址绑定";
+"bind_account_confirm"="确认绑定";
+"bind_account_complete_title"="绑定完成";
+"bind_account_complete_message"="您的 MediShares 账户已成功绑定了 ETH 钱包地址";
+// MediShares账户-实名认证
+"bind_kyc_page_title"="身份验证";
+"bind_kyc_page_subtitle"="填写以下信息以完成身份验证";
+"bind_kyc_submit"="提交审核";
+"bind_kyc_name_placeholder"="填写您的真实姓名";
+"bind_kyc_identity_type_placeholder"="证件类型";
+"bind_kyc_identity_placeholder"="请填写证件类型";
+"bind_kyc_identity_photo_prompt"="手持证件拍照";
+"bind_kyc_complete_title"="提交完成";
+"bind_kyc_complete_message"="您的身份信息已提交，我们会尽快审核并返回结果，请耐心等待。";
+
+// 联系人列表
+"someone_you_might_know"="可能认识的联系人";
+"contact_added_success"="添加联系人成功";
+"manual_add_contact_title"="手动添加";
+"qrcode_add_contact_title"="扫描二维码添加";
+
+"contact_name_title"="姓名";
+"contact_name_placeholder"="输入联系人姓名";
+
+"contact_account_address_title"="ETH 钱包地址";
+"contact_account_address_placeholder"="输入或粘贴 ETH 钱包地址";
+// 添加联系人
+"contact_add_title"="添加联系人";
+
+"contact_error_exists_address"="钱包地址已存在";
+"contact_error_invalid_address"="无效钱包地址";
+
+// 联系人信息
+"contact_detail_title"="联系人信息";
+// 编辑联系人
+"contact_edit_title"="编辑联系人";
+"contact_edit_remove"="删除联系人";
+"contact_edit_remove_waring_prompt"="确定要删除当前联系人吗？";
+
+// 关于
+"about_version_code"="版本 %@";
+"about_version_description"="MediShares 是世界上第一个相互保障合约市场，基于区块链技术提供相互保障智能合约创建和使用平台，有效降低保障产品的运营成本，同时提供更高的保障资金安全性。";
+
+"website_title"="Website:";
+"github_title"="GitHub:";
+"twitter_title"="Twitter:";
+"telegram_title"="Telegram:";
+"medium_title"="Medium:";
+
+"website_content"="http://www.medishares.org";
+"github_content"="https://github.com/MediShares";
+"twitter_content"="https://twitter.com/MediShares";
+"telegram_content"="https://t.me/medishares";
+"medium_content"="https://medium.com/@MediShares";
+
+// 关注微信公众号
+"medishares_wechat_description"="诚挚邀请您加入 MediShares 官方微信群，给我们提出宝贵的意见和建议，帮助我们改进产品。";
+"medishares_wechat_focus"="进群请先关注微信号：";
+"medishares_wechat_public"="MDSjiangzuo";
+"medishares_wechat_public_copy"="复制微信号";
+
+// 设置（语言、货币单位）
+"medishares_setting_title"="设置";
+"medishares_setting_unlock_faceid"="Face ID 解锁";
+"medishares_setting_unlock_touchid"="指纹解锁";
+"medishares_setting_unlock_password"="密码解锁";
+"medishares_setting_language"="语言";
+"medishares_setting_currency"="货币单位";
+"medishares_setting_section_legal_tender"="法币";
+"medishares_setting_section_virtual_currency"="虚拟货币";
+
+// 意见反馈
+"medishares_suggestion_text_title"="您的意见";
+"medishares_suggestion_text_placeholder"="填写您的意见，感谢您提出的宝贵意见";
+"medishares_suggestion_email_title"="您的邮箱";
+"medishares_suggestion_email_placeholder"="填写您的邮箱，以便与您取得联系";
+"medishares_suggestion_submit_success"="提交成功";
+
+// Unlock
+"unlock_touch_id"="指纹解锁";
+"unlock_face_id"="面容解锁";
+"unlock_confirm"="确认";
+"unlock_touch_id_prompt"="点击启用指纹解锁";
+"unlock_face_id_prompt"="点击启用面容解锁";
+"unlock_password_input_placeholder"="输入钱包密码解锁";
+"unlock_touch_id_enable"="启用指纹解锁";
+"unlock_face_id_enable"="启用面容解锁";
+"unlock_password_enable"="启用密码解锁";
+
+// 领糖果
+"candy_recently_collect"="最近领取记录";
+"candy_collect"="领取";
+"candy_collected"="已领取";
+"candy_collect_unenable"="不可领取";
+
+"candy_record_state_checking"="待审核";
+"candy_record_state_checked_success"="审核通过";
+"candy_record_state_checked_fail"="审核未通过";
+"candy_record_state_release"="已发放";
+
+// 交易记录
+"transaction_records_title"="交易记录";
+"currency_type"="币种";
+"unlimited"="不限";
+
+
+
+
+
