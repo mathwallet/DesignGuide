@@ -1,7 +1,7 @@
 /*
  Localizable.strings
  MediShares-iOS
- 
+
  Created by Yuzhiyou on 2018/1/17.
  Copyright © 2018年 zhongtuobang. All rights reserved.
  */
@@ -265,7 +265,7 @@
 
 // TabBar
 "wallet"="钱包";
-"insurance"="保障";
+"insurance"="应用";
 "mine"="我";
 // 我
 "mine_login_hint"="立即登录";
@@ -274,7 +274,7 @@
 "mine_medishares_contacts"="联系人";
 "mine_medishares_candy"="领糖果";
 "mine_medishares_wechat_group"="加入官方微信群";
-"mine_medishares_recommend"="推荐 MDS App 给好友";
+"mine_medishares_recommend"="邀请好友赢MDS";
 "mine_medishares_suggestion"="意见反馈";
 "mine_medishares_about"="关于 MediShares";
 "mine_medishares_setting"="设置";
@@ -312,7 +312,7 @@
 "medishares_account_page_security_subtitle"="MediShares 保障您的实名认证信息安全";
 
 "medishares_account_page_insurance_title"="保障";
-"medishares_account_page_insurance_subtitle"="实名认证完成，赠送一份 MediShares 数字资产保障";
+"medishares_account_page_insurance_subtitle"="完成实名认证，是加入智能合约保障的前提";
 
 "medishares_account_page_convenient_title"="方便快捷";
 "medishares_account_page_convenient_subtitle"="实名认证专属标志，转账交易方便快捷";
@@ -328,14 +328,14 @@
 "user_photo_title"="头像";
 "user_email_title"="邮箱";
 "user_mobile_title"="手机号";
-"user_wallet_address_title"="绑定钱包地址";
+"user_wallet_address_title"="好友可见钱包";
 "user_name_title"="姓名";
 "user_credential_type_title"="证件类型";
 "user_credential_number_title"="证件号";
 
 "user_add_email_address"="添加邮箱";
 "user_add_mobile_number"="添加手机号";
-"user_add_wallet_address"="绑定钱包地址";
+"user_add_wallet_address"="绑定好友可见钱包";
 
 "user_idcard"="身份证";
 "user_passport"="护照";
@@ -457,12 +457,12 @@
 "unlock_touch_id"="指纹解锁";
 "unlock_face_id"="面容解锁";
 "unlock_confirm"="确认";
-"unlock_touch_id_prompt"="点击启用指纹解锁";
-"unlock_face_id_prompt"="点击启用面容解锁";
+"unlock_touch_id_prompt"="点击使用指纹解锁";
+"unlock_face_id_prompt"="点击使用面容解锁";
 "unlock_password_input_placeholder"="输入钱包密码解锁";
-"unlock_touch_id_enable"="启用指纹解锁";
-"unlock_face_id_enable"="启用面容解锁";
-"unlock_password_enable"="启用密码解锁";
+"unlock_touch_id_enable"="使用指纹解锁";
+"unlock_face_id_enable"="使用面容解锁";
+"unlock_password_enable"="使用密码解锁";
 
 // 领糖果
 "candy_recently_collect"="最近领取记录";
@@ -479,8 +479,3 @@
 "transaction_records_title"="交易记录";
 "currency_type"="币种";
 "unlimited"="不限";
-
-
-
-
-
