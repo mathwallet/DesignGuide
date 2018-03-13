@@ -274,7 +274,7 @@
 "insurance"="DApps";
 "mine"="Me";
 // 我
-"mine_login_hint"="Sign up";
+"mine_login_hint"="Sign in";
 "mine_medishares_account"="MediShares Account";
 "mine_medishares_transcations"="Transaction Records";
 "mine_medishares_contacts"="Contacts";
@@ -285,8 +285,8 @@
 "mine_medishares_about"="About MediShares";
 "mine_medishares_setting"="Settings";
 // 注册或登录
-"login"="Sign up";
-"register"="Sign in";
+"login"="Sign in";
+"register"="Sign up";
 "email_format_error"="Incorrect Email Format ";
 
 "verify_code_unreceived"="Didn’t received？";
