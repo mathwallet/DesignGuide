@@ -129,6 +129,7 @@
 "wallet_name_placeholder"="Set Wallet Name";
 "wallet_password"="Transaction Password";
 "wallet_password_placeholder"="At least 8 characters (including letters and numbers)";
+"wallet_password_format_warning"="密码必须包含大小写字母和数字";
 "wallet_password_mismatch_warning"="Password doesn’t match, please try again";
 "wallet_repeat_password"="Repeat Transaction password";
 "wallet_repeat_password_placeholder"=" Enter Transaction Password Again";
@@ -208,6 +209,8 @@
 
 "transaction_to_value_placeholder" = "Amount";
 "transaction_to_balace_low" = "The balance is not enough";
+"transaction_to_amount_low" = "Amount no Less Than %@";
+"transaction_to_amount_higher" = "Amount no Higher Than %@";
 "transaction_to_eth_balace_low" = "The ETH balance is not enough";
 
 "transaction_to_advance_setting" = "Advanced";
@@ -219,6 +222,7 @@
 "transaction_to_gas_price_invalid" = "Gas Price no Less Than%@gwei";
 "transaction_to_hex_data_invalid" = "Invalid Hexadecimal Data";
 "transaction_to_address_null" = "Please enter the receiver’s address.";
+"transaction_to_address_myself_invalid" = "收款人地址不能是自己";
 "transaction_to_value_null" = "Please enter the amount.";
 "transaction_add_remark_hint" = "Please write the memo.";
 
@@ -277,6 +281,11 @@
 "wallet"="Wallet";
 "dapps"=" DApps ";
 "mine"="Me";
+
+// 加入保障
+"insurance_join_title" = "Mutual Aid";
+"insurance_transaction_value_placeholder" = "Amount";
+
 // 我
 "mine_login_hint"="Sign in";
 "mine_medishares_account"="MediShares Account";
@@ -285,7 +294,7 @@
 "mine_medishares_candy"="Collect Candies";
 "mine_medishares_wechat_group"="Add Wechat Group";
 "mine_medishares_recommend"="Invite Friends";
-"mine_medishares_suggestion"="Feedbacks";
+"mine_medishares_suggestion"="Contact and Feedbacks";
 "mine_medishares_about"="About MediShares";
 "mine_medishares_setting"="Settings";
 // 注册或登录
@@ -445,10 +454,11 @@
 "medium_content"="https://medium.com/@MediShares";
 
 // 关注微信公众号
-"medishares_wechat_description"="Sincerely invite you to join MediShares Wechat group,give us your opinion and suggestion to help us improve our products.";
-"medishares_wechat_focus"="Join group should add wechat ID：";
-"medishares_wechat_public"="MDSjiangzuo";
-"medishares_wechat_public_copy"="Copy";
+"medishares_wechat_focus"="Sincerely invite you to join MediShares Wechat group,Join group should add wechat ID：";
+"medishares_wechat_public"="MediShares03";
+
+"medishares_telegram_focus"="Sincerely invite you to join MediShares Telegram group";
+"medishares_telegram_public"="https://t.me/MediShares";
 
 // 设置（语言、货币单位）
 "medishares_setting_title"="Settings";
@@ -496,6 +506,7 @@
 "unlimited"="Unlimited";
 
 // 活体检测
+"LivenessRemindPromptMessage"="Get started face recognition to secure your transaction.";
 "LivenessRemindCodePitchOutofDownRange"="Slightly raise your head";
 "LivenessRemindCodePitchOutofUpRange"=" Slightly lower your head gently";
 "LivenessRemindCodeYawOutofLeftRange"="Slightly turn your head to the right";
