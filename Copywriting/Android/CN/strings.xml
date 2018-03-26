@@ -1,0 +1,467 @@
+<resources>
+    <string name="app_name">MDS 安全钱包</string>
+    <string name="wallet">钱包</string>
+    <string name="insurance">应用</string>
+    <string name="profile">我</string>
+
+    <!--多钱包选择页面-->
+    <string name="wallet_create_or_import_prompt">暂无钱包，请创建钱包或导入钱包</string>
+    <string name="wallet_create_or_import_type">ETH 钱包</string>
+
+    <!--导入钱包-->
+    <string name="wallet_import_keystore_title">通过&#160;Keystore&#160;导入</string>
+    <string name="wallet_import_privatekey_title">通过私钥导入</string>
+    <string name="wallet_import_mnemonic_phrase_title">通过助记词导入</string>
+
+    <!--keystore导入-->
+    <string name="keystore">keystore</string>
+    <string name="wallet_import_keystore_text_placeholder">粘贴&#160;keystore&#160;文件内容</string>
+    <string name="wallet_import_keystore_password_title">keystore&#160;密码</string>
+    <string name="wallet_import_keystore_password_placeholder">输入&#160;keystore&#160;密码</string>
+    <string name="wallet_import_keystore_nickname_placeholder">设置钱包名称</string>
+    <string name="copy_walleKeystore">复制 Keystore</string>
+    <string name="keystore_backup_completed">Keystore 已备份完成</string>
+
+    <!--私钥导入-->
+    <string name="wallet_import_privatekey_privatekey_title">私钥</string>
+    <string name="wallet_import_privatekey_privatekey_placeholder">粘贴私钥</string>
+    <string name="copy_privateKey">复制私钥</string>
+    <string name="restore_private_key_failed">私钥已备份完成</string>
+
+    <!--助记词-->
+    <string name="wallet_mnemonic_title">助记词</string>
+    <string name="wallet_import_mnemonic_phrase_placeholder">输入助记词，按空格分割</string>
+    <string name="wallet_import_mnemonic_phrase_path_title">路径</string>
+    <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx, Metamask (ETH)</string>
+    <string name="eth_mnpath2">m/44\'/60\'/0\'/0 Ledger (ETH)</string>
+    <string name="eth_mnpath3">m/44\'/60\'/1\'/0/0 自定义路径</string>
+
+    <!--创建钱包-->
+    <string name="input_walletname">输入钱包名称</string>
+    <string name="password_save_warning_title">确认钱包密码</string>
+    <string name="password_save_warning_message">我们无法提供找回钱包密码功能，请确认并妥善保管钱包密码!</string>
+    <string name="wallet_password_placeholder">设置钱包密码，至少 8 位字符</string>
+    <string name="wallet_repeat_password">重复钱包密码</string>
+    <string name="wallet_repeat_password_placeholder">再次输入钱包密码</string>
+    <string name="conditions_prompt_normal">我已仔细阅读并同意</string>
+    <string name="conditions_prompt_active">《服务与隐私条款》</string>
+    <string name="password_strength_low">弱</string>
+    <string name="password_strength_high">强</string>
+    <string name="create_wallet_success_title">钱包已创建成功</string>
+    <string name="create_wallet_success_backup_prompt">以下是钱包的 Keystore 文件，复制并导出至安全的地方存放。一但丢失，钱包将无法恢复。</string>
+    <string name="disclaimer_warning_title">免责声明</string>
+    <string name="create_wallet_success_copy_prompt">请先复制并备份 Keystore 文件</string>
+    <string name="disclaimer_warning_message">请确认已备份 Keystore 至安全的地方存放，我们不承担任何钱包丢失，被盗，忘记密码等产生的资产损失!</string>
+    <string name="wallet_is_already_existing">钱包已存在，请勿重新导入</string>
+    <string name="delete_wallet_caution">确认删除钱包吗?</string>
+    <string name="input_walletpassword">输入钱包密码</string>
+    <string name="the_name_is_taken">钱包名称不能重复</string>
+    <string name="password_is_too_weak">密码强度太弱</string>
+    <string name="create_wallet_warming">注：此创建的钱包与 MediShares 账号绑定\n  • 不能导入到其它钱包，需要通过 MDS 安全钱包进行导入\n • 可参与数字资产账户安全保障，被盗最高获赔 100,000 MDS\n  • 支持多重安全验证</string>
+
+    <!--管理钱包-->
+    <string name="select_wallet">选择钱包</string>
+    <string name="manage_wallet">管理钱包</string>
+    <string name="create_wallet">创建钱包</string>
+    <string name="import_wallet">导入钱包</string>
+    <string name="manage_wallet_address">钱包地址</string>
+    <string name="manage_wallet_name">钱包名称</string>
+    <string name="manage_wallet_password">钱包密码</string>
+    <string name="manage_wallet_backup_keystore">备份 keystore</string>
+    <string name="manage_wallet_backup_privatekey">备份私钥</string>
+    <string name="manage_wallet_backup_mnemonic_phrase">备份助记词</string>
+    <string name="remove_wallet">删除钱包</string>
+    <string name="wallet_address">地址：</string>
+    <string name="save_wallet_failed">存储钱包失败</string>
+    <string name="rename_wallet_failed">修改钱包名称失败</string>
+    <string name="delete_wallet_failed">删除钱包失败</string>
+
+    <!--修改钱包名称-->
+    <string name="wallet_nickname_update">修改钱包名称</string>
+    <string name="wallet_nickname_update_completed">钱包名称修改成功</string>
+    <string name="wallet_password_update">修改钱包密码</string>
+    <string name="wallet_password_update_failed">修改钱包密码失败</string>
+    <string name="wallet_password_update_completed">密码修改成功</string>
+    <string name="wallet_password_old_password_title">旧的钱包密码</string>
+    <string name="wallet_password_old_password_placeholder">输入旧的钱包密码</string>
+    <string name="wallet_password_new_password_title">新的钱包密码</string>
+    <string name="wallet_password_new_password_placeholder">设置新的钱包密码，至少 8 位字符</string>
+    <string name="wallet_password_repeat_password_title">重新新的钱包密码</string>
+    <string name="wallet_password_repeat_password_placeholder">再次输入新的钱包密码</string>
+
+    <!--备份私钥-->
+    <string name="wallet_backup_privatekey_prompt">以下是钱包的私钥信息，复制并导出至安全的地方存放。一但丢失，无法找回。</string>
+
+    <!--备份助记词-->
+    <string name="wallet_backup_mnemonic_phrase_write_down">助记词已抄好</string>
+    <string name="wallet_backup_mnemonic_phrase_completed">助记词已备份完成</string>
+    <string name="wallet_backup_mnemonic_phrase_write_down_prompt">以下是钱包的助记词，抄写下来并导出至安全的地方存放。一但丢失，无法找回。</string>
+    <string name="wallet_backup_mnemonic_phrase_prompt">按顺序点击助记词，以确认助记词抄写正确，并妥善保管组记词。一但丢失，无法找回。</string>
+
+    <!--转账菜单-->
+    <string name="transaction_menu_contacts">转到联系人</string>
+    <string name="transaction_menu_account_address">转到钱包地址</string>
+    <string name="transaction_menu_scan_qrcode">扫描二维码</string>
+    <string name="transaction_recently_records">最近转账</string>
+    <string name="contact_address_incorrect">该联系人的钱包地址有误，请选择其他方式</string>
+
+    <!--交易-->
+    <string name="slow">慢</string>
+    <string name="fast">快</string>
+    <string name="transaction_to_address_placeholder">填写钱包地址</string>
+    <string name="transaction_to_address_checking_security">正在检测账户安全</string>
+    <string name="transaction_to_value_placeholder">填写转账金额</string>
+    <string name="transaction_to_advance_setting">高级设置</string>
+    <string name="transaction_to_advance_setting_gas_limit">自定义&#160;Gas&#160;Limit</string>
+    <string name="transaction_to_advance_setting_gas_price">自定义&#160;Gas&#160;Price</string>
+    <string name="transaction_to_advance_setting_hex_data">十六进制数据</string>
+    <string name="transaction_confirm_send">确认转账</string>
+    <string name="transaction_add_remark_hint">添加备注信息</string>
+    <string name="pasted">粘贴成功</string>
+    <string name="authenticate_immediately">立即认证</string>
+    <string name="token_tranfer">%s 转账</string>
+    <string name="gas_price_is_low_8">Gas Price 太低，建议应该大于 8 gwei</string>
+    <string name="gas_price_is_up_100">Gas Price 太高，建议应该小于 100 gwei</string>
+    <string name="insufficient_balance">余额不足</string>
+    <string name="insufficient_eth_balance">ETH 余额不足</string>
+    <string name="gas_should_be_more_than_21000">Gas 值应该大于 21000</string>
+    <string name="today">今天&#160;</string>
+    <string name="yestoday">昨天&#160;</string>
+    <string name="transfer">转账-</string>
+    <string name="collection">收款-</string>
+    <string name="current_asset">当前资产 %s %s</string>
+    <string name="gas_cost">矿工费 %s ETH</string>
+
+    <!--交易完成-->
+    <string name="transaction_complete_status_title">交易状态</string>
+    <string name="transaction_complete_to_address_title">收款地址</string>
+    <string name="transaction_complete_remark_title">备注</string>
+    <string name="transaction_complete_remark_add">添加备注信息</string>
+
+    <!--确认转账信息-->
+    <string name="transaction_confirm_title">确认转账信息</string>
+
+    <!--交易详情-->
+    <string name="transaction_detail_title">交易详情</string>
+    <string name="transaction_detail_block_height_title">区块</string>
+    <string name="transaction_detail_tx_hash_title">交易单号</string>
+    <string name="transaction_detail_tx_time_title">交易时间</string>
+    <string name="transaction_detail_tx_fee_title">矿工费用</string>
+    <string name="transaction_detail_from_address_title">发款地址</string>
+
+    <!--资产-->
+    <string name="home_total_asset_title">总资产（≈%s）</string>
+    <string name="home_add_new_asset">添加资产</string>
+
+    <!--我-->
+    <string name="mine_medishares_account">MediShares&#160;账号</string>
+    <string name="mine_medishares_transcations">交易记录</string>
+    <string name="mine_medishares_contacts">联系人</string>
+    <string name="mine_medishares_wechat_group">加入官方微信群</string>
+    <string name="mine_medishares_recommend">邀请好友赢 MDS</string>
+    <string name="mine_medishares_suggestion">意见反馈</string>
+    <string name="mine_medishares_about">关于 MediShares</string>
+    <string name="mine_medishares_setting">设置</string>
+    <string name="mine_medishares_candy">领糖果</string>
+    <string name="recommond_to_friends">推荐 MDS 给好友</string>
+    <string name="mds_app_download">MediShares App Download</string>
+
+    <!--注册或登录-->
+    <string name="register_acccount_title">注册&#160;MediShares&#160;账号</string>
+    <string name="register_acccount_with_email">通过邮箱注册账号</string>
+    <string name="register_acccount_with_mobile">通过手机号注册账号</string>
+    <string name="register_account_switch_email">或通过手机号注册</string>
+    <string name="register_account_switch_mobile">或通过邮箱注册</string>
+    <string name="login_acccount_title">登录&#160;MediShares&#160;账号</string>
+    <string name="login_acccount_with_email">通过邮箱登录账号</string>
+    <string name="login_acccount_with_mobile">通过手机号登录账号</string>
+    <string name="login_account_switch_email">或通过手机号登录</string>
+    <string name="login_account_switch_mobile">或通过邮箱登录</string>
+    <string name="verify_code_unreceived">没收到？</string>
+    <string name="verify_code_send_again">重发验证码</string>
+    <string name="sign_in">注册</string>
+    <string name="login">登录</string>
+    <string name="edit_email_error">邮箱填写错误</string>
+    <string name="verify_code_send_again_timeout">%d\'s 后可重发验证码</string>
+    <string name="edit_verification_code">填写验证码</string>
+    <string name="please_input_email_true">请输入正确的邮箱</string>
+    <string name="please_input_phone_true">请输入正确的手机号</string>
+    <string name="verify_phone_number">手机号验证</string>
+
+    <!--选择国家和地区-->
+    <string name="country_code_title">选择国家和地区</string>
+
+    <!--MediShares账户-实名-->
+    <string name="medishares_account_page_security_title">安全</string>
+    <string name="medishares_account_page_security_subtitle">MediShares&#160;保障您的实名认证信息安全</string>
+    <string name="medishares_account_page_insurance_title">保障</string>
+    <string name="medishares_account_page_insurance_subtitle">完成实名认证，是加入智能合约保障的前提</string>
+    <string name="medishares_account_page_convenient_title">方便快捷</string>
+    <string name="medishares_account_page_convenient_subtitle">实名认证专属标识，转账交易方便快捷</string>
+    <string name="bind_kyc_status_default">实名认证</string>
+    <string name="bind_kyc_status_process">您的实名认证信息已提交，我们会尽快审核，并反馈给您。</string>
+    <string name="bind_kyc_status_success">已完成实名认证(%s)</string>
+    <string name="bind_kyc_page_subtitle">填写以下信息以完成身份验证</string>
+    <string name="bind_kyc_page_title">身份验证</string>
+    <string name="bind_kyc_submit">提交审核</string>
+    <string name="bind_kyc_name_placeholder">填写您的真实姓名</string>
+    <string name="bind_kyc_identity_photo_prompt">手持证件拍照</string>
+    <string name="make_sure_your_entire_head_and_certificate">确保头像和证件信息都在画面中，清晰可见</string>
+    <string name="identity_verification_failed">您的实名认证信息未通过，请重新提交</string>
+    <string name="enter_idcard">填写证件号码</string>
+    <string name="bind_kyc_complete_title">提交完成</string>
+    <string name="identity_verification">实名认证：%s</string>
+
+    <!--MediShares账户-信息-->
+    <string name="user_detail_title">账号信息</string>
+    <string name="user_add_email_address">添加邮箱</string>
+    <string name="user_add_mobile_number">添加手机号</string>
+    <string name="user_idcard">身份证</string>
+    <string name="user_passport">护照</string>
+    <string name="user_logout">退出账号</string>
+    <string name="user_name_title">姓名</string>
+    <string name="user_credential_type_title">证件类型</string>
+    <string name="user_email_title">邮箱</string>
+    <string name="user_mobile_title">手机号</string>
+    <string name="user_update_success">修改成功</string>
+    <string name="user_photo_title">头像</string>
+    <string name="sure_exit_account">确定退出账号吗？</string>
+
+    <!--MediShares账户-添加邮箱或更改邮箱-->
+    <string name="user_update_email_checked">已验证</string>
+    <string name="user_add_email_subtitle">添加邮箱后，也可使用邮箱登录</string>
+    <string name="user_update_email_subtitle">更换邮箱后，之后登录使用新的邮箱</string>
+    <string name="user_update_email_verify">邮箱验证</string>
+    <string name="user_update_email_verify_placeholder">已给您发送&#160;6&#160;位验证码的邮件</string>
+    <string name="user_update_mobile_sms_placeholder">已给您发送&#160;6&#160;位验证码的手机短信</string>
+    <string name="user_update_email_placeholder">填写您的邮箱</string>
+    <string name="user_add_mobile_subtitle">添加手机号后，也可使用手机号登录</string>
+    <string name="user_update_email_address">更换邮箱</string>
+    <string name="user_update_mobile_number">更换手机号</string>
+    <string name="enter_new_email">填写新的邮箱</string>
+    <string name="enter_new_phone">填写新的手机号</string>
+
+    <!--MediShares账户-绑定钱包地址-->
+    <string name="user_update_wallet_address">更换钱包地址</string>
+    <string name="user_unbind_wallet_address">解除绑定</string>
+    <string name="bind_account_page_title">好友可见钱包</string>
+    <string name="bind_account_page_subtitle">选择一个&#160;ETH&#160;钱包地址绑定</string>
+    <string name="bind_account_confirm">确认绑定</string>
+    <string name="bind_account_complete_message">您的&#160;MediShares&#160;账户已成功绑定在了&#160;ETH&#160;钱包地址</string>
+    <string name="bind_kyc_complete_message">您的身份信息已提交，我们会尽快审核并返回结果，请耐心等待。</string>
+    <string name="binding_success">绑定成功</string>
+    <string name="please_select_wallet">请选择要绑定的钱包</string>
+    <string name="unbind_bindaddress">确定解除绑定吗？</string>
+    <string name="add_wallet_address">添加钱包地址</string>
+
+    <!--联系人列表-->
+    <string name="someone_you_might_know">可能认识的联系人</string>
+    <string name="manual_add_contact_title">手动添加</string>
+    <string name="qrcode_add_contact_title">扫描二维码添加</string>
+    <string name="contact_name_placeholder">输入联系人姓名</string>
+    <string name="contact_account_address_title">ETH&#160;钱包地址</string>
+    <string name="contact_account_address_placeholder">输入或粘贴&#160;ETH&#160;钱包地址</string>
+    <string name="select_contact">选择联系人</string>
+
+    <!--添加联系人-->
+    <string name="contact_add_title">添加联系人</string>
+    <string name="contact_detail_title">联系人信息</string>
+    <string name="sava_contacts_failed">保存联系人失败</string>
+    <string name="update_contacts_failed">更新联系人失败</string>
+    <string name="already_added_contact">已添加相同地址的联系人</string>
+
+    <!--联系人信息-->
+    <string name="already_add">已添加</string>
+    <string name="contact_edit_title">编辑联系人</string>
+    <string name="contact_edit_remove">删除联系人</string>
+    <string name="contact_edit_remove_failed">删除联系人失败</string>
+    <string name="contact_edit_remove_waring_prompt">确定要删除当前联系人吗？</string>
+
+    <!--关于-->
+    <string name="about_version_code">版本 %s</string>
+    <string name="about_version_description">MediShares 是世界上第一个相互保障合约市场，基于区块链技术提供相互保障智能合约创建和使用平台，有效降低保障产品的运营成本，同时提供更高的保障资金安全性。</string>
+    <string name="website_title">Website:&#160;</string>
+    <string name="github_title">GitHub:&#160;</string>
+    <string name="twitter_title">Twitter:&#160;</string>
+    <string name="telegram_title">Telegram:&#160;</string>
+    <string name="medium_title">Medium:&#160;</string>
+    <string name="website_content">http://www.medishares.org</string>
+    <string name="github_content">https://github.com/MediShares</string>
+    <string name="twitter_content">https://twitter.com/MediShares</string>
+    <string name="telegram_content">https://t.me/medishares</string>
+    <string name="medium_content">https://medium.com/@MediShares</string>
+    <string name="medishares_org_made_with_in_singapore">MediShares.org made with ❤️in Singapore</string>
+
+    <!--关注微信公众号-->
+    <string name="medishares_wechat_description">诚挚邀请您加入 MediShares 官方微信群，给我们提出宝贵的意见和建议，帮助我们改进产品。</string>
+    <string name="medishares_wechat_focus">进群请先关注微信号：MDSjiangzuo</string>
+    <string name="medishares_wechat_public_copy">复制微信号</string>
+    <string name="medishares_wechat_public">MDSjiangzuo</string>
+
+    <!--设置（语言、货币单位）-->
+    <string name="medishares_setting_language">语言</string>
+    <string name="medishares_setting_currency">货币单位</string>
+    <string name="medishares_setting_section_legal_tender">法币</string>
+    <string name="medishares_setting_section_virtual_currency">虚拟货币</string>
+    <string name="medishares_setting_unlock_touchid">指纹解锁</string>
+
+    <!--意见反馈-->
+    <string name="medishares_suggestion_text_title">您的意见</string>
+    <string name="medishares_suggestion_email_title">您的邮箱</string>
+    <string name="medishares_suggestion_text_placeholder">填写您的意见，感谢您提出的宝贵意见</string>
+    <string name="medishares_suggestion_email_placeholder">填写您的邮箱，以便与您取得联系</string>
+    <string name="feedback_submitted">提交反馈成功</string>
+
+    <!--Unlock-->
+    <string name="unlock_touch_id_enable">使用指纹解锁</string>
+    <string name="unlock_password_enable">使用钱包密码解锁</string>
+    <string name="unlock_touch_id_prompt">点击使用指纹解锁</string>
+    <string name="unlock_password_input_placeholder">输入钱包密码解锁</string>
+    <string name="unlock_enable_touch_id">是否使用指纹解锁</string>
+    <string name="unlock_walletpassword">钱包密码解锁</string>
+    <string name="unable_to_recognize_fingerprint">指纹不匹配，还有 %d 机会</string>
+    <string name="fingerprint_suspended">错误太多，已锁定，请稍后再试</string>
+    <string name="device_locked">设备被锁定，请稍后再试</string>
+    <string name="Mds_touchId">\'MDS\'的触控 ID</string>
+    <string name="place_fingerprint_to_recognize">轻触指纹键验证已有手机指纹</string>
+
+    <!--领糖果-->
+    <string name="candy_recently_collect">最近领取记录</string>
+    <string name="candy_collected">已领取</string>
+    <string name="candy_collect">立即领取</string>
+    <string name="candy_collect_unenable">不可领取</string>
+    <string name="user_credential_number_title">证件号</string>
+    <string name="candy_record_state_release">已发放</string>
+    <string name="candy_record_state_checking">待审核</string>
+    <string name="candy_record_state_checked_success">审核通过</string>
+    <string name="candy_record_state_checked_fail">审核未通过</string>
+    <string name="candy_record_state_cancellation">已作废</string>
+
+    <!--其他-->
+    <string name="again_press_to_exit">再按一次退出</string>
+    <string name="search">搜索</string>
+    <string name="add">添加</string>
+    <string name="paste">粘贴</string>
+    <string name="confirm">确认</string>
+    <string name="cancle">取消</string>
+    <string name="copy">复制</string>
+    <string name="done">完成</string>
+    <string name="save">保存</string>
+    <string name="edit">编辑</string>
+    <string name="submit">提交</string>
+    <string name="copied">已复制</string>
+    <string name="next">下一步</string>
+    <string name="prompt">提示</string>
+    <string name="use">使用</string>
+
+    <!--相册-->
+    <string name="alum">相册</string>
+    <string name="album_all_image">所有图片</string>
+    <string name="album_check">选择</string>
+    <string name="album_check_limit">你最多可以选择%1$d张图片</string>
+    <string name="album_check_little">你没有选择照片</string>
+    <string name="album_dialog_permission_failed">权限获取失败</string>
+    <string name="album_dialog_sure">好的</string>
+    <string name="album_menu_finish">完成</string>
+    <string name="album_permission_camera_failed_hint">获取相机权限失败，请在设置中授权后再使用。</string>
+    <string name="album_permission_storage_failed_hint">获取读取相册权限失败，请在设置中授权后再使用。</string>
+    <string name="album_title_activity_gallery">图片</string>
+    <string name="gallery_menu_finish">完成</string>
+
+    <!--MediShares账户-添加手机号或更改手机号-->
+    <string name="user_update_mobile_placeholder">填写您的手机号</string>
+    <string name="user_update_mobile_subtitle">更换手机号后，之后登录使用新的手机号</string>
+
+    <!--二维码 & 扫描二维码-->
+    <string name="copy_account_address">复制地址</string>
+    <string name="account_address_qr_title">钱包地址二维码</string>
+
+    <!--交易记录-->
+    <string name="recent_transaction_records">最近交易记录</string>
+    <string name="tranfer">转账</string>
+    <string name="currency_type">币种</string>
+    <string name="receipt">收款</string>
+    <string name="transfer_status_fail">交易失败</string>
+    <string name="transfer_status_success">交易成功</string>
+    <string name="wait_to_processing">等待打包中…</string>
+    <string name="unlimited">不限</string>
+    <string name="_2f_percent">%.2f%%</string>
+    <string name="load_more">显示更多…</string>
+    <string name="load_more_empty_data">没有更多了…</string>
+    <string name="check_etherscan_transation">查询 Etherscan 交易详情</string>
+    <string name="check_transaction_details">查看交易详情</string>
+
+    <!--页面无数据-->
+    <string name="empty_data_prompt">暂无数据</string>
+    <string name="empty_data_publicity">暂无公示信息</string>
+    <string name="empty_data_transaction">暂无交易记录</string>
+    <string name="empty_data_trasfer">暂无转账记录</string>
+    <string name="empty_data_contacts">暂无联系人</string>
+    <string name="empty_data_contacts_know">暂无认识的联系人</string>
+    <string name="empty_data_candy">暂无领取记录</string>
+    <string name="empty_data_search">无搜索结果</string>
+
+    <!--error-->
+    <string name="mnemonic_phrase_invalid">无效助记词</string>
+    <string name="private_key_invalid">无效私钥</string>
+    <string name="mnemonic_path_error">助记词路径格式错误</string>
+    <string name="password_error">密码错误</string>
+    <string name="keystore_json_version_unsupported">不支持的 Keystore 版本</string>
+    <string name="Invalid_error">无效的 keystore</string>
+    <string name="incorrect_length_of_mn">助记词长度错误</string>
+    <string name="privatekey_error">私钥错误</string>
+    <string name="Invalid_Algorithm">无效的算法</string>
+    <string name="invalid_parameter">salt参数错误</string>
+    <string name="confirm_packaging_schedule">确认中 %d/12</string>
+    <string name="please_check_network_connection">请检查网络连接</string>
+    <string name="parse_error">解析错误</string>
+    <string name="classtype_conversion_error">类型转换错误</string>
+    <string name="connection_failed">连接失败</string>
+    <string name="ssl_certificate_error">证书验证失败</string>
+    <string name="connect_timeout">连接超时</string>
+    <string name="unkonw_host_name">无法解析该域名</string>
+    <string name="scan_qr_failed">二维码识别失败</string>
+    <string name="wrong_qr_code">该二维码不是 ETH 地址</string>
+    <string name="unable_find_version">找不到版本信息</string>
+    <string name="password_cannot_be_empty">密码不能为空</string>
+    <string name="please_enter_the_correct_address">请输入正确的地址</string>
+    <string name="please_enter_ammount">请输入转账金额</string>
+    <string name="address_cannot_be_empty">地址不能为空</string>
+    <string name="address_unmatched_with_private_key">地址不匹配私钥</string>
+    <string name="eth_wallet_address_incorrect">ETH 钱包地址填写错误</string>
+    <string name="search_contend_cannot_be_empty">搜索内容不能为空</string>
+
+    <!--权限-->
+    <string name="request_permission_camera">相机权限申请</string>
+    <string name="request_permission_qr_warming">您已拒绝了相机权限，这会使您无法扫描二维码，请开启权限</string>
+    <string name="request_permission_camera_warming">您已拒绝了相机权限，这会使您无法拍照，请开启权限</string>
+    <string name="request_permission_contact">读取联系人权限申请</string>
+    <string name="request_permission_phone">拨打电话权限申请</string>
+    <string name="request_permission_contact_warming">您已拒绝了读取联系人权限，这会使您无法获取到通讯录信息，请开启权限</string>
+    <string name="request_permission_telephone_warming">您已拒绝了拨打电话权限，这会使您无法拨打电话，请开启权限</string>
+    <string name="request_permission_sd">读写sd卡权限</string>
+    <string name="request_permission_sd_warming">您已拒绝了读写 SD 卡权限，这会使您无法更新，请开启权限</string>
+
+    <string name="units">UNITS</string>
+    <string name="gwei">GWEI</string>
+    <string name="eth">ETH</string>
+    <string name="cn_86">+86</string>
+    <string name="china">中国</string>
+    <string name="cost_money">-%s %s</string>
+    <string name="collect_money">+%s %s</string>
+    <string name="Eth">%s ETH</string>
+    <string name="show_unit">≈ %s%s</string>
+
+    <!--版本更新-->
+    <string name="update_reminding">新版本更新提醒</string>
+    <string name="download_service_lock">下载服务不可用,请您启用</string>
+    <string name="no_sdcard">SD 卡不可用，无法更新</string>
+    <string name="install_fail">安装失败</string>
+    <string name="download_success_open">下载完成后点击打开</string>
+    <string name="start_downloading">开始下载，请稍等</string>
+    <string name="please_load_over_wifi">请在 Wi-Fi 环境下载</string>
+
+    <!--DApp-->
+    <string name="guarantee_contract">保障合约</string>
+    <string name="electronic_certificates">电子凭证</string>
+</resources>
