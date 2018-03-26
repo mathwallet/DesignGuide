@@ -109,7 +109,7 @@
 "wallet_import_privatekey_nickname_title"="钱包名称";
 "wallet_import_privatekey_nickname_placeholder"="设置钱包名称";
 "wallet_import_privatekey_password_title"="钱包密码";
-"wallet_import_privatekey_password_placeholder"="至少 8 位字符（包含字母和数字）";
+"wallet_import_privatekey_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
 "wallet_import_privatekey_repeat_password_title"="重复钱包密码";
 "wallet_import_privatekey_repeat_password_placeholder"="再次输入钱包密码";
 // 助记词导入
@@ -120,7 +120,7 @@
 "wallet_import_mnemonic_phrase_nickname_title"="钱包名称";
 "wallet_import_mnemonic_phrase_nickname_placeholder"="设置钱包名称";
 "wallet_import_mnemonic_phrase_password_title"="钱包密码";
-"wallet_import_mnemonic_phrase_password_placeholder"="至少 8 位字符（包含字母和数字）";
+"wallet_import_mnemonic_phrase_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
 "wallet_import_mnemonic_phrase_repeat_password_title"="重复钱包密码";
 "wallet_import_mnemonic_phrase_repeat_password_placeholder"="再次输入钱包密码";
 
@@ -129,7 +129,8 @@
 "wallet_name"="钱包名称";
 "wallet_name_placeholder"="设置钱包名称";
 "wallet_password"="钱包密码";
-"wallet_password_placeholder"="至少 8 位字符（包含字母和数字）";
+"wallet_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
+"wallet_password_format_warning"="密码必须包含大小写字母和数字";
 "wallet_password_mismatch_warning"="两次密码不一致";
 "wallet_repeat_password"="重复钱包密码";
 "wallet_repeat_password_placeholder"="再次输入钱包密码";
@@ -175,7 +176,7 @@
 "wallet_password_repeat_password_title"="重复新的钱包密码";
 
 "wallet_password_old_password_placeholder"="输入旧的钱包密码";
-"wallet_password_new_password_placeholder"="至少 8 位字符（包含字母和数字）";
+"wallet_password_new_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
 "wallet_password_repeat_password_placeholder"="再次输入新的钱包密码";
 // 备份私钥
 "wallet_backup_privatekey_completed" = "备份完成";
@@ -209,6 +210,8 @@
 "transaction_to_value_placeholder" = "填写转账金额";
 "transaction_to_balace_low" = "余额不足";
 "transaction_to_eth_balace_low" = "ETH 余额不足";
+"transaction_to_amount_low" = "充值金额不能低于%@";
+"transaction_to_amount_higher" = "充值金额不能高于%@";
 "transaction_to_advance_setting" = "高级设置";
 "transaction_to_advance_setting_gas_limit" = "自定义 Gas Limit";
 "transaction_to_advance_setting_gas_price" = "自定义 Gas Price";
@@ -218,6 +221,7 @@
 "transaction_to_gas_price_invalid" = "Gas Price 不小与 %@gwei";
 "transaction_to_hex_data_invalid" = "十六进制数据无效";
 "transaction_to_address_null" = "填写转账地址";
+"transaction_to_address_myself_invalid" = "收款人地址不能是自己";
 "transaction_to_value_null" = "填写转账金额";
 "transaction_add_remark_hint" = "添加备注信息";
 // 确认转账信息
@@ -272,6 +276,11 @@
 "wallet"="钱包";
 "dapps"="应用";
 "mine"="我";
+
+// 加入保障
+"insurance_join_title" = "加入保障";
+"insurance_transaction_value_placeholder" = "填写充值金额";
+
 // 我
 "mine_login_hint"="登录";
 "mine_medishares_account"="MediShares 账号";
@@ -280,7 +289,7 @@
 "mine_medishares_candy"="领糖果";
 "mine_medishares_wechat_group"="加入官方微信群";
 "mine_medishares_recommend"="邀请好友赢 MDS";
-"mine_medishares_suggestion"="意见反馈";
+"mine_medishares_suggestion"="联系与反馈";
 "mine_medishares_about"="关于 MediShares";
 "mine_medishares_setting"="设置";
 
@@ -436,10 +445,11 @@
 "medium_content"="https://medium.com/@MediShares";
 
 // 关注微信公众号
-"medishares_wechat_description"="诚挚邀请您加入 MediShares 官方微信群，给我们提出宝贵的意见和建议，帮助我们改进产品。";
-"medishares_wechat_focus"="进群请先关注微信号：";
-"medishares_wechat_public"="MDSjiangzuo";
-"medishares_wechat_public_copy"="复制微信号";
+"medishares_wechat_focus"="诚挚邀请您加入我们的官方微信群聊，进群请先关注微信号：";
+"medishares_wechat_public"="MediShares03";
+
+"medishares_telegram_focus"="诚挚邀请您加入我们的 Telegram 官方群组，立即加入：";
+"medishares_telegram_public"="https://t.me/MediShares";
 
 // 设置（语言、货币单位）
 "medishares_setting_title"="设置";
@@ -486,6 +496,7 @@
 "unlimited"="不限";
 
 // 活体检测
+"LivenessRemindPromptMessage"="即将调用人脸识别模块，以保护您的转账安全";
 "LivenessRemindCodePitchOutofDownRange"="建议略微抬头";
 "LivenessRemindCodePitchOutofUpRange"="建议略微低头";
 "LivenessRemindCodeYawOutofLeftRange"="建议略微向右转头";
