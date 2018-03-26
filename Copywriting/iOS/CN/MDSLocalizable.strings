@@ -1,7 +1,7 @@
 /*
  Localizable.strings
  MediShares-iOS
-
+ 
  Created by Yuzhiyou on 2018/1/17.
  Copyright © 2018年 zhongtuobang. All rights reserved.
  */
@@ -19,6 +19,7 @@
 "keystore_json_other_invalid" = "AES 错误";
 "keystore_json_mnemonic_invalid" = "助记词不匹配";
 "keystore_json_backup_error" = "备份 Keystore 出错";
+"keystore_json_meta_invalid" = "无效 Meta";
 
 "private_key_invalid" = "无效私钥";
 "private_key_backup_error" = "备份私钥出错";
@@ -64,6 +65,7 @@
 "upgrade"="更新";
 "retry"="再试一次";
 
+
 // 权限
 "take_photo"="拍照";
 "photo_album"="从相册选取";
@@ -107,7 +109,7 @@
 "wallet_import_privatekey_nickname_title"="钱包名称";
 "wallet_import_privatekey_nickname_placeholder"="设置钱包名称";
 "wallet_import_privatekey_password_title"="钱包密码";
-"wallet_import_privatekey_password_placeholder"="设置钱包密码，至少 8 位字符";
+"wallet_import_privatekey_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
 "wallet_import_privatekey_repeat_password_title"="重复钱包密码";
 "wallet_import_privatekey_repeat_password_placeholder"="再次输入钱包密码";
 // 助记词导入
@@ -118,15 +120,18 @@
 "wallet_import_mnemonic_phrase_nickname_title"="钱包名称";
 "wallet_import_mnemonic_phrase_nickname_placeholder"="设置钱包名称";
 "wallet_import_mnemonic_phrase_password_title"="钱包密码";
-"wallet_import_mnemonic_phrase_password_placeholder"="设置钱包密码，至少 8 位字符";
+"wallet_import_mnemonic_phrase_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
 "wallet_import_mnemonic_phrase_repeat_password_title"="重复钱包密码";
 "wallet_import_mnemonic_phrase_repeat_password_placeholder"="再次输入钱包密码";
 
 //创建钱包
+"wallet_create_warning"="• 不能导入到其它钱包，需要通过 MDS 安全钱包进行导入\n• 可参与数字资产账户安全保障，被盗最高获赔 100,000 MDS\n• 支持多重安全验证";
 "wallet_name"="钱包名称";
 "wallet_name_placeholder"="设置钱包名称";
 "wallet_password"="钱包密码";
-"wallet_password_placeholder"="设置钱包密码，至少 8 位字符";
+"wallet_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
+"wallet_password_format_warning"="密码必须包含大小写字母和数字";
+"wallet_password_mismatch_warning"="两次密码不一致";
 "wallet_repeat_password"="重复钱包密码";
 "wallet_repeat_password_placeholder"="再次输入钱包密码";
 "conditions_prompt_normal" = "我已仔细阅读并同意";
@@ -171,7 +176,7 @@
 "wallet_password_repeat_password_title"="重复新的钱包密码";
 
 "wallet_password_old_password_placeholder"="输入旧的钱包密码";
-"wallet_password_new_password_placeholder"="设置新的钱包密码，至少 8 位字符";
+"wallet_password_new_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
 "wallet_password_repeat_password_placeholder"="再次输入新的钱包密码";
 // 备份私钥
 "wallet_backup_privatekey_completed" = "备份完成";
@@ -204,6 +209,9 @@
 
 "transaction_to_value_placeholder" = "填写转账金额";
 "transaction_to_balace_low" = "余额不足";
+"transaction_to_eth_balace_low" = "ETH 余额不足";
+"transaction_to_amount_low" = "充值金额不能低于%@";
+"transaction_to_amount_higher" = "充值金额不能高于%@";
 "transaction_to_advance_setting" = "高级设置";
 "transaction_to_advance_setting_gas_limit" = "自定义 Gas Limit";
 "transaction_to_advance_setting_gas_price" = "自定义 Gas Price";
@@ -213,6 +221,7 @@
 "transaction_to_gas_price_invalid" = "Gas Price 不小与 %@gwei";
 "transaction_to_hex_data_invalid" = "十六进制数据无效";
 "transaction_to_address_null" = "填写转账地址";
+"transaction_to_address_myself_invalid" = "收款人地址不能是自己";
 "transaction_to_value_null" = "填写转账金额";
 "transaction_add_remark_hint" = "添加备注信息";
 // 确认转账信息
@@ -265,8 +274,13 @@
 
 // TabBar
 "wallet"="钱包";
-"insurance"="应用";
+"dapps"="应用";
 "mine"="我";
+
+// 加入保障
+"insurance_join_title" = "加入保障";
+"insurance_transaction_value_placeholder" = "填写充值金额";
+
 // 我
 "mine_login_hint"="登录";
 "mine_medishares_account"="MediShares 账号";
@@ -275,7 +289,7 @@
 "mine_medishares_candy"="领糖果";
 "mine_medishares_wechat_group"="加入官方微信群";
 "mine_medishares_recommend"="邀请好友赢 MDS";
-"mine_medishares_suggestion"="意见反馈";
+"mine_medishares_suggestion"="联系与反馈";
 "mine_medishares_about"="关于 MediShares";
 "mine_medishares_setting"="设置";
 
@@ -385,7 +399,7 @@
 "bind_kyc_submit"="提交审核";
 "bind_kyc_name_placeholder"="填写您的真实姓名";
 "bind_kyc_identity_type_placeholder"="证件类型";
-"bind_kyc_identity_placeholder"="请选择证件类型";
+"bind_kyc_identity_placeholder"="请填写证件号码";
 "bind_kyc_identity_photo_prompt"="手持证件拍照";
 "bind_kyc_complete_title"="提交完成";
 "bind_kyc_complete_message"="您的身份信息已提交，我们会尽快审核并返回结果，请耐心等待。";
@@ -431,10 +445,11 @@
 "medium_content"="https://medium.com/@MediShares";
 
 // 关注微信公众号
-"medishares_wechat_description"="诚挚邀请您加入 MediShares 官方微信群，给我们提出宝贵的意见和建议，帮助我们改进产品。";
-"medishares_wechat_focus"="进群请先关注微信号：";
-"medishares_wechat_public"="MDSjiangzuo";
-"medishares_wechat_public_copy"="复制微信号";
+"medishares_wechat_focus"="诚挚邀请您加入我们的官方微信群聊，进群请先关注微信号：";
+"medishares_wechat_public"="MediShares03";
+
+"medishares_telegram_focus"="诚挚邀请您加入我们的 Telegram 官方群组，立即加入：";
+"medishares_telegram_public"="https://t.me/MediShares";
 
 // 设置（语言、货币单位）
 "medishares_setting_title"="设置";
@@ -479,3 +494,35 @@
 "transaction_records_title"="交易记录";
 "currency_type"="币种";
 "unlimited"="不限";
+
+// 活体检测
+"LivenessRemindPromptMessage"="即将调用人脸识别模块，以保护您的转账安全";
+"LivenessRemindCodePitchOutofDownRange"="建议略微抬头";
+"LivenessRemindCodePitchOutofUpRange"="建议略微低头";
+"LivenessRemindCodeYawOutofLeftRange"="建议略微向右转头";
+"LivenessRemindCodeYawOutofRightRange"="建议略微向左转头";
+"LivenessRemindCodePoorIllumination"="光线再亮些";
+"LivenessRemindCodeNoFaceDetected"="把脸移入框内";
+"LivenessRemindCodeImageBlured"="请保持不动";
+"LivenessRemindCodeOcclusionLeftEye"="左眼有遮挡";
+"LivenessRemindCodeOcclusionRightEye"="右眼有遮挡";
+"LivenessRemindCodeOcclusionNose"="鼻子有遮挡";
+"LivenessRemindCodeOcclusionMouth"="嘴巴有遮挡";
+"LivenessRemindCodeOcclusionLeftContour"="左脸颊有遮挡";
+"LivenessRemindCodeOcclusionRightContour"="右脸颊有遮挡";
+"LivenessRemindCodeOcclusionRightContour"="下颚有遮挡";
+"LivenessRemindCodeTooClose"="手机拿远一点";
+"LivenessRemindCodeTooFar"="手机拿近一点";
+"LivenessRemindCodeBeyondPreviewFrame"="把脸移入框内";
+"LivenessRemindCodeLiveEye"="眨眨眼";
+"LivenessRemindCodeLiveMouth"="张张嘴";
+"LivenessRemindCodeLiveYawRight"="向右缓慢转头";
+"LivenessRemindCodeLiveYawLeft"="向左缓慢转头";
+"LivenessRemindCodeLivePitchUp"="缓慢抬头";
+"LivenessRemindCodeLivePitchDown"="缓慢低头";
+"LivenessRemindCodeLiveYaw"="摇摇头";
+"LivenessRemindCodeFinished"="非常好";
+"LivenessRemindCodeError"="验证失败";
+
+
+
