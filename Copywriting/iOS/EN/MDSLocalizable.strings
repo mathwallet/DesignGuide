@@ -1,4 +1,4 @@
-/* 
+/*
   Localizable.strings
   MediShares-iOS
 
@@ -125,7 +125,7 @@
 "wallet_import_mnemonic_phrase_repeat_password_placeholder"=" Enter transaction password again";
 
 //创建钱包
-"wallet_create_warning"="• Could only be imported via the MDS wallet.\n• Could be protected by asset-secured products with the maximum compensation of 100000MDS.\n• Supports multiple security verification.";
+"wallet_create_warning"="• Could only be imported via the MDS wallet.\n• Could join Crypto Protect Contract.\n• Supports multiple security verification.";
 "wallet_name"="Wallet Name";
 "wallet_name_placeholder"="Set wallet name";
 "wallet_password"="Transaction Password";
@@ -143,7 +143,7 @@
 "password_save_warning_message" = "We can’t recover the password, please backup cautiously.";
 
 "create_wallet_success_title"= "New Wallet Create Successfully";
-"create_wallet_success_backup_prompt"= "Please copy and store the Keystore to a safe offline place, once forgotten, it cannot be recovered.";
+"create_wallet_success_backup_prompt"= "Please copy and store the Keystore to a safe offline place, once forgotten, it cannot be recovered. It can be only imported in MDS Wallet.";
 "create_wallet_success_copy_prompt"= "Please copy and store the keystore";
 "create_wallet_success_backup_completed"= "Keystore Backup Completed";
 "disclaimer_warning_title" = "Disclaimer";
@@ -292,11 +292,11 @@
 "mine_medishares_account"="MediShares Account";
 "mine_medishares_transcations"="Transaction Records";
 "mine_medishares_contacts"="Contacts";
-"mine_medishares_candy"="Collect Candies";
+"mine_medishares_candy"="Candies";
 "mine_medishares_wechat_group"="Join Wechat Group";
 "mine_medishares_recommend"="Invite Friends";
-"mine_medishares_suggestion"="Contact and Feedbacks";
-"mine_medishares_about"="About MediShares";
+"mine_medishares_suggestion"="Support";
+"mine_medishares_about"="About";
 "mine_medishares_setting"="Settings";
 // 注册或登录
 "login"="Sign In";
@@ -327,14 +327,14 @@
 "country_code_title"="Select Country and Region";
 
 // MediShares账户-实名
-"medishares_account_page_security_title"="Security";
-"medishares_account_page_security_subtitle"="MediShares secures your identity information.";
+"medishares_account_page_security_title"="Secure";
+"medishares_account_page_security_subtitle"="IPFS + Encryption, secure your identity information.";
 
-"medishares_account_page_insurance_title"="Insurance";
-"medishares_account_page_insurance_subtitle"= "Complete identity verification, the first step to join smart contract mutual aid.";
+"medishares_account_page_insurance_title"="Insured";
+"medishares_account_page_insurance_subtitle"= "Complete verification is the first step to join mutual contract.";
 
-"medishares_account_page_convenient_title"="Convenient and Efficient";
-"medishares_account_page_convenient_subtitle"="Exclusive sign for identity verification. Transfer efficiently and conveniently.";
+"medishares_account_page_convenient_title"="Convenient";
+"medishares_account_page_convenient_subtitle"="Your friends can find your address thorugh mobile.";
 
 "bind_kyc_status_default"="Identity Verification";
 "bind_kyc_status_process"="Your identity information has submitted and we will process it as soon as possible.";
