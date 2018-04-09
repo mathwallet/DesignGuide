@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MDS Wallet</string>
     <string name="wallet">Wallets</string>
-    <string name="insurance">DApps</string>
+    <string name="dapp">DApps</string>
     <string name="profile">Me</string>
 
     <!--多钱包选择页面-->
@@ -32,19 +32,19 @@
     <string name="wallet_mnemonic_title">Mnemonic Words</string>
     <string name="wallet_import_mnemonic_phrase_placeholder">Please use space to separate the mnemonic words</string>
     <string name="wallet_import_mnemonic_phrase_path_title">Path</string>
-    <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx, Metamask (ETH)</string>
-    <string name="eth_mnpath2">m/44\'/60\'/0\'/0 Ledger (ETH)</string>
-    <string name="eth_mnpath3">m/44\'/60\'/1\'/0/ Your custom path</string>
+    <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx,Metamask(ETH)</string>
+    <string name="eth_mnpath2">m/44\'/60\'/0\'/0 Ledger(ETH)</string>
+    <string name="eth_mnpath3">m/44\'/60\'/1\'/0/Your Custom Path</string>
 
     <!--创建钱包-->
     <string name="input_walletname">Enter wallet name</string>
     <string name="password_save_warning_title">Confirm Wallet Password</string>
     <string name="password_save_warning_message">We can’t recover the password, please backup cautiously!</string>
     <string name="wallet_password_placeholder">Set wallet password, at least 8 characters</string>
-    <string name="wallet_repeat_password">Repeat Wallet Password</string>
+    <string name="wallet_repeat_password">Repeat wallet password</string>
     <string name="wallet_repeat_password_placeholder">Enter wallet password again</string>
-    <string name="conditions_prompt_normal">I have read and agree with the </string>
-    <string name="conditions_prompt_active">Privacy Clause</string>
+    <string name="conditions_prompt_normal">I have read and agree with the</string>
+    <string name="conditions_prompt_active">&#160;Privacy Clause</string>
     <string name="password_strength_low">L</string>
     <string name="password_strength_high">H</string>
     <string name="create_wallet_success_title">New Wallet Create Successfully</string>
@@ -57,7 +57,7 @@
     <string name="input_walletpassword">Enter wallet password</string>
     <string name="the_name_is_taken">The wallet name is taken</string>
     <string name="password_is_too_weak">Password is too weak</string>
-    <string name="create_wallet_warming">Notice: The created wallet binds with the MediShares account.\n  • Could only be imported via the MDS wallet.\n • Could be protected by asset-secured products with the maximum compensation of 100000MDS.\n  • Supports multiple security verification.</string>
+    <string name="create_wallet_warming">• Could only be imported via the MDS wallet.\n • Could be protected by asset-secured products with the maximum compensation of 100000MDS.\n  • Supports multiple security verification.</string>
 
     <!--管理钱包-->
     <string name="select_wallet">Select Wallet</string>
@@ -71,8 +71,8 @@
     <string name="manage_wallet_backup_privatekey">Export Private Key</string>
     <string name="manage_wallet_backup_mnemonic_phrase">Export Memorizing Words</string>
     <string name="remove_wallet">Delete Wallet</string>
-    <string name="wallet_address">Address: </string>
-    <string name="save_wallet_failed">Save wallet failed</string>
+    <string name="wallet_address">Address：</string>
+    <string name="save_wallet_failed">Create wallet failed</string>
     <string name="rename_wallet_failed">Rename wallet failed </string>
     <string name="delete_wallet_failed">Delete wallet failed</string>
 
@@ -84,10 +84,10 @@
     <string name="wallet_password_update_completed">Succeed</string>
     <string name="wallet_password_old_password_title">Current Password</string>
     <string name="wallet_password_old_password_placeholder">Enter current password</string>
-    <string name="wallet_password_new_password_title">New Password</string>
+    <string name="wallet_password_new_password_title">New password</string>
     <string name="wallet_password_new_password_placeholder">Set new password, at least 8 characters</string>
-    <string name="wallet_password_repeat_password_title">Repeat New Password</string>
-    <string name="wallet_password_repeat_password_placeholder">Repeat new password</string>
+    <string name="wallet_password_repeat_password_title">Repeat new password</string>
+    <string name="wallet_password_repeat_password_placeholder">Repeat New Password</string>
 
     <!--备份私钥-->
     <string name="wallet_backup_privatekey_prompt">Please copy and store the Private Key to a safe offline place, once forgotten, it cannot be recovered.</string>
@@ -122,9 +122,12 @@
     <string name="token_tranfer">%s Send</string>
     <string name="gas_price_is_low_8">Gas price is too low，recommend to be greater than 8 gwei</string>
     <string name="gas_price_is_up_100">Gas price is too high, recommend to be less than 100 gwei</string>
+    <string name="gas_price_is_null">Gas Price is null</string>
+    <string name="gas_limit_is_null">Gas Limit is null</string>
     <string name="insufficient_balance">Insufficient balance</string>
     <string name="insufficient_eth_balance">Insufficient Eth balance</string>
-    <string name="gas_should_be_more_than_21000">Gas should be greater than 21000</string>
+    <string name="gas_should_be_more_than_25200">Gas Limit should be greater than 25200</string>
+    <string name="gas_should_be_more_than_60000">Gas Limit should be greater than 60000</string>
     <string name="today">Today&#160;</string>
     <string name="yestoday">Yesterday&#160;</string>
     <string name="transfer">Send-</string>
@@ -132,6 +135,11 @@
     <string name="current_asset">Current Asset %s %s</string>
     <string name="gas_cost">Gas %s ETH</string>
     <string name="please_enter_ammount">Please enter amount</string>
+    <string name="invalid_data">Invalid data</string>
+    <string name="open_face_module_to_keep_safe">Get started face recognition to secure your transaction.</string>
+    <string name="address_cant_be_yourself">The address can not be yourself</string>
+    <string name="recharge_money_is_low">Recharge money should be greater than %s</string>
+    <string name="recharge_money_is_high">Recharge money should be lower than %s</string>
 
     <!--交易完成-->
     <string name="transaction_complete_status_title">Transaction Status</string>
@@ -161,10 +169,10 @@
     <string name="mine_medishares_wechat_group">Join Wechat Group</string>
     <string name="mine_medishares_recommend">Invite Friends</string>
     <string name="mine_medishares_suggestion">Feedbacks</string>
+    <string name="mine_medishares_feekback">Contact And Feedbacks</string>
     <string name="mine_medishares_about">About MediShares</string>
     <string name="mine_medishares_setting">Settings</string>
     <string name="mine_medishares_candy">Collect Candies</string>
-    <string name="recommond_to_friends">Refer MDS to Friends</string>
     <string name="mds_app_download">MDS App Download</string>
 
     <!--注册或登录-->
@@ -257,7 +265,7 @@
 
     <!--联系人列表-->
     <string name="someone_you_might_know">Contacts You May Know</string>
-    <string name="manual_add_contact_title">Create New Contact</string>
+    <string name="manual_add_contact_title">Create New Contacts</string>
     <string name="qrcode_add_contact_title">Scan and Add Wallet Address</string>
     <string name="contact_name_placeholder">Enter contact name</string>
     <string name="contact_account_address_title">ETH Beneficiary Wallet Address</string>
@@ -270,6 +278,7 @@
     <string name="sava_contacts_failed">Save contacts failed</string>
     <string name="update_contacts_failed">Update contacts failed</string>
     <string name="already_added_contact">Already added the contact with the same address.</string>
+    <string name="please_input_name">Please input name</string>
 
     <!--联系人信息-->
     <string name="already_add">Added</string>
@@ -291,11 +300,12 @@
     <string name="twitter_content">https://twitter.com/MediShares</string>
     <string name="telegram_content">https://t.me/medishares</string>
     <string name="medium_content">https://medium.com/@MediShares</string>
-    <string name="medishares_org_made_with_in_singapore">MediShares.org made with ❤️in Singapore</string>
+    <string name="medishares_org_made_with_in_singapore">MediShares.org made with ❤️ in Singapore</string>
 
     <!--关注微信公众号-->
     <string name="medishares_wechat_description">Sincerely invite you to join MediShares Wechat group, give us your opinion and suggestion to help us improve our products.</string>
-    <string name="medishares_wechat_focus">Join group should add Wechat ID：MDSjiangzuo</string>
+    <string name="medishares_wechat_focus">Join group should add Wechat ID：MediShares03</string>
+    <string name="medishares_telegram_description">Join group should add Telegram ：https://t.me/MediShares</string>
     <string name="medishares_wechat_public_copy">Copy Wechat ID</string>
     <string name="medishares_wechat_public">MDSjiangzuo</string>
 
@@ -309,8 +319,8 @@
     <!--意见反馈-->
     <string name="medishares_suggestion_text_title">Your Feedbacks</string>
     <string name="medishares_suggestion_email_title">Your Email</string>
-    <string name="medishares_suggestion_text_placeholder">Please write down your feedbacks and thank for your suggestion</string>
-    <string name="medishares_suggestion_email_placeholder">Please enter your email address and we could contact you later</string>
+    <string name="medishares_suggestion_text_placeholder">Please write down your feedbacks and thank for your suggestion.</string>
+    <string name="medishares_suggestion_email_placeholder">Please enter your email address and we could contact you later.</string>
     <string name="feedback_submitted">Feedback Submitted</string>
 
     <!--Unlock-->
@@ -356,7 +366,7 @@
     <string name="use">Use</string>
 
     <!--相册-->
-    <string name="alum">Alum</string>
+    <string name="alum">Album</string>
     <string name="album_all_image">Album all image</string>
     <string name="album_check">Check</string>
     <string name="album_check_limit">You can choose at most %1$d image</string>
@@ -364,8 +374,8 @@
     <string name="album_dialog_permission_failed">Permission failed</string>
     <string name="album_dialog_sure">OK</string>
     <string name="album_menu_finish">Success</string>
-    <string name="album_permission_camera_failed_hint">Failed to get camera permissions, please authorize in the settings before use.</string>
-    <string name="album_permission_storage_failed_hint">Failed to get read photo album permissions, please authorize in the Settings before use.</string>
+    <string name="album_permission_camera_failed_hint">Failed to get camera permissions, please authorize in the Settings before use.</string>
+    <string name="album_permission_storage_failed_hint">Failed to get read photo album permissions, please authorize in the settings before use.</string>
     <string name="album_title_activity_gallery">Image</string>
     <string name="gallery_menu_finish">Done</string>
 
@@ -409,6 +419,10 @@
     <string name="password_error">Password error</string>
     <string name="keystore_json_version_unsupported">Keystore version unsupported</string>
     <string name="Invalid_error">Invalid keystore</string>
+    <string name="Invalid_crypto">Invalid crypto</string>
+    <string name="Invalid_cipheriv">Invalid cipheriv</string>
+    <string name="Invalid_ciphertext">Invalid ciphertext</string>
+    <string name="Invalid_cipherparams">Invalid cipherparams</string>
     <string name="incorrect_length_of_mn">Incorrect length of mnemonic</string>
     <string name="privatekey_error">Private key error</string>
     <string name="Invalid_Algorithm">Invalid algorithm</string>
@@ -418,9 +432,9 @@
     <string name="parse_error">Parse error</string>
     <string name="classtype_conversion_error"> Class-type conversion error</string>
     <string name="connection_failed">Connection failed</string>
-    <string name="ssl_certificate_error">SSL certificate error</string>
+    <string name="ssl_certificate_error">SSL Certificate error</string>
     <string name="connect_timeout">Connection timeout</string>
-    <string name="unkonw_host_name">UnKnow hostName</string>
+    <string name="unkonw_host_name">UnKnow hostname</string>
     <string name="password_cannot_be_empty">The password cannot be empty</string>
     <string name="please_enter_the_correct_address">Please enter the correct address</string>
     <string name="address_cannot_be_empty">The address cannot be empty</string>
@@ -445,23 +459,55 @@
     <string name="request_permission_camera_warming">You Have denied camera permission, which will disable photo taking. Please allow the permission.</string>
     <string name="request_permission_contact">Request the permission of accessing contacts</string>
     <string name="request_permission_phone">Request the permission of making calls</string>
-    <string name="request_permission_contact_warming">You have denied the permission of accessing contacts, which will restrict you from accessing contacts. Please allow the permission.</string>
+    <string name="request_permission_contact_warming">You have denied the permission of accessing contacts, which will restrict you from accessing contacts.  Please allow the permission.</string>
     <string name="request_permission_telephone_warming">You have denied the permission of making calls, which will restrict you from making calls. Please allow the permission.</string>
     <string name="request_permission_sd">Request the permission of accessing SD card </string>
     <string name="request_permission_sd_warming">You have denied the permission of accessing SD card, which will restrict updating. Please allow the permission.</string>
-    <string name="check_transaction_details">Check transaction details</string>
+    <string name="check_transaction_details">Check transaction details </string>
 
     <!--版本更新-->
     <string name="update_reminding">Update reminding</string>
-    <string name="download_service_lock">Download service disabled, please start it.</string>
-    <string name="no_sdcard">SD card not found, fail to update.</string>
+    <string name="download_service_lock">Download service disabled, please start it</string>
+    <string name="no_sdcard">SD card not found, fail to update</string>
     <string name="install_fail">Install failed</string>
-    <string name="download_success_open">Click open when the download is complete.</string>
-    <string name="start_downloading">Start downloading, please wait for a moment.</string>
-    <string name="please_load_over_wifi">Please load over Wi-Fi.</string>
-    <string name="unable_find_version">Unable to find the version.</string>
+    <string name="download_success_open">Click open when the download is complete</string>
+    <string name="start_downloading">Start downloading, please wait for a moment</string>
+    <string name="please_load_over_wifi">Please load over Wi-Fi</string>
+    <string name="unable_find_version">Unable to find the version</string>
 
     <!--DApp-->
     <string name="guarantee_contract">Guarantee Contract</string>
     <string name="electronic_certificates">Electronic Certificates</string>
+    <string name="user_is_expired">The user has expired, Please login again</string>
+    <string name="join_guarantee">Join Guarantee</string>
+
+    <string name="detect_no_face">Place your face inside the frame</string>
+    <string name="detect_face_in">Place your face inside the frame</string>
+    <string name="detect_zoom_in">Please bring your phone closer</string>
+    <string name="detect_zoom_out">Please keep your phone away</string>
+    <string name="detect_head_up">Slightly raise your head</string>
+    <string name="detect_head_down">Slightly lower your head gently</string>
+    <string name="detect_head_left">Slightly turn your head to the right</string>
+    <string name="detect_head_right">Slightly turn your head to the left</string>
+    <string name="detect_occ_face">The face is invisible</string>
+    <string name="detect_low_light">Please be in a brighter place</string>
+    <string name="detect_keep">Please remain motionless</string>
+    <string name="detect_standard">Place your face inside the frame</string>
+    <string name="detect_timeout">Authentication failed!</string>
+    <string name="liveness_eye">Wink your eyes</string>
+    <string name="liveness_eye_left">Wink your left eye</string>
+    <string name="liveness_eye_right">Wink your right eye</string>
+    <string name="liveness_mouth">Open your mouth</string>
+    <string name="liveness_head_left">Slightly turn your head to the left</string>
+    <string name="liveness_head_right">Slightly turn your head to the right</string>
+    <string name="liveness_head_left_right">Shake your head</string>
+    <string name="liveness_head_up">Gently raise your head</string>
+    <string name="liveness_head_down">Gently lower your head</string>
+    <string name="liveness_good">Great!</string>
+
+    <!--time-->
+    <string name="mins_ago">%d mins ago</string>
+    <string name="hours_ago">%d hours ago</string>
+    <string name="days_ago">%d days ago</string>
+    <string name="just_now">just now</string>
 </resources>

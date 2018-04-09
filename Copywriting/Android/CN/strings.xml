@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MDS 安全钱包</string>
     <string name="wallet">钱包</string>
-    <string name="insurance">应用</string>
+    <string name="dapp">应用</string>
     <string name="profile">我</string>
 
     <!--多钱包选择页面-->
@@ -32,7 +32,7 @@
     <string name="wallet_mnemonic_title">助记词</string>
     <string name="wallet_import_mnemonic_phrase_placeholder">输入助记词，按空格分割</string>
     <string name="wallet_import_mnemonic_phrase_path_title">路径</string>
-    <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx, Metamask (ETH)</string>
+    <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx，Metamask (ETH)</string>
     <string name="eth_mnpath2">m/44\'/60\'/0\'/0 Ledger (ETH)</string>
     <string name="eth_mnpath3">m/44\'/60\'/1\'/0/0 自定义路径</string>
 
@@ -57,7 +57,7 @@
     <string name="input_walletpassword">输入钱包密码</string>
     <string name="the_name_is_taken">钱包名称不能重复</string>
     <string name="password_is_too_weak">密码强度太弱</string>
-    <string name="create_wallet_warming">注：此创建的钱包与 MediShares 账号绑定\n  • 不能导入到其它钱包，需要通过 MDS 安全钱包进行导入\n • 可参与数字资产账户安全保障，被盗最高获赔 100,000 MDS\n  • 支持多重安全验证</string>
+    <string name="create_wallet_warming">• 不能导入到其它钱包，需要通过 MDS 安全钱包进行导入\n • 可参与数字资产账户安全保障，被盗最高获赔 100,000 MDS\n  • 支持多重安全验证</string>
 
     <!--管理钱包-->
     <string name="select_wallet">选择钱包</string>
@@ -120,17 +120,24 @@
     <string name="pasted">粘贴成功</string>
     <string name="authenticate_immediately">立即认证</string>
     <string name="token_tranfer">%s 转账</string>
-    <string name="gas_price_is_low_8">Gas Price 太低，建议应该大于 8 gwei</string>
-    <string name="gas_price_is_up_100">Gas Price 太高，建议应该小于 100 gwei</string>
+    <string name="gas_price_is_low_8">Gas price 太低，建议应该大于 8 gwei</string>
+    <string name="gas_price_is_up_100">Gas price 太高，建议应该小于 100 gwei</string>
+    <string name="gas_price_is_null">Gas price 不能为空</string>
+    <string name="gas_limit_is_null">Gas Limit 不能为空</string>
     <string name="insufficient_balance">余额不足</string>
     <string name="insufficient_eth_balance">ETH 余额不足</string>
-    <string name="gas_should_be_more_than_21000">Gas 值应该大于 21000</string>
+    <string name="gas_should_be_more_than_25200">Gas Limit 应该不小于 25200</string>
+    <string name="gas_should_be_more_than_60000">Gas Limit 应该不小于 60000</string>
     <string name="today">今天&#160;</string>
     <string name="yestoday">昨天&#160;</string>
     <string name="transfer">转账-</string>
     <string name="collection">收款-</string>
     <string name="current_asset">当前资产 %s %s</string>
     <string name="gas_cost">矿工费 %s ETH</string>
+    <string name="invalid_data">16进制数据错误</string>
+    <string name="address_cant_be_yourself">收款人地址不能是自己</string>
+    <string name="recharge_money_is_low">充值金额不能低于%s</string>
+    <string name="recharge_money_is_high">最大充值金额不能大于%s</string>
 
     <!--交易完成-->
     <string name="transaction_complete_status_title">交易状态</string>
@@ -160,11 +167,11 @@
     <string name="mine_medishares_wechat_group">加入官方微信群</string>
     <string name="mine_medishares_recommend">邀请好友赢 MDS</string>
     <string name="mine_medishares_suggestion">意见反馈</string>
+    <string name="mine_medishares_feekback">联系与反馈</string>
     <string name="mine_medishares_about">关于 MediShares</string>
     <string name="mine_medishares_setting">设置</string>
     <string name="mine_medishares_candy">领糖果</string>
-    <string name="recommond_to_friends">推荐 MDS 给好友</string>
-    <string name="mds_app_download">MediShares App Download</string>
+    <string name="mds_app_download">MDS App Download</string>
 
     <!--注册或登录-->
     <string name="register_acccount_title">注册&#160;MediShares&#160;账号</string>
@@ -225,7 +232,7 @@
     <string name="user_mobile_title">手机号</string>
     <string name="user_update_success">修改成功</string>
     <string name="user_photo_title">头像</string>
-    <string name="sure_exit_account">确定退出账号吗？</string>
+    <string name="sure_exit_account">确定退出账号吗</string>
 
     <!--MediShares账户-添加邮箱或更改邮箱-->
     <string name="user_update_email_checked">已验证</string>
@@ -269,6 +276,7 @@
     <string name="sava_contacts_failed">保存联系人失败</string>
     <string name="update_contacts_failed">更新联系人失败</string>
     <string name="already_added_contact">已添加相同地址的联系人</string>
+    <string name="please_input_name">请填写姓名</string>
 
     <!--联系人信息-->
     <string name="already_add">已添加</string>
@@ -290,11 +298,11 @@
     <string name="twitter_content">https://twitter.com/MediShares</string>
     <string name="telegram_content">https://t.me/medishares</string>
     <string name="medium_content">https://medium.com/@MediShares</string>
-    <string name="medishares_org_made_with_in_singapore">MediShares.org made with ❤️in Singapore</string>
+    <string name="medishares_org_made_with_in_singapore">MediShares.org made with ❤️ in Singapore</string>
 
     <!--关注微信公众号-->
-    <string name="medishares_wechat_description">诚挚邀请您加入 MediShares 官方微信群，给我们提出宝贵的意见和建议，帮助我们改进产品。</string>
-    <string name="medishares_wechat_focus">进群请先关注微信号：MDSjiangzuo</string>
+    <string name="medishares_wechat_description">诚挚邀请您加入我们的官方微信群聊，进群请先关注微信号：MediShares03</string>
+    <string name="medishares_telegram_description">诚挚邀请您加入我们的 Telegram 官方群组，立即加入：https://t.me/MediShares</string>
     <string name="medishares_wechat_public_copy">复制微信号</string>
     <string name="medishares_wechat_public">MDSjiangzuo</string>
 
@@ -408,6 +416,10 @@
     <string name="password_error">密码错误</string>
     <string name="keystore_json_version_unsupported">不支持的 Keystore 版本</string>
     <string name="Invalid_error">无效的 keystore</string>
+    <string name="Invalid_crypto">无效的 crypto</string>
+    <string name="Invalid_cipheriv">无效的 cipheriv</string>
+    <string name="Invalid_ciphertext">无效的 ciphertext</string>
+    <string name="Invalid_cipherparams">无效的 cipherparams</string>
     <string name="incorrect_length_of_mn">助记词长度错误</string>
     <string name="privatekey_error">私钥错误</string>
     <string name="Invalid_Algorithm">无效的算法</string>
@@ -421,7 +433,7 @@
     <string name="connect_timeout">连接超时</string>
     <string name="unkonw_host_name">无法解析该域名</string>
     <string name="scan_qr_failed">二维码识别失败</string>
-    <string name="wrong_qr_code">该二维码不是 ETH 地址</string>
+    <string name="wrong_qr_code">该二维码不是ETH地址</string>
     <string name="unable_find_version">找不到版本信息</string>
     <string name="password_cannot_be_empty">密码不能为空</string>
     <string name="please_enter_the_correct_address">请输入正确的地址</string>
@@ -430,6 +442,7 @@
     <string name="address_unmatched_with_private_key">地址不匹配私钥</string>
     <string name="eth_wallet_address_incorrect">ETH 钱包地址填写错误</string>
     <string name="search_contend_cannot_be_empty">搜索内容不能为空</string>
+    <string name="open_face_module_to_keep_safe">即将调用人脸识别模块，以保护您将来的转账安全</string>
 
     <!--权限-->
     <string name="request_permission_camera">相机权限申请</string>
@@ -455,7 +468,7 @@
     <!--版本更新-->
     <string name="update_reminding">新版本更新提醒</string>
     <string name="download_service_lock">下载服务不可用,请您启用</string>
-    <string name="no_sdcard">SD 卡不可用，无法更新</string>
+    <string name="no_sdcard">SD 卡不可用,无法更新</string>
     <string name="install_fail">安装失败</string>
     <string name="download_success_open">下载完成后点击打开</string>
     <string name="start_downloading">开始下载，请稍等</string>
@@ -464,4 +477,38 @@
     <!--DApp-->
     <string name="guarantee_contract">保障合约</string>
     <string name="electronic_certificates">电子凭证</string>
+    <string name="user_is_expired">用户已过期，请重新登录</string>
+    <string name="join_guarantee">加入保障</string>
+
+    <!--face-->
+    <string name="detect_no_face">未检测到人脸</string>
+    <string name="detect_face_in">把脸移入框内</string>
+    <string name="detect_zoom_in">手机拿近一点</string>
+    <string name="detect_zoom_out">手机拿远一点</string>
+    <string name="detect_head_up">建议略微抬头</string>
+    <string name="detect_head_down">建议略微低头</string>
+    <string name="detect_head_left">建议略微向左转头</string>
+    <string name="detect_head_right">建议略微向右转头</string>
+    <string name="detect_occ_face">脸部有遮挡</string>
+    <string name="detect_low_light">光线再亮些</string>
+    <string name="detect_keep">请保持不动</string>
+    <string name="detect_standard">请正对手机</string>
+    <string name="detect_timeout">检测超时</string>
+    <string name="liveness_eye">眨眨眼</string>
+    <string name="liveness_eye_left">请眨眨左边眼睛</string>
+    <string name="liveness_eye_right">请眨眨右边眼睛</string>
+    <string name="liveness_mouth">张张嘴</string>
+    <string name="liveness_head_left">向左缓慢转头</string>
+    <string name="liveness_head_right">向右缓慢转头</string>
+    <string name="liveness_head_left_right">摇摇头</string>
+    <string name="liveness_head_up">缓慢抬头</string>
+    <string name="liveness_head_down">缓慢低头</string>
+    <string name="liveness_good">非常好</string>
+
+    <!--time-->
+    <string name="mins_ago">%d分钟前</string>
+    <string name="hours_ago">%d小时前</string>
+    <string name="days_ago">%d天前</string>
+    <string name="just_now">刚刚</string>
+
 </resources>
