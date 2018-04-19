@@ -85,6 +85,10 @@
 						"value": "#36b34f"
 					},
 					{
+						"name": "green_lighter",
+						"value": "#a2f2aa"
+					},
+					{
 						"name": "yellow_darker",
 						"value": "#d9a600"
 					},
@@ -116,6 +120,10 @@
 					{
 						"name": "background_color_dark",
 						"value": "#2c363f"
+					},
+					{
+						"name": "background_color_dark_lighter",
+						"value": "#394852"
 					},
 					{
 						"name": "background_color_alert",
