@@ -135,6 +135,10 @@
 				"name": "pie_chart_colors",
 				"colors": [
 					{
+						"name": "pie_chart_color_none",
+						"value": "#c8c7cc"
+					},
+					{
 						"name": "pie_chart_color_01",
 						"value": "#5ac8fa"
 					},
