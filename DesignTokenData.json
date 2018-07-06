@@ -85,6 +85,10 @@
 						"value": "#36b34f"
 					},
 					{
+						"name": "green_lighter",
+						"value": "#a2f2aa"
+					},
+					{
 						"name": "yellow_darker",
 						"value": "#d9a600"
 					},
@@ -118,8 +122,61 @@
 						"value": "#2c363f"
 					},
 					{
+						"name": "background_color_dark_lighter",
+						"value": "#394852"
+					},
+					{
 						"name": "background_color_alert",
-						"value": "#FFF9E6"
+						"value": "#fff9e6"
+					}
+				]
+			}
+			{
+				"name": "pie_chart_colors",
+				"colors": [
+					{
+						"name": "pie_chart_color_none",
+						"value": "#c8c7cc"
+					},
+					{
+						"name": "pie_chart_color_01",
+						"value": "#5ac8fa"
+					},
+					{
+						"name": "pie_chart_color_02",
+						"value": "#4cd964"
+					},
+					{
+						"name": "pie_chart_color_03",
+						"value": "#ffcc00"
+					},
+					{
+						"name": "pie_chart_color_04",
+						"value": "#ff9500"
+					},
+					{
+						"name": "pie_chart_color_05",
+						"value": "#ec407a"
+					},
+					{
+						"name": "pie_chart_color_06",
+						"value": "#007aff"
+					},
+					{
+						"name": "pie_chart_color_07",
+						"value": "#4caf50"
+					},
+					{
+						"name": "pie_chart_color_08",
+						"value": "#e19c05"
+					},
+					{
+						"name": "pie_chart_color_09",
+						"value": "#ff5722"
+					},
+					{
+						"name": "pie_chart_color_10",
+						"value": "#ff2d55"
 					}
 				]
 			}

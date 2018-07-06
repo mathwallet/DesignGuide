@@ -1,7 +1,7 @@
 /*
  Localizable.strings
  MediShares-iOS
- 
+
  Created by Yuzhiyou on 2018/1/17.
  Copyright © 2018年 zhongtuobang. All rights reserved.
  */
@@ -125,7 +125,7 @@
 "wallet_import_mnemonic_phrase_repeat_password_placeholder"="再次输入钱包密码";
 
 //创建钱包
-"wallet_create_warning"="• 不能导入到其它钱包，需要通过 MDS 安全钱包进行导入\n• 可参与数字资产账户安全保障，被盗最高获赔 100,000 MDS\n• 支持多重安全验证";
+"wallet_create_warning"="• 新创建的安全钱包必须通过MDS钱包才能导入\n• 新创建的安全钱包可加入账户安全保障\n• 支持指纹、人脸、声纹等多重安全验证";
 "wallet_name"="钱包名称";
 "wallet_name_placeholder"="设置钱包名称";
 "wallet_password"="钱包密码";
@@ -143,7 +143,7 @@
 "password_save_warning_message" = "我们无法提供找回钱包密码功能，请确认并妥善保管钱包密码？";
 
 "create_wallet_success_title"= "创建钱包成功";
-"create_wallet_success_backup_prompt"= "以下是钱包的 Keystore 文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。";
+"create_wallet_success_backup_prompt"= "以下是钱包的 Keystore 文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。该文件只能通过MDS钱包进行导入。";
 "create_wallet_success_copy_prompt"= "请先复制并备份 Keystore 文件";
 "create_wallet_success_backup_completed"= "Keystore 已备份完成";
 "disclaimer_warning_title" = "免责声明";
@@ -323,13 +323,13 @@
 
 // MediShares账户-实名
 "medishares_account_page_security_title"="安全";
-"medishares_account_page_security_subtitle"="MediShares 保障您的实名认证信息安全";
+"medishares_account_page_security_subtitle"="通过IPFS和加密技术保障您的认证信息安全";
 
 "medishares_account_page_insurance_title"="保障";
-"medishares_account_page_insurance_subtitle"="完成实名认证，是加入智能合约保障的前提";
+"medishares_account_page_insurance_subtitle"="完成实名认证，是您加入智能合约保障的前提";
 
-"medishares_account_page_convenient_title"="方便快捷";
-"medishares_account_page_convenient_subtitle"="实名认证专属标志，转账交易方便快捷";
+"medishares_account_page_convenient_title"="快捷";
+"medishares_account_page_convenient_subtitle"="实名认证后，好友可通过绑定的手机给您转账";
 
 "bind_kyc_status_default"="实名认证";
 "bind_kyc_status_process"="您的实名认证信息已提交，我们会尽快审核，并反馈给您。";
