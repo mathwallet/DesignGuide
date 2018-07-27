@@ -1,14 +1,30 @@
 /*
  Localizable.strings
  MediShares-iOS
-
+ 
  Created by Yuzhiyou on 2018/1/17.
  Copyright © 2018年 zhongtuobang. All rights reserved.
  */
 
+// 麦子钱包
+"powered_by_maizi" = "Powered by 麦子钱包";
+
 //Errors
 "wrong_password_warning" = "密码错误";
 "wrong_unkown_warning" = "未知错误";
+
+// NeoClientError
+"Invalid seed" = "无效节点";
+"Invalid body Request" = "无效请求";
+"Invalid response data" = "无效数据";
+"Invalid server request" = "无效服务器请求";
+"No Internet connection" = "没有网络连接";
+
+//提取GAS
+"claim_gas_no_gas_to_claim" = "您没有可提取的GAS！";
+"claim_gas_once_every_five_mins" = "每五分钟只能提取一次GAS";
+"claiming_gas" = "正在提取 GAS ...";
+"claim_was_successful" = "GAS 提取成功";
 
 "keystore_json_version_unsupported" = "不支持 Keystore 版本-%d";
 "keystore_json_address_invalid" = "无效 Address-%@";
@@ -16,12 +32,14 @@
 "keystore_json_cipher_invalid" = "无效 cipher 参数";
 "keystore_json_mac_invalid" = "无效 mac 参数";
 "keystore_json_scrypt_invalid" = "无效 scrypt 参数";
-"keystore_json_other_invalid" = "AES 错误";
+"keystore_json_other_invalid" = "无效Keystore文件";
+"keystore_json_file_invalid" = "请使用麦子钱包导出的Keystore";
 "keystore_json_mnemonic_invalid" = "助记词不匹配";
 "keystore_json_backup_error" = "备份 Keystore 出错";
 "keystore_json_meta_invalid" = "无效 Meta";
 
 "private_key_invalid" = "无效私钥";
+"private_key_wif_invalid" = "无效私钥（WIF）";
 "private_key_backup_error" = "备份私钥出错";
 
 "mnemonic_phrase_invalid" = "无效助记词";
@@ -29,9 +47,11 @@
 "mnemonic_backup_error" = "备份助记词出错";
 "mnemonic_path_error" = "助记词路径格式错误";
 
-"account_create_failed" = "创建账号失败";
-"account_restore_failed" = "还原账号失败";
-"account_unlock_failed" = "账号解锁失败";
+"account_create_failed" = "创建账户失败";
+"account_restore_failed" = "还原账户失败";
+"account_unlock_failed" = "账户解锁失败";
+
+"private_key_restore_failed" = "私钥还原失败";
 
 "account_password_update_failed" = "密码更新失败";
 
@@ -41,6 +61,10 @@
 "network_error_data_format" = "数据格式异常";
 
 "network_error_device_unregister" = "设备注册失败";
+
+"node_setting_error_exist" = "无效URL地址";
+
+"sign_message_account_invalid" = "无效账号地址";
 // Date
 "today"="今天";
 "yesterday"="昨天";
@@ -53,7 +77,6 @@
 "next" = "下一步";
 "search" = "搜索";
 "submit" = "提交";
-"select_wallet"="选择钱包";
 "copy" = "复制";
 "copied" = "已复制";
 "paste"="粘贴";
@@ -62,10 +85,19 @@
 "added"="已添加";
 "edit"="编辑";
 "discover_new_version"="发现新版本";
+"currently_lastest_version"="当前为最新版本";
+"version_upgrade"="版本更新";
 "upgrade"="更新";
 "retry"="再试一次";
-
-
+"save"="保存";
+"continue"="继续";
+"copy_link"="复制链接";
+"reload"="刷新";
+"share"="分享";
+// 投资机构
+"maizi_capital"="投资机构";
+"fenbushi_capital"="分布式资本";
+"danhua_capital"="丹华资本";
 // 权限
 "take_photo"="拍照";
 "photo_album"="从相册选取";
@@ -85,16 +117,40 @@
 "empty_data_candy"="暂无领取记录";
 "empty_data_search"="无搜索结果";
 
+// 选择钱包
+
+"select_eth_wallet"="选择 ETH 钱包";
+"select_eos_wallet"="选择 EOS 钱包";
+"select_neo_wallet"="选择 NEO 钱包";
+
 //多钱包选择页面
 "wallet_create_or_import_prompt"="暂无钱包，请创建钱包或导入钱包";
-"wallet_create_or_import_type"="ETH 钱包";
+"wallet_create_or_import_type"="选择钱包类型";
+"wallet_create_type_eth"="ETH 钱包";
+"wallet_create_type_neo"="NEO 钱包";
+"wallet_create_type_eos"="EOS 钱包";
+"wallet_create_type_eosforce"="EOS 原力钱包";
 
-// 导入钱包
-"wallet_import_title"="导入钱包";
+"wallet_create_type_eos_option_mainnet"="EOS 主网";
+"wallet_create_type_eos_option_force"="EOS 原力";
+
+// 切换钱包
+"switch_wallet" = "切换钱包";
+// 创建或导入钱包
+"create_wallet" = "创建钱包";
+"create_maizi_wallet" = "创建麦子安全钱包";
+"import_wallet" = "导入钱包";
+
+"wallet_create_warning"="• 支持备份及导出 Keystore、私钥和助记词";
+"wallet_create_maizi_warning"="• 仅支持备份及导出 Keystore，不能导入其他钱包\n• 可参与数字资产账户安全保障，被盗最高获赔 100,000 MDS\n• 支持多重安全验证";
+"wallet_import_warning"="• 支持其它钱包的 Keystore、私钥和助记词导入";
+
+"wallet_create_or_import_title"="创建或导入钱包";
 "wallet_import_keystore_title"="通过 Keystore 导入";
 "wallet_import_keystore_recommend"="推荐";
 
 "wallet_import_privatekey_title"="通过私钥导入";
+"wallet_import_privatekey_title_neo"="通过私钥（WIF）导入";
 "wallet_import_mnemonic_phrase_title"="通过助记词导入";
 
 // Keystore导入
@@ -105,13 +161,19 @@
 "wallet_import_keystore_nickname_placeholder"="设置钱包名称";
 // 私钥导入
 "wallet_import_privatekey_privatekey_title"="私钥";
-"wallet_import_privatekey_privatekey_placeholder"="粘贴私钥";
+"wallet_import_privatekey_privatekey_title_neo"="私钥（WIF）";
+"wallet_import_privatekey_privatekey_placeholder"="输入或粘贴私钥";
+"wallet_import_privatekey_privatekey_placeholder_neo"="输入或粘贴私钥（WIF）";
 "wallet_import_privatekey_nickname_title"="钱包名称";
 "wallet_import_privatekey_nickname_placeholder"="设置钱包名称";
 "wallet_import_privatekey_password_title"="钱包密码";
 "wallet_import_privatekey_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
 "wallet_import_privatekey_repeat_password_title"="重复钱包密码";
 "wallet_import_privatekey_repeat_password_placeholder"="再次输入钱包密码";
+
+"wallet_import_privatekey_comfirm"="导入私钥";
+
+"eos_import_privatekey_no_account"="无查询到 EOS 账号";
 // 助记词导入
 "wallet_import_mnemonic_phrase_input_label"="助记词";
 "wallet_import_mnemonic_phrase_placeholder"="输入助记词，按空格分割";
@@ -125,7 +187,6 @@
 "wallet_import_mnemonic_phrase_repeat_password_placeholder"="再次输入钱包密码";
 
 //创建钱包
-"wallet_create_warning"="• 新创建的安全钱包必须通过MDS钱包才能导入\n• 新创建的安全钱包可加入账户安全保障\n• 支持指纹、人脸、声纹等多重安全验证";
 "wallet_name"="钱包名称";
 "wallet_name_placeholder"="设置钱包名称";
 "wallet_password"="钱包密码";
@@ -143,17 +204,94 @@
 "password_save_warning_message" = "我们无法提供找回钱包密码功能，请确认并妥善保管钱包密码？";
 
 "create_wallet_success_title"= "创建钱包成功";
-"create_wallet_success_backup_prompt"= "以下是钱包的 Keystore 文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。该文件只能通过MDS钱包进行导入。";
+"create_wallet_success_backup_prompt"= "以下是钱包的 Keystore 文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。";
+
 "create_wallet_success_copy_prompt"= "请先复制并备份 Keystore 文件";
+
 "create_wallet_success_backup_completed"= "Keystore 已备份完成";
+
 "disclaimer_warning_title" = "免责声明";
 "disclaimer_warning_message" = "我们不承担任何因为 Keystore 丢失以及忘记密码导致的资产损失！";
 
+// 创建NEO钱包
+"create_wallet_success_backup_prompt_neo"= "以下是钱包的私钥（WIF）文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。";
+"create_wallet_success_backup_completed_neo"= "私钥（WIF）已备份完成";
+"create_wallet_success_copy_prompt_neo"= "请先复制并备份私钥（WIF）文件";
+"disclaimer_warning_message_neo" = "我们不承担任何因为私钥（WIF）丢失以及忘记密码导致的资产损失！";
+
+// 创建 EOS 账户
+"eos_account_create"="创建 EOS 账户";
+"eos_account_import"="导入 EOS 账户";
+
+"eos_account_invite_code"="邀请码";
+"eos_account_invite_code_placeholder"="输入 EOS 账户邀请码";
+"eos_account_invite_code_help"="如何获得邀请码？";
+"eos_account_invite_code_warning"="\n• 我们会给之前已经完成实名认证的老用户发放邀请码，您可以加入 MediShares 社群询问和转让；\n\n• 我们会在 MediShares 社群每日消息中不定期发放邀请码，推荐您关注；\n\n• 完成麦子钱包实名认证也有机会获得邀请码。";
+
+"eos_account"="EOS 账户";
+"eos_account_select"="选择 EOS 账户";
+"eos_account_input_placeholder"="12 位字符，包含数字“1~5”、字母“a~z”";
+
+"eos_account_node"="节点社区";
+"eos_account_node_select_placeholder"="选择节点社区";
+
+"eos_account_password"="密码";
+"eos_account_password_input_placeholder"="至少 8 位字符，包含大小写字母和数字";
+"eos_account_password_repeat"="重复密码";
+"eos_account_password_repeat_input_placeholder"="再次输入密码";
+
+"eos_account_create_warning_exist"="EOS 账户已存在";
+"eos_account_create_warning_fail"="创建 EOS 账户失败";
+
+"eos_account_create_warning_success"="EOS 账户已创建成功";
+"eos_account_privatekey_backup_warning"="以下是账户的私钥信息，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。";
+"eos_account_privatekey_backup_complete"="私钥已备份完成";
+
+"eos_create_account_success_copy_prompt"= "请先复制并备份私钥（WIF）文件";
+
+"eos_account_privatekey_backup_disclaimer"= "我们不承担任何因为私钥丢失以及忘记密码导致的资产损失！";
+
+"eos_account_create_by_friends_title"="让朋友帮忙创建 EOS 账户";
+"eos_account_create_by_friends_publickey_title"="公钥";
+"eos_account_create_by_friends_publickey_prompt"="请复制公钥并发给您的朋友用于创建 EOS 账户。";
+"eos_account_create_by_friends_privatekey_title"="私钥";
+"eos_account_create_by_friends_privatekey_prompt"="请备份私钥并妥善保管，不要发给任何人（包括您的朋友），您的朋友帮你完成账户创建后，您需要通过此私钥导入 EOS 账户。";
+// 创建 EOS 原力账户
+"eosforce_account_create"="创建 EOS 原力账户";
+"eosforce_account_import"="导入 EOS 原力账户";
+
+"eosforce_account_invite_code"="邀请码";
+"eosforce_account_invite_code_placeholder"="输入 EOS 原力账户邀请码";
+"eosforce_account_invite_code_help"="如何获得邀请码？";
+"eosforce_account_invite_code_warning"="\n• 我们会给之前已经完成实名认证的老用户发放邀请码，您可以加入 MediShares 社群询问和转让；\n\n• 我们会在 MediShares 社群每日消息中不定期发放邀请码，推荐您关注；\n\n• 完成麦子钱包实名认证也有机会获得邀请码。";
+
+"eosforce_account"="EOS 原力账户";
+"eosforce_account_select"="选择 EOS 原力账户";
+"eosforce_account_input_placeholder"="1~12 位字符，包含数字“1~5”、字母“a~z”、符号“.”";
+
+"eosforce_account_password"="密码";
+"eosforce_account_password_input_placeholder"="至少 8 位字符，包含大小写字母和数字";
+"eosforce_account_password_repeat"="重复密码";
+"eosforce_account_password_repeat_input_placeholder"="再次输入密码";
+
+"eosforce_account_create_warning_exist"="EOS 原力账户已存在";
+"eosforce_account_create_warning_fail"="创建 EOS 原力账户失败";
+
+"eosforce_account_create_warning_success"="EOS 原力账户已创建成功";
+"eosforce_account_privatekey_backup_warning"="以下是账户的私钥信息，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。";
+"eosforce_account_privatekey_backup_complete"="私钥已备份完成";
+
+"eosforce_create_account_success_copy_prompt"= "请先复制并备份私钥（WIF）文件";
+
+"eosforce_account_privatekey_backup_disclaimer"= "我们不承担任何因为私钥丢失以及忘记密码导致的资产损失！";
+
+"eosforce_account_create_by_friends_title"="让朋友帮忙创建 EOS 原力账户";
+"eosforce_account_create_by_friends_publickey_title"="公钥";
+"eosforce_account_create_by_friends_publickey_prompt"="请复制公钥并发给您的朋友用于创建 EOS 原力账户。";
+"eosforce_account_create_by_friends_privatekey_title"="私钥";
+"eosforce_account_create_by_friends_privatekey_prompt"="请备份私钥并妥善保管，不要发给任何人（包括您的朋友），您的朋友帮你完成账户创建后，您需要通过此私钥导入 EOS 原力账户。";
 //管理钱包
 "manage_wallet" = "管理钱包";
-"create_wallet" = "创建钱包";
-"import_wallet" = "导入钱包";
-
 "manage_wallet_address"="钱包地址";
 "manage_wallet_name"="钱包名称";
 "manage_wallet_password"="钱包密码";
@@ -163,10 +301,25 @@
 "manage_wallet_backup_mnemonic_phrase"="备份助记词";
 "remove_wallet"="删除钱包";
 "account_remove_warning_message" = "请慎重，此操作无法撤销";
+// 管理钱包Neo
+"manage_wallet_backup_privatekey_neo"="备份私钥（WIF）";
+
+// 管理账户-EOS
+"eos_account_manage"="管理账户";
+"eos_account_remove"="删除账户";
+
+"eos_secret_key_manage"="管理密钥";
+"eos_secret_key_backup"="备份私钥";
+"eos_secret_key_remove"="删除密钥";
+
+"eos_account_name"="账户名";
+"eos_account_password"="账户密码";
+
 // 修改钱包名称
 "wallet_nickname_update"="修改钱包名称";
 "wallet_nickname_too_short" = "钱包名称至少 1 位字符";
 "wallet_nickname_update_completed" = "钱包名称修改成功";
+
 // 修改钱包密码
 "wallet_password_update"="修改钱包密码";
 "wallet_password_update_completed" = "密码修改成功";
@@ -178,9 +331,12 @@
 "wallet_password_old_password_placeholder"="输入旧的钱包密码";
 "wallet_password_new_password_placeholder"="至少 8 位字符（包含大小写字母和数字）";
 "wallet_password_repeat_password_placeholder"="再次输入新的钱包密码";
+
 // 备份私钥
 "wallet_backup_privatekey_completed" = "备份完成";
 "wallet_backup_privatekey_prompt"= "以下是钱包的私钥信息，复制并导出至安全的地方存放。一旦丢失，无法找回。";
+"wallet_backup_privatekey_prompt_neo"= "以下是钱包的私钥（WIF）信息，复制并导出至安全的地方存放。一旦丢失，无法找回。";
+
 // 备份助记词
 "wallet_backup_mnemonic_phrase_write_down" = "助记词已抄好";
 "wallet_backup_mnemonic_phrase_write_down_prompt"= "以下是钱包的助记词，抄写下来并导出至安全的地方存放。一旦丢失，无法找回。";
@@ -192,24 +348,29 @@
 // 转账菜单
 "transaction_menu_contacts"="转到联系人";
 "transaction_menu_account_address"="转到钱包地址";
+"transaction_menu_eos_account"="EOS 账户";
 "transaction_menu_scan_qrcode"="扫描二维码";
 
 "recently_transfer"="最近转账";
-//交易
+// 交易
 "transaction_title" = "%@ 转账";
+"super_slow" = "极慢";
 "slow" = "慢";
+"normal" = "标准";
 "fast" = "快";
-"transaction_account_invalid" = "交易账户无效";
+"super_fast" = "极快";
+"transaction_account_invalid" = "无效交易账户";
 "transaction_nonce_invalid" = "交易 nonce 无效";
 "transaction_tx_fee" = "矿工费 %@ ETH";
+"transaction_tx_fee_with_price" = "矿工费 %@ ETH ≈ %@ %@";
 "transaction_account_balance" = "当前资产 %@ %@";
 
 "transaction_to_address_placeholder" = "填写钱包地址";
 "transaction_to_address_checking_security"="正在检测账户安全";
 
 "transaction_to_value_placeholder" = "填写转账金额";
-"transaction_to_balace_low" = "余额不足";
-"transaction_to_eth_balace_low" = "ETH 余额不足";
+"transaction_to_balance_low" = "余额不足";
+"transaction_to_eth_balance_low" = "ETH 余额不足";
 "transaction_to_amount_low" = "充值金额不能低于%@";
 "transaction_to_amount_higher" = "充值金额不能高于%@";
 "transaction_to_advance_setting" = "高级设置";
@@ -218,12 +379,30 @@
 "transaction_to_advance_setting_hex_data" = "十六进制数据";
 
 "transaction_to_gas_limit_invalid" = "Gas Limit 不小于 %@";
-"transaction_to_gas_price_invalid" = "Gas Price 不小与 %@gwei";
+"transaction_to_gas_price_invalid" = "Gas Price 不小于 %@gwei";
 "transaction_to_hex_data_invalid" = "十六进制数据无效";
-"transaction_to_address_null" = "填写转账地址";
+"transaction_to_address_null" = "请填写转账地址";
 "transaction_to_address_myself_invalid" = "收款人地址不能是自己";
-"transaction_to_value_null" = "填写转账金额";
+"transaction_to_value_null" = "请填写转账金额";
+"transaction_to_value_zero" = "转账金额不能为0";
+"transaction_to_value_not_int" = "NEO 的转账金额必须为整数个";
+"transaction_to_value_point_count" = "转账金额的小数位数不能超过8位";
+"transaction_to_value_point_args_count" = "转账金额的小数位数不能超过%d位";
 "transaction_add_remark_hint" = "添加备注信息";
+"transaction_nep5_no_gas" = "你至少需要有0.00000001个GAS";
+
+"transaction_timeout_free" = "免费";
+"transaction_timeout_guarantee_contract" = "转账超时保障合约";
+"transaction_timeout_compensation" = "超过 1 小时未打包赔付 5 MDS";
+
+"transaction_double_pay" = "相同的交易正在打包中,请注意双重支付的风险！";
+"transaction_gas_fee_notice" = "请调高矿工费至标准值及以上";
+
+// 交易-EOS
+"eos_transaction_to_account_placeholder" = "填写收款账户";
+"eos_transaction_to_memo_placeholder" = "添加备注";
+"eos_transaction_to_memo_length_warning" = "最多 256 字符";
+
 // 确认转账信息
 "transaction_confirm_title"="确认转账信息";
 "transaction_confirm_send"="确认转账";
@@ -237,12 +416,15 @@
 //交易记录
 "recently_transaction_records"="最近交易记录";
 "transfer"="转账";
+"claim_gas"="提取 GAS";
+"claim_gas_to_address"="提取 GAS-%@";
 "transfer_to_address"="转账-%@";
 "receipt_to_address"="收款-%@";
 "receipt"="收款";
 "confirmed_count"="确认中 %d/%d";
 "wait_to_processing"="等待打包中...";
 "transfer_status_success"="交易成功";
+"transfer_status_success_claim"="提取成功";
 "transfer_status_fail"="交易失败";
 "transfer_eth_amount"="%@%@ ETH";
 // 交易详情
@@ -251,12 +433,17 @@
 "transaction_detail_status_title"="交易状态";
 "transaction_detail_from_address_title"="发款地址";
 "transaction_detail_to_address_title"="收款地址";
-"transaction_detail_tx_fee_title"="旷工费";
+"transaction_detail_tx_fee_title"="矿工费";
 "transaction_detail_tx_time_title"="交易时间";
 "transaction_detail_remark_title"="备注";
 "transaction_detail_tx_hash_title"="交易单号";
 "transaction_detail_block_height_title"="区块";
 "transaction_detail_query_title"="查询 Etherscan 交易详情";
+"transaction_detail_query_title_neo"="查询 NEOSCAN 交易详情";
+"transaction_detail_query_title_eos"="EOSeco Explorer";
+
+"transaction_resend" = "重新转账";
+"transaction_deay_payout" = "超时赔付";
 
 //二维码 & 扫描二维码
 "account_address"="钱包地址";
@@ -264,6 +451,14 @@
 "copy_account_address"="复制地址";
 "scaning_qrcode" = "扫描二维码";
 "scan_failed" = "扫描二维码失败";
+"eos_online_transfer_warining"="2018 年 6 月 EOS 主网上线前，请勿使用此地址接受 EOS";
+
+"eos_account_copy"="复制账户";
+"eos_account_qrcode"="EOS 账户二维码";
+
+"eosforce_account_copy"="复制账户";
+"eosforce_account_qrcode"="EOS 原力账户二维码";
+
 //资产
 "home_active_account_address" = "地址：";
 "home_add_new_asset" = "添加资产";
@@ -272,10 +467,30 @@
 "estimate"="≈";
 "asset_placeholder"="-";
 
+"map_your_eos_key"="一键映射";
+
+"eos_map_status_start"="EOS 映射";
+"eos_map_status_completed"="映射完成";
+"eos_map_status_restart"="重新映射";
+"eos_map_status_no_wallet_prompt" = "请先创建一个新的EOS钱包。";
+"eos_map_status_end"="目前ERC20的EOS为冻结状态，无法转入转出";
+
+"eos_resource_ram"="内存";
+"eos_resource_net"="网络";
+"eos_resource_cpu"="CPU";
+
+"claim_gas_count"="Claim %@ GAS";
+"submit_your_token" = "向我们提交新 Token";
+"auto_search" = "自动查找";
+
+
 // TabBar
 "wallet"="钱包";
 "dapps"="应用";
 "mine"="我";
+"position" = "持仓";
+// 保障详情
+"insurance_join_wallet_type_invalid" = "普通ETH钱包无法加入该合约，请创建一个麦子安全钱包。";
 
 // 加入保障
 "insurance_join_title" = "加入保障";
@@ -285,12 +500,13 @@
 "mine_login_hint"="登录";
 "mine_medishares_account"="MediShares 账号";
 "mine_medishares_transcations"="交易记录";
-"mine_medishares_contacts"="联系人";
+"mine_medishares_contacts"="地址本";
 "mine_medishares_candy"="领糖果";
 "mine_medishares_wechat_group"="加入官方微信群";
-"mine_medishares_recommend"="邀请好友赢 MDS";
-"mine_medishares_suggestion"="联系与反馈";
-"mine_medishares_about"="关于 MediShares";
+"mine_medishares_recommend"="邀请";
+"mine_medishares_recommend_subtitle"="赢 Token 奖金";
+"mine_medishares_suggestion"="反馈";
+"mine_medishares_about"="关于";
 "mine_medishares_setting"="设置";
 
 // 注册或登录
@@ -298,8 +514,11 @@
 "register"="注册";
 "email_format_error"="邮箱格式不正确";
 
+"verify_code_unreceived_email"="收不到邮件？请检查一下邮件垃圾箱。\n";
 "verify_code_unreceived"="没收到？";
 "verify_code_send_again"="重发验证码";
+"verify_code_send_or"=" 或 ";
+"verify_code_send_voice_code"="语音验证码";
 "verify_code_send_again_timeout"="%ds 后可重发";
 
 "mobile_format_error"="手机格式错误";
@@ -318,18 +537,20 @@
 
 "login_success"="登录成功";
 
+"human_verify_image_code_placeholder"="填写图形验证码";
+
 // 选择国家和地区
 "country_code_title"="选择国家和地区";
 
 // MediShares账户-实名
 "medishares_account_page_security_title"="安全";
-"medishares_account_page_security_subtitle"="通过IPFS和加密技术保障您的认证信息安全";
+"medishares_account_page_security_subtitle"="MediShares 保障您的实名认证信息安全";
 
 "medishares_account_page_insurance_title"="保障";
-"medishares_account_page_insurance_subtitle"="完成实名认证，是您加入智能合约保障的前提";
+"medishares_account_page_insurance_subtitle"="完成实名认证，是加入智能合约保障的前提";
 
-"medishares_account_page_convenient_title"="快捷";
-"medishares_account_page_convenient_subtitle"="实名认证后，好友可通过绑定的手机给您转账";
+"medishares_account_page_convenient_title"="方便快捷";
+"medishares_account_page_convenient_subtitle"="实名认证专属标志，转账交易方便快捷";
 
 "bind_kyc_status_default"="实名认证";
 "bind_kyc_status_process"="您的实名认证信息已提交，我们会尽快审核，并反馈给您。";
@@ -353,6 +574,7 @@
 
 "user_idcard"="身份证";
 "user_passport"="护照";
+"user_driver_license"="驾照";
 
 "user_logout"="退出账户";
 "user_logout_prompt"="确定要退出当前账号吗？";
@@ -384,15 +606,16 @@
 "user_update_mobile_placeholder"="填写您的手机号";
 "user_update_mobile_code_placeholder"="填写 6 位验证码";
 // MediShares账户-绑定钱包地址
-"user_update_wallet_address"="更换钱包地址";
+"user_update_wallet_address"="更换钱包";
+"user_bind_wallet_address"="立即绑定";
 "user_unbind_wallet_address"="解除绑定";
 "user_unbind_wallet_address_success"="解绑钱包地址成功";
 
 "bind_account_page_title"="绑定钱包地址";
-"bind_account_page_subtitle"="选择一个 ETH 钱包地址绑定";
+"bind_account_page_subtitle"="选择一个 %@ 钱包地址绑定";
 "bind_account_confirm"="确认绑定";
 "bind_account_complete_title"="绑定完成";
-"bind_account_complete_message"="您的 MediShares 账户已成功绑定了 ETH 钱包地址";
+"bind_account_complete_message"="您的 MediShares 账户已成功绑定了钱包地址";
 // MediShares账户-实名认证
 "bind_kyc_page_title"="身份验证";
 "bind_kyc_page_subtitle"="填写以下信息以完成身份验证";
@@ -400,7 +623,7 @@
 "bind_kyc_name_placeholder"="填写您的真实姓名";
 "bind_kyc_identity_type_placeholder"="证件类型";
 "bind_kyc_identity_placeholder"="请填写证件号码";
-"bind_kyc_identity_photo_prompt"="手持证件拍照";
+"bind_kyc_identity_photo_prompt"="请拍摄身份证正面(或护照照片页)";
 "bind_kyc_complete_title"="提交完成";
 "bind_kyc_complete_message"="您的身份信息已提交，我们会尽快审核并返回结果，请耐心等待。";
 
@@ -415,11 +638,24 @@
 
 "contact_account_address_title"="ETH 钱包地址";
 "contact_account_address_placeholder"="输入或粘贴 ETH 钱包地址";
+
+"contact_account_eos_address_title"="EOS 账户";
+"contact_account_eos_address_placeholder"="输入或粘贴 EOS 账户";
+
+"contact_account_eosforce_address_title"="EOS 原力账户";
+"contact_account_eosforce_address_placeholder"="输入或粘贴 EOS 原力账户";
+
+"contact_account_neo_address_title"="NEO 钱包地址";
+"contact_account_neo_address_placeholder"="输入或粘贴 NEO 钱包地址";
 // 添加联系人
 "contact_add_title"="添加联系人";
 
 "contact_error_exists_address"="钱包地址已存在";
 "contact_error_invalid_address"="无效钱包地址";
+"contact_error_invalid_eth_address"="无效 ETH 钱包地址";
+"contact_error_invalid_neo_address"="无效 NEO 钱包地址";
+"contact_error_invalid_eos_address"="无效 EOS 账户";
+"contact_error_invalid_eosforce_address"="无效 EOS 原力账户";
 
 // 联系人信息
 "contact_detail_title"="联系人信息";
@@ -430,7 +666,7 @@
 
 // 关于
 "about_version_code"="版本 %@";
-"about_version_description"="MediShares 是世界上第一个相互保障合约市场，基于区块链技术提供相互保障智能合约创建和使用平台，有效降低保障产品的运营成本，同时提供更高的保障资金安全性。";
+"about_version_description"="麦子钱包是 MediShares 生态孵化的移动端 APP，同时支持 ETH 系、NEO 系、EOS 系 Token 和智能合约。支持人脸、声纹、活体等多种生物识别技术，保障资产安全，并使用智能合约提供安全保障。";
 
 "website_title"="Website:";
 "github_title"="GitHub:";
@@ -441,7 +677,8 @@
 "website_content"="http://www.medishares.org";
 "github_content"="https://github.com/MediShares";
 "twitter_content"="https://twitter.com/MediShares";
-"telegram_content"="https://t.me/medishares";
+"telegram_content"="https://t.me/medisharesCN";
+"telegram_app_open_url"="tg://resolve?domain=medisharesCN";
 "medium_content"="https://medium.com/@MediShares";
 
 // 关注微信公众号
@@ -449,7 +686,12 @@
 "medishares_wechat_public"="MediShares03";
 
 "medishares_telegram_focus"="诚挚邀请您加入我们的 Telegram 官方群组，立即加入：";
-"medishares_telegram_public"="https://t.me/MediShares";
+"medishares_telegram_public"="https://t.me/MediSharesCN";
+
+"medishares_qq_focus"="诚挚邀请您加入我们的 QQ 官方群组，立即加入：";
+"medishares_qq_public"="209563544";
+
+"medishares_qq_not_install"="您还没有安装QQ，请安装！";
 
 // 设置（语言、货币单位）
 "medishares_setting_title"="设置";
@@ -461,7 +703,19 @@
 "medishares_setting_section_legal_tender"="法币";
 "medishares_setting_section_virtual_currency"="虚拟货币";
 
+"network_node_setting"="节点设置";
+"network_neo_node_setting"="NEO 节点设置";
+"network_eth_node_setting"="Ethereum 节点设置";
+"network_node_prodution"="prodution";
+
+"network_eth_node_custom_title"="自定义 ETH 节点";
+"network_neo_node_custom_title"="自定义 NEO 节点";
+"network_node_mainnet"="• 当前网络为 $mainnet";
+"network_node_testnet"="• 当前网络为 $testnet";
+"network_node_url_placeholder"="请填写有效的 URL";
+
 // 意见反馈
+"medishares_suggestion_title"="意见反馈";
 "medishares_suggestion_text_title"="您的意见";
 "medishares_suggestion_text_placeholder"="填写您的意见，感谢您提出的宝贵意见";
 "medishares_suggestion_email_title"="您的邮箱";
@@ -490,10 +744,29 @@
 "candy_record_state_checked_fail"="审核未通过";
 "candy_record_state_release"="已发放";
 
+"candy_withdraw"="提现";
+"candy_withdraw_eth_wallet_warning"="无ETH钱包，请先创建！";
+"candy_withdraw_records"="提现记录";
+"candy_withdraw_title"="我的糖果";
+"candy_withdraw_amount_placeholder"="填写提现金额";
+"candy_withdraw_minimum_amount"="最少提现 %@ %@";
+"candy_withdraw_maximum_amount"="最多提现 %@ %@";
+"candy_withdraw_all"="全部提现";
+"candy_withdraw_fee"="手续费";
+"candy_withdraw_receive"="实际到账";
+
+"candy_withdraw_cell_title"="糖果提现";
+"candy_withdraw_notice" = "由于最近以太坊网络拥堵，为节省项目空投成本，您的MDS到账时间可能会较慢，但请放心您的MDS可能会迟到，但绝不会缺席，感谢您的理解和支持！";
+
 // 交易记录
 "transaction_records_title"="交易记录";
 "currency_type"="币种";
 "unlimited"="不限";
+
+// DApps Web3
+"web3_sign_message" = "签名消息";
+"web3_sign_personal_message" = "签名消息";
+"web3_sign_message_warning" = "提醒：请确认当前站点是否安全可靠！";
 
 // 活体检测
 "LivenessRemindPromptMessage"="即将调用人脸识别模块，以保护您的转账安全";
@@ -525,4 +798,55 @@
 "LivenessRemindCodeError"="验证失败";
 
 
+//持仓
+"Position_total_assets" = "全部资产";
+"Position_medishares_wallet" = "麦子钱包";
+"Position_rank_list" = "排行榜";
+"Position_holding_assets" = "持仓资产";
+"Position_one_day" = "1日";
+"Position_one_week" = "1周";
+"Position_one_month" = "1月";
+"Position_asset_persent" = "资产 · 持仓百分比";
+"Position_amount_price" = "数量 · 价值";
+"Posititon_rankList_day" = "日榜";
+"Position_rankList_week" = "周榜";
+"Position_rankList_month" = "月榜";
+"Position_rankList_headerSlogan" = "持仓涨幅排行榜";
+"Position_rankList_update" = "更新";
+"Position_rankList_rankNick" = "名次 · 昵称";
+"Position_rankList_growMoney" = "增长金额";
+"Position_rankList_growPersent" = "增长百分比";
+"Position_rankList_joinRace" = "参与竞赛";
+"Position_ranklist_anonymousId" = "匿名用户";
+"Position_joinRace_nickName" = "昵称";
+"Position_joinRace_SetNickName" = "设置您的昵称";
+"Position_joinRace_anonymous" = "匿名";
+"Position_joinRace_RaceManifesto" = "给大家的持仓建议";
+"Position_joinRace_setRaceManifesto" = "给大家的持仓建议";
+"Position_joinRace_joinRace" = "参与竞赛";
+"Position_joinRace_updatePosition" = "更新持仓";
+"Position_joinRace_quitRace" = "退出竞赛";
+"Position_position_detail" = "持仓详情";
+"Position_bind_exchangeId" = "绑定交易所账户";
+"Position_exchange_hasBind" = "已绑定的交易所";
+"Position_exchange_support" = "支持的交易所";
+"Position_exchange_unbind" = "解除绑定";
+"Position_exchange_bind" = "立即绑定";
+"Position_Amount_bind" = "绑定";
+"Position_Amount_amount" = "账户";
+"Position_Amount_Slogan" = "输入交易所账户的 API 授权信息";
+"Position_Amount_Description" = "• API 密钥等信息会且仅会以加密形式保存在您的设备中，并不会向任何第三方设备或平台服务发送；\n• 请妥善保管好 API 密钥等信息，并且一定不要向任何人透露该信息；\n• 对于任何个人原因泄漏 API 密钥等信息或误用而导致的损失，我们不承担责任；";
+"Position_Amount_tech" = "• 查看《获取交易所 API Key 教程》";
+"Position_share_description" = "最安全的数字资产钱包";
+"Position_position_record" = "调仓记录";
+"Position_header_update" = "正在更新%@持仓信息";
+"Position_update_failed" = "%@持仓信息获取失败";
+"Position_exit_succeed" = "退出成功";
+"Position_unbind_alert" = "解除绑定后，持仓数据将从这台设备删除。下次要访问该账户信息，需重新绑定。";
+"Position_record_buyRecord" = "买入";
+"Position_record_sellRecord" = "卖出";
+"Position_bind_success" = "绑定成功";
+"Position_exchange" = "交易所";
+"Position_updateRank_success" = "更新成功";
+"Position_updateRank_failed" = "更新失败";
 
