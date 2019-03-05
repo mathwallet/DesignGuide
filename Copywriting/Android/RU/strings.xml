@@ -850,13 +850,19 @@
     <string name="receiver_eosaccount">Получатель</string>
 
     <string name="eos_account_create_by_friends_title">Запросить учетную запись EOS у друга</string>
-    <string name="eos_force_account_create_by_friends_title">Запросить учетную запись EOS FORCE у друга</string>
+    <string name="eos_force_account_create_by_friends_title" translatable="false">Запросить учетную запись EOS FORCE у друга</string>
+    <string name="enu_account_create_by_friends_title">Запросить учетную запись ENU у друга</string>
+    <string name="telos_account_create_by_friends_title">Запросить учетную запись TELOS у друга</string>
+    <string name="bos_account_create_by_friends_title">Запросить учетную запись BOS у друга</string>
     <string name="eos_account_create_by_friends_publickey_title">Открытый ключ</string>
     <string name="eos_account_create_by_friends_publickey_prompt">Пожалуйста, скопируйте открытый ключ своему другу, чтобы создать учетную запись EOS.</string>
-    <string name="eos_force_account_create_by_friends_publickey_prompt">Пожалуйста, скопируйте открытый ключ своему другу, чтобы создать учетную запись EOS FORCE.</string>
+    <string name="account_create_by_friends_publickey_prompt">Пожалуйста, скопируйте открытый ключ своему другу, чтобы создать учетную запись %s.</string>
     <string name="eos_account_create_by_friends_privatekey_title">Приватный ключ</string>
     <string name="eos_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись EOS в свой кошелек после создания учетной записи EOS вашим другом.</string>
     <string name="eos_force_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись EOS FORCE в свой кошелек после создания учетной записи EOS вашим другом.</string>
+    <string name="enu_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись ENU в свой кошелек после создания учетной записи ENU вашим другом.</string>
+    <string name="bos_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись BOS в свой кошелек после создания учетной записи BOS вашим другом.</string>
+    <string name="telos_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись TELOS в свой кошелек после создания учетной записи TELOS вашим другом.</string>
     <string name="eos_main_net">EOS Mainnet</string>
     <string name="eos_force_fee_cost">Комиссия 0.01 EOSC</string>
     <string name="eos_not_eos_force_warming">Примечание:передачи между EOS FORCE и EOS не поддерживаются, поскольку они являются различными цепями.</string>
@@ -1104,7 +1110,7 @@
     <string name="foru_params">%s %s = %s %s</string>
 
     <string name="eos_account_select_create_way">Выберите Метод Создания</string>
-    <string name="eos_account_create_way_alipay">Купить пригласительный код с Alipay</string>
+    <string name="eos_account_create_way_alipay">Купить пригласительный код</string>
     <string name="eos_account_create_way_recommend">Рекомендация</string>
     <string name="eos_account_create_way_exchange">Вывод или перевод</string>
     <string name="eos_account_create_way_friends">Пригласить друзей для сканирования и оплаты через Math Wallet</string>
@@ -1284,7 +1290,6 @@
     <string name="eos_account_permission_import_operation_warning">The current account has %s permission，cannot change %s permission</string>
     <string name="eos_account_permission_parent_placeholder">Select Parent</string>
     <string name="eos_account_permission_delete_warning">Owner and active permission cannot be deleted.</string>
-    <string name="eos_account_permission_threshold_warning">When threshold > 1 , the current wallet will not be able to make transaction, do you want to continue?</string>
     <string name="eos_account_permission_keys_delete">Delete Public Key</string>
     <string name="eos_account_permission_accounts_delete">Delete Account</string>
     <string name="eos_account_permission_waits_delete">Delete Wait</string>
@@ -1294,4 +1299,7 @@
     <string name="eos_account_permission_threshold_placeholder">Set threshold</string>
     <string name="eos_account_permission_waits_title">Wait</string>
     <string name="eos_account_permission_no">none</string>
+    <string name="language_of_mathwallet_translation">Thanks to community volunteer\'s help and support for Math Wallet translation.Russian translator: Alexey Koroln</string>
+    <string name="trade">trade</string>
+    <string name="eos_permission_inconsistent">Please import the %s permission first.</string>
 </resources>
