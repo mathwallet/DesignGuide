@@ -851,12 +851,18 @@
 
     <string name="eos_account_create_by_friends_title">"친구 도움으로 EOS 계정을 생성하기</string>
     <string name="eos_force_account_create_by_friends_title">"친구 도움으로 EOS FORCE 계정을 생성하기</string>
+    <string name="enu_account_create_by_friends_title">친구 도움으로 ENU 계정을 생성하기</string>
+    <string name="telos_account_create_by_friends_title">친구 도움으로 TELOS 계정을 생성하기</string>
+    <string name="bos_account_create_by_friends_title">친구 도움으로 BOS 계정을 생성하기</string>
     <string name="eos_account_create_by_friends_publickey_title">Public Key</string>
     <string name="eos_account_create_by_friends_publickey_prompt">public key를 복제해 회원님의 친구에게 발송하여 EOS계정을 만드세요</string>
-    <string name="eos_force_account_create_by_friends_publickey_prompt">public key를 복제해 회원님의 친구에게 발송하여 EOS FORCE계정을 만드세요</string>
+    <string name="account_create_by_friends_publickey_prompt">public key를 복제해 회원님의 친구에게 발송하여 %s 계정을 만드세요</string>
     <string name="eos_account_create_by_friends_privatekey_title">Private Key</string>
     <string name="eos_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 EOS계정을 불러올 수 있습니다</string>
     <string name="eos_force_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고, 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 EOS FORCE계정을 불러올 수 있습니다</string>
+    <string name="enu_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고, 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 ENU 계정을 불러올 수 있습니다</string>
+    <string name="bos_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고, 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 BOS 계정을 불러올 수 있습니다</string>
+    <string name="telos_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고, 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 TELOS 계정을 불러올 수 있습니다</string>
     <string name="eos_main_net">EOS 메인 넷</string>
     <string name="eos_force_fee_cost">Fee 0.01 EOSC</string>
     <string name="eos_not_eos_force_warming">주의：EOSForce와 EOS는 같은 메인체인이 아니라 서로 이체할 수 없습니다</string>
@@ -1104,7 +1110,7 @@
     <string name="foru_params">%s %s = %s %s</string>
 
     <string name="eos_account_select_create_way">생성 방식을 선택하다</string>
-    <string name="eos_account_create_way_alipay">알리페이로 초대 코드를 구매하기</string>
+    <string name="eos_account_create_way_alipay">초대 코드를 구매하기</string>
     <string name="eos_account_create_way_recommend">추천</string>
     <string name="eos_account_create_way_exchange">거래소 출금 혹은 지갑 이체</string>
     <string name="eos_account_create_way_friends">친구를 초대해 Math Wallet으로 QR코드를 스캔하여 지불하기</string>
@@ -1283,7 +1289,6 @@
     <string name="eos_account_permission_import_operation_warning">The current account has %s permission，cannot change %s permission</string>
     <string name="eos_account_permission_parent_placeholder">parent 권한 선택</string>
     <string name="eos_account_permission_delete_warning">owner 와 active 권한은 변경할 수 없으며 가타 권한은 변경할 수 있습니다.</string>
-    <string name="eos_account_permission_threshold_warning">When threshold > 1 , the current wallet will not be able to make transaction, do you want to continue?</string>
     <string name="eos_account_permission_keys_delete">Public Key 삭제</string>
     <string name="eos_account_permission_accounts_delete">계정 삭제</string>
     <string name="eos_account_permission_waits_delete">대기 삭제</string>
@@ -1293,4 +1298,7 @@
     <string name="eos_account_permission_threshold_placeholder">threshold 설치</string>
     <string name="eos_account_permission_waits_title">대기</string>
     <string name="eos_account_permission_no">없음</string>
+    <string name="language_of_mathwallet_translation">Math Wallet 커뮤니티 지원 번역자 여러분의 도움에 진심으로 감사드립니다. 러시아어 번역자: Alexey Koroln</string>
+    <string name="trade">거래</string>
+    <string name="eos_permission_inconsistent">이 계정의 %s 권한을 도입한 후 다시 조작하세요.</string>
 </resources>
