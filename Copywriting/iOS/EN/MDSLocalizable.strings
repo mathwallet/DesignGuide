@@ -22,7 +22,7 @@
 "eos_jsonrpc_error_quantity_positive" = "Transfer amount must be greater than 0.";
 "eos_jsonrpc_error_transaction_expired" = "Transaction expired, please try again.";
 
-"eos_account_error_permission_changed" = "Please check the account permission.";
+"eos_account_error_permission_changed" = "Please import the %@ permission first.";
 
 // NeoClientError
 "Invalid seed" = "Invalid seed";
@@ -88,6 +88,7 @@
 // Date
 "today"="Today";
 "yesterday"="Yesterday";
+"second"="sec";
 //Alert
 "confirm" = "Confirm";
 "cancel" = "Cancel";
@@ -103,6 +104,7 @@
 "done" = "Done";
 "add"="Add";
 "added"="Added";
+"update"="Update";
 "edit"="Edit";
 "discover_new_version"="Discover New Version";
 "currently_lastest_version"="This is the lastest version.";
@@ -167,14 +169,16 @@
 "wallet_create_type_bos"="BOS";
 "wallet_create_type_enu"="ENU";
 "wallet_create_type_telos"="Telos";
+"wallet_create_type_other"="Other";
 
 // 切换钱包
 "switch_wallet" = "Switch Wallet";
 
 // 创建或导入钱包
 "create_wallet" = "Create Wallet";
-"create_maizi_wallet" = "Create Insured Math Wallet";
 "import_wallet" = "Import Wallet";
+"other_wallet" = "Other Wallet";
+"create_maizi_wallet" = "Create Insured Math Wallet";
 "create_company_wallet" = "Create Business Wallet";
 
 "wallet_create_warning"="• Support the backup and export of Keystore, Private key and Mnemonic Words";
@@ -257,8 +261,8 @@
 
 "create_wallet_success_title"= "New Wallet Created Successfully";
 "create_wallet_success_backup_prompt"= "Please copy and store the Keystore to a safe offline place, once forgotten, it cannot be recovered. It can be only imported in Math Wallet.";
-"create_wallet_success_backup_prompt_wif"= "Please copy and store the WIF to a safe offline place, once forgotten, it cannot be recovered. It can be only imported in Math Wallet.";
-"create_wallet_success_backup_prompt_privatekey"= "Please copy and store the PrivateKey to a safe offline place, once forgotten, it cannot be recovered. It can be only imported in Math Wallet.";
+"create_wallet_success_backup_prompt_wif"= "Please copy and store the WIF to a safe offline place, once forgotten, it cannot be recovered.";
+"create_wallet_success_backup_prompt_privatekey"= "Please copy and store the PrivateKey to a safe offline place, once forgotten, it cannot be recovered.";
 
 "create_wallet_success_copy_prompt"= "Please copy and store the keystore";
 "create_wallet_success_copy_prompt_wif"= "Please copy and store the WIF";
@@ -308,7 +312,7 @@
 "eos_account_create_success_pendding_propmt"="The account has been created and submitted to the mainnet, please confirm in the mainnet (around 3 mins) first and then start transaction.";
 
 "eos_account_select_create_way"="Selecet Creation Method ";
-"eos_account_create_way_alipay"="Buy Invitation Code with Alipay ";
+"eos_account_create_way_buy"="Buy Invitation Code";
 "eos_account_create_way_exchange"=" Withdrawal or Transfer ";
 "eos_account_create_way_friends"="Invite friends to scan and pay by Math Wallet. ";
 "eos_account_create_way_recommend"=" Recommendation";
@@ -376,7 +380,7 @@
 
 "bos_account"="BOS Account";
 "bos_account_select"="Select BOS Account";
-"bos_account_input_placeholder"="1~12 chars,with '1~5','a~z' and '.'";
+"bos_account_input_placeholder"="12 chars，with '1~5' and 'a~z'";
 
 "bos_account_password"="Password";
 "bos_account_password_input_placeholder"="At least 8 characters";
@@ -410,7 +414,7 @@
 
 "enu_account"="ENU Account";
 "enu_account_select"="Select ENU Account";
-"enu_account_input_placeholder"="1~12 chars,with '1~5','a~z' and '.'";
+"enu_account_input_placeholder"="12 chars，with '1~5' and 'a~z'";
 
 "enu_account_password"="Password";
 "enu_account_password_input_placeholder"="At least 8 characters";
@@ -444,7 +448,7 @@
 
 "telos_account"="Telos Account";
 "telos_account_select"="Select Telos Account";
-"telos_account_input_placeholder"="1~12 chars,with '1~5','a~z' and '.'";
+"telos_account_input_placeholder"="12 chars，with '1~5' and 'a~z'";
 
 "telos_account_password"="Password";
 "telos_account_password_input_placeholder"="At least 8 characters";
@@ -497,38 +501,58 @@
 "eos_account_no_exist_privatekeys"="The encrypted private key does not exist locally and cannot be exported.";
 
 // EOS 权限
-"eos_account_permission_name"="%@ Permission";
+"eos_account_permission_name_title"="Permission Name";
+"eos_account_permission_parent_title"="Parent";
+"eos_account_permission_threshold_title"="Threshold";
+"eos_account_permission_weight_title"="Weight";
+"eos_account_permission_keys_title"="Public Key";
+"eos_account_permission_accounts_title"="Account";
+"eos_account_permission_waits_title"="Wait";
+"eos_account_permission_waits_time_title"="Waiting Time";
+
+"eos_account_permission_parent"="Parent %@";
 "eos_account_permission_threshold"="Threshold %d";
 "eos_account_permission_weight"="Weight %d";
-"eos_account_permission_change"="Change %@ Permission";
-"eos_account_permission_add"="Add %@ Permission";
+
+"eos_account_permission_keys_add"="Add Public Key";
+"eos_account_permission_accounts_add"="Add Account";
+"eos_account_permission_waits_add"="Add Wait";
+
+"eos_account_permission_keys_update"="Update Public Key";
+"eos_account_permission_accounts_update"="Update Account";
+"eos_account_permission_waits_update"="Update Wait";
+
+"eos_account_permission_keys_delete"="Delete Public Key";
+"eos_account_permission_accounts_delete"="Delete Account";
+"eos_account_permission_waits_delete"="Delete Wait";
+
+"eos_account_permission_add"="Add Permission";
 "eos_account_permission_update"="Change Permission";
 "eos_account_permission_delete"="Delete Permission";
 "eos_account_permission_update_confirm"="Submit Change";
-"eos_account_permission_tips"="Tips: \n• Owner permission: Owner owns the account, manages account permissions, manages Active and other roles; \n• Active permissions: Active has other permissions such as transfer, voting, etc. \n• Weight threshold: The weight threshold is the minimum weight requirement for using permission; \n• Weight: The weight standard of public key. The higher the number, the higher the weight; \n• Permission change should starts from small to large, such as Active first and then Owner; \n• When changing permissions, please ensure that the new public key or account name is accurate; \n• Before changing permissions, please make sure the assets has been properly managed.";
+"eos_account_permission_tips"="Tips: \n• permission changes may result in the account being unavailable, please be cautious.\n• Owner permission: Owner owns the account, manages account permissions, manages Active and other roles; \n• Active permissions: Active has other permissions such as transfer, voting, etc. \n• Weight threshold: The weight threshold is the minimum weight requirement for using permission; \n• Weight: The weight standard of public key. The higher the number, the higher the weight; \n• Permission change should starts from small to large, such as Active first and then Owner; \n• When changing permissions, please ensure that the new public key or account name is accurate; \n• Before changing permissions, please make sure the assets has been properly managed.";
 
-"eos_account_permission_text_placeholder"="Enter New Public Key Or Account";
-"eos_account_permission_text_invalid"="Invalid EOS Public Key Or Account";
-
-"eos_account_permission_threshold_invalid"="Currently only supports permission changes with a weight threshold of 1";
-"eos_account_permission_import_owner_warning"="No operation permission, please import the account again using the Owner's private key!";
+"eos_account_permission_keys_invalid"="Invalid Public Key";
+"eos_account_permission_accounts_invalid"="Invalid Account";
+"eos_account_permission_name_invalid"="Invalid Permission Name";
+"eos_account_permission_threshold_invalid"="Invalid Threshold";
+"eos_account_permission_weight_invalid"="Invalid Weight";
+"eos_account_permission_waits_time_invalid"="Invalid Waiting Time";
+"eos_account_permission_import_operation_warning"="The current account has %@ permission，cannot change %@ permission.";
 "eos_account_permission_null_warning"="Invalid Permission Change";
+"eos_account_permission_threshold_warning"="When threshold > 1 , the current wallet will NOT be able to make transaction, do you want to continue? ";
+"eos_account_permission_delete_warning"="Owner and Active permission cannot be deleted ";
+"eos_account_permission_update_warning"="The owner and active permission names cannot be changed. Other permission names can be changed.";
+
+"eos_account_permission_name_placeholder"="Set Permission Name";
+"eos_account_permission_parent_placeholder"="Set Parent";
+"eos_account_permission_select_placeholder"="Set Permission Name";
+"eos_account_permission_threshold_placeholder"="Set Threshold";
+"eos_account_permission_waits_time_placeholder"="Set Waiting Time";
+"eos_account_permission_weight_placeholder"="Set Weight";
 
 // EOS Force 权限
-"eosforce_account_permission_text_placeholder"="Enter New Public Key Or Account";
-"eosforce_account_permission_text_invalid"="Invalid EOS Force Public Key Or Account";
 "eosforce_account_permission_update_fee"="Permission Change Fee: 0.1000 %@";
-// BOS 权限
-"bos_account_permission_text_placeholder"="Enter New Public Key Or Account";
-"bos_account_permission_text_invalid"="Invalid BOS Public Key Or Account";
-
-// ENU 权限
-"enu_account_permission_text_placeholder"="Enter New Public Key Or Account";
-"enu_account_permission_text_invalid"="Invalid ENU Public Key Or Account";
-
-// Telos 权限
-"telos_account_permission_text_placeholder"="Enter New Public Key Or Account";
-"telos_account_permission_text_invalid"="Invalid Telos Public Key Or Account";
 
 // 修改钱包名称
 "wallet_nickname_update"="Change Wallet Name";
@@ -897,8 +921,9 @@
 
 // TabBar
 "wallet"="Wallet";
-"exchange"="Exchange";
+"exchange"="Trade";
 "dapps"=" DApps ";
+"browser"="Browser";
 "mine"="Me";
 "news"="News";
 
@@ -1230,6 +1255,9 @@
 "dapps_item_new_online_title" = "New";
 "dapps_item_recommend_title" = "Boutique";
 "dapps_search_hot_title" = "Top Searching";
+"dapps_search_placeholder" = "Search or enter DApp address";
+"dapps_search_open_link_title" = "open the link:";
+"dapps_search_open_link_notice" = "Please switch to %@ wallet to open the DApp";
 
 "web3_sign_message" = "Sign Message";
 "web3_sign_personal_message" = "Sign Personal Message";
@@ -1243,6 +1271,8 @@
 "dapps_contract_function" = "Action";
 "dapps_contract_args" = "Fields";
 "dapps_contract_args_detail" = "Click to see details";
+"dapps_sign_address_title" = "Address";
+"dapps_sign_message_title" = "Content";
 "dapps_auto_payment_confirm_propmpt" = "No confirmation pops up before closing DApp";
 
 "dapps_about_developer" = "Developer";
@@ -1386,7 +1416,7 @@
 "ont_map_notice" = "• The main network was launched on June 30, 2018. The mapping began on July 9, 2018 (UTC) and will end on October 1, 2018 (UTC). When all NEP-5 ONTs are mapped, only could map integer amount. Large amount ONT mapping. Since NEO and ONT use the same public/private key pair system, your NEO wallet address, private key, WIF Is the corresponding ONT wallet address, private key, WIF. Please restore your private key and WIF of NEO wallet and ONT wallet .";
 
 //快讯
-"math_wallet_news" = "MDS News";
+"math_wallet_news" = "Math News";
 "news_share_title" = "Register to get 10 MDS, invite friends to get another 10 MDS";
 "news_share_content" = "Your Gate to the World of Blockchain";
 "news_search_history" = "Search History";
@@ -1537,6 +1567,11 @@
 "trx_exchange_trade_kline_time_1week" = "1week";
 "trx_exchange_trade_kline_time_1month" = "1month";
 
+"trx_exchange_trade_error_no_trade_amount" = "Please enter the amount";
+"trx_exchange_trade_error_trade_amount_not_int" = "The amount must be an integer";
+"trx_exchange_trade_error_no_expect_amount" = "Please enter the expected amount";
+"trx_exchange_trade_error_balance_not_enough" = "Insufficient Balance";
+
 
 // SimpleWallet
 "simplewallet_login"="%@ Login";
@@ -1551,8 +1586,9 @@
 "simplewallet_sign_confirm"="确认签名";
 
 // 兑换
-"instant_exchange" = "Exchange";
-"instant_exchange_one_step" = "Cross-chain Exchange";
+"normal_exchange" = "Exchange";
+"instant_exchange" = "Swap";
+"instant_exchange_one_step" = "Cross-chain Swap";
 "instant_exchange_send_amount" = "Send";
 "instant_exchange_receive_amount" = "Receive";
 "instant_exchange_available_balance" = "Available";
@@ -1560,11 +1596,11 @@
 "instant_exchange_select_wallet" = "Select receiving wallet";
 "instant_exchange_select_wallet_empty_data" = "You don't have %@ wallet";
 "instant_exchange_select_wallet_create" = "Please create %@ wallet first";
-"instant_exchange_title" = "Exchange";
+"instant_exchange_title" = "Swap";
 "instant_exchange_rate" = "1 %@ = %@ %@";
 "instant_exchange_token_empty_data" = "No token yet";
 "instant_exchange_token_request_data" = "Refresh the data";
-"instant_exchange_records" = "Exchange Records";
+"instant_exchange_records" = "Swap Records";
 "instant_exchange_records_empty_data" = "No record";
 "instant_exchange_records_detail" = "Detail";
 "instant_exchange_records_all" = "All";
