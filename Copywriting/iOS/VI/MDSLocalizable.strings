@@ -1,0 +1,1859 @@
+/*
+ Localizable.strings
+ MediShares-iOS
+ 
+ Created by Yuzhiyou on 2018/1/17.
+ Copyright © 2018年 zhongtuobang. All rights reserved.
+ */
+
+// 麦子钱包
+"powered_by_maizi" = "Cung cấp bởi Math Wallet";
+"app_name_title" = "Math Wallet";
+
+//Errors
+"wrong_password_warning" = "Sai mật khẩu";
+"wrong_unkown_warning" = "Lỗi không xác định";
+
+// EOS Errors
+"eos_jsonrpc_error_ram_low" = "Tài khoản hết bộ nhớ, mua ngay bộ nhớ？";
+"eos_jsonrpc_error_net_low" = "Tài nguyên mạng tài khoản không đủ, có nên ngay lập tức cầm cố tài nguyên？";
+"eos_jsonrpc_error_cpu_low" = "Tài khoản không đủ tài nguyên CPU và ngay lập tức được thế chấp.？";
+"eos_jsonrpc_error_account_invalid" = "Tài khoản nhận không tồn tại";
+"eos_jsonrpc_error_quantity_positive" = "Số tiền chuyển phải lớn hơn 0";
+"eos_jsonrpc_error_transaction_expired" = "Giao dịch đã hết hạn, vui lòng bắt đầu lại giao dịch";
+
+"eos_account_error_permission_changed" = "Vui lòng kiểm tra xem các quyền tài khoản đã thay đổi.！";
+
+// NeoClientError
+"Invalid seed" = "Nút không hợp lệ";
+"Invalid body Request" = "Yêu cầu không hợp lệ";
+"Invalid response data" = "Dữ liệu không hợp lệ";
+"Invalid server request" = "Yêu cầu máy chủ không hợp lệ";
+"No Internet connection" = "Không có kết nối internet";
+
+//提取GAS
+"claim_gas_no_gas_to_claim" = "Bạn không có Gas claim %@";
+"claim_gas_once_every_five_mins" = "Chỉ có thể được Claim một lần trong năm phút %@";
+"claiming_gas" = "Claim %@ ...";
+"claim_was_successful" = "%@ Khai thác thành công";
+"claim_was_failed" = "%@ Khai thác thất bại";
+"claim_was_waiting_confirm" = "%@ Khai thác được xác nhận...";
+"claim_ong_gas_fee_notice" = "Khai thác ONG phí 0.01 ONG";
+
+"keystore_json_version_unsupported" = "Phiên bản Keystore không được hỗ trợ-%d";
+"keystore_json_address_invalid" = "Địa chỉ không hợp lệ-%@";
+"keystore_json_kdf_invalid" = "Tham số KDF không hợp lệ";
+"keystore_json_cipher_invalid" = " Tham số cipher không hợp lệ";
+"keystore_json_mac_invalid" = "Tham số mac không hợp lệ";
+"keystore_json_scrypt_invalid" = "Tham số  scrypt không hợp lệ";
+"keystore_json_other_invalid" = "Tập tin Keystore không hợp lệ";
+"keystore_json_file_invalid" = "Vui lòng sử dụng Keystore được xuất bằng ví lúa mì";
+"keystore_json_mnemonic_invalid" = "Không phù hợp";
+"keystore_json_backup_error" = "Sao lưu Keystore lỗi";
+"keystore_json_meta_invalid" = "Meta không hợp lệ";
+
+"private_key_invalid" = "Khóa riêng không hợp lệ";
+"private_key_wif_invalid" = "WIF không hợp lệ";
+"private_key_backup_error" = "Sao lưu khóa riêng lỗi";
+
+"mnemonic_phrase_invalid" = "Ghi nhớ không hợp lệ";
+"mnemonic_mismatch_invalid" = "Không phù hợp";
+"mnemonic_backup_error" = "Lỗi ghi nhớ sao lưu";
+"mnemonic_path_error" = "Lỗi định dạng đường dẫn ghi nhớ";
+
+"account_create_failed" = "Không thể tạo tài khoản";
+"account_restore_failed" = "Khôi phục tài khoản không thành công";
+"account_unlock_failed" = "Mở khóa tài khoản không thành công";
+
+"private_key_restore_failed" = "Khôi phục khóa riêng không thành công";
+
+"account_password_update_failed" = "Cập nhật mật khẩu không thành công";
+
+"network_unable_to_connect" = "Mạng dường như không được kết nối. Vui lòng thử lại.";
+"network_server_timeout" = "Yêu cầu máy chủ hết thời gian, vui lòng thử lại";
+"network_error_unkown" = "Lỗi mạng không xác định, vui lòng thử lại";
+"network_error_data_format" = "Định dạng dữ liệu bất thường";
+
+"network_error_device_unregister" = "Đăng ký thiết bị thất bại";
+"enterprise_wallet_active_error" = "Kích hoạt ví doanh nghiệp không thành công";
+"enterprise_wallet_import_error" = "Khôi phục ví doanh nghiệp không thành công";
+
+"node_setting_error_exist" = "Địa chỉ URL không hợp lệ";
+
+"sign_message_account_invalid" = "Địa chỉ tài khoản không hợp lệ";
+"address_not_whiteList_error" = "Địa chỉ hiện tại không phải là địa chỉ người dùng trong danh sách trắng của bạn";
+
+"simplewallet_data_format_error" = "Ngoại lệ định dạng dữ liệu giao thức";
+
+// Date
+"today"="Hôm nay";
+"yesterday"="Hôm qua";
+//Alert
+"confirm" = "Xác nhận";
+"cancel" = "Hủy bỏ";
+"prompt" = "Tiến";
+"setting" = "Cài đặt";
+"i_know" = "Tôi biết";
+"next" = "Bước tiếp theo";
+"search" = "Tìm kiếm";
+"submit" = "Gửi";
+"copy" = "Sao chép";
+"copied" = "Sao chép";
+"paste"="Dán";
+"done" = "Hoàn thành";
+"add"="Thêm";
+"added"="Đã thêm";
+"edit"="Chỉnh sửa";
+"discover_new_version"="Kiểm tra phiên bản mới";
+"currently_lastest_version"="Hiện tại là phiên bản mới nhất";
+"version_upgrade"="Cập nhật phiên bản";
+"delete_cache"="Dọn dẹp bộ nhớ đệm";
+"upgrade"="Cập nhật";
+"retry"="Thử lại";
+"save"="Lưu";
+"continue"="Tiếp tục";
+"copy_link"="Sao chép liên kết";
+"reload"="Làm mới";
+"share"="Chia sẻ";
+"success"="Thành công";
+"fail"="Thất bại";
+"whitelist" = "Danh sách trắng";
+"disclaimer" = "Từ chối";
+"about" = "Giới thiệu";
+"kakao" = "Kakao";
+"wechat" = "Chúng tôi";
+"wechat_moments" = "Vòng tròn bạn bè";
+"save_image" = "Lưu hình ảnh";
+"debug" = "Gỡ lỗi";
+"report" = "Report Scam";
+"risk_warning" = "Risk warning";
+"risk_warning_text" = "The third-party Website is reported by other users and may involve high-risk situations such as malicious scams, token locks, or hacking! Please be cautious!";
+
+// 权限
+"take_photo"="Chụp ảnh";
+"photo_album"="Chọn từ album";
+"camera_not_supported"="Hiện tại không hỗ trợ bật camera";
+"photo_library_not_supported"="Mở album hiện không được hỗ trợ";
+"camera_permission_authorize" = "Không có quyền truy cập vào quyền camera, vui lòng vào cài đặt？";
+"photo_library_permission_authorize" = "Không có quyền truy cập vào album, vui lòng vào cài đặt？";
+"contacts_permission_authorize" = "Không truy cập quyền truy cập Danh bạ, vui lòng vào phần cài đặt？";
+
+// 页面无数据
+"empty_data_prompt" = "Chưa có dữ liệu";
+"empty_data_publicity"="Không có thông tin công khai";
+"empty_data_transaction"="Không có lịch sử giao dịch";
+"empty_data_trasfer"="Không có hồ sơ chuyển nhượng";
+"empty_data_contacts"="Không liên lạc";
+"empty_data_contacts_know"="Không biết liên lạc";
+"empty_data_candy"="Không có hồ sơ nạp tiền";
+"empty_data_withdraw"="Không có hồ sơ rút tiền";
+"empty_data_search"="Không có kết quả tìm kiếm";
+"empty_whiteList_contacts" = "Không có liên hệ danh sách trắng";
+
+// 选择钱包
+"select_custom_wallet"="Chọn %@ Ví";
+
+//多钱包选择页面
+"wallet_create_or_import_prompt"="Không có ví, vui lòng tạo ví hoặc nhập ví";
+"wallet_create_or_import_type"="Chọn loại ví";
+"wallet_create_type_other"="Other";
+
+// 切换钱包
+"switch_wallet" = "Đổi ví";
+// 创建或导入钱包
+"create_wallet" = "Tạo ví";
+"create_maizi_wallet" = "Tạo ví an toàn lúa mì";
+"import_wallet" = "Import Wallet";
+"create_company_wallet" = "Tạo ví công ty";
+
+"wallet_create_warning"="• Hỗ trợ sao lưu và xuất Keystore, khóa riêng và ghi nhớ";
+"wallet_create_maizi_warning"="• Chỉ hỗ trợ và xuất Keystore, không thể nhập các ví khác\n• Có thể tham gia bảo mật tài khoản kỹ thuật số, bị đánh cắp tới 100.000 MDS\n• Hỗ trợ xác minh nhiều bảo mật";
+"wallet_import_warning"="• Hỗ trợ cho các ví khác Keystore, nhập khóa riêng và nhập khẩu";
+"wallet_create_company_warning" = "• Ví công ty là phiên bản ví tùy chỉnh cho các tổ chức như Token Fund, tìm hiểu thêm";
+"wallet_create_company_warning_url" = "Tìm hiểu thêm";
+
+"wallet_create_or_import_title"="Tạo hoặc nhập ví";
+"wallet_import_keystore_title"="Nhập qua Keystore";
+"wallet_import_keystore_recommend"="Đề xuất";
+
+"wallet_import_privatekey_title"="Nhập qua khóa riêng";
+"wallet_import_wif_title"="Nhập qua WIF";
+"wallet_import_mnemonic_phrase_title"="Nhập qua ghi nhớ";
+
+// Keystore导入
+"wallet_import_keystore_text_placeholder"="Dán nội dung của tệp Keystore";
+"wallet_import_keystore_password_title"="Mật khẩu keystore ";
+"wallet_import_keystore_password_placeholder"="Nhập mật khẩu Keystore";
+"wallet_import_keystore_nickname_title"="Tên ví";
+"wallet_import_keystore_nickname_placeholder"="Đặt tên ví";
+
+// 私钥导入
+"wallet_import_privatekey_privatekey_title"="Khóa riêng";
+"wallet_import_privatekey_privatekey_placeholder"="Nhập hoặc dán khóa riêng";
+"wallet_import_privatekey_nickname_title"="Tên ví";
+"wallet_import_privatekey_nickname_placeholder"="Đặt tên ví";
+"wallet_import_privatekey_password_title"="Mật khẩu ví";
+"wallet_import_privatekey_password_placeholder"="Ít nhất 8 ký tự (bao gồm chữ hoa và chữ thường và số )";
+"wallet_import_privatekey_password_placeholder_ont"="8 ~ 15 ký tự (bao gồm chữ hoa và chữ thường và số) ";
+"wallet_import_privatekey_repeat_password_title"="Lặp lại mật khẩu ví";
+"wallet_import_privatekey_repeat_password_placeholder"="Nhập lại mật khẩu ví";
+
+"wallet_import_privatekey_comfirm"="Nhập khóa riêng";
+
+"wallet_import_privatekey_no_account"="Không có truy vấn đến tài khoản%@";
+
+// WIF 导入
+"wallet_import_wif_wif_title" = "WIF";
+"wallet_import_wif_wif_placeholder" = "Nhập hoặc dán WIF";
+"wallet_import_wif_nickname_title" = "Tên ví";
+"wallet_import_wif_nickname_placeholder" = "Đặt tên ví";
+"wallet_import_wif_password_title" = "Mật khẩu ví";
+"wallet_import_wif_password_placeholder" = "Ít nhất 8 ký tự (bao gồm chữ hoa và chữ thường và số) ";
+"wallet_import_wif_password_placeholder_ont" = "8 ~ 15 ký tự (bao gồm chữ hoa và chữ thường và số) ";
+"wallet_import_wif_repeat_password_title" = "Lặp lại mật khẩu ví";
+"wallet_import_wif_repeat_password_placeholder" = "Nhập lại mật khẩu ví";
+
+// 助记词导入
+"wallet_import_mnemonic_phrase_chinese"="Chinese";
+"wallet_import_mnemonic_phrase_english"="English";
+"wallet_import_mnemonic_phrase_chinese_placeholder"="Please use space to separate the chinese mnemonic words";
+"wallet_import_mnemonic_phrase_english_placeholder"="Please use space to separate the english mnemonic words";
+
+"wallet_import_mnemonic_phrase_input_label"="Ghi nhớ";
+"wallet_import_mnemonic_phrase_placeholder"="Nhập ghi nhớ, cách nhau bởi khoảng trắng";
+"wallet_import_mnemonic_phrase_path_title"="Đường dẫn";
+"wallet_import_mnemonic_phrase_custom_path"="m/44'/60'/0'/0/0 Đường dẫn tùy chỉnh";
+"wallet_import_mnemonic_phrase_nickname_title"="Tên ví";
+"wallet_import_mnemonic_phrase_nickname_placeholder"="Đặt tên ví";
+"wallet_import_mnemonic_phrase_password_title"="Mật khẩu giao dịch";
+"wallet_import_mnemonic_phrase_password_placeholder"="Ít nhất 8 ký tự (bao gồm chữ hoa và chữ thường và số) ";
+"wallet_import_mnemonic_phrase_password_placeholder_ont"="8 ~ 15 ký tự (bao gồm chữ hoa và chữ thường và số) ";
+"wallet_import_mnemonic_phrase_repeat_password_title"="Lặp lại mật khẩu giao dịch";
+"wallet_import_mnemonic_phrase_repeat_password_placeholder"="Nhập lại mật khẩu ví";
+"wallet_import_mnemonic_phrase_comfirm"="import";
+
+//创建钱包
+"wallet_name"="Tên ví";
+"wallet_name_placeholder"="Đặt tên ví";
+"wallet_password"="Mật khẩu ví";
+"wallet_password_placeholder"="Ít nhất 8 ký tự (bao gồm chữ hoa và chữ thường và số) ";
+"wallet_password_placeholder_ont"="8 ~ 15 ký tự (bao gồm chữ hoa và chữ thường và số) ";
+"wallet_password_format_warning"="Mật khẩu phải chứa chữ hoa và chữ thường và số";
+"wallet_password_mismatch_warning"="Hai mật khẩu không giống nhau";
+"wallet_repeat_password"="Lặp lại mật khẩu ví";
+"wallet_repeat_password_placeholder"="Nhập lại mật khẩu ví";
+"conditions_prompt_normal" = "Tôi đã đọc và đồng ý";
+"conditions_prompt_active" = "《Chính sách bảo mật và dịch vụ》";
+"terms_of_service" = "Chính sách bảo mật và dịch vụ";
+"password_strength_low" = "Thấp";
+"password_strength_high" = "Cao";
+"password_save_warning_title" = "Xác nhận mật khẩu ví";
+"password_save_warning_message" = "Chúng tôi không thể cung cấp khả năng truy xuất mật khẩu ví của bạn. Vui lòng xác nhận và giữ mật khẩu ví của bạn？";
+
+"password_rule_6_count" = "At least 6 characters";
+"password_rule_8_count" = "At least 8 characters";
+"password_rule_uppercase" = "At least 1 uppercase letter";
+"password_rule_lowercase" = "At least 1 lowercase letter";
+"password_rule_numerical" = "At least 1 digit";
+
+"create_wallet_success_title"= "Tạo ví thành công";
+"create_wallet_success_backup_prompt"= "Sau đây là tệp Keystore của ví, hãy sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục。";
+"create_wallet_success_backup_prompt_wif"= "Sau đây là tệp WIF của ví, hãy sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục。";
+"create_wallet_success_backup_prompt_privatekey"= "Sau đây là tệp khóa riêng của ví, Hãy sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục。";
+
+"create_wallet_success_copy_prompt"= "Vui lòng sao chép và sao lưu tệp Keystore trước.";
+"create_wallet_success_copy_prompt_wif"= "Vui lòng sao chép và sao lưu tệp WIF trước";
+"create_wallet_success_copy_prompt_privatekey"= "Vui lòng sao chép và sao lưu tập tin khóa riêng trước.";
+
+"create_wallet_success_backup_completed"= "Keystore đã được lưu";
+"create_wallet_success_backup_completed_wif"= "WIF đã được lưu";
+"create_wallet_success_backup_completed_privatekey"= "Khóa riêng đã được sao lưu";
+
+"disclaimer_warning_title" = "Từ chối";
+"disclaimer_warning_message" = "Chúng tôi không chịu trách nhiệm rằng việc mất tài sản là do mất Keystore và quên mật khẩu！";
+"disclaimer_warning_message_wif" = "Chúng tôi không chịu trách nhiệm rằng việc mất tài sản là do mất WIF và quên mật khẩu！";
+"disclaimer_warning_message_mnemonic" = "Chúng tôi không chịu bất kỳ tổn thất nào về tài sản do mất mnemonic và quên mật khẩu！";
+"disclaimer_warning_message_privatekey" = "Chúng tôi không chấp nhận tổn thất nào về việc mất tài sản nào do mất khóa riêng và quên mật khẩu！";
+
+// 创建 EOS 账户
+"eos_account_create"="Tạo tài khoản EOS";
+"eos_account_import"="Nhập tài khoản EOS";
+
+"eos_account_invite_code"="Mã mời";
+"eos_account_invite_code_placeholder"="Nhập mã thư mời tài khoản EOS";
+"eos_account_invite_code_help"="Cách lấy mã thư mời？";
+"eos_account_invite_code_warning"="\n• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n\n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; \n\n• Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
+
+"eos_account"="Tài khoản EOS";
+"eos_account_select"="Chọn một tài khoản EOS";
+"eos_account_input_placeholder"="12 ký tự với '1 ~ 5' và 'a ~ z'";
+
+"eos_account_node"="Cộng đồng nút";
+"eos_account_node_select_placeholder"="Chọn cộng đồng nút";
+
+"eos_account_password"="Mật khẩu";
+"eos_account_password_input_placeholder"="Ít nhất 8 ký tự, bao gồm chữ hoa và chữ thường và số";
+"eos_account_password_repeat"="Lặp lại mật khẩu";
+"eos_account_password_repeat_input_placeholder"="Nhập lại mật khẩu của bạn";
+
+"eos_account_create_warning_exist"="Tài khoản EOS đã tồn tại";
+"eos_account_create_warning_fail"="Không thể tạo tài khoản EOS";
+
+"eos_account_create_warning_success"="Tài khoản EOS đã được tạo thành công";
+"eos_account_privatekey_backup_warning"="Sau đây là thông tin khóa riêng của tài khoản, Hãy sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục。";
+"eos_account_privatekey_backup_complete"="Khóa riêng đã được sao lưu";
+
+"eos_create_account_success_copy_prompt"= "Vui lòng sao chép và sao lưu tệp khóa riêng (WIF) trước.";
+
+"eos_account_privatekey_backup_disclaimer"= "Chúng tôi không chịu trách nhiệm bất kỳ việc mất tài sản nào do mất khóa riêng và quên mật khẩu.！";
+"eos_account_create_success_pendding_propmt"="Tài khoản đã được tạo và gửi đến mạng chính. Vui lòng xác nhận giao dịch sau khi xác nhận mạng chính (khoảng 3 phút) để đảm bảo việc tạo thành công。";
+
+"eos_account_select_create_way"="Chọn cách tạo";
+"eos_account_create_way_alipay"="Mã mời mua hàng của Alipay";
+"eos_account_create_way_exchange"="Đổi tiền hoặc chuyển ví";
+"eos_account_create_way_friends"="Yêu cầu bạn bè của bạn sử dụng ví lúa mì để quét mã để thanh toán";
+"eos_account_create_way_recommend"="Đề xuất";
+"eos_account_create_set_account"="Đặt tên tài khoản EOS";
+"eos_account_create_backup_prompt"="• Sau đây là khóa riêng của tài khoản mới. Vui lòng sao lưu khóa riêng và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai. Sau khi mất, ví sẽ không thể phục hồi. \n• Sau khi chuyển khoản thành công, bạn cần nhập khóa riêng này để hoàn tất quá trình tạo tài khoản。";
+"eos_account_create_backup_private_title"="Khóa riêng";
+
+"eos_account_create_by_friend_prompt"="• Yêu cầu bạn bè của bạn sử dụng ví lúa mì để quét mã QR bên dưới, trả khoảng%@ EOS để bảo đảm tài nguyên mạng và CPU và mua bộ nhớ. \n• Sau khi thanh toán thành công, hãy nhập khóa riêng của bản sao lưu trước vào ví lúa mì, nghĩa là hoàn tất việc tạo tài khoản.。";
+"eos_account_create_by_friend_share_title"="Chia sẻ mã QR";
+"eos_account_create_by_friend_section_title"="Thông tin tài khoản";
+"eos_account_create_by_friend_account_title"="Tài khoản";
+"eos_account_create_by_friend_owner_title"="Owner công khai";
+"eos_account_create_by_friend_active_title"="Active công khai";
+"eos_account_create_by_friend_ram_title"="RAM";
+"eos_account_create_by_friend_cpu_title"="CPU";
+"eos_account_create_by_friend_net_title"="Net";
+
+"eos_account_create_by_exchange_prompt"="• Chuyển ít nhất 1 EOS vào tài khoản hợp đồng thông qua chuyển tiền hoặc ví của trao đổi, trong đó 0.2 EOS được sử dụng để bảo đảm tài nguyên CPU và mạng và phần còn lại được sử dụng để mua bộ nhớ tương đương. \n• Hiện tại tất cả các giao dịch được hỗ trợ rõ ràng là OTCBTC, Gate.io, Coin Security, Bitfinex và các trao đổi khác không được khuyến nghị. Ví có thể được sử dụng miễn là nó hỗ trợ ghi chú chuyển tiền. \n• Sau đây là tài khoản thanh toán và thông tin nhận xét chuyển khoản, vui lòng sao chép và truy cập vào trao đổi hoặc ví để điền, hợp đồng thông minh sẽ tạo một tài khoản. \n• Sau khi chuyển tiền hoặc chuyển tiền thành công, hãy nhập khóa riêng của bản sao lưu trước vào ví lúa mì, nghĩa là hoàn tất việc tạo tài khoản。";
+"eos_account_create_by_exchange_account_title"="Chuyển vào tài khoản";
+"eos_account_create_by_exchange_memo_title"="Điền vào ghi chú";
+"eos_account_create_by_exchange_prompt2"="• Phương pháp tạo này sử dụng các hợp đồng thông minh do nhóm Dappub triển khai và không liên quan đến các thao tác thủ công trong quá trình tạo. Ví lúa mì không thể giúp phục hồi nếu người dùng mất tài sản do hoạt động không đúng. \n• Địa chỉ nguồn mở hợp đồng: https://github.com/dappub/signupeoseos";
+
+"eos_account_create_way_phone"="Create by phone number.";
+"eos_account_create_way_buy_hint"="Support purchasing invitation code via Alipay and Paypal.
+";
+"eos_account_create_way_exchange_hint"="Support multiple exchange withdrawal or wallet transfer.";
+"eos_account_create_way_friends_hint"="Invite friends to use the Math Wallet scanning payment.";
+"eos_account_create_way_phone_hint"="Create by phone number.";
+
+// 创建 EOS 原力账户
+"eosforce_account_create"="Tạo một tài khoản EOS Force";
+"eosforce_account_import"="Nhập tài khoản EOS Force";
+
+"eosforce_account_invite_code"="Mã mời";
+"eosforce_account_invite_code_placeholder"="Nhập mã thư mời tài khoản của EOS Force";
+"eosforce_account_invite_code_help"="Cách lấy mã thư mời？";
+"eosforce_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
+
+"eosforce_account"="EOS 原力账户";
+"eosforce_account_select"="Chọn tài khoản EOS Force";
+"eosforce_account_input_placeholder"="1 ~ 12 ký tự, bao gồm số '1 ~ 5', chữ 'a ~ z', ký hiệu '.'";
+
+"eosforce_account_password"="Mật khẩu";
+"eosforce_account_password_input_placeholder"="Ít nhất 8 ký tự, bao gồm chữ hoa và chữ thường và số";
+"eosforce_account_password_repeat"="Lặp lại mật khẩu";
+"eosforce_account_password_repeat_input_placeholder"="Nhập lại mật khẩu của bạn";
+
+"eosforce_account_create_warning_exist"="Tài khoản EOS Force đã tồn tại";
+"eosforce_account_create_warning_fail"="Không thể tạo tài khoản EOS Force";
+
+"eosforce_account_create_warning_success"="Tài khoản EOS Force đã được tạo thành công";
+"eosforce_account_privatekey_backup_warning"="Sau đây là thông tin khóa riêng của tài khoản, Hãy sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục。";
+"eosforce_account_privatekey_backup_complete"="Khóa riêng đã được sao lưu";
+
+"eosforce_create_account_success_copy_prompt"= "Vui lòng sao chép và sao lưu tệp khóa riêng (WIF) trước.";
+
+"eosforce_account_privatekey_backup_disclaimer"= "Chúng tôi không chịu trách nhiệm trước việc mất tài sản nào do mất khóa riêng và quên mật khẩu.！";
+
+"eosforce_account_create_by_friends_title"="Hãy để một người bạn giúp tạo tài khoản EOS Force";
+"eosforce_account_create_by_friends_publickey_title"="Khóa công khai";
+"eosforce_account_create_by_friends_publickey_prompt"="Vui lòng sao chép khóa công khai và gửi cho bạn bè của bạn để tạo tài khoản EOS Force。";
+"eosforce_account_create_by_friends_privatekey_title"="Khóa riêng";
+"eosforce_account_create_by_friends_privatekey_prompt"="Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn tạo tài khoản cho bạn, bạn cần nhập tài khoản EOS Force bằng khóa riêng này。";
+// 创建 BOS 账户
+"bos_account_create"="Tạo tài khoản BOS";
+"bos_account_import"="Nhập tài khoản BOS";
+
+"bos_account_invite_code"="Mã mời";
+"bos_account_invite_code_placeholder"="Nhập mã mời tài khoản BOS";
+"bos_account_invite_code_help"="Cách lấy mã thư mời？";
+"bos_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
+
+"bos_account"="Tài khoản BOS";
+"bos_account_select"="Chọn tài khoản BOS";
+"bos_account_input_placeholder"="1 ~ 12 ký tự, bao gồm số '1 ~ 5', chữ 'a ~ z', ký hiệu '.'";
+
+"bos_account_password"="Mật khẩu";
+"bos_account_password_input_placeholder"="Ít nhất 8 ký tự, bao gồm chữ hoa và chữ thường và số";
+"bos_account_password_repeat"="Lặp lại mật khẩu";
+"bos_account_password_repeat_input_placeholder"="Nhập lại mật khẩu của bạn";
+
+"bos_account_create_warning_exist"="Tài khoản BOS đã tồn tại";
+"bos_account_create_warning_fail"="Không thể tạo tài khoản BOS";
+
+"bos_account_create_warning_success"="Tài khoản BOS đã được tạo thành công";
+"bos_account_privatekey_backup_warning"="Sau đây là thông tin khóa riêng của tài khoản, Hãy sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục。";
+"bos_account_privatekey_backup_complete"="Khóa riêng đã được sao lưu";
+
+"bos_create_account_success_copy_prompt"= "Vui lòng sao chép và sao lưu tệp khóa riêng (WIF) trước.";
+
+"bos_account_privatekey_backup_disclaimer"= "Chúng tôi không chịu trách nhiệm trước việc mất tài sản nào do mất khóa riêng và quên mật khẩu.！";
+
+"bos_account_create_by_friends_title"="Nhờ một người bạn giúp tạo tài khoản BOS";
+"bos_account_create_by_friends_publickey_title"="Khóa công khai";
+"bos_account_create_by_friends_publickey_prompt"="Vui lòng sao chép khóa công khai và gửi cho bạn bè của bạn để tạo tài khoản BOS.。";
+"bos_account_create_by_friends_privatekey_title"="Khóa riêng";
+"bos_account_create_by_friends_privatekey_prompt"="Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn đã tạo tài khoản cho bạn, bạn cần nhập tài khoản BOS bằng khóa riêng này。";
+// 创建 ENU 账户
+"enu_account_create"="Tạo tài khoản ENU";
+"enu_account_import"="Nhập tài khoản ENU";
+
+"enu_account_invite_code"="Mã mời";
+"enu_account_invite_code_placeholder"="Nhập mã mời tài khoản ENU";
+"enu_account_invite_code_help"="Cách lấy mã thư mời？";
+"enu_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
+
+"enu_account"="Tài khoản ENU";
+"enu_account_select"="Chọn một tài khoản ENU";
+"enu_account_input_placeholder"="1 ~ 12 ký tự, bao gồm số '1 ~ 5', chữ 'a ~ z', ký hiệu '.'";
+
+"enu_account_password"="Mật khẩu";
+"enu_account_password_input_placeholder"="Ít nhất 8 ký tự, bao gồm chữ hoa và chữ thường và số";
+"enu_account_password_repeat"="Lặp lại mật khẩu";
+"enu_account_password_repeat_input_placeholder"="Nhập lại mật khẩu của bạn";
+
+"enu_account_create_warning_exist"="Tài khoản ENU đã tồn tại";
+"enu_account_create_warning_fail"="Không thể tạo tài khoản ENU";
+
+"enu_account_create_warning_success"="Tài khoản ENU đã được tạo thành công";
+"enu_account_privatekey_backup_warning"="Sau đây là thông tin khóa riêng của tài khoản, được sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không thể phục hồi";
+"enu_account_privatekey_backup_complete"="Khóa riêng đã được sao lưu";
+
+"enu_create_account_success_copy_prompt"= "Vui lòng sao chép và sao lưu tệp khóa riêng (WIF) trước.";
+
+"enu_account_privatekey_backup_disclaimer"= "Chúng tôi không chấp nhận bất kỳ mất tài sản nào do mất khóa riêng và quên mật khẩu！";
+
+"enu_account_create_by_friends_title"="Hãy để một người bạn giúp tạo tài khoản ENU";
+"enu_account_create_by_friends_publickey_title"="Khóa công khai";
+"enu_account_create_by_friends_publickey_prompt"="Vui lòng sao chép khóa công khai và gửi cho bạn bè của bạn để tạo tài khoản ENU。";
+"enu_account_create_by_friends_privatekey_title"="Khóa riêng";
+"enu_account_create_by_friends_privatekey_prompt"="Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn đã tạo tài khoản cho bạn, bạn cần nhập tài khoản ENU bằng khóa riêng này。";
+// 创建 Codex 账户
+"codex_account_create"="Tạo tài khoản Codex";
+"codex_account_import"="Nhập tài khoản Codex";
+
+"codex_account_invite_code"="Mã mời";
+"codex_account_invite_code_placeholder"="Nhập mã mời tài khoản Codex";
+"codex_account_invite_code_help"="Cách lấy mã thư mời？";
+"codex_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
+
+"codex_account"="Tài khoản Codex";
+"codex_account_select"="Chọn một tài khoản Codex";
+"codex_account_input_placeholder"="1 ~ 12 ký tự, bao gồm số '1 ~ 5', chữ 'a ~ z', ký hiệu '.'";
+
+"codex_account_password"="Mật khẩu";
+"codex_account_password_input_placeholder"="Ít nhất 8 ký tự, bao gồm chữ hoa và chữ thường và số";
+"codex_account_password_repeat"="Lặp lại mật khẩu";
+"codex_account_password_repeat_input_placeholder"="Nhập lại mật khẩu của bạn";
+
+"codex_account_create_warning_exist"="Tài khoản Codex đã tồn tại";
+"codex_account_create_warning_fail"="Không thể tạo tài khoản Codex";
+
+"codex_account_create_warning_success"="Tài khoản Codex đã được tạo thành công";
+"codex_account_privatekey_backup_warning"="Sau đây là thông tin khóa riêng của tài khoản, được sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không thể phục hồi";
+"codex_account_privatekey_backup_complete"="Khóa riêng đã được sao lưu";
+
+"codex_create_account_success_copy_prompt"= "Vui lòng sao chép và sao lưu tệp khóa riêng (WIF) trước.";
+
+"codex_account_privatekey_backup_disclaimer"= "Chúng tôi không chấp nhận bất kỳ mất tài sản nào do mất khóa riêng và quên mật khẩu！";
+
+"codex_account_create_by_friends_title"="Hãy để một người bạn giúp tạo tài khoản Codex";
+"codex_account_create_by_friends_publickey_title"="Khóa công khai";
+"codex_account_create_by_friends_publickey_prompt"="Vui lòng sao chép khóa công khai và gửi cho bạn bè của bạn để tạo tài khoản Codex。";
+"codex_account_create_by_friends_privatekey_title"="Khóa riêng";
+"codex_account_create_by_friends_privatekey_prompt"="Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn đã tạo tài khoản cho bạn, bạn cần nhập tài khoản Codex bằng khóa riêng này。";
+// 创建 Telos 账户
+"telos_account_create"="Tạo tài khoản Telos";
+"telos_account_import"="Nhập tài khoản Telos";
+
+"telos_account_invite_code"="Mã mời";
+"telos_account_invite_code_placeholder"="Nhập mã mời tài khoản Telos";
+"telos_account_invite_code_help"="Cách lấy mã thư mời？";
+"telos_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
+
+"telos_account"="Telos Tài khoản";
+"telos_account_select"="Chọn một tài khoản Telos";
+"telos_account_input_placeholder"="12 ký tự, bao gồm số '1 ~ 5', chữ 'a ~ z', ký hiệu '.'";
+
+"telos_account_password"="Mật khẩu";
+"telos_account_password_input_placeholder"="Ít nhất 8 ký tự, bao gồm chữ hoa và chữ thường và số";
+"telos_account_password_repeat"="Lặp lại mật khẩu";
+"telos_account_password_repeat_input_placeholder"="Nhập lại mật khẩu của bạn";
+
+"telos_account_create_warning_exist"="Telos Tài khoản đã tồn tại";
+"telos_account_create_warning_fail"="Không thể tạo tài khoản Telos";
+
+"telos_account_create_warning_success"="Tài khoản Telos đã được tạo thành công";
+"telos_account_privatekey_backup_warning"="Sau đây là thông tin khóa riêng của tài khoản, được sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục。";
+"telos_account_privatekey_backup_complete"="Khóa riêng đã được sao lưu";
+
+"telos_create_account_success_copy_prompt"= "Vui lòng sao chép và sao lưu tệp khóa riêng (WIF) trước";
+
+"telos_account_privatekey_backup_disclaimer"= "Chúng tôi không chấp nhận bất kỳ mất tài sản nào do mất khóa riêng và quên mật khẩu！";
+
+"telos_account_create_by_friends_title"="Hãy để một người bạn giúp tạo một tài khoản Telos";
+"telos_account_create_by_friends_publickey_title"="Khóa công khai";
+"telos_account_create_by_friends_publickey_prompt"="Vui lòng sao chép khóa công khai và gửi cho bạn bè của bạn để tạo tài khoản Telos。";
+"telos_account_create_by_friends_privatekey_title"="Khóa riêng";
+"telos_account_create_by_friends_privatekey_prompt"="Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn đã tạo tài khoản cho bạn, bạn cần nhập tài khoản Telos bằng khóa riêng này。";
+// 创建企业钱包
+"company_wallet_tips" = "Ví công ty";
+"company_wallet_create_inviteCode_placeholder" = "Nhập mã thư mời của bạn";
+//管理钱包
+"manage_wallet" = "Ví quản lý";
+"manage_wallet_address"="Địa chỉ ví";
+
+"manage_wallet_name"="Tên ví";
+"manage_wallet_password"="Mật khẩu ví";
+"manage_wallet_backup_keystore"="Sao lưu Keystore";
+"manage_wallet_backup_privatekey_important"="Important";
+"manage_wallet_backup_privatekey"="Sao lưu khóa riêng";
+"manage_wallet_backup_wif"="Sao lưu WIF";
+"manage_wallet_backup_mnemonic_phrase"="Sao lưu mnemonic";
+"remove_wallet"="Xóa ví";
+"account_remove_warning_message" = "Chú ý! Thao tác này không thể bị thu hồi";
+
+// 管理钱包Neo
+"manage_wallet_backup_privatekey_neo"="Sao lưu khóa riêng WIF";
+
+// 管理账户-EOS
+"eos_account_manage"="Tài khoản quản lý";
+"eos_account_remove"="Xóa tài khoản";
+
+"eos_account_permission_manage"="Cơ quan hành chính";
+"eos_account_institutions_backup" = "机构备份";
+"eos_account_backup" = "备份";
+"eos_account_institutions_backup_remark_top" = "  •  机构备份是麦子钱包以 EOS 多签技术为基础开发的新功能.";
+"eos_account_institutions_backup_remark_bottom" = "  •  当您开启后麦子钱包将参与到您的账户多签管理中，仅在您需要使用找回账户功能时提供服务.";
+"eos_account_institutions_open" = "开启";
+"eos_account_institutions_open_succeed" = "机构备份成功";
+"eos_account_institutions_open_remark_top" = "  •  已完成机构备份设置，请后续勿要修改您的 owner 权限，否则可能导致机构备份功能失效；";
+"eos_account_institutions_open_remark_mid" = "  •  机构备份是麦子钱包以 EOS 多签技术为基础开发的新功能；";
+"eos_account_institutions_open_remark_bottom" = "  •  当您开启后麦子钱包将参与到您的账户多签管理中，仅在您需要使用找回账户功能时提供服务。";
+"eos_account_institutions_canle" = "取消备份";
+
+"eos_account_name"="Tên tài khoản";
+"eos_account_password"="Mật khẩu tài khoản";
+
+"eos_account_no_exist_privatekeys"="Tài khoản không có khóa riêng được mã hóa và không thể xuất。";
+
+// EOS 权限
+"eos_account_permission_name"="%@ Giấy phép";
+"eos_account_permission_threshold"="Ngưỡng cân %d";
+"eos_account_permission_weight"="Cân nặng %d";
+"eos_account_permission_change"="Thay đổi %@ Giấy phép";
+"eos_account_permission_add"="Thêm %@ quyền";
+"eos_account_permission_update"="Thay đổi quyền";
+"eos_account_permission_delete"="Xóa quyền";
+"eos_account_permission_update_confirm"="Gửi thay đổi";
+"eos_account_permission_tips"="Tips：\n• Owner Quyền: Chủ sở hữu tài khoản, có thể quản lý quyền tài khoản, quản lý Hoạt động và các vai trò khác; \n• Quyền hoạt động: Hoạt động có các quyền khác như chuyển nhượng, bỏ phiếu, v.v. \N• Ngưỡng trọng lượng là ngưỡng trọng lượng tối thiểu để thực hiện quyền; \n• Trọng lượng: Trọng lượng là trọng lượng của khóa chung. Số càng cao, trọng số càng cao; \n• Thay đổi quyền nên được thay đổi từ các quyền nhỏ, chẳng hạn như Hoạt động sau Chủ sở hữu; \n• Khi thay đổi quyền, hãy đảm bảo mới Khóa công khai hoặc tên tài khoản là chính xác; \n• Trước khi thay đổi quyền, vui lòng đảm bảo rằng các tài sản được xử lý đúng cách。";
+
+"eos_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản mới của EOS";
+"eos_account_permission_text_invalid"="Tài khoản hoặc tài khoản công khai không hợp lệ của EOS";
+
+"eos_account_permission_threshold_invalid"="Hiện tại chỉ hỗ trợ thay đổi quyền với ngưỡng trọng số là 1 được hỗ trợ.";
+"eos_account_permission_import_owner_warning"="Không có quyền hoạt động, vui lòng nhập lại tài khoản bằng khóa riêng tương ứng với Chủ sở hữu！";
+"eos_account_permission_null_warning"="Thay đổi quyền không hợp lệ";
+// EOS Force 权限
+"eosforce_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản mới của EOS Force";
+"eosforce_account_permission_text_invalid"="Tài khoản hoặc khóa công khai không hợp lệ của EOS Force";
+"eosforce_account_permission_update_fee"="Thay đổi phí thẩm quyền 0.1000 %@";
+// BOS 权限
+"bos_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản BOS mới";
+"bos_account_permission_text_invalid"="Tài khoản hoặc tài khoản BOS không hợp lệ";
+// ENU 权限
+"enu_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản ENU mới";
+"enu_account_permission_text_invalid"="Tài khoản hoặc tài khoản ENU không hợp lệ";
+// Telos 权限
+"telos_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản Telos mới";
+"telos_account_permission_text_invalid"="Tài khoản hoặc tài khoản Telos không hợp lệ";
+
+// 修改钱包名称
+"wallet_nickname_update"="Sửa đổi tên ví";
+"wallet_nickname_too_short" = "Tên ví ít nhất 1 ký tự";
+"wallet_nickname_update_completed" = "Tên ví đã được sửa đổi thành công";
+
+// 修改钱包密码
+"wallet_password_update"="Sửa đổi mật khẩu ví";
+"wallet_password_update_completed" = "Mật khẩu đã được sửa đổi thành công.";
+
+"wallet_password_forget" = "Forget Wallet Password?";
+
+"wallet_password_old_password_title"="Mật khẩu ví cũ";
+"wallet_password_new_password_title"="Mật khẩu ví mới";
+"wallet_password_repeat_password_title"="Lặp lại mật khẩu ví mới";
+
+"wallet_password_old_password_placeholder"="Nhập mật khẩu ví cũ";
+"wallet_password_new_password_placeholder"="Ít nhất 8 ký tự (bao gồm chữ hoa và chữ thường và số) ";
+"wallet_password_new_password_placeholder_ont"="8 ~ 15 ký tự (bao gồm chữ hoa và chữ thường và số) ";
+"wallet_password_repeat_password_placeholder"="Nhập lại mật khẩu ví mới của bạn";
+
+// 备份私钥
+"wallet_backup_privatekey_completed" = "Hoàn thành sao lưu";
+"wallet_backup_privatekey_prompt"= "Sau đây là thông tin khóa riêng của ví, Hãy sao chép và xuất sang nơi an toàn để lưu trữ. Một khi đã mất, không thể lấy lại được。";
+
+// 备份 WIF
+"wallet_backup_wif_prompt"= "Sau đây là thông tin WIF của ví, Hãy sao chép và xuất sang nơi an toàn để lưu trữ. Một khi đã mất, không thể lấy lại được。";
+"wallet_backup_wif_completed" = "Hoàn thành sao lưu";
+
+
+// 备份助记词
+"wallet_backup_mnemonic_phrase_chinese"="Chinese";
+"wallet_backup_mnemonic_phrase_english"="English";
+"wallet_backup_mnemonic_phrase_write_down" = "Bản ghi nhớ đã được sao chép";
+"wallet_backup_mnemonic_phrase_write_down_prompt"= "Sau đây là bản ghi nhớ của ví, Hãy sao chép và xuất sang nơi an toàn để lưu trữ. Một khi đã mất, không thể lấy lại được。";
+"wallet_backup_mnemonic_phrase_completed" = "Mnemonic đã được sao lưu";
+"wallet_backup_mnemonic_phrase_prompt"= "Nhấp vào mnemonic để xác nhận rằng mnemonic được phiên âm chính xác và giữ đúng cách ghi nhớ. Một khi đã mất, không thể lấy lại được。";
+"wallet_backup_mnemonic_phrase_remove_prompt" = "Thứ tự ghi nhớ bạn đã sao lưu được xác minh chính xác và liệu các từ có được xóa khỏi lúa mì không？";
+// 钱包密码
+"input_trans_password_title" = "Nhập mật khẩu ví của bạn";
+// 转账菜单
+"transaction_menu_contacts"="Đi liên hệ";
+"transaction_menu_account_address"="Quảng cáo";
+"transaction_menu_eos_account"="Tài khoản EOS";
+"transaction_menu_eosforce_account"="Tài khoản EOS Force";
+"transaction_menu_bos_account"="Tài khoản BOS";
+"transaction_menu_enu_account"="Tài khoản ENU";
+"transaction_menu_telos_account"="Tài khoản Telos";
+"transaction_menu_codex_account"="Tài khoản Codex";
+"transaction_menu_scan_qrcode"="Quét mã QR";
+
+"recently_transfer"="Chuyển khoản gần đây";
+// 交易
+"transaction_title" = "%@ Chuyển khoản";
+"super_slow" = "Rất chậm";
+"slow" = "Chậm";
+"normal" = "Tiêu chuẩn";
+"fast" = "Nhanh";
+"super_fast" = "Cực nhanh";
+"transaction_account_invalid" = "Tài khoản giao dịch không hợp lệ";
+"transaction_nonce_invalid" = "Giao dịch nonce không hợp lệ";
+"transaction_tx_fee" = "Phí khai thác %@ ETH %@ ETH";
+"transaction_tx_fee_custom" = "Phí khai thác %@ %@";
+"transaction_tx_fee_market_custom" = "Phí khai thác %@ %@ ≈ %@ %@";
+"transaction_tx_fee_with_price" = "Phí khai thác %@ ETH ≈ %@ %@";
+"transaction_tx_fee_ong" = "Phí khai thác %@ ONG";
+"transaction_tx_fee_ong_with_price" = "Phí khai thác %@ ONG ≈ %@ %@";
+"transaction_account_balance" = "Tài sản hiện tại %@ %@";
+"transaction_tx_fee_esn" = "Phí khai thác% @ ESN";
+"transaction_tx_fee_with_price_esn" = "Phí khai thác% @ ESN ≈ %@ %@";
+"transaction_tx_fee_nas" = "Phí khai thác% @ NAS";
+"transaction_tx_fee_with_price_nas" = "Phí khai thác %@ NAS ≈ %@ %@";
+"transaction_tx_fee_zil" = "Phí khai thác% @ ZIL";
+"transaction_tx_fee_with_price_zil" = "Phí khai thác %@ ZIL ≈ %@ %@";
+
+"transaction_to_address_placeholder" = "Điền địa chỉ ví";
+"transaction_to_address_checking_security"="Kiểm tra bảo mật tài khoản";
+
+"transaction_to_value_placeholder" = "Điền vào số tiền chuyển";
+"transaction_to_balance_low" = "Số dư không đủ";
+"transaction_to_eth_balance_low" = "Số dư ETH không đủ";
+"transaction_to_ong_balance_low" = "Số dư ONG không đủ";
+"transaction_to_zil_balance_low" = "Số dư ZIL không đủ";
+"transaction_to_amount_low" = "Lượng nạp lại không thể thấp hơn%@";
+"transaction_to_amount_higher" = "Lượng nạp lại không thể cao hơn%@";
+"transaction_to_advance_setting" = "Advanced";
+"transaction_to_simple_setting" = "Basic";
+"transaction_to_advance_setting_gas_limit" = "Tùy chỉnh Gas Limit";
+"transaction_to_advance_setting_gas_price" = "Tùy chỉnh Gas Price";
+"transaction_to_advance_setting_hex_data" = "Dữ liệu không hợp lệ";
+
+"transaction_to_gas_limit_invalid" = "Gas Limit Không ít hơn %@";
+"transaction_to_gas_price_invalid" = "Gas Price Không ít hơn %@gwei";
+"transaction_to_hex_data_invalid" = "Dữ liệu không hợp lệ";
+"transaction_to_address_null" = "Vui lòng điền địa chỉ chuyển";
+"transaction_to_address_myself_invalid" = "Địa chỉ người nhận thanh toán không thể là của riêng bạn";
+"transaction_to_value_null" = "Vui lòng điền số tiền chuyển";
+"transaction_to_value_zero" = "Số tiền chuyển không thể là 0";
+"transaction_to_value_not_int" = "Số tiền chuyển phải là số nguyên";
+"transaction_to_value_point_count" = "Số lượng vị trí thập phân cho số tiền chuyển không thể vượt quá 8 chữ số";
+"transaction_to_value_point_args_count" = "Số lượng vị trí thập phân cho số tiền chuyển không thể vượt quá%d";
+"transaction_add_remark_hint" = "Thêm thông tin ghi chú";
+"transaction_nep5_no_gas" = "Bạn cần ít nhất 0.00000001 GAS";
+"transaction_ong_not_enough" = "Bạn cần ít nhất 0.01 ONG";
+
+"transaction_timeout_free" = "Miễn phí";
+"transaction_timeout_guarantee_contract" = "Chuyển hợp đồng bảo vệ ngoài giờ";
+"transaction_timeout_compensation" = "Không đóng gói trong hơn 1 giờ 5 MDS";
+
+"transaction_double_pay" = "Giao dịch tương tự đang được đóng gói, vui lòng chú ý đến rủi ro thanh toán gấp đôi！";
+"transaction_gas_fee_notice" = "Vui lòng tăng phí thợ mỏ lên giá trị tiêu chuẩn trở lên.";
+
+// 代币不支持交易
+"transaction_token_not_support" = "Mã thông báo không hỗ trợ giao dịch tại thời điểm này.";
+
+// BTC OP_RETURN
+"btc_add_op_return" = "Add OP_RETURN";
+"btc_input_hex_data" = "Enter Hex";
+"btc_text_ascii" = "Text ASCII";
+
+// 交易-EOS
+"eos_transaction_to_account_placeholder" = "Điền vào tài khoản bộ sưu tập";
+"eos_transaction_to_memo_placeholder" = "Thêm ghi chú";
+"eos_transaction_to_memo_length_warning" = "Tối đa 256 ký tự";
+"eos_transaction_to_memo_exchange_recharge_warning" = "Đổi tiền phải được điền vào các nhận xét";
+
+"eosforce_transaction_fee" = "Phí xử lý 0.01 %@";
+
+// 交易-TRX
+"trx_transaction_token_not_support" = "Mã thông báo không hỗ trợ giao dịch tại thời điểm này";
+
+// 交易 - BNB
+"bnb_transaction_fee" = "Phí xử lý %@ %@";
+"bnb_transaction_to_memo_length_warning" = "Tối đa 30 ký tự";
+
+// 确认转账信息
+"transaction_confirm_title"="Xác nhận thông tin chuyển khoản";
+"transaction_confirm_send"="Xác nhận chuyển tiền";
+// 交易完成
+"transaction_complete_status_title"="Tình trạng giao dịch";
+"transaction_complete_to_address_title"="Địa chỉ thu gom";
+"transaction_complete_time_title"="Thời gian bắt đầu";
+"transaction_complete_remark_title"="Nhận xét";
+"transaction_complete_remark_add"="Thêm thông tin ghi chú";
+
+//交易记录
+"recently_transaction_records"="Lịch sử giao dịch gần đây";
+"transfer"="Chuyển khoản";
+"claim_gas"="Claim GAS";
+"claim_ong"="Claim ONG";
+"claim_gas_to_address"="Chiết xuất GAS-%@";
+"claim_ong_to_address"="Chiết xuất ONG-%@";
+"transfer_to_address"="Chuyển khoản-%@";
+"receipt_to_address"="Biên lai-%@";
+"receipt"="Biên lai";
+"confirmed_count"="Xác nhận %d/%d";
+"confirm_ing"="Xác nhận";
+"wait_to_processing"="Chờ xác nhận...";
+"transfer_status_success"="Giao dịch thành công";
+"transfer_status_success_claim"="Claim thành công";
+"transfer_status_fail"="Giao dịch thất bại";
+"transfer_eth_amount"="%@%@ ETH";
+"transfer_fee_ong_amount"="%@ ONG";
+"transfer_esn_amount"="%@%@ ESN";
+"transfer_fee_trx_amount"="%@ TRX";
+"transfer_NAS_amount"="%@%@ NAS";
+
+"refund"="Mua lại";
+
+// 云端钱包
+"candy_cloud" = "Cloud";
+"candy_set_pin_code" = "Please set PIN code";
+"candy_record" = "Transactions";
+"candy_search_token" = "Search Token";
+"candy_hide_zero_token" = "Hide Small Balances";
+"candy_show_all_token" = "Show All";
+"candy_select_token" = "Select Tokens";
+"candy_transfer_title" = "%@ transfer";
+"candy_transfer_notice" = "⚠️ Please confirm the receive address before transfer, the asset transfer cannot be canceled once executed.";
+"candy_transfer_to_address_title" = "Receive Address";
+"candy_transfer_input_or_paste_address_placeholder" = "Please enter or paste address";
+"candy_transfer_select_wallet" = "Select Wallet";
+"candy_transfer_amount_title" = "Amount";
+"candy_transfer_amount_input_placeholder" = "Enter amount";
+"candy_transfer_balance_available" = "Available balance %@ %@";
+"candy_transfer_all" = "All";
+"candy_transfer" = "Transfer";
+"candy_receive_title" = "%@ Receive";
+"candy_receive_notice" = "⚠️ The address only receive %@ asset，please do not deposit other asset, otherwise the assets will not be recovered.";
+"candy_receive_address_title" = "Receive Address";
+"candy_receive_memo_title" = "Please enter the memo. Losing the code will result in asset lost.";
+"candy_receive_address_qrcode_title" = "Receive address QR code";
+"candy_withdraw_success" = "Withdrawn";
+"candy_withdraw_address_error" = "Invalid Address";
+"candy_record_all" = "All";
+"candy_record_out" = "Transfer";
+"candy_record_in" = "Receive";
+"candy_record_select_token" = "Filter";
+"candy_receive_not_support" = "Not open";
+"candy_token_all_name" = "All";
+
+// PIN 码（文案统一改成 "支付密码"）
+"pin_code" = "Payment Password";
+"pin_code_set" = "Set Payment Password";
+"pin_code_set_update" = "Update Payment Password";
+"pin_code_set_update_old" = "Enter old Payment Password";
+"pin_code_set_repeat" = "Repeat Payment Password";
+"pin_code_set_six_number" = "6 digits";
+"pin_code_set_success" = "Payment Password Set Successfully";
+"pin_code_update_success" = "Payment Password Updated";
+"withdraw_input_pin_code" = "Enter Payment Password";
+"error_pin_code_not_same" = "Payment Password Incorrect";
+
+
+// EOS 交易记录
+"eos_balance_liquid_title"="Mua lại";
+"eos_balance_staked_title"="Thế chấp";
+"eos_balance_refunding_title"="Mua lại";
+
+"eos_transfer_delay_set_placeholder"="Đặt giờ giao dịch";
+"eos_transfer_delay_time_title"="Thời gian trễ";
+"eos_transfer_delay_canel_title"="Hủy giao dịch bị trì hoãn";
+
+// EOS 原力交易记录
+"eosforce_balance_liquid_title"="Dòng chảy";
+"eosforce_balance_frozen_title"="Đóng băng";
+"eosforce_balance_refunding_title"="Mua lại";
+
+// other 交易记录
+"balance_free_title"="Balance";
+"balance_frozen_title"="Frozen";
+"balance_locked_title"="Locked";
+"balance_delegate_title"="Delegate";
+"balance_undelegate_title"="Undelegate";
+
+// TRX 交易记录
+"trx_balance_available_title"="Số dư khả dụng";
+"trx_balance_frozen_title"="Đóng băng";
+// 合约类型
+"trx_transaction_contract_type_Unknown" = "Không biết";
+"trx_transaction_contract_type_AccountCreateContract" = "Tạo một tài khoản";
+"trx_transaction_contract_type_TransferContract" = "Chuyển TRX";
+"trx_transaction_contract_type_TransferAssetContract" = "Chuyển Token";
+"trx_transaction_contract_type_VoteAssetContract" = "Khác";
+"trx_transaction_contract_type_VoteWitnessContract" = "Bình chọn";
+"trx_transaction_contract_type_WitnessCreateContract" = "Khác";
+"trx_transaction_contract_type_AssetIssueContract" = "Khác";
+"trx_transaction_contract_type_WitnessUpdateContract" = "Khác";
+"trx_transaction_contract_type_ParticipateAssetIssueContract" = "Khác";
+"trx_transaction_contract_type_AccountUpdateContract" = "Khác";
+"trx_transaction_contract_type_FreezeBalanceContract" = "Đóng băng";
+"trx_transaction_contract_type_UnfreezeBalanceContract" = "Làm tan băng";
+"trx_transaction_contract_type_WithdrawBalanceContract" = "Khác";
+"trx_transaction_contract_type_UnfreezeAssetContract" = "Khác";
+"trx_transaction_contract_type_UpdateAssetContract" = "Khác";
+"trx_transaction_contract_type_ProposalCreateContract" = "Khác";
+"trx_transaction_contract_type_ProposalApproveContract" = "Khác";
+"trx_transaction_contract_type_ProposalDeleteContract" = "Khác";
+"trx_transaction_contract_type_SetAccountIdContract" = "Khác";
+"trx_transaction_contract_type_CustomContract" = "Khác";
+"trx_transaction_contract_type_CreateSmartContract" = "Khác";
+"trx_transaction_contract_type_TriggerSmartContract" = "Giao dịch";
+"trx_transaction_contract_type_GetContract" = "Khác";
+"trx_transaction_contract_type_UpdateSettingContract" = "Khác";
+"trx_transaction_contract_type_ExchangeCreateContract" = "Khác";
+"trx_transaction_contract_type_ExchangeInjectContract" = "Khác";
+"trx_transaction_contract_type_ExchangeWithdrawContract" = "Khác";
+"trx_transaction_contract_type_ExchangeTransactionContract" = "Khác";
+"trx_transaction_contract_type_UpdateEnergyLimitContract" = "Khác";
+
+
+
+
+// 交易详情
+"transaction_detail_title"="Chi tiết giao dịch";
+"transaction_etherscan_query"="Điều tra giao dịch";
+"transaction_detail_status_title"="Tình trạng giao dịch";
+"transaction_detail_from_address_title"="Địa chỉ thanh toán";
+"transaction_detail_from_account_title"="Gửi tiền";
+"transaction_detail_to_address_title"="Địa chỉ thu gom";
+"transaction_detail_to_account_title" = "Biên lai";
+"transaction_detail_tx_fee_title"="Phí khai thác";
+"transaction_detail_tx_time_title"="Thời gian giao dịch";
+"transaction_detail_remark_title"="Nhận xét";
+"transaction_detail_tx_hash_title"="Số thứ tự giao dịch";
+"transaction_detail_block_height_title"="Chặn";
+"transaction_detail_query_title"="Truy cập trình duyệt blockchain để kiểm tra chi tiết giao dịch";
+"transaction_detail_query_title_neo"="Truy vấn chi tiết giao dịch NEOSCAN";
+"transaction_detail_query_title_ont"="Truy vấn chi tiết giao dịch ONT Explorer";
+"transaction_detail_query_title_eos"="Truy vấn chi tiết giao dịch của EOSpark";
+"transaction_detail_query_title_eosforce"="EOS Force Explorer";
+"transaction_detail_query_title_esn"="Truy vấn chi tiết giao dịch Ethersocial";
+"transaction_detail_query_title_trx"="Truy vấn chi tiết giao dịch TRONSCAN";
+
+"transaction_resend" = "Chuyển nhượng lại";
+"transaction_deay_payout" = "Hết giờ thanh toán";
+"transaction_deay_payout_claim_approved" = "Ứng dụng thanh toán thành công";
+
+//二维码 & 扫描二维码
+"account_address"="Địa chỉ ví";
+"account_address_qr_title"="Địa chỉ ví mã QR";
+"copy_account_address"="Sao chép địa chỉ";
+"copy_account_memo"="Copy";
+"scaning_qrcode" = "Quét mã QR";
+"qrcode" = "QR Code";
+"scan_failed" = "Quét mã QR không thành công";
+
+"eos_account_copy"="Sao chép tài khoản";
+"eos_account_qrcode"="Mã QR tài khoản EOS";
+
+"eosforce_account_copy"="Sao chép tài khoản";
+"eosforce_account_qrcode"="Mã QR của tài khoản EOS Force";
+"eosforce_qr_transfer_warining"="Lưu ý: EOS Force và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau";
+
+"bos_account_copy"="Sao chép tài khoản";
+"bos_account_qrcode"="Mã QR tài khoản BOS";
+"bos_qr_transfer_warining"="Lưu ý: BOS và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau";
+
+"enu_account_copy"="Sao chép tài khoản";
+"enu_account_qrcode"="Mã QR tài khoản ENU";
+"enu_qr_transfer_warining"="Lưu ý: ENU và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau";
+
+"telos_account_copy"="Sao chép tài khoản";
+"telos_account_qrcode"="Mã QR tài khoản Telos";
+"telos_qr_transfer_warining"="Lưu ý: Telos và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau.";
+
+"codex_account_copy"="Sao chép tài khoản";
+"codex_account_qrcode"="Mã QR tài khoản Codex";
+"codex_qr_transfer_warining"="Lưu ý: Codex và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau.";
+//资产
+"home_active_account_address" = "Địa chỉ：";
+"home_scan_qrcode" = "Quét";
+"home_account_qrcode" = "Tài khoản";
+"home_add_new_asset" = "Thêm tài sản";
+"home_total_asset_title" = "Tổng tài sản";
+"cny_symbol"="￥";
+"estimate"="≈";
+"asset_placeholder"="-";
+
+"map_your_eos_key"="一EOS khóa";
+
+"eos_map_status_start"="Lập bản đồ EOS";
+"eos_map_status_completed"="Hoàn thành bản đồ";
+"eos_map_status_restart"="Bản tóm tắt";
+"eos_map_status_no_wallet_prompt" = "Vui lòng tạo ví EOS mới trước。";
+"eos_map_status_end"="Hiện tại, EOS của ERC20 đang ở trạng thái đóng băng và không thể chuyển sang và ra";
+
+"neo_LRN_airdrop"="Không khí LRN";
+
+"claim_gas_count"="Claim %@ GAS";
+"claim_ong_count"="Claim %@ ONG";
+"submit_your_token" = "Gửi mới cho chúng tôi Token";
+"auto_search" = "Tự động tìm kiếm";
+// EOS Resource
+"eos_resource_eos_balance_low" = "%@ Số dư không đủ";
+"eos_resource_eos_balance"="Có sẵn %@ %@";
+
+// EOS RAM
+"eos_resource_ram"="Ram";
+"eos_resource_ram_used_title"="Đã sử dụng";
+"eos_resource_ram_quota_title"="Giới hạn";
+"eos_resource_ram_available_value"="Bộ nhớ khả dụng ≈ %@ %@";
+
+"eos_resource_ram_buy_tab"="Mua bộ nhớ";
+"eos_resource_ram_buy"="Mua";
+"eos_resource_ram_buy_placeholder"="Nhập số lượng cần mua";
+
+"eos_resource_ram_sell_tab"="Bán bộ nhớ";
+"eos_resource_ram_sell"="Bán";
+"eos_resource_ram_sell_placeholder"="Nhập số lượng bán";
+"eos_resource_ram_sell_kb_balance"="Có sẵn %@ KB";
+
+"eos_resource_ram_input_value_zero" = "Số lượng đầu vào không thể là 0";
+"eos_resource_ram_kb_balance_low" = "Cân bằng RAM không đủ";
+
+"eos_resource_ram_price_trend"="Xu hướng giá RAM";
+"eos_resource_ram_price_trade"="Giá RAM %@ %@/KB";
+
+// EOS NET & CPU
+"eos_resource_net"="Mạng";
+"eos_resource_net_stake"="Thế chấp mạng";
+"eos_resource_net_refund"="Đổi mạng";
+"eos_resource_net_used_title"="Đã sử dụng";
+"eos_resource_net_limit_title"="Giới hạn";
+"eos_resource_net_staked_total"="Mạng thế chấp %@";
+"eos_resource_net_self_staked"="Có sẵn %@";
+"eos_resource_net_stake_placeholder"="Nhập số tiền thế chấp được thêm vào";
+"eos_resource_net_refund_placeholder"="Nhập số lượng quy đổi";
+"eos_resource_net_refund_balance_low" = "Không thể vượt quá số lượng mạng được thế chấp";
+
+"eos_resource_cpu"="CPU";
+"eos_resource_cpu_stake"="Thế chấp CPU";
+"eos_resource_cpu_refund"="Mua lại CPU";
+"eos_resource_cpu_used_title"="Đã sử dụng";
+"eos_resource_cpu_limit_title"="Qua máy tính";
+"eos_resource_cpu_staked_total"="CPU thế chấp %@";
+"eos_resource_cpu_self_staked"="Có sẵn %@";
+"eos_resource_cpu_stake_placeholder"="Nhập số tiền thế chấp được thêm vào";
+"eos_resource_cpu_refund_placeholder"="Nhập số lượng quy đổi";
+"eos_resource_cpu_refund_balance_low" = "Không thể vượt quá số lượng CPU đang được thế chấp";
+
+"eos_resource_stake_tab"="Thế chấp";
+"eos_resource_refund_tab"="Mua lại";
+
+
+// TRX BP & CPU
+"trx_resource" = "Tài nguyên";
+"trx_resource_tab_freeze" = "Đóng băng";
+"trx_resource_tab_unfreeze" = "Làm tan băng";
+"trx_resource_freeze_placeholder" = "Nhập số lượng tài nguyên bị đóng băng";
+"trx_resource_available_balance" = "Số dư khả dụng %@ TRX";
+"trx_resource_freeze_notice" = "Đóng băng ít nhất 3 ngày";
+"trx_resource_unfreeze_net_notice" = "Thời gian đóng băng băng thông ít hơn 3 ngày và không thể tan băng";
+"trx_resource_unfreeze_cpu_notice" = "Thời gian đóng băng năng lượng ít hơn 3 ngày, không tan băng";
+
+
+"trx_resource_bp" = "Băng thông";
+"trx_resource_bp_used_title" = "Đã qua sử dụng";
+"trx_resource_bp_limit_title" = "Giới hạn";
+"trx_resource_bp_used_amount" = "%@ BP";
+"trx_resource_bp_limit_amount" = "%@ BP";
+"trx_resource_bp_freezeed_total" = "Băng thông tự do %@ TRX";
+
+
+"trx_resource_cpu" = "Năng lượng";
+"trx_resource_cpu_used_title" = "Đã sử dụng";
+"trx_resource_cpu_limit_title" = "Giới hạn";
+"trx_resource_cpu_used_amount" = "%@ Energy";
+"trx_resource_cpu_limit_amount" = "%@ Energy";
+"trx_resource_cpu_freezeed_total" = "Năng lượng đông lạnh %@ TRX";
+
+
+"trx_resource_error_freeze_amount" = "Nhập số lượng tài nguyên bị đóng băng";
+"trx_resource_error_freeze_amount_not_int" = "Số lượng tài nguyên bị đóng băng phải là một số nguyên";
+"trx_resource_error_freeze_amount_zero" = "Số lượng tài nguyên bị đóng băng là không chính xác";
+"trx_resource__error_trx_balance_low" = "Số dư TRX không đủ";
+
+
+"trx_api_response_code_Sigerror" = "Chữ ký lỗi";
+"trx_api_response_code_ContractValidateError" = "Lỗi hợp đồng";
+"trx_api_response_code_ContractExeError" = "Lỗi thực hiện hợp đồng";
+"trx_api_response_code_BandwithError" = "Băng thông không đủ";
+"trx_api_response_code_DupTransactionError" = "Lặp lại giao dịch";
+"trx_api_response_code_TaposError" = "TaposError";
+"trx_api_response_code_TooBigTransactionError" = "Cơ số giao dịch quá lớn";
+"trx_api_response_code_TransactionExpirationError" = "Giao dịch đã hết hạn";
+"trx_api_response_code_ServerBusy" = "Máy chủ bận";
+"trx_api_response_code_OtherError" = "Các lỗi khác";
+
+
+// TabBar
+"wallet"="Ví";
+"exchange"="Giao dịch";
+"dapps" = " DApps ";
+"browser"="Browser";
+"news" = "Thông tin";
+"mine"="Tôi";
+
+// 保障详情
+"insurance_join_wallet_type_invalid" = "Ví ETH thông thường không thể tham gia hợp đồng, vui lòng tạo ví an toàn lúa mì。";
+
+// 加入保障
+"insurance_join_title" = "Tham gia bảo vệ";
+"insurance_transaction_value_placeholder" = "Điền vào số tiền nạp lại";
+
+// 我
+"mine_login_hint"="Đăng nhập";
+"mine_medishares_account"="Tài khoản Math Wallet";
+"mine_medishares_transcations"="Giao dịch";
+"mine_medishares_contacts"="Địa chỉ liên hệ";
+"mine_medishares_candy"="Ví điện toán đám mây";
+"mine_medishares_wechat_group"="Tham gia nhóm WeChat chính thức";
+"mine_medishares_recommend"="Lời mời";
+"mine_medishares_recommend_subtitle"="Xem phần thưởng lời mời";
+"mine_medishares_suggestion"="Phản hồi";
+"mine_medishares_guild"="Hội";
+"mine_medishares_about"="Giới thiệu";
+"mine_medishares_setting"="Cài đặt";
+
+// 注册或登录
+"login"="Đăng nhập";
+"register"="Đăng ký";
+"email_format_error"="Định dạng hộp thư không chính xác";
+
+"verify_code_unreceived_email"="Không nhận được thư? Vui lòng kiểm tra thùng rác thư。\n";
+"verify_code_unreceived"="Không nhận được？";
+"verify_code_send_again"="Gửi lại mã xác minh";
+"verify_code_send_or"=" Hoặc ";
+"verify_code_send_voice_code"="Mã xác minh giọng nói";
+"verify_code_send_again_timeout"="%ds Có thể được cấp lại";
+
+"mobile_format_error"="Lỗi định dạng điện thoại";
+
+"register_acccount_title"="Tài khoản lúa mì đã đăng ký";
+"register_acccount_with_email"="Đăng ký tài khoản qua email";
+"register_acccount_with_mobile"="Đăng ký tài khoản với số điện thoại di động của bạn";
+"register_account_switch_email"="Hoặc đăng ký theo số điện thoại";
+"register_account_switch_mobile"="Hoặc đăng ký qua email";
+
+"login_acccount_title"="Đăng nhập vào tài khoản lúa mì";
+"login_acccount_with_email"="Đăng nhập tài khoản qua email";
+"login_acccount_with_mobile"="Đăng nhập vào tài khoản của bạn bằng số điện thoại";
+"login_account_switch_email"="Hoặc đăng nhập bằng số điện thoại";
+"login_account_switch_mobile"="Hoặc đăng nhập qua email";
+
+"login_success"="Đăng nhập thành công";
+
+"human_verify_image_code_placeholder"="Điền vào mã xác minh đồ họa";
+
+// 选择国家和地区
+"country_code_title"="Chọn quốc gia và khu vực";
+
+// MediShares账户-实名
+"medishares_account_page_security_title"="An toàn";
+"medishares_account_page_security_subtitle"="MediShares bảo mật thông tin xác thực tên thật của bạn";
+
+"medishares_account_page_insurance_title"="Bảo vệ";
+"medishares_account_page_insurance_subtitle"="Hoàn thành chứng nhận tên thật là điều kiện tiên quyết để tham gia bảo vệ hợp đồng thông minh";
+
+"medishares_account_page_convenient_title"="Thuận tiện và nhanh chóng";
+"medishares_account_page_convenient_subtitle"="Chứng nhận độc quyền logo, giao dịch chuyển tiền thuận tiện và nhanh chóng";
+
+"bind_kyc_status_default"="Chứng nhận tên thật";
+"bind_kyc_status_process"="Thông tin chứng nhận tên thật của bạn đã được gửi và chúng tôi sẽ xem xét nó sớm nhất có thể và gửi lại cho bạn.。";
+"bind_kyc_status_success"="Chứng nhận tên thật đã được hoàn thành (%@)";
+"bind_kyc_status_fail"="Kiểm toán thất bại, xác thực lại tên";
+
+// MediShares账户-信息
+"user_detail_title"="Thông tin tài khoản";
+"user_medishares_account_title" = "Tài khoản Math Wallet";
+"user_kyc_title" = "Chứng nhận tên thật";
+"user_kyc_status_default" = "Verify Now";
+"user_kyc_status_process" = "In Process";
+"user_kyc_status_success" = "Verified";
+"user_kyc_status_fail" = "Verification Failed";
+"user_payment_password_title" = "Payment Password";
+"user_google_verify_title" = "Google Verification";
+"user_login_log_title" = "Login Record";
+"user_logout_title" = "Logout";
+
+"user_photo_title"="Hình đại diện";
+"user_email_title"="Hộp thư";
+"user_mobile_title"="Số điện thoại di động";
+"user_wallet_address_title"="Bạn bè có thể nhìn thấy ví";
+"user_name_title"="Tên";
+"user_credential_type_title"="Loại tài liệu";
+"user_credential_number_title"="Số id tài liệu";
+
+"user_add_email_address"="Thêm một hộp thư";
+"user_add_mobile_number"="Thêm số điện thoại";
+"user_add_wallet_address"="Liên kết bạn bè với ví tiền hiển thị";
+
+"user_idcard"="Chứng minh nhân dân";
+"user_passport"="Hộ chiếu";
+"user_driver_license"="Bằng lái xe";
+
+"user_logout"="Thoát tài khoản";
+"user_logout_prompt"="Bạn có chắc chắn muốn thoát khỏi tài khoản hiện tại của bạn？";
+
+"user_update_success"="Đã sửa đổi thành công";
+
+// MediShares账户-添加邮箱或更改邮箱
+"user_update_email_address"="Thay đổi hộp thư";
+"user_update_email_checked"="Đã xác minh";
+
+"user_add_email_subtitle"="Sau khi bạn thêm hộp thư, bạn cũng có thể đăng nhập bằng hộp thư của mình";
+"user_update_email_subtitle"="Sau khi cập nhật hộp thư, đăng nhập và sử dụng hộp thư mới.";
+
+"user_update_email_verify"="Xác minh hộp thư";
+"user_update_email_verify_placeholder"="Một tin nhắn đã gửi cho bạn mã xác minh gồm 6 chữ số";
+"user_update_email_verify_subtitle"="Have sent 6 character verification code to your new email.";
+
+"user_update_email_placeholder"="Điền địa chỉ email của bạn";
+"user_update_email_code_placeholder"="Điền vào mã xác minh gồm 6 chữ số";
+// MediShares账户-添加手机号或更改手机号
+"user_update_mobile_number"="Đổi số điện thoại";
+"user_update_mobile_checked"="Đã xác minh";
+
+"user_add_mobile_subtitle"="Sau khi thêm số điện thoại di động, bạn cũng có thể đăng nhập bằng số điện thoại di động của mình";
+"user_update_mobile_subtitle"="Sau khi thay đổi số điện thoại, đăng nhập và sử dụng số điện thoại mới";
+
+"user_update_mobile_sms_verify"="Xác minh tin nhắn SMS";
+"user_update_mobile_sms_placeholder"="SMS với mã xác minh gồm 6 chữ số được gửi cho bạn";
+
+"user_update_mobile_placeholder"="Điền số điện thoại của bạn";
+"user_update_mobile_code_placeholder"="Điền vào mã xác minh gồm 6 chữ số";
+// MediShares账户-绑定钱包地址
+"user_update_wallet_address"="Đổi ví";
+"user_bind_wallet_address"="Ràng buộc ngay lập tức";
+"user_unbind_wallet_address"="Không ràng buộc";
+"user_unbind_wallet_address_success"="Đã gỡ địa chỉ ví thành công";
+
+"bind_account_page_title"="Địa chỉ ví ràng buộc";
+"bind_account_page_subtitle"="Chọn ràng buộc địa chỉ ví%@ ví";
+"bind_account_confirm"="Xác nhận ràng buộc";
+"bind_account_complete_title"="Hoàn thành ràng buộc";
+"bind_account_complete_message"="Tài khoản lúa mì của bạn đã được liên kết thành công với địa chỉ ví";
+// MediShares账户-实名认证
+"bind_kyc_page_title"="Xác thực";
+"bind_kyc_page_subtitle"="Điền thông tin bên dưới để hoàn thành xác thực";
+"bind_kyc_submit"="Gửi đánh giá";
+"bind_kyc_name_placeholder"="Điền vào tên thật của bạn";
+"bind_kyc_identity_type_placeholder"="Loại tài liệu";
+"bind_kyc_identity_placeholder"="Vui lòng điền số ID";
+"bind_kyc_identity_photo_prompt"="Vui lòng chụp ảnh mặt trước của thẻ ID (hoặc trang ảnh hộ chiếu) ";
+"bind_kyc_complete_title"="Gửi hoàn thành";
+"bind_kyc_complete_message"="Thông tin nhận dạng của bạn đã được gửi, chúng tôi sẽ xem xét và trả lại kết quả sớm nhất có thể, hãy kiên nhẫn。";
+
+// 联系人列表
+"someone_you_might_know"="Liên hệ có thể";
+"contact_added_success"="Thêm liên lạc thành công";
+"manual_add_contact_title"="Thêm thủ công";
+"qrcode_add_contact_title"="Quét mã QR để thêm";
+
+"contact_name_title"="Tên";
+"contact_name_placeholder"="Nhập tên liên lạc";
+
+"contact_account_address_title"="Tài khoản ETH";
+"contact_account_address_placeholder"="Nhập hoặc dán tài khoản ETH";
+
+"contact_account_eos_address_title"="Tài khoản EOS";
+"contact_account_eos_address_placeholder"="Nhập hoặc dán tài khoản EOS";
+
+"contact_account_eosforce_address_title"="Tài khoản EOS Force";
+"contact_account_eosforce_address_placeholder"="Nhập hoặc dán tài khoản EOS Force";
+
+"contact_account_neo_address_title"="Địa chỉ ví NEO";
+"contact_account_neo_address_placeholder"="Nhập hoặc dán địa chỉ ví NEO";
+
+"contact_account_ont_address_title"="Địa chỉ ví ONT";
+"contact_account_ont_address_placeholder"="Nhập hoặc dán địa chỉ ví ONT";
+
+"contact_account_esn_address_title"="Địa chỉ ví ESN";
+"contact_account_esn_address_placeholder"="Nhập hoặc dán địa chỉ ví ESN";
+
+"contact_account_btc_address_title"="BTC Địa chỉ ví";
+"contact_account_btc_address_placeholder"="Nhập hoặc dán địa chỉ ví BTC";
+
+"contact_account_trx_address_title"="Địa chỉ ví TRX";
+"contact_account_trx_address_placeholder"="Nhập hoặc dán địa chỉ ví TRX";
+
+"contact_account_nas_address_title"="Địa chỉ ví NAS";
+"contact_account_nas_address_placeholder"="Nhập hoặc dán địa chỉ ví NAS";
+
+// 添加联系人
+"contact_add_title"="Thêm một liên lạc";
+
+"contact_error_exists_address"="Địa chỉ ví đã tồn tại";
+"contact_error_invalid_address"="Địa chỉ ví không hợp lệ";
+"contact_error_invalid_eth_address"="Địa chỉ ví ETH không hợp lệ";
+"contact_error_invalid_neo_address"="Địa chỉ ví NEO không hợp lệ";
+"contact_error_invalid_ont_address"="Địa chỉ ví ONT không hợp lệ";
+"contact_error_invalid_eos_address"="Tài khoản EOS không hợp lệ";
+"contact_error_invalid_eosforce_address"="Tài khoản EOS Force không hợp lệ";
+"contact_error_invalid_esn_address" = "Địa chỉ ví ESN không hợp lệ";
+"contact_error_invalid_btc_address"="Địa chỉ ví BTC không hợp lệ";
+"contact_error_invalid_trx_address"="Địa chỉ ví TRX không hợp lệ";
+"contact_error_invalid_nas_address"="Địa chỉ ví NAS không hợp lệ";
+
+// 联系人信息
+"contact_detail_title"="Thông tin liên lạc";
+// 编辑联系人
+"contact_edit_title"="Chỉnh sửa liên lạc";
+"contact_edit_remove"="Xóa liên lạc";
+"contact_edit_remove_waring_prompt"="Bạn có chắc chắn muốn xóa liên hệ hiện tại của bạn？";
+
+// 关于
+"about_version_code"="Phiên bản %@";
+"about_version_description"="Wheat Wallet là một ví chuỗi chéo mạnh mẽ và an toàn, hỗ trợ EOS, BTC, ETH và các hệ sinh thái khác, hỗ trợ các giao dịch chuỗi chéo phi tập trung và xây dựng hệ sinh thái app đa chuỗi。";
+
+"website_title"="Website:";
+
+"website_content"="http://www.mathwallet.org/en";
+"app_release_history"="View the update history";
+
+"about_website_title" = "Visit Website";
+"about_version_release_title" = "Change Log";
+"about_version_update_title" = "Update";
+
+// 关注微信公众号
+"medishares_wechat_focus"="Chúng tôi chân thành mời bạn tham gia trò chuyện nhóm WeChat chính thức của chúng tôi, trước tiên hãy chú ý đến tín hiệu vi mô：";
+"medishares_wechat_public"="mathwallet666";
+
+"medishares_telegram_focus"="Trân trọng mời bạn tham gia nhóm Telegram chính thức của chúng tôi và tham gia ngay bây giờ：";
+"medishares_telegram_public"="https://t.me/mathwallet";
+
+"medishares_kakao_focus"="Trân trọng mời bạn tham gia nhóm chính thức KaKao của chúng tôi và tham gia ngay bây giờ：";
+"medishares_kakao_public"="https://open.kakao.com/o/g5TSeeM";
+
+// 设置（语言、货币单位）
+"medishares_setting_title"="Cài đặt";
+"medishares_setting_unlock_faceid"="Mở khóa Face ID";
+"medishares_setting_unlock_touchid"="Mở khóa vân tay";
+"medishares_setting_unlock_password"="Mở khóa mật khẩu";
+
+"medishares_setting_payment_face_id"="Thanh toán bằng ID mặt";
+"medishares_setting_payment_touch_id"="Thanh toán vân tay";
+"medishares_setting_payment_face_id_prompt"="Sau khi mở, bạn có thể nhanh chóng hoàn tất thanh toán bằng cách xác minh khuôn mặt trước khi thoát khỏi ứng dụng。";
+"medishares_setting_payment_touch_id_prompt"="Sau khi mở, bạn có thể nhanh chóng hoàn tất thanh toán bằng cách xác minh dấu vân tay trước khi thoát khỏi ứng dụng。";
+
+"medishares_setting_language"="Ngôn ngữ";
+"medishares_setting_language_provider"="Thanks to community volunteer\'s help and support for Math Wallet translation.\nRussian translator: Alexey Koroln\nVietnamese translator: Nguyễn Văn Đắc";
+"medishares_setting_currency"="Đơn vị tiền tệ";
+"medishares_setting_section_legal_tender"="Tiền pháp định";
+"medishares_setting_section_virtual_currency"="Tiền Điện tử";
+
+"medishares_setting_notification"="Transaction Notification";
+
+"network_node_setting"="Cài đặt nút";
+"network_chain_node_setting"="Cài đặt nút %@";
+
+"network_node_prodution"="prodution";
+"network_node_prodution_full_node"="Full Node";
+"network_node_prodution_solidity_node"="Solidity Node";
+
+"network_node_custom_title"="Nút %@ tùy chỉnh";
+
+"network_node_mainnet"="• Mạng hiện tại là $mainnet";
+"network_node_testnet"="• Mạng hiện tại là $testnet";
+"network_node_add_title"="Thêm một nút tùy chỉnh";
+"network_node_url_placeholder"="Vui lòng điền vào URL hợp lệ";
+
+// 意见反馈
+"medishares_suggestion_title"="Phản hồi";
+"medishares_suggestion_text_title"="Ý kiến của bạn";
+"medishares_suggestion_text_placeholder"="Điền vào ý kiến của bạn và cảm ơn bạn cho ý kiến có giá trị của bạn";
+"medishares_suggestion_email_title"="Hộp thư của bạn";
+"medishares_suggestion_email_placeholder"="Điền vào email của bạn để liên lạc với bạn";
+"medishares_suggestion_submit_success"="Gửi thành công";
+
+// Unlock
+"unlock_touch_id"="Mở khóa vân tay";
+"unlock_face_id"="Mở khóa Face ID";
+"unlock_device_password"="Password";
+"unlock_confirm"="Xác nhận";
+"unlock_touch_id_prompt"="Nhấn vào đây để mở khóa bằng dấu vân tay của bạn";
+"unlock_face_id_prompt"="Nhấn vào đây để sử dụng khuôn mặt để mở khóa";
+"unlock_password_input_placeholder"="Nhập mật khẩu ví để mở khóa";
+"unlock_touch_id_enable"="Sử dụng dấu vân tay của bạn để mở khóa";
+"unlock_face_id_enable"="Sử dụng khuôn mặt để mở khóa";
+"unlock_password_enable"="Sử dụng mật khẩu để mở khóa";
+
+// 领糖果
+"candy_token_total_amount"="Kẹo tích lũy";
+"candy_token_available_amount"="Kẹo thanh toán";
+"candy_activity_task"="Nhiệm vụ kẹo";
+
+"candy_collect_record"="Hồ sơ nạp tiền";
+"candy_collect"="Nhận";
+"candy_collected"="Đã nhận";
+"candy_collect_unenable"="Không có sẵn";
+
+"candy_record_state_checking"="Đang chờ xem xét";
+"candy_record_state_checked_success"="Đã phê duyệt";
+"candy_record_state_checked_fail"="Việc kiểm toán thất bại";
+"candy_record_state_release"="Ban hành";
+
+"candy_withdraw"="Rút tiền";
+"candy_withdraw_no_wallet_warning"="Không có%@ví, vui lòng tạo trước！";
+"candy_withdraw_records"="Hồ sơ rút tiền";
+"candy_withdraw_title"="Kẹo của tôi";
+"candy_withdraw_amount_placeholder"="Điền vào lượng tiền mặt";
+"candy_withdraw_minimum_amount"="Rút tiền tối thiểu %@ %@";
+"candy_withdraw_maximum_amount"="Rút tối đa %@ %@";
+"candy_withdraw_all"="Rút tiền đầy đủ";
+"candy_withdraw_fee"="Phí xử lý";
+"candy_withdraw_receive"="Đến thực tế";
+
+"candy_withdraw_cell_title"="Rút kẹo";
+"candy_withdraw_notice" = "Do sự tắc nghẽn gần đây của mạng Ethereum, để tiết kiệm chi phí phát sóng dự án, thời gian đến MDS của bạn có thể chậm hơn, nhưng hãy yên tâm rằng MDS của bạn có thể bị trễ, nhưng sẽ không bao giờ vắng mặt, cảm ơn bạn đã hiểu và hỗ trợ！";
+
+// 交易记录
+"transaction_records_title"="Biên bản giao dịch";
+"currency_type"="Tiền tệ";
+"unlimited"="Không giới hạn";
+
+// DApps
+"dapps_rank_list" = "Bảng xếp hạng";
+"dapps_item_recently_title" = "Được sử dụng gần đây";
+"dapps_item_new_online_title" = "Khu vực sản phẩm mới";
+"dapps_item_recommend_title" = "Khu vực cửa hàng";
+"dapps_search_hot_title" = "Tìm kiếm phổ biến";
+"dapps_search_placeholder" = "Search or Enter a url";
+"dapps_search_open_link_title" = "open the link:";
+"dapps_search_open_link_notice" = "Please switch to %@ wallet to open the Website";
+
+"web3_sign_message" = "Tin nhắn đã ký";
+"web3_sign_personal_message" = "Tin văn hóa ký";
+"web3_sign_message_warning" = "Nhắc nhở: Vui lòng xác nhận xem trang web hiện tại có an toàn và đáng tin cậy không！";
+
+"dapps_transfer_fee" = "Phí xử lý";
+"dapps_transfer_to" = "Nhận tài khoản";
+"dapps_transfer_memo" = "Nhận xét";
+"dapps_transfer_desc" = "Mô tả";
+"dapps_transfer_warning" = "You are making a large amount transfer, please be cautious.";
+"dapps_upateauth_warning" = "You are updating the current account permissions，please be cautious.";
+"dapps_contract" = "Hợp đồng";
+"dapps_contract_function" = "Hoạt động";
+"dapps_contract_args" = "Thông số";
+"dapps_contract_args_detail" = "Xem chi tiết";
+"dapps_auto_payment_confirm_propmpt" = "Không có xác nhận bật lên trước khi đóng Website";
+
+"dapps_about_developer" = "Nhà phát triển";
+"dapps_about_blockchain" = "Chuỗi chính";
+"dapps_about_category" = "Thể loại";
+"dapps_about_share" = "Chia sẻ với bạn bè";
+
+"dapps_open_risk_disclaimer" = "Bạn sắp nhảy sang trang Website của bên thứ ba. Việc bạn sử dụng Website của bên thứ ba sẽ phải tuân theo Thỏa thuận người dùng và Chính sách bảo mật của Website bên thứ ba, sẽ chịu trách nhiệm trực tiếp và riêng với bạn bởi Website của bên thứ ba。";
+"dapps_risk_disclaimer" = "Việc bạn sử dụng Website của bên thứ ba sẽ tuân theo Thỏa thuận người dùng và Chính sách quyền riêng tư của Website của bên thứ ba, sẽ chịu trách nhiệm trực tiếp và riêng biệt với Website của bên thứ ba。";
+"dapps_upgrade_disclaimer" = "Phiên bản ví của bạn quá thấp và ứng dụng có thể không hoạt động chính xác. Chúng tôi khuyên bạn nên nâng cấp ví của mình lên phiên bản mới nhất càng sớm càng tốt. Cảm ơn bạn rất nhiều！";
+
+"dapps_rank_24h_ua" = "Số người dùng 24H";
+"dapps_rank_24h_tx_amount" = "Giao dịch 24 giờ";
+"dapps_rank_24h_tx_volume" = "Số tiền giao dịch 24H";
+"dapps_rank_24h_tx_volume_full" = "Số tiền giao dịch 24H（%@）";
+"dapps_rank_data_source" = "Nguồn dữ liệu：%@";
+"dapps_rank_data_source_empty" = "Nguồn dữ liệu: không có";
+
+// ONT DAPP
+"dapps_error_ont_data_invalid" = "Dữ liệu bất thường";
+"dapps_error_ont_login_way" = "Phương thức đăng nhập không được hỗ trợ";
+"dapps_error_ont_transaction_build_failed" = "Xây dựng giao dịch thất bại";
+
+
+
+// 活体检测
+"LivenessRemindPromptMessage"="Mô-đun nhận dạng khuôn mặt sẽ được gọi để bảo vệ an ninh chuyển khoản của bạn";
+"LivenessRemindCodePitchOutofDownRange"="Nên ngửa nhẹ";
+"LivenessRemindCodePitchOutofUpRange"="Nên cúi đầu một chút";
+"LivenessRemindCodeYawOutofLeftRange"="Nên quay nhẹ sang phải";
+"LivenessRemindCodeYawOutofRightRange"="Nên quay nhẹ sang trái";
+"LivenessRemindCodePoorIllumination"="Lại sáng";
+"LivenessRemindCodeNoFaceDetected"="Di chuyển khuôn mặt vào hộp";
+"LivenessRemindCodeImageBlured"="Hãy ở yên";
+"LivenessRemindCodeOcclusionLeftEye"="Mắt trái bị khuất";
+"LivenessRemindCodeOcclusionRightEye"="Mắt phải bị che khuất";
+"LivenessRemindCodeOcclusionNose"="Mũi bị khuất";
+"LivenessRemindCodeOcclusionMouth"="Miệng bị chặn";
+"LivenessRemindCodeOcclusionLeftContour"="Má trái khuất";
+"LivenessRemindCodeOcclusionRightContour"="Má bên phải bị che khuất";
+"LivenessRemindCodeOcclusionRightContour"="cằm bị khuất";
+"LivenessRemindCodeTooClose"="Lâu hơn một chút";
+"LivenessRemindCodeTooFar"="Nhìn kỹ vào điện thoại";
+"LivenessRemindCodeBeyondPreviewFrame"="Di chuyển khuôn mặt vào hộp";
+"LivenessRemindCodeLiveEye"="Chớp mắt";
+"LivenessRemindCodeLiveMouth"="Mở miệng";
+"LivenessRemindCodeLiveYawRight"="Quay đầu từ từ sang phải";
+"LivenessRemindCodeLiveYawLeft"="Quay đầu từ từ sang trái";
+"LivenessRemindCodeLivePitchUp"="Từ từ nhìn lên";
+"LivenessRemindCodeLivePitchDown"="Từ từ cúi đầu";
+"LivenessRemindCodeLiveYaw"="Lắc đầu";
+"LivenessRemindCodeFinished"="Rất tốt";
+"LivenessRemindCodeError"="Xác minh thất bại";
+
+
+//持仓
+"position" = "Vị trí";
+"Position_total_assets" = "Tất cả tài sản";
+"Position_medishares_wallet" = "Ví lúa mì";
+"Position_rank_list" = "Bảng xếp hạng";
+"Position_holding_assets" = "Tài sản định vị";
+"Position_one_day" = "1 ngày";
+"Position_one_week" = "1 tuần";
+"Position_one_month" = "1 tháng";
+"Position_asset_persent" = "Tài sản · Tỷ lệ vị trí";
+"Position_amount_price" = "Số lượng · giá trị";
+"Posititon_rankList_day" = "Danh sách hàng ngày";
+"Position_rankList_week" = "Zhoubang";
+"Position_rankList_month" = "Danh sách mặt trăng";
+"Position_rankList_headerSlogan" = "Danh sách tăng vị trí";
+"Position_rankList_update" = "Cập nhật";
+"Position_rankList_rankNick" = "Xếp hạng · Biệt hiệu";
+"Position_rankList_growMoney" = "Lượng tăng trưởng";
+"Position_rankList_growPersent" = "Tỷ lệ phần trăm tăng";
+"Position_rankList_joinRace" = "Tham gia cuộc thi";
+"Position_ranklist_anonymousId" = "Người dùng ẩn danh";
+"Position_joinRace_nickName" = "Biệt danh";
+"Position_joinRace_SetNickName" = "Đặt tên hiệu của bạn";
+"Position_joinRace_anonymous" = "Khuyết danh";
+"Position_joinRace_RaceManifesto" = "Gợi ý cho vị trí của mọi người";
+"Position_joinRace_setRaceManifesto" = "Gợi ý cho vị trí của mọi người";
+"Position_joinRace_joinRace" = "Tham gia cuộc thi";
+"Position_joinRace_updatePosition" = "Cập nhật vị trí";
+"Position_joinRace_quitRace" = "Thoát khỏi cuộc thi";
+"Position_position_detail" = "Chi tiết vị trí";
+"Position_bind_exchangeId" = "Tài khoản trao đổi ràng buộc";
+"Position_exchange_hasBind" = "Trao đổi giới hạn";
+"Position_exchange_support" = "Trao đổi được hỗ trợ";
+"Position_exchange_unbind" = "Không ràng buộc";
+"Position_exchange_bind" = "Ràng buộc ngay lập tức";
+"Position_Amount_bind" = "Ràng buộc";
+"Position_Amount_amount" = "Tài khoản";
+"Position_Amount_Slogan" = "Nhập thông tin ủy quyền API cho tài khoản trao đổi";
+"Position_Amount_Description" = "• Thông tin như khóa API sẽ chỉ được lưu trữ ở dạng được mã hóa trên thiết bị của bạn và sẽ không được gửi đến bất kỳ thiết bị hoặc dịch vụ nền tảng của bên thứ ba nào; \n• Vui lòng giữ khóa API của bạn và các thông tin khác ở nơi an toàn và không được Người tiết lộ thông tin này; \n• Chúng tôi không chịu trách nhiệm cho bất kỳ lý do cá nhân nào về việc mất thông tin như khóa API hoặc sử dụng sai;";
+"Position_Amount_tech" = "• Kiểm tra Hướng dẫn chính về API trao đổi";
+"Position_share_description" = "mathwallet.org";
+"Position_position_record" = "Chuyển hồ sơ";
+"Position_header_update" = "%@Cập nhật thông tin vị trí";
+"Position_update_failed" = "%@Thu thập thông tin vị trí không thành công";
+"Position_exit_succeed" = "Thoát thành công";
+"Position_unbind_alert" = "Sau khi hủy liên kết, dữ liệu vị trí sẽ bị xóa khỏi thiết bị này. Lần tới khi bạn muốn truy cập thông tin tài khoản, bạn cần liên kết lại。";
+"Position_record_buyRecord" = "Mua";
+"Position_record_sellRecord" = "Bán";
+"Position_bind_success" = "Liên kết thành công";
+"Position_exchange" = "Trao đổi";
+"Position_updateRank_success" = "Cập nhật thành công";
+"Position_updateRank_failed" = "Cập nhật thất bại";
+
+
+// ONTJS Error
+"ONTJSErrorCodeUnknow" = "Lỗi không xác định";
+"ONTJSErrorCodeSuccess" = "Thành công";
+"ONTJSErrorCodeSessionExpired" = "Phiên không hợp lệ hoặc hết hạn";
+"ONTJSErrorCodeServiceCeiling" = "Đạt đến giới hạn dịch vụ";
+"ONTJSErrorCodeIllegalDataFormat" = "Định dạng dữ liệu bất hợp pháp";
+"ONTJSErrorCodeInvalidVersion" = "Phiên bản bất hợp pháp";
+"ONTJSErrorCodeInvalidMethod" = "Phương pháp không hợp lệ";
+"ONTJSErrorCodeInvalidParams" = "Tham số không hợp lệ";
+"ONTJSErrorCodeInvalidTransaction" = "Giao dịch không hợp lệ";
+"ONTJSErrorCodeInvalidAsset" = "Tài sản không hợp lệ";
+"ONTJSErrorCodeInvalidBlock" = "Khối không hợp lệ";
+"ONTJSErrorCodeUnknowTransaction" = "Không thể tìm thấy giao dịch";
+"ONTJSErrorCodeUnknowAsset" = "Không tìm thấy tài sản";
+"ONTJSErrorCodeUnknowBlock" = "Không tìm thấy khối";
+"ONTJSErrorCodeUnknowContract" = "Không thể tìm thấy hợp đồng";
+"ONTJSErrorCodeInternalError" = "Lỗi nội bộ";
+"ONTJSErrorCodeSmartCodeError" = "Lỗi hợp đồng thông minh";
+"ONTJSErrorCodeUnknowOntID" = "ID ONT không tồn tại";
+"ONTJSErrorCodeNetworkError" = "Lỗi mạng";
+"ONTJSErrorCodeDecryptoError" = "Lỗi giải mã";
+"ONTJSErrorCodePreExecError" = "Lỗi giao dịch trước khi thực hiện";
+
+
+// ONT 映射
+"map" = "Lập bản đồ";
+"ont_map" = "Ánh xạ một cú nhấp chuột";
+"ont_map_receiver_name" = "Ánh xạ ONT";
+"ont_map_transaction_title" = "Ánh xạ ONT";
+"ont_map_transfer_placeholder" = "Điền vào số lượng bản đồ";
+"ont_map_transfer_to_address" = "Lập bản đồ-%@";
+"ont_map_notice" = "• Mạng chính của bản thể luận đã được đưa ra vào ngày 30 tháng 6 năm 2018. Bản đồ bắt đầu vào ngày 9 tháng 7 năm 2018 (UTC) và sẽ kết thúc vào ngày 1 tháng 10 năm 2018 (UTC). \n• Vì độ chính xác đo lường của ONT của mạng chính là một số nguyên và không có vị trí thập phân, chỉ có thể chuyển đổi phần nguyên khi ONT NEP-5 được ánh xạ. \n• Trước tiên, bạn có thể thực hiện ánh xạ ONT nhỏ, sau đó xác nhận lỗi, sau đó thực hiện ánh xạ ONT lớn. \n• Vì NEO và ONT sử dụng cùng một bộ hệ thống cặp khóa chung và khóa riêng, địa chỉ ví NEO, khóa riêng và WIF của bạn là địa chỉ ví ONT tương ứng, khóa riêng và WIF. Vui lòng giữ ví NEO của bạn và khóa ONT riêng tư và WIF。";
+
+
+//快讯
+"math_wallet_news" = "Math Wallet";
+"news_share_title" = "Đăng ký và gửi 10 MDS, mời gửi 10 MDS";
+"news_share_content" = "mathwallet.org";
+"news_search_history" = "Lịch sử tìm kiếm";
+"news_search_hot" = "Tìm kiếm phổ biến";
+"news_search_noResult" = "Không có kết quả tìm kiếm, vui lòng thử một từ khóa khác";
+"news_time_justnow" = "Vừa xong";
+"news_time_minuteAgo" = "%ldVài phút trước";
+"news_time_hourAgo" = "%ldGiờ trước";
+"news_time_dayAgo" = "%ldNgày trước";
+"news_time_monthAgo" = "%ldTháng trước";
+"news_tab_flash" = "Bản tin";
+"news_tab_strategy" = "Chiến lược";
+"news_tab_news" = "Tin tức";
+
+"redPacket_giveRed" = "Gửi cho bạn một phong bì màu đỏ";
+"redPacket_alert_get" = "Chúc may mắn, phong bì đỏ";
+"redPacket_alert_remain" = "Phong bì đỏ đã được nhận";
+"redPacket_dated" = "Phong bì đỏ đã hết hạn";
+
+
+
+// BTC 钱包
+"wallet_address" = "Địa chỉ ví";
+"address_type_select_title" = "Chọn loại địa chỉ";
+"address_type_title" = "Loại địa chỉ";
+"address_type_unknow" = "Loại địa chỉ không xác định";
+"address_type_bip44" = "Thường gặp";
+"address_type_bip49" = "Lời khai phân chia";
+"address_add_new_address" = "Tạo địa chỉ mới";
+"address_about_segwit_title" = "Lời khai phân chia";
+"address_about_segwit" = "Nhân chứng về sự phân biệt";
+"address_tips" = "Tips：\n• Các loại địa chỉ bitcoin có thể được chuyển sang nhân chứng bình thường hoặc bị cô lập, đối với các nhân chứng bị cô lập; \n• Một ví bitcoin có thể tạo ra nhiều địa chỉ khác nhau, tránh sử dụng lại địa chỉ và bảo vệ quyền riêng tư; \n• Địa chỉ được chọn sẽ được sử dụng làm thanh toán mặc định Địa chỉ；";
+"address_error" = "Địa chỉ bất thường";
+"address_error_title" = "Tạo địa chỉ ví";
+"address_error_message" = "Math Wallet hiện hỗ trợ cả hai loại nhân chứng bình thường và tách biệt, vui lòng tạo địa chỉ cho ví BTC của bạn。";
+"address_switch_failed" = "Chuyển đổi địa chỉ không thành công";
+"confirmation_count" = "Xác nhận %ld";
+"waitting_confirm" = "Chờ xác nhận...";
+"transaction_input" = "Đầu vào";
+"transaction_output" = "Đầu ra";
+"transfer_btc_amount" = "%@ BTC";
+"transfer_fee_detail" = "= %@ sat/B * %@ B";
+"transaction_detail_query_title_btc" = "Truy vấn chi tiết giao dịch BLOCKCHAIN";
+"transaction_tx_fee_btc_with_price" = "Phí khai thác %@ sat/B ≈ %@ %@";
+"gas_fee_setting_slide" = "Lệ phí thiết lập trượt";
+"gas_fee_setting_customize" = "Phí khai thác tùy chỉnh";
+"transaction_to_gas_price_invalid_btc" = "Gas Price Không ít hơn %@ sat/B";
+"transaction_tx_fee_btc" = "Phí khai thác %@ BTC";
+"transfer_signature_fail" = "Chữ ký thất bại";
+"transfer_change_address_error" = "Lỗi khi thay đổi địa chỉ";
+
+// MDS 交易对
+"mds_exchange_trade_coming_soon" = "Sắp có";
+"mds_exchange_trade_developing" = "Không có cặp giao dịch";
+
+"mds_exchange_trade_buy" = "Mua";
+"mds_exchange_trade_buy_name" = "Mua %@";
+"mds_exchange_trade_sell" = "Bán";
+"mds_exchange_trade_sell_name" = "Bán %@";
+"mds_exchange_trade_available_amount" = "Có sẵn %@ %@";
+"mds_exchange_trade_total_amount" = "Số tiền giao dịch %@ %@";
+
+"mds_exchange_trade_record_account" = "Tài khoản";
+"mds_exchange_trade_record_amount" = "Số lượng(%@)";
+"mds_exchange_trade_record_recently" = "Lịch sử giao dịch gần đây";
+"mds_exchange_trade_record_history" = "Lịch sử";
+"mds_exchange_trade_record_all" = "Tất cả";
+"mds_exchange_trade_record_time" = "Thời gian";
+"mds_exchange_trade_record_direction" = "Hướng";
+"mds_exchange_trade_record_price" = "Giá(%@/%@)";
+
+"mds_exchange_trade_record_filter" = "Giá";
+"mds_exchange_trade_record_filter_option1" = "Tất cả";
+"mds_exchange_trade_record_filter_option2" = "Đơn hàng lớn, lớn hơn 2000 EOS";
+"mds_exchange_trade_record_filter_option3" = "Trung bình, 500 EOS đến 2000 EOS";
+"mds_exchange_trade_record_filter_option4" = "Đơn hàng nhỏ, dưới 500 EOS";
+
+"mds_exchange_trade_record_empty" = "Không có lịch sử giao dịch";
+
+"mds_exchange_trade_kline_24H_high" = "24H cao nhất";
+"mds_exchange_trade_kline_24H_low" = "Tối thiểu 24 giờ";
+"mds_exchange_trade_kline_24H_volume" = "Thể tích 24H";
+
+"mds_exchange_trade_kline_time" = "Thời gian";
+"mds_exchange_trade_kline_open" = "Mở";
+"mds_exchange_trade_kline_high" = "Cao";
+"mds_exchange_trade_kline_low" = "Thấp";
+"mds_exchange_trade_kline_close" = "Đóng";
+"mds_exchange_trade_kline_volume" = "Âm lượng";
+
+"mds_exchange_trade_kline_time_line" = "Chia sẻ thời gian";
+"mds_exchange_trade_kline_time_30min" = "30 phút";
+"mds_exchange_trade_kline_time_1hour" = "1 giờ";
+"mds_exchange_trade_kline_time_1day" = "1 ngày";
+"mds_exchange_trade_kline_time_1week" = "1 tuần";
+"mds_exchange_trade_kline_time_1month" = "1 tháng";
+
+
+// TRX 交易对
+"trx_exchange_trade_coming_soon" = "Sắp có";
+"trx_exchange_trade_developing" = "Không có cặp giao dịch";
+
+"trx_exchange_trade_record_empty" = "Không có lịch sử giao dịch";
+"trx_exchange_trade_record_recently" = "Lịch sử giao dịch gần đây";
+"trx_exchange_trade_record_history" = "Lịch sử";
+"trx_exchange_trade_record_all" = "Tất cả";
+"trx_exchange_trade_record_time" = "Thời gian";
+"trx_exchange_trade_record_account" = "Tài khoản";
+"trx_exchange_trade_record_direction" = "Hướng";
+"trx_exchange_trade_record_amount" = "Số tiền giao dịch";
+"trx_exchange_trade_records_buy" = "Mua";
+"trx_exchange_trade_records_sell" = "Bán";
+
+"trx_exchange_trade_record_filter" = "Giá";
+"trx_exchange_trade_record_filter_option1" = "Tất cả";
+"trx_exchange_trade_record_filter_option2" = "Đơn lớn, lớn hơn 2000 TRX";
+"trx_exchange_trade_record_filter_option3" = "Trung bình, 500 TRX đến 2000 TRX";
+"trx_exchange_trade_record_filter_option4" = "Đơn nhỏ, dưới 500 TRX";
+
+"trx_exchange_trade_buy" = "Mua";
+"trx_exchange_trade_sell" = "Bán";
+"trx_exchange_trade_buy_name" = "Mua %@";
+"trx_exchange_trade_sell_name" = "Bán %@";
+"trx_exchange_trade_price" = "%@/%@ ≈ %@";
+"trx_exchange_trade_amount_buy_title" = "Mua số lượng";
+"trx_exchange_trade_amount_sell_title" = "Bán số lượng";
+"trx_exchange_trade_expected_amount_buy_title" = "Chi phí ước tính";
+"trx_exchange_trade_expected_amount_sell_title" = "Thu nhập ước tính";
+"trx_exchange_trade_expected_amount_buy_notice" = "Tăng nhẹ chi phí ước tính để tăng xác suất đóng cửa。";
+"trx_exchange_trade_expected_amount_sell_notice" = "Thu nhập ước tính giảm nhẹ có thể làm tăng xác suất đóng cửa。";
+"trx_exchange_trade_balance" = "Có sẵn %@ %@";
+
+"trx_exchange_trade_kline_24H_high" = "24H cao nhất";
+"trx_exchange_trade_kline_24H_low" = "Tối thiểu 24 giờ";
+"trx_exchange_trade_kline_24H_volume" = "Thể tích 24H";
+
+"trx_exchange_trade_kline_time" = "Thời gian";
+"trx_exchange_trade_kline_open" = "Mở";
+"trx_exchange_trade_kline_high" = "Cao";
+"trx_exchange_trade_kline_low" = "Thấp";
+"trx_exchange_trade_kline_close" = "Đóng";
+"trx_exchange_trade_kline_volume" = "Khối lượng";
+
+"trx_exchange_trade_kline_time_30min" = "30 phút";
+"trx_exchange_trade_kline_time_1hour" = "1 giờ";
+"trx_exchange_trade_kline_time_4hour" = "4 giờ";
+"trx_exchange_trade_kline_time_1day" = "1 ngày";
+"trx_exchange_trade_kline_time_1week" = "1 tuần";
+"trx_exchange_trade_kline_time_1month" = "1 tháng";
+
+//BNB 交易对
+"bnb_exchange_trade_price" = "Price";
+"bnb_exchange_trade_cancle_order" = "Cancel";
+"bnb_exchange_trade_amount" = "Amount";
+"bnb_exchange_trade_dealAmount" = "Executed";
+"bnb_exchange_trade_totalAmount" = "Amount";
+"bnb_exchange_trade_record" = "Recent Transactions";
+"bnb_exchange_trade_error" = "Invalid Amount";
+"bnb_exchange_trade_min_tick" = "Enter at least %@";
+"bnb_exchange_current_order" = "Open Orders";
+"bnb_exchange_complete_order" = "Transactions";
+"bnb_exchange_no_order" = "No Record";
+"bnb_exchange_cancel_succeed" = "Canceled";
+
+//hardWare
+"hardware_wallet" = "Ví phần cứng";
+"hardware_Search" = "Tìm kiếm thiết bị...";
+"hardware_connection" = "Kết nối";
+"hardware_connection_current" = "Thiết bị được kết nối hiện tại";
+"hardware_connection_other" = "Thiết bị khác";
+"hardware_Initialize" = "Khởi tạo thiết bị";
+"hardware_setPin" = "Đặt mã PIN";
+"hardware_setPin_hint" = "Để bảo vệ ví của bạn, vui lòng đặt mã PIN của bạn trước. Mã PIN sẽ được sử dụng để mở khóa ví của bạn, chuyển tiền, v.v. Vui lòng giữ mã PIN của bạn an toàn。";
+"hardware_setPin_input" = "Nhập mã PIN";
+"hardware_setPin_input_again" = "Nhập lại mã PIN của bạn";
+"hardware_setFinger" = "Đặt dấu vân tay";
+"hardware_setFinger_hint" = "Sau khi đặt dấu vân tay, bạn không cần nhập mã PIN, bạn có thể sử dụng nhận dạng dấu vân tay để mở khóa ví, chuyển tiền, v.v.。";
+"hardware_setFinger_no" = "Chưa được đặt";
+"hardware_setFinger_start" = "Bắt đầu nhập dấu vân tay\nGõ một ngón tay vào dấu vân tay xác minh thiết bị";
+"hardware_setFinger_goodFinger" = "Nhập xong \nVui lòng xóa ngón tay của bạn";
+"hardware_setFinger_continue" = "Tiếp tục nhập dấu vân tay\nVui lòng đặt lại ngón tay tương tự vào dấu vân tay xác minh thiết bị.";
+"hardware_setFinger_complete" = "Mục nhập đã hoàn thành\ndấu vân tay của bạn đã được đặt";
+"hardware_PinAndFinger" = "Mã PIN và dấu vân tay";
+"hardware_backup_mnemonic_phrase" = "Sao lưu dự phòng";
+"hardware_Initialize_again" = "Reinitialize thiết bị";
+"hareware_initialize_alert" = "Sắp xếp lại thiết bị sẽ xóa tất cả các ví được liên kết của bạn, vui lòng xác nhận rằng bạn đã sao lưu khóa riêng của mình？";
+"hardware_delete" = "Xóa thiết bị";
+"hardware_delete_alert" = "Xóa thiết bị của bạn cũng sẽ xóa ví bạn đã thêm, nhưng trong tương lai bạn có thể kết nối lại và nhập nó.。";
+"hardware_resetPin" = "Đặt lại mã PIN";
+"hardware_resetFinger" =  "Đặt lại dấu vân tay";
+"hardware_verify_finger" = "Vui lòng xác minh dấu vân tay trên thiết bị để xác nhận chuyển tiền";
+"hardware_verify_pin" = "Vui lòng xác minh mã PIN trên thiết bị để xác nhận chuyển tiền";
+"hardware_choose" = "Chọn ví phần cứng";
+"hardware_mywallet" = "Ví của tôi";
+"hardware_pin_diffrent" = "Hai mã PIN không nhất quán";
+"hardware_account" = "Tài khoản";
+"hardware_confirm_rightTop" = "Please press the button to confirm.";
+"hardware_pin_error" = "Incorrect PIN";
+"hardware_disConnect" = "The card is not detected, please confirm that the card is turned on.";
+"hardware_connection" = "Connecting device";
+"hardware_connection_already" = "Connected";
+"hardware_mnemonic_not_match" = "The imported mnemonic does not match the mnemonic in the hardware wallet.";
+"hardware_already_disconnected" = "The device is disconnected.";
+
+
+// SimpleWallet
+"simplewallet_login"="%@ Đăng nhập";
+"simplewallet_login_prompt"="Sẽ sử dụng tài khoản “%@” để đăng nhập vào “%@”, vui lòng xác nhận rằng tôi đang hoạt động？";
+"simplewallet_login_confirm"="Xác nhận đăng nhập";
+"simplewallet_login_cancel"="Hủy bỏ";
+"simplewallet_login_no_account"="Bạn chưa có tài khoản%@";
+"simplewallet_login_back_to_dapp"="Trở về“%@”";
+
+"simplewallet_sign"="%@ Chữ ký";
+"simplewallet_sign_prompt"="Sẽ sử dụng tài khoản “%@” chữ ký “%@”, vui lòng xác nhận rằng đó là hoạt động của tôi？";
+"simplewallet_sign_confirm"="Xác nhận chữ ký";
+
+// WalletConnect
+"walletconnect_binance" = "Binance";
+"walletconnect_login" = "Login";
+"walletconnect_login_prompt" = "You are using the account“%@” to login“%@”，please make sure you are the owner of the account.";
+"walletconnect_login_confirm" = "Xác nhận đăng nhập";
+"walletconnect_login_again" = "Login Again";
+"walletconnect_login_cancel" = "Hủy bỏ";
+"walletconnect_logout_prompt" = "Do you want to exit login?";
+
+"walletconnect_error_uri" = "Invalid URI";
+"walletconnect_error_connect" = "Connect error";
+"walletconnect_error_not_support" = "Not support";
+"walletconnect_error_bad_server_response" = "Bad server response";
+"walletconnect_error_bad_jsonrpc_request" = "Bad JSONRPC Request";
+"walletconnect_error_invalid_transaction" = "Invalid Transaction";
+"walletconnect_error_cancled" = "Math Wallet User Cancled Or Error";
+"walletconnect_error_request_timeout" = "Request timeout, please refresh the QR code, exit and re-scan the code!";
+
+// 兑换
+"normal_exchange" = "Giao dịch";
+"instant_exchange" = "Mua lại";
+"instant_exchange_one_step" = "Trao đổi chuỗi một lần nhấp";
+"instant_exchange_send_amount" = "Số tiền chuyển";
+"instant_exchange_receive_amount" = "Số tiền nhận";
+"instant_exchange_available_balance" = "Số tiền nhận";
+"instant_exchange_select_asset" = "Chọn tiền tệ";
+"instant_exchange_select_wallet" = "Chọn nhận ví";
+"instant_exchange_select_wallet_empty_data" = "Bạn chưa có ví %@";
+"instant_exchange_select_wallet_create" = "Vui lòng tạo ví %@ trước";
+"instant_exchange_title" = "Mua lại";
+"instant_exchange_rate" = "1 %@ = %@ %@";
+"instant_exchange_token_empty_data" = "Không có tiền tệ trao đổi";
+"instant_exchange_token_request_data" = "Phản hồi dữ liệu";
+"instant_exchange_records" = "Hồ sơ quy đổi";
+"instant_exchange_records_empty_data" = "Không có hồ sơ quy đổi";
+"instant_exchange_records_detail" = "Chi tiết đổi quà";
+"instant_exchange_records_all" = "Tất cả";
+"instant_exchange_to" = "%@ Mua lại %@";
+"instant_exchange_send_title" = "Chuyển ra ngoài(%@)";
+"instant_exchange_receive_title" = "Nhận(%@)";
+"instant_exchange_time" = "Thời gian";
+"instant_exchange_confirm_transfer_title" = "Chuyển ra ngoài";
+"instant_exchange_confirm_receiver_title" = "Nhận";
+"instant_exchange_confirm_rate_title" = "Tỷ giá hối đoái";
+"instant_exchange_confirm_fee_title" = "Phí xử lý";
+"instant_exchange_transfer_success" = "Chuyển khoản thành công, chờ xác nhận";
+"instant_exchange_order_state" = "Tình trạng mua lại";
+"instant_exchange_order_state_wait_deposits" = "Tiền đang chờ xử lý";
+"instant_exchange_order_state_exchange" = "Đổi lại";
+"instant_exchange_order_state_complete" = "Đã hoàn thành (đổi quà thành công) ";
+"instant_exchange_order_state_timeout" = "Hết giờ";
+"instant_exchange_order_state_wait_refund" = "Mua lại không thành công, chờ hoàn trả";
+"instant_exchange_order_state_refund_complete" = "Nghỉ hưu";
+"instant_exchange_order_rate" = "Tỷ giá hối đoái";
+"instant_exchange_order_fee" = "Phí xử lý";
+"instant_exchange_order_time" = "Thời gian";
+"instant_exchange_order_id" = "Số thứ tự";
+"instant_exchange_order_call_for_help" = "Có câu hỏi về thứ tự này？";
+"instant_exchange_error_wallet_type" = "Loại ví sai";
+"instant_exchange_error_token_send" = "Vui lòng chọn xuất khẩu tiền tệ";
+"instant_exchange_error_token_receive" = "Vui lòng chọn loại tiền nhận";
+"instant_exchange_error_amount_send" = "Số tiền chuyển không chính xác";
+"instant_exchange_error_amount_send_not_int" = "Số tiền chuyển cho loại tiền này phải là số nguyên";
+"instant_exchange_error_amount_receive" = "Số tiền nhận được không chính xác";
+"instant_exchange_error_wallet_account" = "Vui lòng chọn một ví nhận";
+"instant_exchange_error_receive_address" = "Địa chỉ nhận không chính xác";
+"instant_exchange_error_amount_send_range" = "Số tiền chuyển đổi %@ ~ %@";
+"instant_exchange_error_balance_not_enough" = "Số dư không đủ";
+"instant_exchange_error_order_failed" = "Tạo đơn hàng thất bại";
+"instant_exchange_error_rate_failed" = "Mua lại tỷ giá hối đoái";
+"instant_exchange_coin_not_support" = "Giao dịch đã bị đình chỉ để mua lại";
+"instant_exchange_rate_failed_notice" = "Mua lại tỷ giá hối đoái thất bại, nhấp để lấy lại";
+
+// Dapp
+"dapp_enter_url" = "Enter the URL";
+"dapp_enter_url_none" = "Please enter the URL";
+"dapp_enter_url_error" = "URL format error";
+"dapp_clear_history" = "Clear history";
+"dapp_warning" = "The access to the third-party URL through the browser will apply the “User Agreement” of the third-party, and the third-party independently takes responsibility for you, please notice the risk!";
+"dapp_math_api_title" = "How to use the Math Wallet API?\n";
+"dapp_math_api_more" = "Know More >";
+
+// 腾讯行为验证
+"tencent_verify_failed" = "Verification Failed";
+
+// Google 验证
+"google_verify_open" = "open";
+"google_verify_opened" = "opened";
+"google_verify_notice" = "Here’s the Google verified key, please copy and bind with Google Verification. Make sure you backup the key in a safe place, Google Verification cannot be recovered if you lost the key.";
+"google_verify_done" = "The key is bound and backed up.";
+"google_verify_input_title" = "Google Verification";
+"google_verify_input_placeholder" = "Please enter the Google verification code";
+"google_verify_no_code" = "Please enter the Google verification code";
+"google_verify_open_success" = "Google Verification opened";
+
+// 登录日志
+"user_log_date_title" = "Time";
+"user_log_area_title" = "Location";
+"user_log_ip_title" = "IP Address";
+"user_log_device_title" = "Device";
+
+
+"transfer_failed" = "Transfer Failed";
+
+"bnb_exchange_search_placeholder" = "Search";
+
+"bnb_exchange_trade_record_filter_decimal" = "Decimal";
+"bnb_exchange_trade_record_filter_decimal_1" = "1 decimal";
+"bnb_exchange_trade_record_filter_decimal_2" = "2 decimals";
+"bnb_exchange_trade_record_filter_decimal_3" = "3 decimals";
+"bnb_exchange_trade_record_filter_decimal_4" = "4 decimals";
+"bnb_exchange_trade_record_filter_decimal_5" = "5 decimals";
+"bnb_exchange_trade_record_filter_decimal_6" = "6 decimals";
+"bnb_exchange_trade_record_filter_decimal_7" = "7 decimals";
+"bnb_exchange_trade_record_filter_decimal_8" = "8 decimals";
