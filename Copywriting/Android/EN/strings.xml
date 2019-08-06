@@ -54,7 +54,7 @@
     <string name="wallet_import_privatekey_title">Import by Private Key</string>
     <string name="import_privatekey">Import Private key</string>
     <string name="wallet_import_mnemonic_phrase_title">Import by Mnemonic</string>
-    <string name="account_is_existing">Account already exists, whether to cover？</string>
+    <string name="account_is_existing">Account already exists, whether to cover?</string>
 
     <!--keystore导入-->
     <string name="keystore">Keystore</string>
@@ -84,7 +84,7 @@
     <string name="create_wallet_success_title">Wallet Created Successfully</string>
     <string name="input_walletname">Enter wallet name</string>
     <string name="password_save_warning_title">Confirm Wallet Password</string>
-    <string name="password_save_warning_message">We can’t recover the password, please backup cautiously!</string>
+    <string name="password_save_warning_message">We can\'t recover the password, please backup cautiously!</string>
     <string name="wallet_password_placeholder">At least 8 characters,contain letters,Numbers</string>
     <string name="wallet_repeat_password">Repeat wallet password</string>
     <string name="wallet_repeat_password_placeholder">Enter wallet password again</string>
@@ -135,10 +135,11 @@
     <string name="manage_wallet_backup_privatekey">Export Private Key</string>
     <string name="manage_wallet_backup_mnemonic_phrase">Export Memorizing Words</string>
     <string name="remove_wallet">Delete Wallet</string>
-    <string name="wallet_address">Address：</string>
+    <string name="wallet_address">Address:</string>
     <string name="save_wallet_failed">Create wallet failed</string>
     <string name="rename_wallet_failed">Rename wallet failed </string>
     <string name="delete_wallet_failed">Delete wallet failed</string>
+    <string name="create_wallet_failed">Create wallet failed</string>
 
     <!--修改钱包名称-->
     <string name="wallet_nickname_update">Change Wallet Name</string>
@@ -149,7 +150,7 @@
     <string name="wallet_password_old_password_title">Current Password</string>
     <string name="wallet_password_old_password_placeholder">Enter current password</string>
     <string name="wallet_password_new_password_title">New password</string>
-    <string name="wallet_password_new_password_placeholder">At least 8 characters</string>
+    <string name="wallet_password_new_password_placeholder">At least 8 characters(number,upper and lower case letters)</string>
     <string name="wallet_password_repeat_password_title">Repeat new password</string>
     <string name="wallet_password_repeat_password_placeholder">Repeat New Password</string>
 
@@ -179,9 +180,9 @@
     <string name="normal">Nomal</string>
     <string name="veryfast">Fastest</string>
     <string name="transfer_overtime">Transaction Delay Contract</string>
-    <string name="transfer_overtime_detail">Packing up in less than one hour，otherwise 5MDS Compensation.</string>
+    <string name="transfer_overtime_detail">Packing up in less than one hour,otherwise 5MDS Compensation.</string>
     <string name="free">Free</string>
-    <string name="transaction_to_address_placeholder">Receiver’s address</string>
+    <string name="transaction_to_address_placeholder">Receiver\'s address</string>
     <string name="transaction_to_address_checking_security">Checking publicKey security</string>
     <string name="transaction_to_value_placeholder">Amount</string>
     <string name="recharge_money">Amount %s ~ %s</string>
@@ -194,7 +195,7 @@
     <string name="pasted">Pasted</string>
     <string name="authenticate_immediately">Authenticate Immediately</string>
     <string name="token_tranfer">Send %s</string>
-    <string name="gas_price_is_low_8">Gas price is too low，recommend to be greater than 8 gwei</string>
+    <string name="gas_price_is_low_8">Gas price is too low,recommend to be greater than 8 gwei</string>
     <string name="gas_price_is_up_100">Gas price is too high, recommend to be less than 100 gwei</string>
     <string name="gas_price_is_null">Gas Price is null</string>
     <string name="gas_limit_is_null">Gas Limit is null</string>
@@ -261,7 +262,7 @@
     <string name="mine_medishares_feekback">Support</string>
     <string name="mine_medishares_about">About</string>
     <string name="mine_medishares_setting">Settings</string>
-    <string name="mine_medishares_candy">Cloud Wallet</string>
+    <string name="mine_medishares_candy">Cloud</string>
     <string name="mds_app_download">MDS App Download</string>
     <string name="token_price">View invitation rewards</string>
 
@@ -276,8 +277,8 @@
     <string name="login_acccount_with_mobile">Login by Phone Number</string>
     <string name="login_account_switch_email">Or Login by Phone Number</string>
     <string name="login_account_switch_mobile">Or Login by Email</string>
-    <string name="verify_code_unreceived">Didn’t received？</string>
-    <string name="check_your_spam_box">Didn’t get the email？Please check your Spam Box</string>
+    <string name="verify_code_unreceived">Didn\'t received?</string>
+    <string name="check_your_spam_box">Didn\'t get the email?Please check your Spam Box</string>
     <string name="verify_code_send_again">Send again</string>
     <string name="sign_in">Sign In</string>
     <string name="login">Login</string>
@@ -310,7 +311,7 @@
     <string name="identity_verification_failed">Your identity verification failed, please submit again.</string>
     <string name="enter_idcard">Enter IdCard</string>
     <string name="bind_kyc_complete_title">Submission Completed</string>
-    <string name="identity_verification">Identity Verification：%s</string>
+    <string name="identity_verification">Identity Verification:%s</string>
     <string name="please_choose_cardtype">Please select ID type</string>
 
     <!--MediShares账户-信息-->
@@ -368,6 +369,9 @@
     <string name="contact_name_placeholder">Enter contact name</string>
     <string name="contact_account_eth_address_title">ETH Beneficiary Wallet Address</string>
     <string name="contact_account_esn_address_title">ESN Beneficiary Wallet Address</string>
+    <string name="contact_account_bnb_address_title">BNB Beneficiary Wallet Address</string>
+    <string name="contact_account_iris_address_title">IRIS Beneficiary Wallet Address</string>
+    <string name="contact_account_cosmos_address_title">COSMOS Beneficiary Wallet Address</string>
     <string name="contact_account_eos_address_title">EOS Beneficiary Account</string>
     <string name="contact_account_bos_address_title">BOS Beneficiary Account</string>
     <string name="contact_account_enu_address_title">ENU Beneficiary Account</string>
@@ -377,18 +381,24 @@
     <string name="contact_account_btc_address_title">BTC Beneficiary Wallet Address</string>
     <string name="contact_account_trx_address_title">TRX Beneficiary Wallet Address</string>
     <string name="contact_account_nas_address_title">NAS Beneficiary Wallet Address</string>
-    <string name="contact_account_eth_address_placeholder">Enter or paste ETH wallet publicKey</string>
+    <string name="contact_account_zilliqa_address_title">ZIL Beneficiary Wallet Address</string>
+    <string name="contact_account_eth_address_placeholder">Enter or paste ETH wallet address</string>
+    <string name="contact_account_bnb_address_placeholder">Enter or paste BNB wallet address</string>
+    <string name="contact_account_iris_address_placeholder">Enter or paste IRIS wallet address</string>
+    <string name="contact_account_cosmos_address_placeholder">Enter or paste COSMOS wallet address</string>
     <string name="contact_account_eos_address_placeholder">Enter or paste EOS account</string>
     <string name="contact_account_bos_address_placeholder">Enter or paste BOS account</string>
     <string name="contact_account_enu_address_placeholder">Enter or paste ENU account</string>
-    <string name="contact_account_esn_address_placeholder">Enter or paste ESN wallet publicKey</string>
+    <string name="contact_account_esn_address_placeholder">Enter or paste ESN wallet address</string>
     <string name="contact_account_telos_address_placeholder">Enter or paste TELOS account</string>
-    <string name="contact_account_neo_address_placeholder">Enter or paste NEO wallet publicKey</string>
-    <string name="contact_account_ont_address_placeholder">Enter or paste ONT wallet publicKey</string>
+    <string name="contact_account_neo_address_placeholder">Enter or paste NEO wallet address</string>
+    <string name="contact_account_ont_address_placeholder">Enter or paste ONT wallet address</string>
     <string name="contact_account_eosforce_address_placeholder">Enter or paste EOS FORCE account</string>
     <string name="contact_account_btc_address_placeholder">Enter or paste BTC wallet publicKey</string>
     <string name="contact_account_trx_address_placeholder">Enter or paste TRX wallet publicKey</string>
     <string name="contact_account_nas_address_placeholder">Enter or paste NAS wallet publicKey</string>
+    <string name="contact_account_zilliqa_address_placeholder">Enter or paste ZIL wallet publicKey</string>
+
 
     <string name="select_contact">Select Contact</string>
     <string name="my_wallet">MyWallet</string>
@@ -428,14 +438,14 @@
     <string name="kakao_content">https://open.kakao.com/o/g5TSeeM</string>
 
     <!--关注微信公众号-->
-    <string name="medishares_wechat_description"> Sincerely invite you to join Math Wechat group，Join group should add wechat ID：MediShares03</string>
-    <string name="medishares_telegram_description"> Sincerely invite you to join Math Telegram group：https://t.me/MediSharesEN</string>
-    <string name="medishares_kakao_description">Sincerely invite you to join Math KaKao group：https://open.kakao.com/o/g5TSeeM</string>
+    <string name="medishares_wechat_description"> Sincerely invite you to join Math Wechat group,Join group should add wechat ID:mathwallet666</string>
+    <string name="medishares_telegram_description"> Sincerely invite you to join Math Telegram group:https://t.me/mathwallet</string>
+    <string name="medishares_kakao_description">Sincerely invite you to join Math KaKao group:https://open.kakao.com/o/g5TSeeM</string>
     <string name="medishares_wechat_public_copy">Copy Wechat ID</string>
     <string name="medishares_wechat_public">MDSjiangzuo</string>
-    <string name="joinwx_notinstall_wx">You haven’t installed Wechat, please install it first.</string>
-    <string name="joinwx_notinstall_tele">You haven’t installed Telegram, please install it first.</string>
-    <string name="joinwx_notinstall_kakao">You haven’t installed KaKao, please install it first.</string>
+    <string name="joinwx_notinstall_wx">You haven\'t installed Wechat, please install it first.</string>
+    <string name="joinwx_notinstall_tele">You haven\'t installed Telegram, please install it first.</string>
+    <string name="joinwx_notinstall_kakao">You haven\'t installed KaKao, please install it first.</string>
 
     <!--设置（语言、货币单位）-->
     <string name="medishares_setting_language">Language</string>
@@ -529,13 +539,19 @@
     <string name="user_update_mobile_subtitle">Update phone number to login with new phone number.</string>
 
     <!--二维码 & 扫描二维码-->
-    <string name="copy_wallet_address">Copy the publicKey</string>
+    <string name="copy_wallet_address">Copy the Address</string>
     <string name="account_address_qr_title">QR Code</string>
+    <string name="account_code_qr_title">QR Code</string>
     <string name="scan_qr_failed">Scan QR Code Failed</string>
     <string name="wrong_eth_qr_code">Wrong QR Code For ETH Address</string>
     <string name="wrong_esn_qr_code">Wrong QR Code For ESN Address</string>
     <string name="wrong_eos_qr_code">Wrong QR Code For EOS Account</string>
     <string name="wrong_enu_qr_code">Wrong QR Code For ENU Account</string>
+    <string name="wrong_bnb_qr_code">Wrong QR Code For BNB Account</string>
+    <string name="wrong_cosmos_qr_code">Wrong QR Code For COSMOS Account</string>
+    <string name="wrong_chainx_qr_code">Wrong QR Code For ChainX Account</string>
+    <string name="wrong_iris_qr_code">Wrong QR Code For IRIS Account</string>
+    <string name="wrong_telos_qr_code">Wrong QR Code For TELOS Account</string>
     <string name="wrong_bos_qr_code">Wrong QR Code For BOS Account</string>
     <string name="wrong_neo_qr_code">Wrong QR Code For NEO Address</string>
     <string name="wrong_ont_qr_code">Wrong QR Code For ONT Address</string>
@@ -543,6 +559,7 @@
     <string name="wrong_eos_force_qr_code">Wrong QR Code For EOS FORCE Address</string>
     <string name="wrong_trx_qr_code">Wrong QR Code For TRX Address</string>
     <string name="wrong_nas_qr_code">Wrong QR Code For NAS Address</string>
+    <string name="wrong_zil_qr_code">Wrong QR Code For ZIL Address</string>
 
     <!--交易记录-->
     <string name="recent_transaction_records">Latest Transaction</string>
@@ -603,18 +620,22 @@
     <string name="unable_find_version">Unable to find the version</string>
     <string name="password_cannot_be_empty">The password cannot be empty. </string>
     <string name="code_cannot_be_empty">verifycode cannot be empty</string>
-    <string name="please_enter_the_correct_eth_address">Please enter the correct ETH publicKey. </string>
-    <string name="please_enter_the_correct_esn_address">Please enter the correct ESN publicKey. </string>
+    <string name="please_enter_the_correct_eth_address">Please enter the correct ETH address. </string>
+    <string name="please_enter_the_correct_bnb_address">Please enter the correct BNB address. </string>
+    <string name="please_enter_the_correct_iris_address">Please enter the correct IRIS address. </string>
+    <string name="please_enter_the_correct_cosmos_address">Please enter the correct COSMOS address. </string>
+    <string name="please_enter_the_correct_esn_address">Please enter the correct ESN address. </string>
     <string name="please_enter_the_correct_eos_address">Please enter the correct EOS account. </string>
     <string name="please_enter_the_correct_telos_address">Please enter the correct TELOS account. </string>
     <string name="please_enter_the_correct_bos_address">Please enter the correct BOS account. </string>
     <string name="please_enter_the_correct_enu_address">Please enter the correct ENU account. </string>
-    <string name="please_enter_the_correct_neo_address">Please enter the correct NEO publicKey. </string>
-    <string name="please_enter_the_correct_btc_address">Please enter the correct BTC publicKey. </string>
-    <string name="please_enter_the_correct_trx_address">Please enter the correct TRX publicKey. </string>
-    <string name="please_enter_the_correct_nas_address">Please enter the correct NAS publicKey. </string>
+    <string name="please_enter_the_correct_neo_address">Please enter the correct NEO address. </string>
+    <string name="please_enter_the_correct_btc_address">Please enter the correct BTC address. </string>
+    <string name="please_enter_the_correct_trx_address">Please enter the correct TRX address. </string>
+    <string name="please_enter_the_correct_nas_address">Please enter the correct NAS address. </string>
     <string name="please_enter_the_correct_eos_force_address">Please enter the correct EOS FORCE account. </string>
-    <string name="please_enter_the_correct_ont_address">Please enter the correct ONT publicKey. </string>
+    <string name="please_enter_the_correct_module_address">Please enter the correct %s account.</string>
+    <string name="please_enter_the_correct_ont_address">Please enter the correct ONT address. </string>
     <string name="address_cannot_be_empty">The publicKey cannot be empty. </string>
     <string name="address_unmatched_with_private_key">Address unmatched with private key. </string>
     <string name="eth_wallet_address_incorrect">ETH wallet publicKey incorrect. </string>
@@ -671,10 +692,10 @@
     <!--节点设置-->
     <string name="set_point">Node Setting</string>
     <string name="add_custom_point">Add Nodes</string>
-    <string name="input_point_address">Enter valid node publicKey</string>
+    <string name="input_point_address">Enter valid node address</string>
     <string name="point_mainnet">• Current net: $mainnet</string>
-    <string name="not_success_point_address">Invalid node publicKey</string>
-    <string name="already_add_point">Invalid node publicKey</string>
+    <string name="not_success_point_address">Invalid node address</string>
+    <string name="already_add_point">Invalid node address</string>
     <string name="submit_new_token">Recommend Your Token to Us</string>
 
     <!--Claim GAS-->
@@ -758,9 +779,9 @@
     <string name="position_Amount_bind">Link</string>
     <string name="position_Amount_amount">Account</string>
     <string name="position_Amount_Slogan">Import the API Key information from the Exchange</string>
-    <string name="position_Amount_Description">• API key and other information will only be stored on your device in encrypted format；\n• we will not share the information to any third parties；\n• Please keep your API key secured and we are not responsible for any losses due to any misuses of the user；</string>
+    <string name="position_Amount_Description">• API key and other information will only be stored on your device in encrypted format;\n• we will not share the information to any third parties;\n• Please keep your API key secured and we are not responsible for any losses due to any misuses of the user;</string>
     <string name="position_Amount_tech">• Click here to see how to get API key from Exchanges</string>
-    <string name="position_share_description">the Safest Wallet for your Cryptoassets</string>
+    <string name="position_share_description">mathwallet.org</string>
     <string name="position_position_record">Transaction records</string>
     <string name="position_exchange_unbind_message">Your portfolio data will be deleted from this device and you need to bind your account again to visit your data next time.</string>
     <string name="position_exited">Exited</string>
@@ -834,12 +855,14 @@
     <string name="bos_account_code_input_placeholder">Enter your BOS invitation code here</string>
     <string name="enu_account_code_input_placeholder">Enter your ENU invitation code here</string>
     <string name="telos_account_code_input_placeholder">Enter your TELOS invitation code here</string>
-    <string name="eos_account_input_warming_placeholder">12 chars，with \'1~5\' and \'a~z\'</string>
-    <string name="eos_force_account_input_warming_placeholder">1-12 chars，with \'1~5\' and \'a~z\'</string>
+    <string name="eos_account_input_warming_placeholder">12 chars,with \'1~5\' and \'a~z\'</string>
+    <string name="eos_force_account_input_warming_placeholder">1-12 chars,with \'1~5\' and \'a~z\'</string>
     <string name="eos_account_password">Account Password</string>
     <string name="eos_accountname_placeholder">Add receiver account</string>
     <string name="most_256_charter">At most 256 chars</string>
     <string name="meno_most_256_charter">Memo At most 256 chars</string>
+    <string name="most_30_charter">At most 30 chars</string>
+    <string name="meno_most_30_charter">Memo At most 30 chars</string>
     <string name="add_note">Add memo</string>
     <string name="send_to_eosaccount">EOS Account</string>
     <string name="send_to_bosaccount">BOS Account</string>
@@ -851,18 +874,25 @@
 
     <string name="eos_account_create_by_friends_title">Request an EOS account from a friend</string>
     <string name="eos_force_account_create_by_friends_title">Request an EOS FORCE account from a friend</string>
+    <string name="enu_account_create_by_friends_title">Request an ENU account from a friend</string>
+    <string name="telos_account_create_by_friends_title">Request an TELOS account from a friend</string>
+    <string name="bos_account_create_by_friends_title">Request an BOS account from a friend</string>
     <string name="eos_account_create_by_friends_publickey_title">Public Key</string>
     <string name="eos_account_create_by_friends_publickey_prompt">Please copy the public key to your friend in order to create an EOS account.</string>
-    <string name="eos_force_account_create_by_friends_publickey_prompt">Please copy the public key to your friend in order to create an EOS FORCE account.</string>
+    <string name="account_create_by_friends_publickey_prompt">Please copy the public key to your friend in order to create an %s account.</string>
     <string name="eos_account_create_by_friends_privatekey_title">Private Key</string>
     <string name="eos_account_create_by_friends_privatekey_prompt">Please keep your private key confidential and do NOT send it to anyone including your friend. You will need the private key to add your EOS account to your wallet after creating the EOS account by your friend.</string>
     <string name="eos_force_account_create_by_friends_privatekey_prompt">Please keep your private key confidential and do NOT send it to anyone including your friend. You will need the private key to add your EOS FORCE account to your wallet after creating the EOS FORCE account by your friend.</string>
+    <string name="enu_account_create_by_friends_privatekey_prompt">Please keep your private key confidential and do NOT send it to anyone including your friend. You will need the private key to add your ENU account to your wallet after creating the ENU account by your friend.</string>
+    <string name="bos_account_create_by_friends_privatekey_prompt">Please keep your private key confidential and do NOT send it to anyone including your friend. You will need the private key to add your BOS account to your wallet after creating the BOS account by your friend.</string>
+    <string name="telos_account_create_by_friends_privatekey_prompt">Please keep your private key confidential and do NOT send it to anyone including your friend. You will need the private key to add your TELOS account to your wallet after creating the TELOS account by your friend.</string>
     <string name="eos_main_net">EOS Mainnet</string>
     <string name="eos_force_fee_cost">Fee 0.01 EOSC</string>
-    <string name="eos_not_eos_force_warming">Note：Transfers betweent EOS Force and EOS are not supported as they are differant chains.</string>
-    <string name="eos_not_bos_warming">Note：Transfers betweent BOS and EOS are not supported as they are differant chains.</string>
-    <string name="eos_not_enu_warming">Note：Transfers betweent ENU and EOS are not supported as they are differant chains.</string>
-    <string name="eos_not_telos_warming">Note：Transfers betweent TELOS and EOS are not supported as they are differant chains.</string>
+    <string name="module_fee_cost">Fee %s %s</string>
+    <string name="eos_not_eos_force_warming">Note:Transfers betweent EOS Force and EOS are not supported as they are differant chains.</string>
+    <string name="eos_not_bos_warming">Note:Transfers betweent BOS and EOS are not supported as they are differant chains.</string>
+    <string name="eos_not_enu_warming">Note:Transfers betweent ENU and EOS are not supported as they are differant chains.</string>
+    <string name="eos_not_telos_warming">Note:Transfers betweent TELOS and EOS are not supported as they are differant chains.</string>
     <string name="ont_wallet">ONT Wallet</string>
     <string name="create_ont_wallet_success_backup_prompt">Please copy and store the Private Key to a safe offline place, once forgotten, it cannot be recovered.</string>
     <string name="wallet_import_wif_phrase_title">Import by WIF</string>
@@ -918,17 +948,17 @@
     <string name="eos_resource_cpu_refund_balance_low">Unstake amount of CPU cannot exceed the staked amount</string>
     <string name="btc_create_address">generate new address</string>
     <string name="btc_fee_unit">sat/B</string>
-    <string name="exchange_must_edit_meno">Memo is required for deposits to exchanges.</string>
-    <string name="account_not_exist">Account doesn’t exist</string>
+    <string name="exchange_must_edit_memo">Memo is required for deposits to exchanges.</string>
+    <string name="account_not_exist">Account doesn\'t exist</string>
     <string name="transaction_expired">Transaction expired, please try again.</string>
-    <string name="ram_is_not_enough">The account doesn’t have enough RAM to support the operation, please purchase RAM first.</string>
-    <string name="net_is_not_enough">The account doesn’t have enough net to support the operation, please stake resource manually, or ask your friends for help.</string>
-    <string name="cpu_is_not_enough">The account doesn’t have enough CPU to support the operation, please stake CPU manually, or ask your friends for help.</string>
+    <string name="ram_is_not_enough">The account doesn\'t have enough RAM to support the operation, please purchase RAM first.</string>
+    <string name="net_is_not_enough">The account doesn\'t have enough net to support the operation, please stake resource manually, or ask your friends for help.</string>
+    <string name="cpu_is_not_enough">The account doesn\'t have enough CPU to support the operation, please stake CPU manually, or ask your friends for help.</string>
     <string name="transfer_must_greater_0">Transfer amount must be greater than 0</string>
     <string name="custom_node">Custom %s Node</string>
     <string name="check_ontExplorer_transation">OntExplorer Transaction Detail</string>
     <string name="claim_approved">Claim Approved</string>
-    <string name="tips_owner_active">Tips： \n• Owner permission: Owner owns the account, manages account permissions, manages Active and other roles;\n • Active permissions: Active has other permissions such as transfer, voting, etc.\n• Weight threshold: The weight threshold is the minimum weight requirement for using permission;\n• Weight: The weight standard of public key. The higher the number, the higher the weight;\n• Permission change should starts from small to large, such as Active first and then Owner;\n• When changing permissions, please ensure that the new public key or account name is accurate;\n• Before changing permissions, please make sure the assets has been properly managed.</string>
+    <string name="tips_owner_active">Tips: \n• permission changes may result in an account being unavailable, please be cautious.\n• Owner permission: Owner owns the account, manages account permissions, manages Active and other roles;\n • Active permissions: Active has other permissions such as transfer, voting, etc.\n• Weight threshold: The weight threshold is the minimum weight requirement for using permission;\n• Weight: The weight standard of public key. The higher the number, the higher the weight;\n• Permission change should starts from small to large, such as Active first and then Owner;\n• When changing permissions, please ensure that the new public key or account name is accurate;\n• Before changing permissions, please make sure the assets has been properly managed.</string>
     <string name="manager_permission">Manage Permission</string>
     <string name="backup_privatekey">Backup PrivateKey</string>
     <string name="delete_auth">Delete Permission</string>
@@ -940,7 +970,7 @@
     <string name="permission">%s%s Permission</string>
     <string name="update_permission">Update %s</string>
     <string name="add_permission">Add Permission</string>
-    <string name="update_permission_title">Update Permission</string>
+    <string name="update_permission_title">Change Permission</string>
     <string name="add_auto">Add %s</string>
     <string name="reInport_owner_auth">The account Owner permission has been changed, please import again using the Owner\'s private key!</string>
     <string name="fee_of_updateauth">Permission Change Fee: 0.1000 EOSC</string>
@@ -954,7 +984,7 @@
     <string name="neo_asset">Current Asset %1s ONT</string>
     <string name="neo_map_tips">• The main network was launched on June 30, 2018. The mapping began on July 9, 2018 (UTC) and will end on October 1, 2018 (UTC). When all NEP-5 ONTs are mapped, only could map integer amount. Large amount ONT mapping.\n Since NEO and ONT use the same public/private key pair system, your NEO wallet activeAddress, private key, WIF Is the corresponding ONT wallet activeAddress, private key, WIF.\n Please restore your private key and WIF of NEO wallet and ONT wallet .</string>
     <string name="wallet_import_privatekey_wif_placeholder">Paste WIF</string>
-    <string name="ong_withdraw_tips">ONG claim fee： 0.01 ONG</string>
+    <string name="ong_withdraw_tips">ONG claim fee: 0.01 ONG</string>
 
     <string name="whitelist_wallet">Biz.Wallet</string>
     <string name="create_ent_whitelist_wallet">Create Business Wallet</string>
@@ -963,7 +993,7 @@
     <string name="empty_whitelist">No white list contacts</string>
     <string name="about_whitelist_wallet_tv">• Business Wallet is designed for organizations such as TokenFund, Get more information.</string>
     <string name="whitelist_invite_code_hint">Please enter your invitation code</string>
-    <string name="not_in_whitelist">The current activeAddress is not your White List user’s activeAddress</string>
+    <string name="not_in_whitelist">The current activeAddress is not your White List user\'s activeAddress</string>
     <string name="transaction_notification">Transaction Notification</string>
     <string name="newsletter">News</string>
     <string name="math_news">MathWallet News</string>
@@ -1017,9 +1047,9 @@
     <string name="mds_exchange_trade_sell_name">Sell %s</string>
     <string name="mds_exchange_trade_avaiable_amount">Available %s %s</string>
     <string name="mds_exchange_trade_record_filter_option1">All</string>
-    <string name="mds_exchange_trade_record_filter_option2">Large deal，> 2000 EOS</string>
-    <string name="mds_exchange_trade_record_filter_option3">Medium deal，500 to 2000 EOS</string>
-    <string name="mds_exchange_trade_record_filter_option4"><![CDATA[Small deal，< 500 EOS]]></string>
+    <string name="mds_exchange_trade_record_filter_option2">Large deal,> 2000 EOS</string>
+    <string name="mds_exchange_trade_record_filter_option3">Medium deal,500 to 2000 EOS</string>
+    <string name="mds_exchange_trade_record_filter_option4"><![CDATA[Small deal,< 500 EOS]]></string>
     <string name="mds_exchange_trade_buy">Buy</string>
     <string name="mds_exchange_trade_sell">Sell</string>
     <string name="mds_exchange_trade_record_filter">Filter</string>
@@ -1060,15 +1090,15 @@
     <string name="eos_market_30_m">30 m</string>
     <string name="eos_market_1_week">1 w</string>
     <string name="eos_market_1_mouth">1 M</string>
-    <string name="tips_btc_address"><Data> <![CDATA[Tips：<br/>• BTC address type could be normal or segwit, <font color="#5ac8fa">about Segwit</font>；<br/>• each BTC wallet could has many different addresses, about avoiding repeated address and privacy protection；<br/>• The selected address would be the default receive address]]> </Data></string>
+    <string name="tips_btc_address"><Data> <![CDATA[Tips:<br/>• BTC address type could be normal or segwit, <font color="#5ac8fa">about Segwit</font>;<br/>• each BTC wallet could has many different addresses, about avoiding repeated address and privacy protection;<br/>• The selected address would be the default receive address]]> </Data></string>
     <string name="dapps_contract_args_detail">click to see details</string>
     <string name="swft_fastchange">闪兑</string>
     <string name="swft_inputAmount">Send</string>
     <string name="swft_chooseReceiveWallet">Select Receiving wallet</string>
-    <string name="swft_change">Exchange</string>
+    <string name="swft_change">Swap</string>
     <string name="swft_change_rate">Fee</string>
     <string name="swft_receiveAmount">Received </string>
-    <string name="swft_change_record">Exchange Records</string>
+    <string name="swft_change_record">Swap Records</string>
     <string name="all">All</string>
     <string name="mds">MDS</string>
     <string name="esn">ESN</string>
@@ -1104,7 +1134,7 @@
     <string name="foru_params">%s %s = %s %s</string>
 
     <string name="eos_account_select_create_way">Selecet Creation Method</string>
-    <string name="eos_account_create_way_alipay">Buy Invitation Code with Alipay</string>
+    <string name="eos_account_create_way_alipay">Buy Invitation Code</string>
     <string name="eos_account_create_way_recommend">Recommendation</string>
     <string name="eos_account_create_way_exchange">Withdrawal or Transfer</string>
     <string name="eos_account_create_way_friends">Invite friends to scan and pay by Math Wallet</string>
@@ -1113,12 +1143,12 @@
     <string name="eos_account_create_backup_private_title">Private Key</string>
     <string name="eos_account_create_by_exchange_prompt3">Open-source:https://github.com/dappub/signuoeoseos</string>
     <string name="eos_account_create_by_exchange_prompt4">Withdraw or transfer via Exchange needs to be at leaat 1 EOS, 0.2 EOS for CPU tick and network resource, and the remaining EOS for RAM.</string>
-    <string name="eos_account_create_by_exchange_prompt5"> At present, the supporting Exchanges are : OTCBTC, TC, Gate.io, Huobi, Binance and Bitfinex，other exchanges is not recommended.</string>
+    <string name="eos_account_create_by_exchange_prompt5"> At present, the supporting Exchanges are : OTCBTC, TC, Gate.io, Huobi, Binance and Bitfinex,other exchanges is not recommended.</string>
     <string name="eos_account_create_by_exchange_prompt6">Below are the receiving account and transaction note, please coy and fill in exchange or wallets. The smart contract will be created based on the account.</string>
     <string name="eos_account_create_by_exchange_prompt7">When the withdrawal or transfer is successful, import the private key that backed up in previous step to complete account creation.</string>
     <string name="eos_account_create_by_exchange_account_title">Transfer To Account</string>
     <string name="eos_account_create_by_exchange_memo_title">Add Memo</string>
-    <string name="eos_account_create_by_exchange_prompt8">This account creation method applies Dappub team’s smart contract, and there’s no manual operation during the creation process. Math Wallet couldn’t do anything if users loss assets due to wrong operation.</string>
+    <string name="eos_account_create_by_exchange_prompt8">This account creation method applies Dappub team\'s smart contract, and there\'s no manual operation during the creation process. Math Wallet couldn't do anything if users loss assets due to wrong operation.</string>
     <string name="eos_account_create_by_exchange_copy_account">copy account</string>
     <string name="eos_account_create_by_exchange_copy_memo">copy memo</string>
     <string name="eos_account_create_by_friend_prompt9">When the payment is successful, you need to import the private key that backed up in previous step to complete account creation. </string>
@@ -1127,13 +1157,13 @@
     <string name="eos_account_create_by_friend_account_title">Account</string>
     <string name="eos_account_create_by_friend_owner_title">Owner\nPublic Key</string>
     <string name="eos_account_create_by_friend_active_title">Active\nPublic Key</string>
-    <string name="eos_account_create_by_friend_prompt10">Invite friends to use the Math Wallet to scan the QR code and pay around %s EOS to stick CPU and network resource，and purchase RAM.</string>
+    <string name="eos_account_create_by_friend_prompt10">Invite friends to use the Math Wallet to scan the QR code and pay around %s EOS to stick CPU and network resource,and purchase RAM.</string>
     <string name="swft_crosschain">Cross-chain Exchange</string>
     <string name="swft_wait_deposit_send">Tokens to be deposited</string>
     <string name="swft_timeout">Timeout</string>
     <string name="swft_exchanging">Exchanging</string>
     <string name="swft_receive_complete">Completed</string>
-    <string name="swft_wait_refund_send">Exchange failed，waiting to return the tokens</string>
+    <string name="swft_wait_refund_send">Exchange failed,waiting to return the tokens</string>
     <string name="swft_refund_complete">Returned</string>
     <string name="swft_logo">Powered by SWFT Blockchain </string>
     <string name="swft_exchange_record">Exchange Records</string>
@@ -1167,7 +1197,7 @@
     <string name="freeze">Freeze-</string>
     <string name="unfreeze">Unfreeze</string>
     <string name="location">location</string>
-    <string name="allow_access_to_your_location">allow access to your location ？</string>
+    <string name="allow_access_to_your_location">allow access to your location ?</string>
     <string name="dapps_upgrade_disclaimer">Your Math Wallet should be upgraded, thanks for your supporting.</string>
     <string name="dapps_open_risk_disclaimer">You are about to jump to the third-party DAPP page. Your use of the third-party DAPP will apply to the third-party DAPP\'s User Agreement and Privacy Policy, which will be directly and separately liable to you by the third party DAPP.</string>
     <string name="dapps_risk_disclaimer">Your use of third party DAPP will be subject to the User Agreement and Privacy Policy of the third party DAPP, which is directly and separately liable to you by the third party DAPP.</string>
@@ -1177,8 +1207,8 @@
     <string name="dapps_24h_users">24H Users</string>
     <string name="dapps_24h_transactions">24H Transactions</string>
     <string name="dapps_24h_volume">24H Volume</string>
-    <string name="dapps_rank_date_source">Data from：%s</string>
-    <string name="dapps_rank_data_source_empty">Data from：none</string>
+    <string name="dapps_rank_date_source">Data from:%s</string>
+    <string name="dapps_rank_data_source_empty">Data from:none</string>
     <string name="trx_not_transfer">The token is not available for exchanging</string>
     <string name="vote">Vote</string>
     <string name="exchange_transfer">Exchange-</string>
@@ -1191,7 +1221,7 @@
     <string name="trx_transaction_amount">Amount</string>
     <string name="trx_sell">Amount</string>
     <string name="trx_pre_get">Expected Income</string>
-    <string name="eos_transfer_delay_set_placeholder">Enter new EOS public key or account</string>
+    <string name="eos_transfer_delay_set_placeholder">Set trading time</string>
 
     <string name="pickerview_cancel" translatable="false">Cancle</string>
     <string name="pickerview_day" translatable="false">d</string>
@@ -1225,37 +1255,38 @@
     <string name="update_password_error">Update Password Error</string>
     <string name="other_wallet">Other</string>
 
-    <string name="hardware_wallet">硬件钱包</string>
-    <string name="hardware_Search">正在搜索设备...</string>
-    <string name="hardware_connection">连接</string>
-    <string name="hardware_connection_current">当前连接设备</string>
-    <string name="hardware_connection_other">其它设备</string>
-    <string name="hardware_Initialize">初始化设备</string>
-    <string name="hardware_setPin">设置 PIN 码</string>
-    <string name="hardware_setPin_hint">为了保护您的钱包安全，请先设置 PIN 码，PIN 码会用于钱包解锁、转账等操作，请妥善保管 PIN 码。</string>
-    <string name="hardware_setPin_input">输入 PIN 码</string>
-    <string name="hardware_setPin_input_again">再次输入 PIN 码</string>
-    <string name="hardware_setFinger">设置指纹</string>
-    <string name="hardware_setFinger_hint">设置指纹后，无需输入 PIN 码，通过指纹识别可用于钱包解锁、转账等操作。</string>
-    <string name="hardware_setFinger_no">暂不设置</string>
-    <string name="hardware_setFinger_start">开始录入指纹\n请将一支手指放入设备验证指纹处</string>
-    <string name="hardware_setFinger_goodFinger">录入完成\n请移开手指</string>
-    <string name="hardware_setFinger_continue">继续录入指纹\n请再次将同一支手指放入设备验证指纹处</string>
-    <string name="hardware_setFinger_complete">录入完成\n您的指纹已设置完成</string>
-    <string name="hardware_PinAndFinger">PIN 码与指纹</string>
-    <string name="hardware_backup_mnemonic_phrase">备份助记词</string>
-    <string name="hardware_Initialize_again">重新初始化设备</string>
-    <string name="hareware_initialize_alert">重新初始化设备将删除您所有相关联的钱包，请确认您是否已备份好私钥？</string>
-    <string name="hardware_delete">删除设备</string>
-    <string name="hardware_delete_alert">删除设备同时将会移除您已经添加的钱包，但将来您可以重新连接此设备并导入钱包。</string>
-    <string name="hardware_resetPin">重设 PIN 码</string>
-    <string name="hardware_resetFinger">重设指纹</string>
-    <string name="hardware_verify_finger">请在设备验证指纹以确认转账</string>
-    <string name="hardware_verify_pin">请在设备验证PIN码以确认转账</string>
-    <string name="hareware_choose">选择硬件钱包</string>
-    <string name="hardware_mywallet">我的钱包</string>
-    <string name="hardware_pin_diffrent">两次PIN码不一致</string>
-    <string name="hardware_account">账户</string>
+    <string name="hardware_wallet">Hardware</string>
+    <string name="hardware_Search">Searching the device...</string>
+    <string name="hardware_connection">Connect</string>
+    <string name="hardware_connection_current">Current connected device</string>
+    <string name="hardware_connection_other">Other Device</string>
+    <string name="hardware_Initialize">Initialization Device</string>
+    <string name="hardware_setPin">Set PIN Code</string>
+    <string name="hardware_setPin_hint"> In order to protect your wallet, please set your PIN code. The PIN code will be used to unlock your wallet, transfer money, etc. Please keep your PIN code.</string>
+    <string name="hardware_setPin_input">Enter PIN Code </string>
+    <string name="hardware_setPin_input_again">Reenter PIN Code</string>
+    <string name="hardware_setFinger">Set Fingerprint</string>
+    <string name="hardware_setFinger_hint">After setting the fingerprint, you don\'t need to enter the PIN code. Fingerprint recognition can be used to unlock the wallet, transfer money, etc.</string>
+    <string name="hardware_setFinger_no">Set Later</string>
+    <string name="hardware_setFinger_start"> Start set the fingerprint \n please put your finger onto the fingerprint verification area.</string>
+    <string name="hardware_setFinger_goodFinger"> Recorded Fingerprint \n please move your finger</string>
+    <string name="hardware_setFinger_continue">Continue recording Fingerprint \n please put your finger onto the fingerprint verification area </string>
+    <string name="hardware_setFinger_complete">Recorded Fingerprint \n your Fingerprint has been set </string>
+    <string name="hardware_PinAndFinger">PIN Code and Fingerprint</string>
+    <string name="hardware_backup_mnemonic_phrase">Backup Mnemonic Word</string>
+    <string name="hardware_Initialize_again"> Reinitialize the device</string>
+    <string name="hareware_initialize_alert">Reinitializing the device will delete all your associated wallets. Please confirm that you have backed up your mnemonic word.</string>
+    <string name="hardware_delete">Delete Device</string>
+    <string name="hardware_delete_alert">Deleting your device will also remove the wallet you have added, but in the future you can reconnect it and import your wallet.</string>
+    <string name="hardware_resetPin">Reset PIN Code</string>
+    <string name="hardware_resetFinger">Reset Fingerprint</string>
+    <string name="hardware_verify_finger">Please verify fingerprint to confirm the transfer.</string>
+    <string name="hardware_verify_pin">Please verify PIN code to confirm the tranfer </string>
+    <string name="hareware_choose">Select Hardware Wallet</string>
+    <string name="hardware_mywallet">My Wallet</string>
+    <string name="hardware_pin_diffrent">Two PIN codes are inconsistent </string>
+    <string name="hardware_account">Account</string>
+    <string name="hardware_press_btn">Please press the button to confirm.</string>
 
     <string name="dapp_search_hint">Search or enter DApp address</string>
     <string name="open_link">Open link: </string>
@@ -1263,6 +1294,8 @@
     <string name="dapp_search_nothing">No Result</string>
     <string name="eth_sigh_address">Address</string>
     <string name="eth_sign_content">Content</string>
+    <string name="zilliqa_wallet">ZIL Wallet</string>
+    <string name="please_enter_the_correct_zilliqa_address">Please enter the correct ZIL publicKey.</string>
 
     <string name="eos_account_permission_accounts_add">Add Account</string>
     <string name="eos_account_permission_accounts_update">Update Account</string>
@@ -1270,7 +1303,7 @@
     <string name="eos_account_permission_choose">Select </string>
     <string name="eos_account_permission_weight_placeholder">Set Weight</string>
     <string name="eos_account_permission_weight_title">Weight</string>
-    <string name="eos_account_permission_permission_title">Permission</string>
+    <string name="eos_account_permission_permission_title">Permission Name</string>
     <string name="eos_account_permission_accounts_invalid">Invalid Account</string>
     <string name="eos_account_permission_keys_add">Add Public Key</string>
     <string name="eos_account_permission_keys_update">Update Public Key</string>
@@ -1280,10 +1313,9 @@
     <string name="eos_account_permission_waits_time_title">Waiting Time</string>
     <string name="eos_account_permission_waits_time_placeholder">Set Waiting Time</string>
     <string name="eos_account_permission_parent_title_placeholder">Parent %s · %s</string>
-    <string name="eos_account_permission_import_operation_warning">The current account has %s permission，cannot change %s permission</string>
+    <string name="eos_account_permission_import_operation_warning">The current account has %s permission,cannot change %s permission</string>
     <string name="eos_account_permission_parent_placeholder">Select Parent</string>
     <string name="eos_account_permission_delete_warning">Owner and active permission cannot be deleted.</string>
-    <string name="eos_account_permission_threshold_warning">When threshold > 1 , the current wallet will not be able to make transaction, do you want to continue?</string>
     <string name="eos_account_permission_keys_delete">Delete Public Key</string>
     <string name="eos_account_permission_accounts_delete">Delete Account</string>
     <string name="eos_account_permission_waits_delete">Delete Wait</string>
@@ -1293,4 +1325,190 @@
     <string name="eos_account_permission_threshold_placeholder">Set threshold</string>
     <string name="eos_account_permission_waits_title">Wait</string>
     <string name="eos_account_permission_no">none</string>
+    <string name="trade">Trade</string>
+    <string name="eos_permission_inconsistent">Please import the %s permission first.</string>
+    <string name="gallery">Gallery</string>
+    <string name="module_wallet">%s Wallet</string>
+    <string name="check_tokens">Please check the tokens</string>
+    <string name="add_token_first">Please add the token first</string>
+
+    <string name="wallet_password_forget_password">Forget Wallet Password？</string>
+    <string name="webview_transfer_warning">You are making a large amount transfer, please be cautious.</string>
+    <string name="report">Report Scam</string>
+    <string name="dapps_risk_warning">Risk warning</string>
+    <string name="dapps_report_warning">The third-party DApp is reported by other users and may involve high-risk situations such as malicious scams, token locks, or hacking! Please be cautious!</string>
+
+    <string name="invaild_plugin">Invaild Plugin</string>
+    <string name="invaild_privatekey">Invaild Privatekey</string>
+    <string name="chains_password_error">Password Error</string>
+    <string name="invaild_mnenic">Invaild Mnemonic</string>
+    <string name="sign_error">Sign Error</string>
+    <string name="invaild_address">Invaild Address</string>
+    <string name="invaild_keystore">Invaild Keystore</string>
+    <string name="unknow_error">Unknow Error</string>
+    <string name="balances_locked">locked</string>
+    <string name="balance_free">free</string>
+
+    <string name="eos_account_create_way_exchange_instructions">Support multiple exchange withdrawal or wallet transfer.
+</string>
+    <string name="eos_account_create_way_alipay_instructions">Support purchasing invitation code via Alipay and Paypal.
+</string>
+    <string name="eos_account_create_way_friends_instructions">Invite friends to use the Math Wallet scanning payment.
+</string>
+    <string name="eos_account_create_way_phone">Create by phone number.</string>
+    <string name="eos_account_create_way_phone_instructions">Create by phone number.</string>
+    <string name="create_eos_account_by_phone">Create by phone number</string>
+    <string name="cancel_backup">Cancel Backup </string>
+    <string name="backup_by_organization">Organizaton Backup </string>
+    <string name="backup_by_organization_success">Organization backup succeeded. </string>
+    <string name="import_by_organization">Import by phone number </string>
+    <string name="find_eos_account_by_organization"> Retrieve EOS account </string>
+    <string name="find_eos_account_input_account_name"> Enter the EOS account </string>
+    <string name="find_eos_account_set_new_password">Set new account password </string>
+    <string name="what_is_the_organization_backup0">	•	The organization backup has been completed. Please do not change your owner permission, otherwise, the organization backup may be invalid；</string>
+    <string name="what_is_the_organization_backup1">	• 	Organization backup is the new feature that developed by Math Wallet based on EOS MultiSig technology; </string>
+    <string name="what_is_the_organization_backup2">	• 	When you open the organization backup, Math Wallet will involve your account management and will only provide service when you need to retrieve the account；</string>
+    <string name="open_organization_backup">Open</string>
+    <string name="wallet_password_require_txt1">At least 8 characters </string>
+    <string name="wallet_password_require_txt2">At least 1 uppercase </string>
+    <string name="wallet_password_require_txt3"> At least one lowercase letter </string>
+    <string name="wallet_password_require_txt4">At least one digit </string>
+
+    <string name="backup_by_organization_instructions"> Need to verify your identity and improve the your account information. If your account is lost or something unexpected happens to your account, it can be retrieved in Math Wallet through your phone number. </string>
+    <string name="backup_by_organization_instructions1"> In view of the security situation of your account, Math Wallet will provide you with the service of retrieving your account through your mobile phone. </string>
+    <string name="skip">Skip</string>
+    <string name="cant_import_wallet">Unable to import account </string>
+    <string name="cant_import_wallet_reason"> Detected that you had not created the EOS account in Math Wallet. </string>
+    <string name="account_security_authentication">Account security verification</string>
+    <string name="account_security_authentication_instructions"> After the verification, you can retrieve the account through the security verification system when your mobile phone is lost, the system is reinstalled or other unexpected circumstances occur. </string>
+    <string name="security_authentication">Security Verification</string>
+    <string name="kyc_success">Identity verification approved. </string>
+    <string name="kyc_success_tosecurity_txt"> In view of the security of your account, maiziwallet will provide you with the service of retrieving your account number through your mobile phone。</string>
+    <string name="immediate_authorization_now">To authorize. </string>
+    <string name="find_eos_by_phone_submit_success_txt"> Identity verification submitted, we will review as soon as possible, please wait patiently. </string>
+    <string name="checking">（Verifying）</string>
+    <string name="checking_failed">（Verification Failed）</string>
+    <string name="eosaccount_status0">Account in verifying, cannot make operation now </string>
+    <string name="eosaccount_status1"> Account verification failed, unable to operate. </string>
+    <string name="eosaccount_status2"> The information you submitted does not match the information reserved when you created the account. Please submit again.</string>
+    <string name="eosaccount_status_fail">Verification Failed </string>
+    <string name="eosaccount_status_again">Submit Information</string>
+    <string name="user_kyc_failed">The identity information you submitted is not approved, please submit again. </string>
+    <string name="eos_create_account_failed">Fail to create EOS account.</string>
+    <string name="eos_create_account_failed_call_service">Please contact Math Wallet for support：MDSjiangzuo </string>
+    <string name="hardware_reset_pin_fingerprint">Reset PIN code fingerprint </string>
+    <string name="hardware_valid_fingerprint">Please remove your finger and then repeat again.</string>
+    <string name="hardware_continue_typing">Continue recording fingerprint </string>
+    <string name="hardware_success_typing">Fingerprint Recorded </string>
+    <string name="iris_liquid_placeholder">Liquid</string>
+    <string name="iris_delegate_placeholder">Delegate</string>
+    <string name="iris_indelegating">Undelegating</string>
+
+
+    <string name="price">Price</string>
+    <string name="cancel_order">Cancel</string>
+    <string name="price_unit">Price(%s)</string>
+    <string name="volume_parentheses">Executed(%s)</string>
+    <string name="transaction_data_error">Invalid Amount</string>
+    <string name="no_open_order">No Record</string>
+    <string name="now_open_order">Open Orders</string>
+    <string name="cancel_order_success">Canceled</string>
+
+    <string name="exit_tips">Do you want to exit login?</string>
+
+    <string name="privatekey_qrcode">QRCode</string>
+    <string name="app_is_root_warming">It is detected that your mobile phone has been ROOT, please take care of the asset security.</string>
+    <string name="maximum_30_characters">Maximum 30 characters, optional.</string>
+    <string name="iris_simple_setting">Basic</string>
+    <string name="iris_advance_setting">Advanced</string>
+    <string name="view_the_update_history">Change Log</string>
+    <string name="backup_switch_mnemonic_cn">Back up Chinese mnemonic word</string>
+    <string name="backup_switch_mnemonic_en">Back up English mnemonic word</string>
+    <string name="my_hardware_device">My device</string>
+    <string name="other_hardware_device">Other device</string>
+    <string name="connect_hardware_device">Connecting device</string>
+    <string name="has_connected">Connected</string>
+    <string name="hardware_device_disconnect">Please make sure your hardware wallet is open</string>
+    <string name="please_input_pin">Please enter your PIN</string>
+    <string name="please_verify_pin">Please verify your PIN first</string>
+    <string name="connect_device_failed">The card is not detected, please confirm that the card is turned on.</string>
+    <string name="device_disconnected">The device has been disconnected!</string>
+    <string name="pin_error">PIN code error</string>
+    <string name="btc_transfer_add_opreturn">Add OP_RETURN</string>
+    <string name="btc_transfer_enter_hex">enter Hex</string>
+    <string name="btc_transfer_text_ascii">text ASCII</string>
+    <string name="cloud_wallet_search_token">Search Token</string>
+    <string name="cloud_wallet_hide_token">Hide Small Balances</string>
+    <string name="bill">Transactions</string>
+    <string name="cloud_wallet_transfer_amount">Amount</string>
+    <string name="cloud_transfer_all_amount">All</string>
+    <string name="cloud_walllet_real_receive">Receive Amount</string>
+    <string name="cloud_wallet_receive_address_qr">Receive address QR code</string>
+    <string name="cloud_wallet_bill_filter">Fliter</string>
+    <string name="copy_paste_address">Enter or paste address</string>
+
+    <string name="setPin_setPin">Set Payment Password</string>
+    <string name="setPin_countlimit">6 digits</string>
+    <string name="setting_update_pin">Update Payment Password</string>
+    <string name="setting_update_pin_old_pin">Enter old Payment Password</string>
+    <string name="setPin_different_pin">Payment Password Incorrect</string>
+    <string name="withdraw_input_pin_code">Enter Payment Password</string>
+    <string name="withdraw_mini_amount">At least withdraw %s</string>
+    <string name="withdraw_too_large_tips">At most withdraw %s</string>
+    <string name="wallet_password_pin_placeholder">"Enter payment password to unlock "</string>
+    <string name="cloud_transfer_warning">⚠️ Please confirm the receive address before transfer, the asset transfer cannot be canceled once executed.transferred will not be withdrawn.</string>
+    <string name="pin_code">Payment Password</string>
+    <string name="setting_repet_pin">Repeat Payment Password</string>
+    <string name="cloud_wallet_show_token">Show All</string>
+    <string name="not_open_for_now">Not Open</string>
+    <string name="encharge">Deposit</string>
+    <string name="cloud_all">All</string>
+    <string name="account_login_log">Login Record</string>
+    <string name="account_exit">Logout</string>
+    <string name="account_google_verify">Google Verification</string>
+    <string name="account_pay_pwd">Payment Password</string>
+    <string name="account_verified">Verified</string>
+    <string name="account_verified_info">Verification Information</string>
+    <string name="account_google_tips">Here’s the Google verified key, please copy and bind with Google Verification. Make sure you backup the key in a safe place, Google Verification cannot be recovered if you lost the key.</string>
+    <string name="account_copy_pk">The key is bound and backed up.</string>
+    <string name="account_google_hint">Please enter the Google verification code</string>
+    <string name="account_log_history">Login Record</string>
+    <string name="locate">Location</string>
+    <string name="ip_address">IP Address</string>
+    <string name="device">Device</string>
+
+    <string name="wallet_import_mnemonic_phrase_chinese">Enter the Chinese mnemonic word</string>
+    <string name="wallet_import_mnemonic_phrase_english">Enter the English mnemonic word</string>
+    <string name="wallet_import_mnemonic_phrase_chinese_placeholder">Enter the Chinese mnemonic word and separate with space</string>
+    <string name="wallet_import_mnemonic_phrase_english_placeholder">Enter the English mnemonic word and separate with space</string>
+    <string name="screen_capture_warming">Do not screen capture and storage, which may be collected by third-party malware, resulting in asset loss</string>
+    <string name="fail_to_generate_seed">Fail to generate seed</string>
+    <string name="local_device">Local Device</string>
+    <string name="the_device_has_been_disconnected">The device has been disconnected</string>
+    <string name="imported_mnemonic_not_match_mnemonic">The imported mnemonic does not match the mnemonic in the hardware wallet!</string>
+    <string name="pin_code_cannot_be_empty">PIN code cannot be empty</string>
+    <string name="pin_code_cannot_be_less">PIN code cannot be less than 6 digits</string>
+    <string name="pin_code_does_not_match">PIN code does not match</string>
+    <string name="your_fingerprint_has_been_set">Completed\nYour fingerprint has been set</string>
+    <string name="reset_pin_successfully">Reset PIN Successfully</string>
+    <string name="reset_pin_failed">Reset PIN Failed</string>
+    <string name="set_fingerprint">Set Fingerprint</string>
+    <string name="view_the_website">Visit Website</string>
+    <string name="email_update_new_hint">Have sent 6 character verification code to your new email</string>
+    <string name="withdraw_success">Withdrawn</string>
+    <string name="order_record">Transactions</string>
+    <string name="amount_unit">Amount(%s)</string>
+    <string name="figure">figure</string>
+    <string name="depth">depth</string>
+
+    <string name="three_decimal_places">3 decimal</string>
+    <string name="four_decimal_places">4 decimal</string>
+    <string name="five_decimal_places">5 decimal</string>
+    <string name="six_decimal_places">6 decimal</string>
+    <string name="simple_wallet_sign_sure">Confirm the signature</string>
+    <string name="precision">Decimal</string>
+    <string name="one_decimal_places">1 decimal</string>
+    <string name="two_decimal_places">2 decimal</string>
+    <string name="seven_decimal_places">7 decimal</string>
+    <string name="eight_decimal_places">8 decimal</string>
 </resources>

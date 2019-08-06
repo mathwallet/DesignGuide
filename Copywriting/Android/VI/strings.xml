@@ -1,0 +1,1487 @@
+<resources>
+    <string name="app_name">Math Wallet</string>
+    <string name="wallet">Ví</string>
+    <string name="position">Vị trí</string>
+    <string name="dapp">Ứng dụng</string>
+    <string name="profile">Tôi</string>
+
+    <!--多钱包选择页面-->
+    <string name="wallet_create_or_import_prompt">Không có ví, vui lòng tạo ví hoặc nhập ví</string>
+    <string name="eth_wallet">ETH Ví</string>
+    <string name="neo_wallet">NEO Ví</string>
+    <string name="eos_wallet">EOS Ví</string>
+    <string name="bos_wallet">BOS Ví</string>
+    <string name="enu_wallet">ENU Ví</string>
+    <string name="esn_wallet">ESN Ví</string>
+    <string name="nas_wallet">NAS Ví</string>
+    <string name="telos_wallet">TELOS Ví</string>
+    <string name="eos_force_wallet">EOS Buộc ví</string>
+    <string name="eos_force_fee_wallet">EOS Buộc ví</string>
+    <string name="btc_wallet">BTC Ví</string>
+    <string name="choose_wallet_type">Chọn loại ví</string>
+    <string name="create_eth_wallet_prompt">• Chỉ sao lưu và xuất được hỗ trợ Keystore,Không thể nhập ví khác\n• Có thể tham gia bảo mật tài khoản kỹ thuật số,Đánh cắp tối đa bồi thường 100,000 MDS\n• Hỗ trợ xác minh bảo mật nhiều</string>
+    <string name="create_eth_wallet_other_support_prompt">• Hỗ trợ các ví khác Keystore、Khóa riêng và nhập khẩu ghi nhớ</string>
+    <string name="create_eth_wallet_support_prompt">• Hỗ trợ sao lưu và xuất Keystore、Khóa riêng và ghi nhớ</string>
+    <string name="create_wallet_warming">• Ví bảo mật mới được tạo phải được nhập qua ví Math Wallet\n• Ví bảo mật mới được tạo có thể được thêm vào bảo mật tài khoản\n• Hỗ trợ nhiều xác minh bảo mật như dấu vân tay, khuôn mặt, giọng nói</string>
+    <string name="switch_wallet">Đổi ví</string>
+
+    <string name="detect_no_face">Không có khuôn mặt được phát hiện</string>
+    <string name="detect_face_in">Di chuyển khuôn mặt vào hộp</string>
+    <string name="detect_zoom_in">Nhìn kỹ vào điện thoại</string>
+    <string name="detect_zoom_out">Lâu hơn một chút</string>
+    <string name="detect_head_up">Nên ngửa đầu nhẹ</string>
+    <string name="detect_head_down">Nên cúi đầu một chút</string>
+    <string name="detect_head_left">Nên quay nhẹ sang trái</string>
+    <string name="detect_head_right">Nên quay nhẹ sang phải</string>
+    <string name="detect_occ_face">Khuôn mặt bị tắc</string>
+    <string name="detect_low_light">Lại sáng</string>
+    <string name="detect_keep">Hãy ở yên</string>
+    <string name="detect_standard">Hãy đối mặt với điện thoại</string>
+    <string name="detect_timeout">Hết thời gian phát hiện</string>
+    <string name="liveness_eye">Nháy mắt</string>
+    <string name="liveness_eye_left">Hãy nhìn mắt trái</string>
+    <string name="liveness_eye_right">Hãy nhìn vào mắt phải</string>
+    <string name="liveness_mouth">Mở miệng</string>
+    <string name="liveness_head_left">Quay đầu từ từ sang trái</string>
+    <string name="liveness_head_right">Quay đầu từ từ sang phải</string>
+    <string name="liveness_head_left_right">Lắc đầu</string>
+    <string name="liveness_head_up">Từ từ nhìn lên</string>
+    <string name="liveness_head_down">Từ từ cúi đầu</string>
+    <string name="liveness_good">Rất tốt</string>
+
+    <!--导入钱包-->
+    <string name="wallet_import_keystore_title">Nhập qua Keystore</string>
+    <string name="wallet_import_privatekey_title">Nhập qua khóa riêng</string>
+    <string name="import_privatekey">Nhập khóa riêng</string>
+    <string name="wallet_import_mnemonic_phrase_title">Nhập qua ghi nhớ</string>
+    <string name="account_is_existing">Tài khoản đã tồn tại, có bị ghi đè không?</string>
+
+    <!--keystore导入-->
+    <string name="keystore">keystore</string>
+    <string name="wallet_import_keystore_text_placeholder">Dán nội dung của tệp kho khóa</string>
+    <string name="wallet_import_keystore_password_title">Mật khẩu kho khóa</string>
+    <string name="wallet_import_keystore_password_placeholder">Nhập mật khẩu kho khóa</string>
+    <string name="wallet_import_keystore_nickname_placeholder">Đặt tên ví</string>
+    <string name="copy_walleKeystore">Sao chép Keystore</string>
+    <string name="copy_wallePrivateKey">Sao chép Private Key</string>
+
+    <string name="keystore_backup_completed">Keystore Hoàn thành sao lưu</string>
+
+    <!--私钥导入-->
+    <string name="wallet_import_privatekey_privatekey_title">Khóa riêng</string>
+    <string name="wallet_import_privatekey_privatekey_placeholder">Dán khóa riêng</string>
+    <string name="copy_privateKey">Sao chép khóa riêng</string>
+
+    <!--助记词-->
+    <string name="wallet_mnemonic_title">Ghi nhớ</string>
+    <string name="wallet_import_mnemonic_phrase_placeholder">Nhập ghi nhớ, cách nhau bởi khoảng trắng</string>
+    <string name="wallet_import_mnemonic_phrase_path_title">Đường dẫn</string>
+    <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx,Metamask (ETH)</string>
+    <string name="eth_mnpath2">m/44\'/60\'/0\'/0 Ledger (ETH)</string>
+    <string name="eth_mnpath3">m/44\'/60\'/1\'/0/0 Đường dẫn tùy chỉnh</string>
+
+    <!--创建钱包-->
+    <string name="create_wallet_success_title">Ví đã được tạo thành công</string>
+    <string name="input_walletname">Nhập tên ví</string>
+    <string name="password_save_warning_title">Xác nhận mật khẩu ví</string>
+    <string name="wallet_password_placeholder">Ít nhất 8 ký tự, bao gồm chữ hoa và chữ thường và số</string>
+    <string name="password_save_warning_message">Chúng tôi không thể cung cấp khả năng truy xuất mật khẩu ví của bạn. Vui lòng xác nhận và giữ mật khẩu ví của bạn.!</string>
+    <string name="wallet_repeat_password">Lặp lại mật khẩu ví</string>
+    <string name="wallet_repeat_password_placeholder">Nhập lại mật khẩu ví</string>
+    <string name="conditions_prompt_normal">Tôi đã đọc và đồng ý</string>
+    <string name="conditions_prompt_active">《Chính sách bảo mật và dịch vụ》</string>
+    <string name="password_strength_low">Yếu</string>
+    <string name="password_strength_high">Mạnh mẽ</string>
+    <string name="create_wallet_success_backup_prompt_only">Sau đây là ví Keystore Tập tin,Sao chép và xuất khẩu đến nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được phục hồi, tập tin chỉ có thể được nhập qua ví lúa mì.</string>
+    <string name="create_wallet_success_backup_prompt">Sau đây là ví Keystore Tập tin,Sao chép và xuất khẩu đến nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục.</string>
+    <string name="create_neo_wallet_success_backup_prompt">Sau đây là tệp khóa riêng (WIF) cho ví NEO, được sao chép và xuất sang nơi an toàn. Sau khi mất, ví sẽ không được khôi phục.</string>
+    <string name="Investors">Tổ chức đầu tư</string>
+    <string name="fenbushi_capital">Vốn phân phối</string>
+    <string name="Danhua_capital">Danhua Thủ đô</string>
+    <string name="disclaimer_warning_title">Khước từ</string>
+    <string name="create_wallet_success_copy_prompt">Vui lòng sao chép và sao lưu trước Keystore 文件</string>
+    <string name="create_wallet_success_copy_privateKey_prompt">Vui lòng sao chép và sao lưu trước WIF 文件</string>
+    <string name="create_wallet_success_copy_eos_privateKey_prompt">Vui lòng sao chép và sao lưu tập tin khóa riêng trước.</string>
+    <string name="disclaimer_warning_message">Chúng tôi không chịu trách nhiệm bởi vì Keystore Mất tài sản do mất và quên mật khẩu！</string>
+    <string name="disclaimer_privatekey_warning_message">Chúng tôi không chấp nhận bất kỳ mất tài sản nào do mất khóa riêng và quên mật khẩu.！</string>
+    <string name="wallet_is_already_existing">Ví đã tồn tại, vui lòng không nhập lại</string>
+    <string name="delete_wallet_caution">Xác nhận xóa ví??</string>
+    <string name="input_walletpassword">Nhập mật khẩu ví của bạn</string>
+    <string name="the_name_is_taken">Tên ví không thể lặp lại</string>
+    <string name="the_account_name_is_taken">Tên tài khoản không thể được lặp lại</string>
+    <string name="password_is_too_weak">Độ mạnh của mật khẩu quá yếu</string>
+    <string name="nodes_of_community">Cộng đồng nút</string>
+
+    <!--管理钱包-->
+    <string name="select_wallet">Chọn ví</string>
+    <string name="select_eth_wallet">Chọn ETH Ví</string>
+    <string name="select_eos_wallet">Chọn EOS Ví</string>
+    <string name="select_neo_wallet">Chọn NEO Ví</string>
+    <string name="select_ont_wallet">Chọn ONT Ví</string>
+    <string name="select_btc_wallet">Chọn BTC Ví</string>
+    <string name="select_esn_wallet">Chọn ESN Ví</string>
+    <string name="manage_wallet">Ví quản lý</string>
+    <string name="create_wallet">Tạo ví</string>
+    <string name="eos_owner">Owner</string>
+    <string name="eos_active">Active</string>
+    <string name="create_maizi_wallet">Tạo ví an toàn lúa mì</string>
+    <string name="import_wallet">Nhập khẩu ví</string>
+    <string name="ethereum_point">Ethereum</string>
+    <string name="neo_point">NEO</string>
+    <string name="manage_wallet_address">Địa chỉ ví</string>
+    <string name="manage_wallet_name">Tên ví</string>
+    <string name="manage_wallet_password">Mật khẩu ví</string>
+    <string name="manage_wallet_backup_keystore">Sao lưu keystore</string>
+    <string name="manage_wallet_backup_privatekey">Sao lưu khóa riêng</string>
+    <string name="manage_wallet_backup_mnemonic_phrase">Sao lưu dự phòng</string>
+    <string name="remove_wallet">Xóa ví</string>
+    <string name="wallet_address">地址：</string>
+    <string name="save_wallet_failed">Ví lưu trữ không thành công</string>
+    <string name="rename_wallet_failed">Không thể sửa đổi tên ví</string>
+    <string name="delete_wallet_failed">Xóa ví không thành công</string>
+    <string name="create_wallet_failed">Tạo ví không thành công</string>
+
+    <!--修改钱包名称-->
+    <string name="wallet_nickname_update">Sửa đổi tên ví</string>
+    <string name="wallet_nickname_update_completed">Tên ví đã được sửa đổi thành công.</string>
+    <string name="wallet_password_update">Sửa đổi mật khẩu ví</string>
+    <string name="wallet_password_update_failed">Không thể sửa đổi mật khẩu ví</string>
+    <string name="wallet_password_update_completed">Mật khẩu đã được sửa đổi thành công.</string>
+    <string name="wallet_password_old_password_title">Mật khẩu ví cũ</string>
+    <string name="wallet_password_old_password_placeholder">Nhập mật khẩu ví cũ</string>
+    <string name="wallet_password_new_password_title">Mật khẩu ví mới</string>
+    <string name="wallet_password_new_password_placeholder">Ít nhất 8 ký tự, bao gồm chữ hoa và chữ thường và số</string>
+    <string name="wallet_password_repeat_password_title">Mật khẩu ví mới</string>
+    <string name="wallet_password_repeat_password_placeholder">Nhập lại mật khẩu ví mới của bạn</string>
+
+    <!--备份私钥-->
+    <string name="wallet_backup_privatekey_prompt">Sau đây là thông tin khóa riêng của ví, được sao chép và xuất sang nơi an toàn để lưu trữ. Một khi đã mất, không thể lấy lại được.</string>
+
+    <!--备份助记词-->
+    <string name="wallet_backup_mnemonic_phrase_write_down">Bản ghi nhớ đã được sao chép</string>
+    <string name="wallet_backup_mnemonic_phrase_completed">Mnemonic đã được sao lưu</string>
+    <string name="wallet_backup_mnemonic_phrase_write_down_prompt">Sau đây là bản ghi nhớ của ví, được sao chép và xuất sang nơi an toàn để lưu trữ. Một khi đã mất, không thể lấy lại được.</string>
+    <string name="wallet_backup_mnemonic_phrase_prompt">Nhấp vào mnemonic để xác nhận rằng mnemonic được phiên âm chính xác và giữ đúng cách ghi nhớ. Một khi đã mất, không thể lấy lại được.</string>
+
+    <!--转账菜单-->
+    <string name="transaction_menu_contacts">Đi liên hệ</string>
+    <string name="transaction_menu_account_address">Đến địa chỉ ví</string>
+    <string name="transaction_menu_scan_qrcode">Quét mã QR</string>
+    <string name="transaction_recently_records">Chuyển khoản</string>
+    <string name="contact_address_incorrect">Địa chỉ ví của người liên hệ không chính xác. Vui lòng chọn phương thức khác.</string>
+
+    <!--交易-->
+    <string name="exchange">Giao dịch</string>
+    <string name="coming_soon">Sắp có</string>
+    <string name="slow">Chậm</string>
+    <string name="fast">Nhanh</string>
+    <string name="veryslow">Rất chậm</string>
+    <string name="normal">Tiêu chuẩn</string>
+    <string name="veryfast">Cực nhanh</string>
+    <string name="developing">Không có cặp giao dịch</string>
+    <string name="transfer_overtime">Chuyển hợp đồng bảo vệ ngoài giờ</string>
+    <string name="transfer_overtime_detail">Hết 1 giờ, không thanh toán đóng gói 5MDS</string>
+    <string name="free">Miễn phí</string>
+    <string name="transaction_to_address_placeholder">Điền địa chỉ ví</string>
+    <string name="transaction_to_address_checking_security">Kiểm tra bảo mật tài khoản</string>
+    <string name="transaction_to_value_placeholder">Điền vào số tiền chuyển</string>
+    <string name="recharge_money">Số tiền chuyển %s ~ %s</string>
+    <string name="transaction_to_advance_setting">Cài đặt nâng cao</string>
+    <string name="transaction_to_advance_setting_gas_limit">Tùy chỉnh giới hạn gas</string>
+    <string name="transaction_to_advance_setting_gas_price">Giá gas tùy chỉnh</string>
+    <string name="transaction_to_advance_setting_hex_data">Dữ liệu thập lục phân</string>
+    <string name="transaction_confirm_send">Xác nhận chuyển tiền</string>
+    <string name="transaction_add_remark_hint">Thêm thông tin ghi chú</string>
+    <string name="pasted">Dán thành công</string>
+    <string name="authenticate_immediately">Chứng nhận ngay lập tức</string>
+    <string name="token_tranfer">%s Chuyển khoản</string>
+    <string name="gas_price_is_low_8">Gas price Quá thấp, khuyến nghị nên lớn hơn 8 gwei</string>
+    <string name="gas_price_is_up_100">Gas price Quá cao, khuyến nghị nên ít hơn 100 gwei</string>
+    <string name="gas_price_is_null">Gas price Không thể để trống</string>
+    <string name="gas_limit_is_null">Gas Limit Không thể để trống</string>
+    <string name="insufficient_balance">Số dư không đủ</string>
+    <string name="insufficient_eth_balance">ETH Số dư không đủ</string>
+    <string name="insufficient_eos_balance">EOS Số dư không đủ</string>
+    <string name="insufficient_nas_balance">NAS Số dư không đủ</string>
+    <string name="gas_should_be_more_than_25200">Gas Limit Không nên ít hơn 25200</string>
+    <string name="gas_should_be_more_than_60000">Gas Limit Không nên ít hơn 60000</string>
+    <string name="gas_should_be_more_than">Gas Limit Không nên ít hơn%s</string>
+
+    <string name="today">Hôm nay&#160;</string>
+    <string name="yestoday">Hôm qua&#160;</string>
+    <string name="transfer">Chuyển khoản-</string>
+    <string name="collection">Biên lai-</string>
+    <string name="current_asset">Tài sản hiện tại %s %s</string>
+    <string name="gas_cost">Phí khai thác %s ETH %s</string>
+
+    <string name="esn_gas_cost">Phí khai thác %s ESN %s</string>
+    <string name="nas_gas_cost">Phí khai thác %s NAS %s</string>
+    <string name="invalid_data">Lỗi dữ liệu 16 số thập phân</string>
+    <string name="address_cant_be_yourself">Người được trả tiền không thể là chính mình</string>
+
+    <string name="please_enter_ammount">Vui lòng nhập số tiền chuyển</string>
+    <string name="recharge_money_is_low">Lượng nạp lại không thể thấp hơn%s</string>
+    <string name="recharge_money_is_high">Số tiền nạp tối đa không thể lớn hơn%s</string>
+    <string name="open_face_module_to_keep_safe">Mô-đun nhận dạng khuôn mặt sẽ được gọi để bảo vệ an ninh chuyển khoản trong tương lai của bạn.</string>
+    <string name="please_create_eos_wallet">Vui lòng tạo ví EOS trước.</string>
+
+    <!--交易完成-->
+    <string name="transaction_complete_status_title">Tình trạng giao dịch</string>
+    <string name="transaction_complete_to_address_title">Địa chỉ thu gom</string>
+    <string name="transaction_complete_remark_title">Nhận xét</string>
+    <string name="transaction_complete_remark_add">Thêm thông tin ghi chú</string>
+
+    <!--确认转账信息-->
+    <string name="transaction_confirm_title">Xác nhận thông tin chuyển khoản</string>
+
+    <!--交易详情-->
+    <string name="transaction_detail_title">Chi tiết giao dịch</string>
+    <string name="transaction_detail_block_height_title">Chặn</string>
+    <string name="transaction_detail_tx_hash_title">Số thứ tự giao dịch</string>
+    <string name="transaction_detail_tx_time_title">Thời gian giao dịch</string>
+    <string name="transaction_detail_tx_fee_title">Phí khai thác</string>
+    <string name="transaction_detail_from_address_title">Địa chỉ thanh toán</string>
+    <string name="eos_mapping">一Ánh xạ khóa</string>
+    <string name="transaction_detail_re_transfer">Chuyển nhượng lại</string>
+    <string name="overtime_pay">Hết giờ thanh toán</string>
+
+    <!--资产-->
+    <string name="home_total_asset_title">Tổng tài sản（≈%s）</string>
+    <string name="home_add_new_asset">Thêm tài sản</string>
+    <string name="neo_claim_failer">Tái chế %s Thất bại</string>
+    <string name="neo_claim_success">Tái chế %s Thành công！</string>
+    <string name="auto_search">Tự động tìm kiếm</string>
+
+    <!--我-->
+    <string name="mine_medishares_account">Tài khoản lúa mì</string>
+    <string name="mine_medishares_transcations">Biên bản giao dịch</string>
+    <string name="mine_medishares_contacts">Sổ địa chỉ</string>
+    <string name="mine_medishares_wechat_group">Tham gia nhóm WeChat chính thức</string>
+    <string name="mine_medishares_recommend">Lời mời</string>
+    <string name="mine_medishares_suggestion">Phản hồi</string>
+    <string name="mine_medishares_feekback">Phản hồi</string>
+    <string name="mine_medishares_about">Giới thiệu</string>
+    <string name="mine_medishares_setting">Cài đặt</string>
+    <string name="mine_medishares_candy">Ví điện toán đám mây</string>
+    <string name="mds_app_download">MDS App Download</string>
+    <string name="token_price">Xem phần thưởng lời mời</string>
+
+    <!--注册或登录-->
+    <string name="register_acccount_title">Tài khoản lúa mì đã đăng ký</string>
+    <string name="register_acccount_with_email">Đăng ký tài khoản qua email</string>
+    <string name="register_acccount_with_mobile">Đăng ký tài khoản với số điện thoại com.medishares.module.chainx.di động của bạn</string>
+    <string name="register_account_switch_email">Hoặc đăng ký theo số điện thoại</string>
+    <string name="register_account_switch_mobile">Hoặc đăng ký qua email</string>
+    <string name="login_acccount_title">Đăng nhập vào tài khoản lúa mì</string>
+    <string name="login_acccount_with_email">Đăng nhập tài khoản qua email</string>
+    <string name="login_acccount_with_mobile">Đăng nhập vào tài khoản của bạn bằng số điện thoại</string>
+    <string name="login_account_switch_email">Hoặc đăng nhập bằng số điện thoại</string>
+    <string name="login_account_switch_mobile">Hoặc đăng nhập qua email</string>
+    <string name="verify_code_unreceived">Không nhận được？</string>
+    <string name="check_your_spam_box">Không thể nhận thư? Vui lòng kiểm tra thùng rác thư</string>
+    <string name="verify_code_send_again">Gửi lại mã xác minh</string>
+    <string name="sign_in">Đăng ký</string>
+    <string name="login">Đăng nhập</string>
+    <string name="edit_email_error">Lỗi điền hộp thư</string>
+    <string name="verify_code_send_again_timeout">%d\'s Gửi lại mã xác minh</string>
+    <string name="edit_verification_code">Điền vào mã xác minh</string>
+    <string name="please_input_email_true">Vui lòng nhập địa chỉ email chính xác</string>
+    <string name="please_input_phone_true">Vui lòng nhập đúng số điện thoại</string>
+    <string name="verify_phone_number">Xác minh số điện thoại</string>
+
+    <!--选择国家和地区-->
+    <string name="country_code_title">Chọn quốc gia và khu vực</string>
+
+    <!--MediShares账户-实名-->
+    <string name="medishares_account_page_security_title">An toàn</string>
+    <string name="medishares_account_page_security_subtitle">Bảo mật thông tin xác thực của bạn với IPFS và công nghệ mã hóa</string>
+    <string name="medishares_account_page_insurance_title">Bảo vệ</string>
+    <string name="medishares_account_page_insurance_subtitle">Hoàn thành chứng nhận tên thật là điều kiện tiên quyết để bạn tham gia bảo vệ hợp đồng thông minh</string>
+    <string name="medishares_account_page_convenient_title">Nhanh</string>
+    <string name="medishares_account_page_convenient_subtitle">Sau khi xác thực tên thật, bạn bè có thể chuyển tiền cho bạn qua điện thoại com.medishares.module.chainx.di động bị ràng buộc.</string>
+    <string name="bind_kyc_status_default">Chứng nhận tên thật</string>
+    <string name="bind_kyc_status_process">Thông tin chứng nhận tên thật của bạn đã được gửi và chúng tôi sẽ xem xét nó sớm nhất có thể và gửi lại cho bạn..</string>
+    <string name="bind_kyc_status_success">Chứng nhận tên thật đã được hoàn thành(%s)</string>
+    <string name="bind_kyc_page_subtitle">Điền thông tin bên dưới để hoàn thành xác thực</string>
+    <string name="bind_kyc_page_title">Xác thực</string>
+    <string name="bind_kyc_submit">Gửi đánh giá</string>
+    <string name="bind_kyc_name_placeholder">Điền vào tên thật của bạn</string>
+    <string name="bind_kyc_identity_photo_prompt">ID ảnh</string>
+    <string name="make_sure_your_entire_head_and_certificate">Đảm bảo thông tin hình đại diện và ID trên màn hình,Rõ ràng</string>
+    <string name="identity_verification_failed">Thông tin xác thực tên thật của bạn không thành công,Vui lòng gửi lại</string>
+    <string name="enter_idcard">Điền số ID</string>
+    <string name="bind_kyc_complete_title">Gửi hoàn thành</string>
+    <string name="identity_verification">Chứng nhận tên thật：%s</string>
+    <string name="please_choose_cardtype">Vui lòng chọn loại ID đầu tiên.</string>
+
+    <!--MediShares账户-信息-->
+    <string name="user_detail_title">Thông tin tài khoản</string>
+    <string name="user_add_email_address">Thêm một hộp thư</string>
+    <string name="user_add_mobile_number">Thêm số điện thoại</string>
+    <string name="user_idcard">Chứng minh nhân dân</string>
+    <string name="user_passport">Hộ chiếu</string>
+    <string name="user_driverlicense">Bằng lái xe</string>
+    <string name="user_logout">Thoát tài khoản</string>
+    <string name="user_name_title">Tên</string>
+    <string name="user_credential_type_title">Loại tài liệu</string>
+    <string name="user_email_title">Hộp thư</string>
+    <string name="user_mobile_title">Số điện thoại com.medishares.module.chainx.di động</string>
+    <string name="user_update_success">Đã sửa đổi thành công</string>
+    <string name="user_photo_title">Hình đại diện</string>
+    <string name="sure_exit_account">Bạn có chắc chắn để đăng xuất?</string>
+
+    <!--MediShares账户-添加邮箱或更改邮箱-->
+    <string name="user_update_email_checked">Đã xác minh</string>
+    <string name="user_add_email_subtitle">Sau khi bạn thêm hộp thư, bạn cũng có thể đăng nhập bằng hộp thư của mình.</string>
+    <string name="user_update_email_subtitle">Sau khi thay đổi hộp thư, đăng nhập và sử dụng hộp thư mới.</string>
+    <string name="user_update_email_verify">Xác minh hộp thư</string>
+    <string name="user_update_email_verify_placeholder">Một tin nhắn đã gửi cho bạn mã xác minh gồm 6 chữ số</string>
+    <string name="user_update_mobile_sms_placeholder">Tin nhắn SMS với mã xác minh gồm 6 chữ số được gửi cho bạn</string>
+    <string name="user_update_email_placeholder">Điền địa chỉ email của bạn</string>
+    <string name="user_add_mobile_subtitle">Sau khi thêm số điện thoại com.medishares.module.chainx.di động, bạn cũng có thể đăng nhập bằng số điện thoại com.medishares.module.chainx.di động của mình.</string>
+    <string name="user_update_email_address">Thay đổi hộp thư</string>
+    <string name="user_update_mobile_number">Đổi số điện thoại</string>
+    <string name="enter_new_email">Điền vào hộp thư mới</string>
+    <string name="enter_new_phone">Điền số điện thoại mới</string>
+
+    <!--MediShares账户-绑定钱包地址-->
+    <string name="user_update_wallet_address">Thay thế địa chỉ ví</string>
+    <string name="user_update_wallet">Đổi ví</string>
+    <string name="user_unbind_wallet_address">Không ràng buộc</string>
+    <string name="bind_account_page_title">Liên kết bạn bè với ví tiền hiển thị</string>
+    <string name="bind_eth_account_page_subtitle">Chọn một ràng buộc địa chỉ ví ETH</string>
+    <string name="bind_eos_account_page_subtitle">Chọn một ràng buộc tài khoản EOS</string>
+    <string name="bind_neo_account_page_subtitle">Chọn một ràng buộc địa chỉ ví NEO</string>
+    <string name="bind_account_confirm">Xác nhận ràng buộc</string>
+    <string name="bind_account_complete_message">Tài khoản lúa mì của bạn đã được liên kết thành công với địa chỉ ví ETH</string>
+    <string name="bind_kyc_complete_message">Thông tin nhận dạng của bạn đã được gửi, chúng tôi sẽ xem xét và trả lại kết quả sớm nhất có thể, hãy kiên nhẫn.</string>
+    <string name="binding_success">Liên kết thành công</string>
+    <string name="binding_failure">Liên kết thất bại</string>
+    <string name="please_select_wallet">Vui lòng chọn ví để được ràng buộc</string>
+    <string name="unbind_bindaddress">Bạn có chắc chắn để cởi trói?？</string>
+    <string name="add_wallet_address">Thêm địa chỉ ví</string>
+    <string name="bind_now">Ràng buộc ngay lập tức</string>
+
+    <!--联系人列表-->
+    <string name="someone_you_might_know">Liên hệ có thể</string>
+    <string name="manual_add_contact_title">Thêm thủ công</string>
+    <string name="qrcode_add_contact_title">Quét mã QR để thêm</string>
+    <string name="contact_name_placeholder">Nhập tên liên lạc</string>
+    <string name="contact_account_eth_address_title">Địa chỉ ví ETH</string>
+    <string name="contact_account_esn_address_title">Địa chỉ ví ESN</string>
+    <string name="contact_account_iris_address_title">Địa chỉ ví IRIS</string>
+    <string name="contact_account_cosmos_address_title"> Địa chỉ ví COSMOS</string>
+    <string name="contact_account_bnb_address_title">Địa chỉ ví BNB</string>
+    <string name="contact_account_eos_address_title">Số tài khoản EOS</string>
+    <string name="contact_account_bos_address_title">Số tài khoản BOS</string>
+    <string name="contact_account_enu_address_title">Số tài khoản ENU</string>
+    <string name="contact_account_telos_address_title">Số tài khoản TELOS</string>
+    <string name="contact_account_neo_address_title">Địa chỉ ví NEO</string>
+    <string name="contact_account_eosforce_address_title">Tài khoản lực lượng EOS</string>
+    <string name="contact_account_btc_address_title">Địa chỉ ví BTC</string>
+    <string name="contact_account_trx_address_title">Địa chỉ ví TRX</string>
+    <string name="contact_account_nas_address_title">Địa chỉ ví NAS</string>
+    <string name="contact_account_eth_address_placeholder">Nhập hoặc dán địa chỉ ví ETH</string>
+    <string name="contact_account_bnb_address_placeholder">Nhập hoặc dán địa chỉ ví BNB</string>
+    <string name="contact_account_iris_address_placeholder">Nhập hoặc dán địa chỉ ví IRIS</string>
+    <string name="contact_account_cosmos_address_placeholder">Nhập hoặc dán địa chỉ ví COSMOS</string>
+    <string name="contact_account_eos_address_placeholder">Nhập hoặc dán tài khoản EOS</string>
+    <string name="contact_account_bos_address_placeholder">Nhập hoặc dán tài khoản BOS</string>
+    <string name="contact_account_enu_address_placeholder">Nhập hoặc dán tài khoản ENU</string>
+    <string name="contact_account_esn_address_placeholder">Nhập hoặc dán địa chỉ ví ESN</string>
+    <string name="contact_account_telos_address_placeholder">Nhập hoặc dán tài khoản TELOS</string>
+    <string name="contact_account_neo_address_placeholder">Nhập hoặc dán địa chỉ ví NEO</string>
+    <string name="contact_account_eosforce_address_placeholder">Nhập hoặc dán tài khoản EOS Force</string>
+    <string name="contact_account_ont_address_placeholder">Nhập hoặc dán địa chỉ ví ONT</string>
+    <string name="contact_account_btc_address_placeholder">Nhập hoặc dán địa chỉ ví BTC</string>
+    <string name="contact_account_trx_address_placeholder">Nhập hoặc dán địa chỉ ví TRX</string>
+    <string name="contact_account_nas_address_placeholder">Nhập hoặc dán địa chỉ ví NAS</string>
+
+    <string name="select_contact">Chọn liên hệ</string>
+    <string name="my_wallet">Ví của tôi</string>
+
+    <!--添加联系人-->
+    <string name="contact_add_title">Thêm một liên lạc</string>
+    <string name="contact_detail_title">Thông tin liên lạc</string>
+    <string name="sava_contacts_failed">Lưu liên lạc thất bại</string>
+    <string name="update_contacts_failed">Cập nhật liên lạc thất bại</string>
+    <string name="already_added_eth_contact">Các liên hệ có cùng địa chỉ ETH được thêm vào</string>
+    <string name="already_added_eos_contact">Những người liên hệ đã thêm cùng một tài khoản EOS</string>
+    <string name="already_added_neo_contact">Các liên hệ có cùng địa chỉ NEO được thêm vào</string>
+    <string name="please_input_name">Vui lòng điền tên</string>
+
+    <!--联系人信息-->
+    <string name="already_add">Vui lòng tên họ</string>
+    <string name="contact_edit_title">Chỉnh sửa liên lạc</string>
+    <string name="contact_edit_remove">Xóa liên lạc</string>
+    <string name="contact_edit_remove_failed">Xóa một liên lạc không thành công</string>
+    <string name="contact_edit_remove_waring_prompt">Bạn có chắc chắn muốn xóa liên hệ hiện tại của bạn?</string>
+
+    <!--关于-->
+    <string name="about_version_code">Phiên bản %s</string>
+    <string name="about_version_description">Math Wallet là một ví chuỗi chéo mạnh mẽ và an toàn, hỗ trợ EOS, BTC, ETH và các hệ sinh thái khác, hỗ trợ các giao dịch chuỗi chéo phi tập trung và xây dựng hệ sinh thái DApp đa chuỗi..</string>
+    <string name="website_title">Website:&#160;</string>
+    <string name="github_title">GitHub:&#160;</string>
+    <string name="twitter_title">Twitter:&#160;</string>
+    <string name="telegram_title">Telegram:&#160;</string>
+    <string name="medium_title">Blog:&#160;</string>
+    <string name="Kakao_title">Kakao:&#160;</string>
+    <string name="website_content">https://mathwallet.org</string>
+    <string name="github_content">https://github.com/MediShares</string>
+    <string name="twitter_content">https://twitter.com/MediShares</string>
+    <string name="telegram_content">https://t.me/medishares</string>
+    <string name="medium_content">http://blog.mathwallet.org</string>
+    <string name="medishares_org_made_with_in_singapore">Made with ❤️ in Singapore</string>
+    <string name="kakao_content">https://open.kakao.com/o/g5TSeeM</string>
+
+    <!--关注微信公众号-->
+    <string name="medishares_wechat_description">Chúng tôi chân thành mời bạn tham gia trò chuyện nhóm WeChat chính thức của chúng tôi, trước tiên hãy chú ý đến tín hiệu vi mô: mathwallet666</string>
+    <string name="medishares_telegram_description">Trân trọng mời bạn tham gia nhóm Telegram chính thức của chúng tôi và tham gia ngay bây giờ：https://t.me/mathwallet</string>
+    <string name="medishares_kakao_description">Trân trọng mời bạn tham gia trò chuyện nhóm KaKao chính thức của chúng tôi và tham gia ngay bây giờ：https://open.kakao.com/o/g5TSeeM</string>
+    <string name="medishares_wechat_public_copy">Sao chép tín hiệu vi mô</string>
+    <string name="medishares_wechat_public">MDSjiangzuo</string>
+    <string name="joinwx_notinstall_wx">Kiểm tra xem điện thoại của bạn chưa cài đặt WeChat, vui lòng cài đặt WeChat</string>
+    <string name="joinwx_notinstall_tele">Kiểm tra xem điện thoại của bạn chưa cài đặt Telegram, vui lòng cài đặt Telegram</string>
+    <string name="joinwx_notinstall_kakao">KaKao chưa được cài đặt hoặc phiên bản cài đặt không được hỗ trợ</string>
+
+    <!--设置（语言、货币单位）-->
+    <string name="medishares_setting_language">Ngôn ngữ</string>
+    <string name="medishares_setting_currency">Đơn vị tiền tệ</string>
+    <string name="medishares_setting_section_legal_tender">Tiền pháp định</string>
+    <string name="medishares_setting_section_virtual_currency">Tiền ảo</string>
+    <string name="medishares_setting_unlock_touchid">Mở khóa vân tay</string>
+
+    <!--意见反馈-->
+    <string name="medishares_suggestion_text_title">Ý kiến của bạn</string>
+    <string name="medishares_suggestion_email_title">Hộp thư của bạn</string>
+    <string name="medishares_suggestion_text_placeholder">Điền ý kiến của bạn,Cảm ơn bạn cho ý kiến có giá trị của bạn.</string>
+    <string name="medishares_suggestion_email_placeholder">Điền vào email của bạn để liên lạc với bạn</string>
+    <string name="feedback_submitted">Gửi phản hồi thành công</string>
+
+    <!--Unlock-->
+    <string name="unlock_touch_id_enable">Sử dụng dấu vân tay của bạn để mở khóa</string>
+    <string name="unlock_password_enable">Mở khóa bằng mật khẩu ví</string>
+    <string name="unlock_touch_id_prompt">Nhấn vào đây để mở khóa bằng dấu vân tay của bạn</string>
+    <string name="unlock_password_input_placeholder">Nhập mật khẩu ví để mở khóa</string>
+    <string name="unlock_enable_touch_id">Có nên sử dụng vân tay để mở khóa</string>
+    <string name="unlock_walletpassword">Mở khóa mật khẩu ví</string>
+    <string name="unable_to_recognize_fingerprint">Dấu vân tay không khớp và %d cơ hội</string>
+    <string name="fingerprint_suspended">Quá nhiều lỗi, bị khóa, vui lòng thử lại sau</string>
+    <string name="device_locked">Thiết bị đã bị khóa, vui lòng thử lại sau</string>
+    <string name="Mds_touchId">\'MDS\'Chạm ID</string>
+    <string name="place_fingerprint_to_recognize">Chạm vào nút vân tay để xác minh dấu vân tay của điện thoại hiện có</string>
+
+    <!--领糖果-->
+    <string name="candy_recently_collect">Hồ sơ nhận được gần đây</string>
+    <string name="candy_collect_record">Nhận hồ sơ</string>
+    <string name="candy_recharge_record">Hồ sơ nạp tiền</string>
+    <string name="candy_collected">Đã nhận</string>
+    <string name="candy_withdrawl_collect">Hồ sơ rút tiền</string>
+    <string name="candy_withdrawl">Rút kẹo-</string>
+    <string name="candy_collect">Nhận ngay</string>
+    <string name="candy_collect_unenable">Không có sẵn</string>
+    <string name="user_credential_number_title">Số tài liệu</string>
+    <string name="candy_record_state_release">Ban hành</string>
+    <string name="candy_record_state_checking">Đang chờ xem xét</string>
+    <string name="candy_record_state_checked_success">Đã phê duyệt</string>
+    <string name="candy_record_state_checked_fail">Việc kiểm toán thất bại</string>
+    <string name="candy_record_state_cancellation">Không dùng nữa</string>
+    <string name="withdrawal">Rút tiền</string>
+    <string name="my_candy">Kẹo của tôi</string>
+    <string name="choose_withdrawal_candy">Chọn rút ví</string>
+    <string name="edit_withdrawal_balance">Điền vào lượng tiền mặt</string>
+    <string name="least_10_mds">Rút tiền tối thiểu %s %s</string>
+    <string name="all_withdrawal">Rút tiền đầy đủ</string>
+    <string name="service_charge">Phí xử lý</string>
+    <string name="actual_balance">Đến thực tế</string>
+    <string name="no_litte_than_fee">Rút tiền mặt tối thiểu không thể thấp hơn%s %s</string>
+    <string name="no_little_than_fee">Lượng tiền mặt huy động không thể thấp hơn phí xử lý</string>
+    <string name="candy_withdrawl_tips">• Do sự tắc nghẽn gần đây trong mạng Ethereum, thời gian đến MDS của bạn có thể chậm hơn để tiết kiệm chi phí phát sóng dự án, nhưng hãy yên tâm rằng MDS của bạn có thể bị trễ, nhưng sẽ không bao giờ vắng mặt, cảm ơn bạn đã hiểu và hỗ trợ.！</string>
+
+    <!--其他-->
+    <string name="again_press_to_exit">Nhấn lần nữa để thoát</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="add">Thêm</string>
+    <string name="paste">Dán</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="cancle">Hủy bỏ</string>
+    <string name="copy">Sao chép</string>
+    <string name="done">Hoàn thành</string>
+    <string name="save">Lưu</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="submit">Gửi</string>
+    <string name="copied">Sao chép</string>
+    <string name="next">Bước tiếp theo</string>
+    <string name="prompt">Nhắc</string>
+    <string name="use">Sử dụng</string>
+    <string name="know">Tôi biết</string>
+    <string name="success">Thành công</string>
+
+    <!--相册-->
+    <string name="alum">Album</string>
+    <string name="album_all_image">Tất cả hình ảnh</string>
+    <string name="album_check">Chọn</string>
+    <string name="album_check_limit">Bạn có thể chọn tối đa %1$d hình ảnh</string>
+    <string name="album_check_little">Bạn đã không chọn một bức ảnh</string>
+    <string name="album_dialog_permission_failed">Mua lại không thành công</string>
+    <string name="album_dialog_sure">Được rồi</string>
+    <string name="album_menu_finish">Hoàn thành</string>
+    <string name="album_permission_camera_failed_hint">Không thể có được sự cho phép của máy ảnh, vui lòng sử dụng nó trong cài đặt và sau đó sử dụng nó..</string>
+    <string name="album_permission_storage_failed_hint">Không thể đọc quyền đọc album, vui lòng sử dụng nó sau khi ủy quyền trong cài đặt.</string>
+    <string name="album_title_activity_gallery">Hình ảnh</string>
+    <string name="gallery_menu_finish">Hoàn thành</string>
+
+    <!--MediShares账户-添加手机号或更改手机号-->
+    <string name="user_update_mobile_placeholder">Điền số điện thoại của bạn</string>
+    <string name="user_update_mobile_subtitle">Sau khi thay đổi số điện thoại, đăng nhập và sử dụng số điện thoại mới.</string>
+
+    <!--二维码 & 扫描二维码-->
+    <string name="copy_wallet_address">Sao chép địa chỉ</string>
+    <string name="account_address_qr_title">Địa chỉ ví mã QR</string>
+    <string name="account_code_qr_title">QR Code</string>
+    <string name="scan_qr_failed">二维码识别失败</string>
+    <string name="wrong_eth_qr_code">Mã QR không phải là địa chỉ ETH</string>
+    <string name="wrong_esn_qr_code">Mã QR không phải là địa chỉ ESN</string>
+    <string name="wrong_eos_qr_code">Mã QR không phải là tài khoản EOS</string>
+    <string name="wrong_enu_qr_code">Mã QR không phải là tài khoản ENU</string>
+    <string name="wrong_bnb_qr_code">Mã QR không phải là tài khoản BNB</string>
+    <string name="wrong_cosmos_qr_code">Mã QR không phải là tài khoản COSMOS</string>
+    <string name="wrong_chainx_qr_code">Mã QR không phải là tài khoản ChainX</string>
+    <string name="wrong_iris_qr_code">Mã QR không phải là tài khoản IRIS</string>
+    <string name="wrong_telos_qr_code">Mã QR không phải là tài khoản TELOS</string>
+    <string name="wrong_bos_qr_code">Mã QR không phải là tài khoản BOS</string>
+    <string name="wrong_neo_qr_code">Mã QR không phải là địa chỉ NEO</string>
+    <string name="wrong_ont_qr_code">Mã QR không phải là địa chỉ ONT</string>
+    <string name="wrong_btc_qr_code">Mã QR không phải là địa chỉ BTC</string>
+    <string name="wrong_eos_force_qr_code">Mã QR không phải là tài khoản EOS Force</string>
+    <string name="wrong_trx_qr_code">Mã QR không phải là địa chỉ TRX</string>
+    <string name="wrong_nas_qr_code">Mã QR không phải là địa chỉ NAS</string>
+
+    <!--交易记录-->
+    <string name="recent_transaction_records">Lịch sử giao dịch gần đây</string>
+    <string name="tranfer">Chuyển khoản</string>
+    <string name="currency_type">Tiền tệ</string>
+    <string name="receipt">Biên lai</string>
+    <string name="transfer_status_fail">Giao dịch thất bại</string>
+    <string name="transfer_status_success">Giao dịch thành công</string>
+    <string name="eos_map">EOS Lập bản đồ</string>
+    <string name="eos_map_success">Hoàn thành bản đồ</string>
+    <string name="refresh_map">Bản tóm tắt</string>
+    <string name="wait_to_processing">Đang chờ đóng gói ...</string>
+    <string name="unlimited">Không giới hạn</string>
+    <string name="_2f_percent">%.2f%%</string>
+    <string name="load_more">Hiển thị thêm ...</string>
+    <string name="load_more_empty_data">Không còn nữa ...</string>
+    <string name="check_etherscan_transation">Kiểm tra chi tiết giao dịch Etherscan</string>
+    <string name="check_transaction_details">Xem chi tiết giao dịch</string>
+    <string name="doublepay_warnning">Đã có cùng một giao dịch, nếu bạn muốn thay thế, vui lòng tăng gasprice, chú ý đến rủi ro thanh toán gấp đôi</string>
+
+    <!--页面无数据-->
+    <string name="empty_data_prompt">Chưa có dữ liệu</string>
+    <string name="empty_data_publicity">Không có thông tin công khai</string>
+    <string name="empty_data_transaction">Không có lịch sử giao dịch</string>
+    <string name="empty_data_trasfer">Không có hồ sơ chuyển nhượng</string>
+    <string name="empty_data_contacts">Không liên lạc</string>
+    <string name="empty_data_contacts_know">Không biết liên lạc</string>
+    <string name="empty_data_candy">Không có biên nhận</string>
+    <string name="empty_withdraw_data_candy">Không có hồ sơ rút tiền</string>
+    <string name="empty_rechange_data_candy">Không có hồ sơ nạp tiền</string>
+    <string name="empty_data_search">Không có kết quả tìm kiếm</string>
+
+    <!--error-->
+    <string name="mnemonic_phrase_invalid">Ghi nhớ không hợp lệ</string>
+    <string name="private_key_invalid">Khóa riêng không hợp lệ</string>
+    <string name="nparams_invalid">Tham số N quá lớn, nhập thất bại</string>
+    <string name="mnemonic_path_error">Lỗi định dạng đường dẫn ghi nhớ</string>
+    <string name="password_error">Sai mật khẩu</string>
+    <string name="keystore_json_version_unsupported">Phiên bản không được hỗ trợ của Keystore</string>
+    <string name="Invalid_keystore">Kho khóa không hợp lệ</string>
+    <string name="Invalid_crypto">Tiền điện tử không hợp lệ</string>
+    <string name="Invalid_cipheriv">Mật mã không hợp lệ</string>
+    <string name="Invalid_ciphertext">Bản mã không hợp lệ</string>
+    <string name="Invalid_iv">Iv không hợp lệ</string>
+    <string name="Invalid_wallet_type">Vui lòng sử dụng Keystore được xuất bằng ví lúa mì</string>
+    <string name="incorrect_length_of_mn">Lỗi độ dài từ Mn</string>
+    <string name="privatekey_error">Lỗi khóa riêng</string>
+    <string name="Invalid_Algorithm">Thuật toán không hợp lệ</string>
+    <string name="invalid_parameter">Lỗi tham số muối</string>
+    <string name="confirm_packaging_schedule">Xác nhận %d/12</string>
+    <string name="please_check_network_connection">Vui lòng kiểm tra kết nối mạng</string>
+    <string name="parse_error">Lỗi phân tích cú pháp</string>
+    <string name="classtype_conversion_error">Lỗi chuyển đổi loại</string>
+    <string name="connection_failed">Kết nối thất bại</string>
+    <string name="ssl_certificate_error">Xác nhận chứng chỉ không thành công</string>
+    <string name="connect_timeout">Hết thời gian kết nối</string>
+    <string name="unkonw_host_name">Không thể giải quyết tên miền</string>
+    <string name="unable_find_version">Không tìm thấy thông tin phiên bản</string>
+    <string name="password_cannot_be_empty">Mật khẩu không thể để trống</string>
+    <string name="code_cannot_be_empty">Mã xác minh không thể để trống</string>
+    <string name="please_enter_the_correct_eth_address">Vui lòng nhập địa chỉ ETH chính xác</string>
+    <string name="please_enter_the_correct_bnb_address">Vui lòng nhập địa chỉ BNB chính xác</string>
+    <string name="please_enter_the_correct_iris_address">Vui lòng nhập địa chỉ IRIS chính xác</string>
+    <string name="please_enter_the_correct_cosmos_address">Vui lòng nhập địa chỉ COSMOS chính xác</string>
+    <string name="please_enter_the_correct_esn_address">Vui lòng nhập địa chỉ ESN chính xác</string>
+    <string name="please_enter_the_correct_eos_address">Vui lòng nhập đúng số tài khoản EOS</string>
+    <string name="please_enter_the_correct_telos_address">Vui lòng nhập đúng số tài khoản TELOS</string>
+    <string name="please_enter_the_correct_bos_address">Vui lòng nhập đúng số tài khoản BOS</string>
+    <string name="please_enter_the_correct_enu_address">Vui lòng nhập đúng số tài khoản ENU</string>
+    <string name="please_enter_the_correct_neo_address">Vui lòng nhập đúng địa chỉ NEO</string>
+    <string name="please_enter_the_correct_btc_address">Vui lòng nhập đúng địa chỉ BTC</string>
+    <string name="please_enter_the_correct_trx_address">Vui lòng nhập đúng địa chỉ TRX</string>
+    <string name="please_enter_the_correct_nas_address">Vui lòng nhập đúng địa chỉ NAS</string>
+    <string name="please_enter_the_correct_eos_force_address">Vui lòng nhập đúng tài khoản EOS Force</string>
+    <string name="please_enter_the_correct_module_address">Vui lòng nhập đúng tài khoản %s</string>
+    <string name="please_enter_the_correct_ont_address">Vui lòng nhập địa chỉ ONT chính xác</string>
+    <string name="address_cannot_be_empty">Địa chỉ không thể để trống</string>
+    <string name="address_unmatched_with_private_key">Địa chỉ không khớp với khóa riêng</string>
+    <string name="eth_wallet_address_incorrect">ETH Địa chỉ ví được điền không chính xác</string>
+    <string name="search_contend_cannot_be_empty">Nội dung tìm kiếm không thể để trống</string>
+
+    <!--权限-->
+    <string name="request_permission_camera">Ứng dụng cho phép máy ảnh</string>
+    <string name="request_permission_qr_warming">Bạn đã từ chối quyền của máy ảnh, điều này sẽ ngăn bạn quét mã QR. Vui lòng kích hoạt quyền truy cập</string>
+    <string name="request_permission_camera_warming">Bạn đã từ chối quyền máy ảnh, điều này sẽ ngăn bạn chụp ảnh. Vui lòng bật quyền</string>
+    <string name="request_permission_contact">Đọc yêu cầu cho phép liên hệ</string>
+    <string name="request_permission_phone">Gọi cho phép</string>
+    <string name="request_permission_contact_warming">Bạn đã từ chối quyền truy cập để đọc danh bạ, điều này sẽ ngăn bạn lấy danh bạ. Vui lòng bật quyền truy cập</string>
+    <string name="request_permission_telephone_warming">Bạn đã từ chối cuộc gọi, điều này sẽ ngăn bạn thực hiện cuộc gọi. Vui lòng mở quyền.</string>
+    <string name="request_permission_sd">Đọc và viết quyền sd thẻ</string>
+    <string name="request_permission_sd_warming">Bạn đã từ chối quyền truy cập để đọc và ghi các quyền của thẻ SD, điều này sẽ ngăn bạn cập nhật. Vui lòng bật quyền</string>
+
+    <string name="units">UNITS</string>
+    <string name="gwei">GWEI</string>
+    <string name="eth">ETH</string>
+    <string name="eos">EOS</string>
+    <string name="cn_86">+86</string>
+    <string name="china">Trung quốc</string>
+    <string name="cost_money">-%s %s</string>
+    <string name="collect_money">+%s %s</string>
+    <string name="Eth">%s ETH</string>
+    <string name="show_unit">≈ %s%s</string>
+
+    <!--版本更新-->
+    <string name="update_reminding">Nhắc nhở cập nhật phiên bản mới</string>
+    <string name="download_service_lock">Dịch vụ tải xuống không có sẵn, vui lòng kích hoạt</string>
+    <string name="no_sdcard">Thẻ SD không có sẵn và không thể cập nhật</string>
+    <string name="install_fail">Cài đặt thất bại</string>
+    <string name="download_success_open">Nhấn vào để mở sau khi tải xuống hoàn tất</string>
+    <string name="start_downloading">Bắt đầu tải xuống, vui lòng đợi</string>
+    <string name="please_load_over_wifi">Vui lòng tải xuống trong môi trường Wi-Fi</string>
+    <string name="load_over_4g">Bạn hiện không ở trong môi trường Wi-Fi, bạn có muốn tiếp tục tải xuống không?</string>
+    <string name="update">Cập nhật phiên bản</string>
+    <string name="this_is_the_lastest_version">Hiện tại là phiên bản mới nhất</string>
+
+    <!--DApp-->
+    <string name="guarantee_contract">Hợp đồng bảo vệ</string>
+    <string name="electronic_certificates">Chứng từ điện tử</string>
+    <string name="user_is_expired">Người dùng đã hết hạn, vui lòng đăng nhập lại</string>
+    <string name="join_guarantee">Tham gia bảo vệ</string>
+    <string name="please_join_with_mds_wallet">Ví ETH thông thường không thể tham gia hợp đồng, vui lòng tạo ví an toàn lúa mì</string>
+
+    <!--time-->
+    <string name="mins_ago">%dVài phút trước</string>
+    <string name="hours_ago">%dGiờ trước</string>
+    <string name="days_ago">%dNgày trước</string>
+    <string name="just_now">Chỉ cần</string>
+    <string name="months_ago">Tháng trước</string>
+
+    <!--节点设置-->
+    <string name="set_point">Cài đặt nút</string>
+    <string name="add_custom_point">Thêm một nút tùy chỉnh</string>
+    <string name="input_point_address">Nhập địa chỉ nút hợp lệ</string>
+    <string name="point_mainnet">• Mạng hiện tại là $mainnet</string>
+    <string name="not_success_point_address">Không phải là một địa chỉ nút hợp lệ</string>
+    <string name="already_add_point">Nút này đã được thêm, xin vui lòng không thêm nó nhiều lần</string>
+    <string name="submit_new_token">Gửi mã thông báo mới cho chúng tôi</string>
+
+    <!--// Neo-->
+    <string name="create_neo_wallet">Tạo ví NEO</string>
+    <string name="getTransaction_error">Không thể tìm thấy lịch sử giao dịch</string>
+    <string name="neo_wallet_unclaim_amount">Claim&#160;%1$s&#160;GAS</string>
+    <string name="claimed_gas_successfully">GAS Tái chế thành công, vui lòng đợi thêm năm phút trước khi sạc</string>
+    <string name="claimed_gas_time_notEnough">Chưa đến 5 phút kể từ lần thu thập cuối cùng, vui lòng tái chế sau</string>
+    <string name="claimed_gas_notEnough">Bạn không có GAS tái chế</string>
+
+    <!--EncryptedText-->
+    <string name="encryptedtext">EncryptedText</string>
+    <string name="wallet_import_encryptedtext_text_placeholder">Dán nội dung của tệp EncryptedText</string>
+    <string name="wallet_import_encryptedtext_password_title">Mật khẩu được mã hóa</string>
+    <string name="wallet_import_encryptedtext_password_placeholder">Nhập mật khẩu EncryptedText</string>
+    <string name="wallet_import_encryptedtext_title">Nhập qua EncryptedText</string>
+    <string name="manage_neo_wallet_password">Mật khẩu ví</string>
+    <string name="create_neo_wallet_success_backup_encrypted_prompt">Sau đây là mật khẩu được mã hóa cho ví, được sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được phục hồi, tập tin chỉ có thể được nhập qua ví lúa mì.</string>
+    <string name="neo_encryptedtext_backup_completed">Mật khẩu được mã hóa đã được sao lưu</string>
+    <string name="neo_disclaimer_warning_message">Chúng tôi không chấp nhận bất kỳ mất tài sản nào do mất mật khẩu được mã hóa và quên mật khẩu！</string>
+    <string name="create_neo_wallet_success_copy_prompt">Vui lòng sao chép và sao lưu tệp kho khóa trước.</string>
+    <string name="check_neoscan_transation">Truy vấn chi tiết giao dịch NeoScan</string>
+    <string name="check_nasscan_transation">Truy vấn chi tiết giao dịch NASScan</string>
+    <string name="neo_gas_notenough">Bạn phải có ít nhất 0,0000000101 GAS để gửi mã thông báo</string>
+
+    <string name="input_point_address_notvalid">Bạn đã nhập một liên kết địa chỉ bất hợp pháp</string>
+    <string name="please_input_validens">Vui lòng nhập đúng ENS！</string>
+    <string name="copy_link">Sao chép liên kết</string>
+    <string name="refresh">Làm mới</string>
+    <string name="tranfer_checkcontract_tips">Vui lòng tăng phí thợ mỏ lên giá trị tiêu chuẩn trở lên.</string>
+    <string name="share_link">Chia sẻ</string>
+
+    <!--dapp交易-->
+    <string name="unable_to_parse_personal_message">Văn bản không thể giải quyết</string>
+    <string name="invalid_address">Lỗi địa chỉ</string>
+    <string name="invalid_message_length">Độ dài văn bản sai</string>
+    <string name="invalid_messae_data">Loại văn bản sai</string>
+    <string name="this_webpage_is_requesting_your_signature">Trang web yêu cầu chữ ký giao dịch</string>
+    <string name="not_able_to_publish">Lỗi giao dịch</string>
+    <string name="eos_status_tips">Hiện tại, EOS của ERC20 đang ở trạng thái đóng băng và không thể chuyển sang và ra.</string>
+    <string name="verify_code_or">&#160;hoặc&#160;</string>
+    <string name="verify_code_voice_code">Mã xác minh giọng nói</string>
+
+    <!--持仓-->
+    <string name="position_total_assets">Tất cả tài sản</string>
+    <string name="position_medishares_wallet">Ví lúa mì</string>
+    <string name="position_rank_list">Bảng xếp hạng</string>
+    <string name="position_holding_assets">Tài sản định vị（≈%s）</string>
+    <string name="position_one_day">1ngày</string>
+    <string name="position_one_week">1tuần</string>
+    <string name="position_one_month">1tháng</string>
+    <string name="position_asset_persen">Tài sản · Tỷ lệ vị trí</string>
+    <string name="position_amount_price">Số lượng · giá trị</string>
+    <string name="position_sync">Đang cập nhật%sThông tin vị trí</string>
+    <string name="position_sync_fail">%sThu thập thông tin vị trí không thành công</string>
+    <string name="position_rankList_day">Danh sách hàng ngày</string>
+    <string name="position_rankList_week">Hàng tuần</string>
+    <string name="position_rankList_month">Hàng tháng</string>
+    <string name="position_rankList_headerSlogan">Danh sách tăng vị trí</string>
+    <string name="position_rankList_update">Cập nhật</string>
+    <string name="position_rankList_rankNick">Xếp hạng · Biệt danh</string>
+    <string name="position_rankList_growMoney">Lượng tăng trưởng</string>
+    <string name="position_rankList_growPersent">Tỷ lệ phần trăm tăng</string>
+    <string name="position_rankList_joinRace">Tham gia cuộc thi</string>
+    <string name="position_ranklist_anonymousId">Người dùng ẩn danh</string>
+    <string name="position_joinRace_nickName">Biệt danh</string>
+    <string name="position_joinRace_SetNickName">Đặt tên hiệu của bạn</string>
+    <string name="position_joinRace_anonymous">Khuyết danh</string>
+    <string name="position_joinRace_RaceManifesto">Gợi ý cho vị trí của mọi người</string>
+    <string name="position_joinRace_setRaceManifesto">Thêm một tuyên bố cuộc thi</string>
+    <string name="position_joinRace_joinRace">Tham gia cuộc thi</string>
+    <string name="position_joinRace_updatePosition">Cập nhật vị trí</string>
+    <string name="position_joinRace_quitRace">Thoát khỏi cuộc thi</string>
+    <string name="position_position_detail">Chi tiết vị trí</string>
+    <string name="position_bind_exchangeId">Tài khoản trao đổi ràng buộc</string>
+    <string name="position_exchange_hasBind">Trao đổi giới hạn</string>
+    <string name="position_share_save_success">Đã lưu thành công</string>
+    <string name="position_exchange_support">Trao đổi được hỗ trợ</string>
+    <string name="position_exchange_unbind">Không ràng buộc</string>
+    <string name="position_exchange_bind">Ràng buộc ngay lập tức</string>
+    <string name="position_Amount_bind">Ràng buộc</string>
+    <string name="position_Amount_amount">Tài khoản</string>
+    <string name="position_Amount_Slogan">Nhập thông tin ủy quyền API cho tài khoản trao đổi</string>
+    <string name="position_Amount_Description">• Thông tin như khóa API sẽ và sẽ chỉ được lưu trữ ở dạng được mã hóa trên thiết bị của bạn và sẽ không được gửi đến bất kỳ thiết bị hoặc dịch vụ nền tảng của bên thứ ba nào; \n• Vui lòng giữ khóa API của bạn và các thông tin khác ở nơi an toàn, và đừng Bất cứ ai tiết lộ thông tin này; \n• Chúng tôi không chịu trách nhiệm cho bất kỳ lý do cá nhân nào về việc mất thông tin như khóa API hoặc sử dụng sai.;</string>
+    <string name="position_Amount_tech">• Kiểm tra Hướng dẫn chính về API trao đổi</string>
+    <string name="position_share_description">mathwallet.org</string>
+    <string name="position_position_record">Chuyển hồ sơ</string>
+    <string name="position_exchange_unbind_message">Sau khi hủy liên kết, dữ liệu vị trí sẽ bị xóa khỏi thiết bị này. Lần tới khi bạn muốn truy cập thông tin tài khoản, bạn cần liên kết lại.</string>
+    <string name="position_exited">Thoát thành công</string>
+    <string name="position_share_wechat">Chia sẻ với bạn bè trên WeChat</string>
+    <string name="position_share_friends">Chia sẻ với vòng tròn WeChat</string>
+    <string name="position_save">Lưu vào album ảnh điện thoại</string>
+
+    <!--创建 EOS 账户-->
+    <string name="create_eos_account">Tạo tài khoản EOS</string>
+    <string name="create_bos_account">Tạo tài khoản BOS</string>
+    <string name="create_enu_account">Tạo tài khoản ENU</string>
+    <string name="create_telos_account">Tạo một tài khoản TELOS</string>
+    <string name="import_eos_account">Nhập tài khoản EOS</string>
+    <string name="import_bos_account">Nhập tài khoản BOS</string>
+    <string name="import_enu_account">Nhập tài khoản ENU</string>
+    <string name="import_telos_account">Nhập tài khoản TELOS</string>
+    <string name="choose_eos_account">Chọn một tài khoản EOS</string>
+    <string name="choose_enu_account">Chọn một tài khoản ENU</string>
+    <string name="choose_telos_account">Chọn một tài khoản TELOS</string>
+    <string name="create_eos_force_account">Tạo một tài khoản lực lượng EOS</string>
+    <string name="import_eos_force_account">Nhập tài khoản EOS Force</string>
+    <string name="choose_eos_force_account">Chọn tài khoản EOS Force</string>
+    <string name="eos_account">Tài khoản EOS</string>
+    <string name="bos_account">Tài khoản BOS</string>
+    <string name="enu_account">Tài khoản ENU</string>
+    <string name="eos_force">Lực lượng EOS</string>
+    <string name="telos_account">Tài khoản TELOS</string>
+    <string name="eos_force_account">Tài khoản lực lượng EOS</string>
+    <string name="eos_account_input_placeholder">Thiết lập tài khoản EOS</string>
+    <string name="eos_account_input_warning">• Tổng cộng có 12 ký tự\n• Chỉ các số "1-5", chữ thường "a-z"</string>
+    <string name="eos_account_node">Cộng đồng nút</string>
+    <string name="eos_account_node_select_placeholder">Chọn cộng đồng EOS</string>
+    <string name="password">Mật khẩu</string>
+    <string name="repeat_password">Lặp lại mật khẩu</string>
+    <string name="eos_account_password_repeat_input_placeholder">Nhập lại mật khẩu của bạn</string>
+    <string name="eos_account_create_warning_exist">Tài khoản EOS đã tồn tại</string>
+    <string name="bos_account_create_warning_exist">Tài khoản BOS đã tồn tại</string>
+    <string name="eos_account_create_warning_fail">Không thể tạo tài khoản EOS</string>
+    <string name="restore_private_key_success">Khóa riêng đã được sao lưu</string>
+    <string name="create_eos_wallet_success_title">Tài khoản EOS đã được tạo thành công</string>
+    <string name="create_bos_wallet_success_title">Tài khoản BOS đã được tạo thành công</string>
+    <string name="create_enu_wallet_success_title">Tài khoản ENU đã được tạo thành công</string>
+    <string name="create_telos_wallet_success_title">Tài khoản TELOS đã được tạo thành công</string>
+    <string name="create_eosforce_wallet_success_title">Tài khoản EOS Force đã được tạo thành công</string>
+    <string name="create_eos_wallet_success_backup_prompt">Sau đây là thông tin khóa riêng của tài khoản, được sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục.</string>
+
+    <string name="modify_account_password">Sửa đổi mật khẩu tài khoản</string>
+    <string name="account_name">Tên tài khoản</string>
+    <string name="account_show">Tài khoản: %s</string>
+    <string name="account_passord">Mật khẩu tài khoản</string>
+    <string name="manage_account">Tài khoản quản lý</string>
+    <string name="remove_account">Xóa tài khoản</string>
+    <string name="remove_key">Xóa phím</string>
+    <string name="manage_key">Khóa quản lý</string>
+    <string name="copy_account_address">Sao chép tài khoản</string>
+    <string name="eos_account_qrcode">Mã QR tài khoản EOS</string>
+    <string name="bos_account_qrcode">Mã QR tài khoản BOS</string>
+    <string name="enu_account_qrcode">Mã QR tài khoản ENU</string>
+    <string name="telos_account_qrcode">Mã QR tài khoản TELOS</string>
+    <string name="eos_force_account_qrcode">Mã QR của tài khoản EOS Force</string>
+    <string name="not_query_to_the_eos_account">Tài khoản EOS không được truy vấn</string>
+    <string name="not_query_to_the_enu_account">Không tìm thấy trong tài khoản ENU</string>
+    <string name="not_query_to_the_bos_account">Tài khoản BOS không được truy vấn</string>
+    <string name="not_query_to_the_telos_account">Không tìm thấy tài khoản TELOS</string>
+    <string name="not_query_to_the_eos_force_account">Tài khoản EOS Force không được truy vấn</string>
+
+    <string name="account_name_format_error">Tên tài khoản ở định dạng sai！</string>
+    <string name="how_to_get_invite_code">Cách lấy mã thư mời？</string>
+    <string name="invitation_code">Mã mời</string>
+    <string name="eos_account_code_input_placeholder">Nhập mã thư mời tài khoản EOS</string>
+    <string name="bos_account_code_input_placeholder">Nhập mã mời tài khoản BOS</string>
+    <string name="enu_account_code_input_placeholder">Nhập mã mời tài khoản ENU</string>
+    <string name="telos_account_code_input_placeholder">Nhập mã mời tài khoản TELOS</string>
+    <string name="eos_force_account_input_warming_placeholder">12 ký tự, bao gồm"1~5"、"a~z"</string>
+    <string name="eos_account_input_warming_placeholder">12 ký tự, bao gồm"1~5" "a~z"</string>
+    <string name="eos_account_password">Mật khẩu tài khoản</string>
+    <string name="eos_accountname_placeholder">Điền vào tài khoản bộ sưu tập</string>
+    <string name="most_256_charter">Tối đa 256 ký tự</string>
+    <string name="meno_most_256_charter">Nhận xét lên tới 256 ký tự</string>
+    <string name="most_30_charter">Tối đa 30 ký tự</string>
+    <string name="meno_most_30_charter">Nhận xét lên tới 30 ký tự</string>
+    <string name="add_note">Thêm ghi chú</string>
+    <string name="send_to_eosaccount">Chuyển đến tài khoản EOS</string>
+    <string name="send_to_bosaccount">Chuyển đến tài khoản BOS</string>
+    <string name="send_to_enuaccount">Chuyển đến tài khoản ENU</string>
+    <string name="send_to_telosaccount">Chuyển đến tài khoản TELOS</string>
+    <string name="send_to_eos_force_account">Chuyển đến Tài khoản EOS Force</string>
+    <string name="send_eosaccount">Gửi tiền</string>
+    <string name="receiver_eosaccount">Biên lai</string>
+
+    <string name="eos_account_create_by_friends_title">Nhờ một người bạn giúp tạo tài khoản EOS</string>
+    <string name="eos_force_account_create_by_friends_title">Hãy để một người bạn giúp tạo tài khoản EOS Force</string>
+    <string name="enu_account_create_by_friends_title">Nhờ một người bạn giúp tạo tài khoản ENU</string>
+    <string name="telos_account_create_by_friends_title">Nhờ một người bạn giúp tạo tài khoản TELOS</string>
+    <string name="bos_account_create_by_friends_title">Nhờ một người bạn giúp tạo tài khoản BOS</string>
+    <string name="eos_account_create_by_friends_publickey_title"> khóa công khai</string>
+    <string name="eos_account_create_by_friends_publickey_prompt">Vui lòng sao chép khóa công khai và gửi cho bạn bè của bạn để tạo tài khoản EOS.</string>
+    <string name="account_create_by_friends_publickey_prompt">Vui lòng sao chép khóa công khai và gửi cho bạn bè của bạn để tạo tài khoản %s.</string>
+    <string name="eos_account_create_by_friends_privatekey_title">Khóa riêng</string>
+    <string name="eos_account_create_by_friends_privatekey_prompt">Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn đã tạo tài khoản cho bạn, bạn cần nhập tài khoản EOS bằng khóa riêng này.</string>
+    <string name="eos_force_account_create_by_friends_privatekey_prompt">Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn tạo tài khoản cho bạn, bạn cần nhập tài khoản EOS Force bằng khóa riêng này.</string>
+    <string name="enu_account_create_by_friends_privatekey_prompt">Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn tạo tài khoản cho bạn, bạn cần nhập tài khoản ENU bằng khóa riêng này.</string>
+    <string name="bos_account_create_by_friends_privatekey_prompt">Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn tạo tài khoản cho bạn, bạn cần nhập tài khoản BOS bằng khóa riêng này.</string>
+    <string name="telos_account_create_by_friends_privatekey_prompt">Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn tạo tài khoản cho bạn, bạn cần nhập tài khoản TELOS bằng khóa riêng này.</string>
+    <string name="eos_main_net">Mạng chính của EOS</string>
+    <string name="eos_force_fee_cost">Phí xử lý 0.01 EOSC</string>
+    <string name="module_fee_cost">Phí xử lý %s %s</string>
+    <string name="eos_not_eos_force_warming">Lưu ý: EOS Force và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau.</string>
+    <string name="eos_not_bos_warming">Lưu ý: BOS và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau.</string>
+    <string name="eos_not_enu_warming">Lưu ý: ENU và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau.</string>
+    <string name="eos_not_telos_warming">Lưu ý: TELOS và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau.</string>
+    <string name="ont_wallet">Ví ONT</string>
+    <string name="create_ont_wallet_success_backup_prompt">Sau đây là tệp khóa riêng của ví ONT, được sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục.</string>
+    <string name="wallet_import_wif_phrase_title">Nhập qua WIF</string>
+    <string name="wallet_import_wif_wif_title">WIF</string>
+    <string name="wallet_import_wif_wif_placeholder">Dán WIF</string>
+    <string name="contact_account_ont_address_title">Địa chỉ ví ONT</string>
+    <string name="ong_wallet_unclaim_amount">Claim&#160;%1$s&#160;ONG</string>
+    <string name="ont_gas_notenough">Bạn phải giữ ít nhất 0.01 ONG để gửi mã thông báo</string>
+    <string name="manage_wallet_backup_wif">Sao lưu WIF</string>
+    <string name="eos_ram">Bộ nhớ</string>
+    <string name="eos_net">Mạng</string>
+    <string name="eos_ram_used">Đã qua sử dụng</string>
+    <string name="eos_ram_quota">Giới hạn</string>
+    <string name="eos_buy_ram">Mua bộ nhớ</string>
+    <string name="eos_sell_ram">Bán bộ nhớ</string>
+    <string name="eos_resource_ram_buy_placeholder">Nhập số lượng cần mua</string>
+    <string name="eos_resource_ram_sell_placeholder">Nhập số lượng cần bán</string>
+    <string name="eos_resource_ram_buy">Mua</string>
+    <string name="eos_resource_ram_sell">Bán</string>
+    <string name="eos_resource_ram_price_trend">EOS RAM Exchange</string>
+    <string name="eos_resource_eos_balance">Có sẵn %s EOS</string>
+    <string name="bos_resource_eos_balance">Có sẵn %s BOS</string>
+    <string name="enu_resource_eos_balance">Có sẵn %s ENU</string>
+    <string name="telos_resource_eos_balance">Có sẵn %s TLOS</string>
+    <string name="eos_resource_ram_sell_kb_balance">Có sẵn %s KB</string>
+    <string name="eos_resource_ram_price_trade">RAM Giá: %s EOS/KB</string>
+    <string name="bos_resource_ram_price_trade">RAM Giá: %s BOS/KB</string>
+    <string name="enu_resource_ram_price_trade">RAM Giá: %s ENU/KB</string>
+    <string name="telos_resource_ram_price_trade">RAM Giá: %s TLOS/KB</string>
+    <string name="eos_resource_ram_available_value">Bộ nhớ khả dụng ≈ %s EOS</string>
+    <string name="bos_resource_ram_available_value">Bộ nhớ khả dụng ≈ %s BOS</string>
+    <string name="enu_resource_ram_available_value">Bộ nhớ khả dụng ≈ %s ENU</string>
+    <string name="telos_resource_ram_available_value">Bộ nhớ khả dụng ≈ %s TLOS</string>
+    <string name="eos_resource_ram_input_value_zero">Số tiền nhập không thể là0</string>
+    <string name="eos_resource_stake">Thế chấp</string>
+    <string name="eos_resource_refund">Mua lại</string>
+    <string name="eos_resource_net_stake">Thế chấp mạng</string>
+    <string name="eos_resource_net_refund">Đổi mạng</string>
+    <string name="eos_resource_cpu_stake">Thế chấp CPU</string>
+    <string name="eos_resource_cpu_refund">Mua lại CPU</string>
+    <string name="eos_resource_used_title">Đã qua sử dụng</string>
+    <string name="eos_resource_limit_title">Giới hạn trên</string>
+    <string name="eos_balance_liquid">Số dư</string>
+    <string name="eos_balance_staked">Thế chấp</string>
+    <string name="eos_balance_refunding">Mua lại</string>
+    <string name="eos_resource_net_stake_placeholder">Nhập số tiền thế chấp được thêm vào</string>
+    <string name="eos_resource_net_refund_placeholder">Nhập số lượng redemptions</string>
+    <string name="eos_resource_cpu_stake_placeholder">Nhập số tiền thế chấp được thêm vào</string>
+    <string name="eos_resource_cpu_refund_placeholder">Nhập số lượng redemptions</string>
+    <string name="eos_resource_net_staked_total">Mạng thế chấp %s</string>
+    <string name="eos_resource_cpu_staked_total">CPU thế chấp %s</string>
+    <string name="eos_resource_net_refund_balance_low">Số lượng Net được chuộc không vượt quá số lượng thế chấp</string>
+    <string name="eos_resource_cpu_refund_balance_low">Số lượng CPU được chuộc không vượt quá số lượng thế chấp</string>
+    <string name="btc_create_address">Tạo địa chỉ mới</string>
+    <string name="btc_fee_unit">sat/B</string>
+    <string name="exchange_must_edit_memo">Vui lòng điền vào Bản ghi nhớ để trao đổi để nạp tiền</string>
+    <string name="account_not_exist">Tài khoản không tồn tại</string>
+    <string name="transaction_expired">Giao dịch đã hết hạn, vui lòng thử lại</string>
+    <string name="ram_is_not_enough">Tài khoản không có đủ bộ nhớ để hỗ trợ thao tác này. Vui lòng mua trước.</string>
+    <string name="net_is_not_enough">Tài nguyên mạng tài khoản không đủ để hỗ trợ hoạt động này, vui lòng thế chấp thủ công hoặc liên hệ với một người bạn xung quanh bạn để giúp bạn thế chấp</string>
+    <string name="cpu_is_not_enough">CPU tài khoản không đủ để hỗ trợ thao tác này, vui lòng thế chấp thủ công hoặc liên hệ với một người bạn xung quanh bạn để giúp bạn thế chấp</string>
+    <string name="transfer_must_greater_0">Số tiền chuyển phải lớn hơn0</string>
+    <string name="custom_node">Tùy chỉnh%s Nút</string>
+    <string name="check_ontExplorer_transation">Xem chi tiết giao dịch của OntExplorer</string>
+    <string name="claim_approved">Ứng dụng thanh toán thành công</string>
+    <string name="tips_owner_active">Tips： \n• Quyền của chủ sở hữu: Chủ sở hữu sở hữu tài khoản, có thể quản lý quyền tài khoản, quản lý Hoạt động và các vai trò khác; \n• Quyền hoạt động: Hoạt động có các quyền khác như chuyển nhượng, bỏ phiếu, v.v. \n• Ngưỡng trọng lượng là yêu cầu trọng lượng tối thiểu để thực hiện quyền ; \n• Trọng lượng: Trọng lượng là mức trọng lượng của khóa chung. Số càng cao, trọng số càng cao; \n• Quyền thay đổi phải được thay đổi từ một quyền nhỏ, chẳng hạn như Hoạt động sau Chủ sở hữu; \n• Khi thay đổi quyền, hãy đảm bảo đảm bảo Tên tài khoản hoặc khóa công khai mới là chính xác; \n• Trước khi thay đổi quyền, hãy đảm bảo tài sản được xử lý đúng cách.</string>
+    <string name="manager_permission">Cơ quan hành chính</string>
+    <string name="backup_privatekey">Sao lưu khóa riêng</string>
+    <string name="delete_auth">Xóa quyền</string>
+    <string name="permission_threshold">Ngưỡng %d</string>
+    <string name="threshold">Ngưỡng</string>
+    <string name="submit_update_auth">Gửi thay đổi</string>
+    <string name="weight">Cân nặng %d</string>
+    <string name="weight_is_not_1">Hiện tại chỉ hỗ trợ thay đổi quyền với ngưỡng trọng số = 1 được hỗ trợ</string>
+    <string name="permission">%s%s Giấy phép</string>
+    <string name="update_permission">Thay đổi %s</string>
+    <string name="add_permission">Thêm quyền</string>
+    <string name="update_permission_title">Thay đổi quyền</string>
+    <string name="add_auto">Thêm %s</string>
+    <string name="reInport_owner_auth">Owner Khóa riêng đã được thay đổi. Vui lòng nhập lại khóa riêng đã thay đổi.</string>
+    <string name="fee_of_updateauth">Phí thay đổi thẩm quyền 0,1000 EOSC</string>
+    <string name="ont_cost">Phí khai thác %s ONG %s</string>
+    <string name="wallet_import_wif_title">Nhập qua WIF</string>
+    <string name="copy_wif">Sao chép WIF</string>
+    <string name="restore_wif_success">WIF Đã sao lưu</string>
+    <string name="map">Lập bản đồ</string>
+    <string name="map_to_value_placeholder">Điền vào số lượng bản đồ</string>
+    <string name="ont_map">ONT Lập bản đồ</string>
+    <string name="neo_asset">Tài sản hiện tại %1s ONT</string>
+    <string name="neo_map_tips">• Mạng chính của bản thể luận đã được đưa ra vào ngày 30 tháng 6 năm 2018. Bản đồ bắt đầu vào ngày 9 tháng 7 năm 2018 (UTC) và sẽ kết thúc vào ngày 1 tháng 10 năm 2018 (UTC). \n\n• Vì độ chính xác đo lường của ONT của mạng chính là một số nguyên không có vị trí thập phân, chỉ có thể chuyển đổi phần nguyên khi ONT NEP-5 được ánh xạ. \n\n• Trước tiên, bạn có thể thực hiện ánh xạ ONT nhỏ, sau đó xác nhận lỗi, sau đó thực hiện ánh xạ ONT lớn. \n\n• Vì NEO và ONT sử dụng cùng một bộ hệ thống cặp khóa chung và khóa riêng, địa chỉ ví NEO, khóa riêng và WIF của bạn là địa chỉ ví ONT, khóa riêng và WIF tương ứng. Vui lòng giữ ví NEO của bạn và khóa ONT riêng tư và WIF.</string>
+    <string name="wallet_import_privatekey_wif_placeholder">Dán WIF</string>
+    <string name="ong_withdraw_tips">Trích xuất phí ONG 0.01 ONG</string>
+
+    <string name="whitelist_wallet">Ví công ty</string>
+    <string name="create_ent_whitelist_wallet">Tạo ví công ty</string>
+    <string name="whitelist">Danh sách trắng</string>
+    <string name="loading_whitelist">Nhấp vào "Làm mới" ở góc trên bên phải để có danh sách trắng.</string>
+    <string name="empty_whitelist">Không có liên hệ danh sách trắng</string>
+    <string name="about_whitelist_wallet_tv">• Ví công ty là phiên bản ví tùy chỉnh cho các tổ chức như Quỹ Token, tìm hiểu thêm</string>
+    <string name="whitelist_invite_code_hint">Nhập mã thư mời của bạn</string>
+    <string name="not_in_whitelist">Địa chỉ hiện tại không phải là địa chỉ người dùng trong danh sách trắng của bạn</string>
+    <string name="transaction_notification">Chuyển thông báo tin nhắn</string>
+    <string name="newsletter">Thông tin</string>
+    <string name="news_flash">Bản tin</string>
+    <string name="news_news">Tin tức</string>
+    <string name="strategy">chiến lược</string>
+    <string name="math_news">Lúa mì</string>
+    <string name="wechat">Chúng tôi</string>
+    <string name="wechat_friends">Vòng tròn bạn bè</string>
+    <string name="download">Tải xuống</string>
+    <string name="save_pic">Lưu hình ảnh</string>
+    <string name="newsletter_share_text1">Đăng ký và gửi 10 MDS, mời gửi 10 MDS</string>
+    <string name="newsletter_share_text2">Mục nhập ứng dụng blockchain của bạn</string>
+    <string name="btc_address_type">Loại địa chỉ</string>
+    <string name="btc_segWit_type">Lời khai phân chia</string>
+    <string name="btc_cost">Phí khai thác %s  %s  %s</string>
+
+    <string name="red_name_input">Chúc may mắn, phong bì đỏ！</string>
+    <string name="red_open_desc">Gửi cho bạn một phong bì màu đỏ</string>
+    <string name="red_alert_remain">Phong bì đỏ đã được nhận</string>
+    <string name="red_alert_expire">Phong bì đỏ đã hết hạn</string>
+
+    <string name="disclaimer">Khước từ</string>
+    <string name="choose_btc_address_type">Chọn loại địa chỉ</string>
+    <string name="error_change_output">Error determining change address</string>
+    <string name="input">Đầu vào</string>
+    <string name="output">Đầu ra</string>
+    <string name="time">Thời gian</string>
+    <string name="transaction_detail_tx_hash">Số giao dịch</string>
+    <string name="check_blockChainExplorer_transation">BLOCKCHAIN</string>
+    <string name="transfer_wait_confirm">Chờ xác nhận</string>
+    <string name="btc_normal_type">Thường gặp</string>
+
+    <string name="newsletter_search_history">Lịch sử tìm kiếm</string>
+    <string name="newsletter_search_top">Tìm kiếm phổ biến</string>
+    <string name="newsletter_search_empty">Không có kết quả tìm kiếm,Vui lòng thử một từ khóa khác</string>
+
+    <string name="createing_eos_wallet_success_title">Tài khoản EOS đang được tạo</string>
+    <string name="locked">Đóng băng</string>
+    <string name="dapps_contract">Hợp đồng vận hành</string>
+    <string name="dapps_contract_args">Thông số</string>
+    <string name="dapps_trasnfer_to">Nhận tài khoản</string>
+    <string name="dapps_transfer_meno">Nhận xét</string>
+    <string name="dapps_contract_fee">Phí xử lý</string>
+    <string name="scan">Quét</string>
+    <string name="eos_simplewallet_login">%s Đăng nhập</string>
+    <string name="eos_simple_login_prompt">Sắp có \"%s\" Đăng nhập \"%s\",Hãy chắc chắn để làm điều đó cho mình?</string>
+    <string name="simplewallet_confirm">Xác nhận đăng nhập</string>
+    <string name="please_change_eoswallet">Vui lòng thử chuyển sang ví EOS</string>
+
+    <string name="mds_exchange_trade_buy_name">Mua %s</string>
+    <string name="mds_exchange_trade_sell_name">Bán %s</string>
+    <string name="mds_exchange_trade_avaiable_amount">Có sẵn %s %s</string>
+    <string name="mds_exchange_trade_record_filter_option2">Lớn,Lớn hơn 2000 EOS</string>
+    <string name="mds_exchange_trade_record_filter_option1">Tất cả</string>
+    <string name="mds_exchange_trade_record_filter_option3">trung bình,500 EOS đến 2000 EOS</string>
+    <string name="mds_exchange_trade_record_filter_option4">Đơn hàng nhỏ, dưới 500 EOS</string>
+    <string name="mds_exchange_trade_buy">Mua</string>
+    <string name="mds_exchange_trade_sell">Bán</string>
+    <string name="mds_exchange_trade_record_filter">Bộ lọc</string>
+    <string name="mds_exchange_trade_record_amount">Số lượng</string>
+    <string name="mds_exchange_trade_record_amount1">Số lượng(%s)</string>
+    <string name="mds_exchange_trade_record_account">Tài khoản</string>
+    <string name="mds_exchange_trade_total_amount">Số tiền giao dịch %s %s</string>
+    <string name="mds_exchange_trade_record_history">Lịch sử</string>
+    <string name="mds_exchange_trade_record_time">Thời gian</string>
+    <string name="mds_exchange_trade_record_direction">Hướng</string>
+    <string name="mds_exchange_trade_record_price">Giá(%s/%s)</string>
+    <string name="total_Candy">Đếm kẹo</string>
+    <string name="available_Candy">Kẹo thanh toán</string>
+    <string name="candy_tasks">Nhiệm vụ kẹo</string>
+    <string name="empty_candy_task">Không có nhiệm vụ kẹo</string>
+    <string name="eospark_exploer">Kiểm tra chi tiết giao dịch tại EOSpark</string>
+    <string name="about">Giới thiệu</string>
+    <string name="dapp_about_type">Thể loại</string>
+    <string name="dapp_about_mainnet">Chuỗi chính</string>
+    <string name="dapp_about_developer">Nhà phát triển</string>
+    <string name="dapp_about_share">Chia sẻ với bạn bè</string>
+    <string name="btc_seekbar_fee">Lệ phí thiết lập trượt</string>
+    <string name="btc_custom_fee">Phí khai thác tùy chỉnh</string>
+
+    <string name="price_high">Cao:</string>
+    <string name="price_low">Thấp:</string>
+    <string name="price_open">Mở:</string>
+    <string name="price_close">Đóng:</string>
+    <string name="eos_market_more">Thêm</string>
+    <string name="eos_market_24h_h">24H Cao nhất</string>
+    <string name="eos_market_24h_l">24H Thấp nhất</string>
+    <string name="eos_market_24h_c">24H Âm lượng</string>
+    <string name="eos_market_15_min">15 Phút</string>
+    <string name="eos_market_1_hours">1 giờ</string>
+    <string name="eos_market_1_day">1 ngày</string>
+    <string name="eos_market_1_m">1 phút</string>
+    <string name="eos_market_5_m">5 phút</string>
+    <string name="eos_market_30_m">30 phút</string>
+    <string name="eos_market_1_week">1 tuần</string>
+    <string name="eos_market_1_mouth">1 tháng</string>
+    <string name="tips_btc_address"><Data> <![CDATA[Tips： <br />•Loại địa chỉ bitcoin có thể được chuyển sang nhân chứng bình thường hoặc bị cô lập, <font color="#5ac8fa"> Giới thiệu về nhân chứng cách ly </font>; • Ví Bitcoin có thể tạo nhiều địa chỉ khác nhau để tránh sử dụng lại địa chỉ và Bảo vệ quyền riêng tư; <br/>• Địa chỉ được chọn sẽ là địa chỉ thanh toán mặc định;]]> </Data></string>
+    <string name="dapps_contract_args_detail">Xem chi tiết</string>
+    <string name="swft_fastchange">Đèn flash</string>
+    <string name="swft_inputAmount">Số tiền chuyển</string>
+    <string name="swft_chooseReceiveWallet">Chọn ví nhận</string>
+    <string name="swft_change">Mua lại</string>
+    <string name="swft_change_rate">Tỷ giá hối đoái thời gian thực</string>
+    <string name="swft_receiveAmount">Số tiền nhận</string>
+    <string name="swft_change_record">Hồ sơ quy đổi</string>
+    <string name="all">Tất cả</string>
+    <string name="mds">MDS</string>
+    <string name="esn">ESN</string>
+    <string name="ont">ONT</string>
+    <string name="neo">NEO</string>
+    <string name="btc">BTC</string>
+    <string name="swft_chooseCoin">Chọn tiền tệ</string>
+    <string name="available_amount">Có sẵn  %s  %s</string>
+    <string name="swft_instant_rate">1  %s = %s  %s</string>
+    <string name="deposit">Chuyển ra ngoài</string>
+    <string name="receive">Nhận</string>
+    <string name="rate">Tỷ giá hối đoái</string>
+    <string name="fee">Phí xử lý</string>
+
+    <string name="choose_wallet">Chọn %s Ví</string>
+    <string name="exchange_title">%s Mua lại %s</string>
+    <string name="double_params">%s %s</string>
+    <string name="swft_change_status">Tình trạng mua lại</string>
+    <string name="swft_change_detail">Chi tiết đổi quà</string>
+    <string name="swft_deposit">Chuyển ra ngoài(%s)</string>
+    <string name="swft_receive">Nhận(%s)</string>
+    <string name="swft_tooHigh">Số lượng vượt quá giá trị chuyển đổi tối đa %s</string>
+    <string name="swft_tooLow">Số lượng thấp hơn giá trị chuyển đổi tối thiểu %s</string>
+
+    <string name="medishares_finger_pay">Thanh toán vân tay</string>
+    <string name="medishares_finger_pay_message">Sau khi mở, bạn có thể nhanh chóng hoàn tất thanh toán bằng cách xác minh dấu vân tay trước khi thoát khỏi ứng dụng.</string>
+
+    <string name="simplewallet_login_no_account">Bạn vẫn chưa %s Tài khoản</string>
+    <string name="simplewallet_login_back_to_dapp">Trở về%s</string>
+    <string name="account_doesnt_exist">Không có tài khoản như vậy, vui lòng nhập</string>
+    <string name="dapp_delete_Cache">Dọn dẹp bộ đệm</string>
+    <string name="dapp_clear_cache_success">Xóa bộ nhớ cache thành công</string>
+    <string name="foru_params">%s %s = %s %s</string>
+
+    <string name="eos_account_select_create_way">Chọn cách tạo</string>
+    <string name="eos_account_create_way_alipay">Mã mời mua hàng của Alipay</string>
+    <string name="eos_account_create_way_recommend">Đề xuất</string>
+    <string name="eos_account_create_way_exchange">Đổi tiền hoặc chuyển ví</string>
+    <string name="eos_account_create_way_friends">Yêu cầu bạn bè của bạn sử dụng ví lúa mì để quét mã để thanh toán</string>
+    <string name="eos_account_create_backup_prompt">Sau đây là khóa riêng của tài khoản mới. Vui lòng sao lưu khóa riêng và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai. Sau khi mất, ví sẽ không được khôi phục.</string>
+    <string name="eos_account_create_backup_prompt2">Sau khi chuyển khoản thành công, bạn cần nhập khóa riêng này để hoàn tất quá trình tạo tài khoản..</string>
+    <string name="eos_account_create_backup_private_title">Khóa riêng</string>
+    <string name="eos_account_create_by_exchange_prompt3">Địa chỉ nguồn mở hợp đồng：https://github.com/dappub/signuoeoseos</string>
+    <string name="eos_account_create_by_exchange_prompt4">Chuyển ít nhất 1 EOS vào tài khoản hợp đồng thông qua chuyển tiền hoặc ví của trao đổi, trong đó 0.2 EOS được sử dụng để thế chấp CPU và tài nguyên mạng và phần còn lại được sử dụng để mua bộ nhớ tương đương.</string>
+    <string name="eos_account_create_by_exchange_prompt5">Tất cả các giao dịch hiện được hỗ trợ rõ ràng là OTCBTC, Gate.io, Coin Security và Bitfinex. Không nên sử dụng các trao đổi khác. Ví có thể hỗ trợ ghi chú chuyển miễn là có thể.</string>
+    <string name="eos_account_create_by_exchange_prompt6">Sau đây là tài khoản thu thập và chuyển thông tin nhận xét, vui lòng sao chép và vào phần trao đổi hoặc ví để điền, hợp đồng thông minh sẽ tạo một tài khoản.</string>
+    <string name="eos_account_create_by_exchange_prompt7">Sau khi chuyển tiền hoặc chuyển tiền thành công, khóa riêng được sao lưu ở bước trước được nhập vào ví lúa mì, nghĩa là việc tạo tài khoản đã hoàn tất.</string>
+    <string name="eos_account_create_by_exchange_account_title">Chuyển vào tài khoản</string>
+    <string name="eos_account_create_by_exchange_memo_title">Điền vào ghi chú</string>
+    <string name="eos_account_create_by_exchange_prompt8">Phương pháp tạo này sử dụng Dappub Hợp đồng thông minh do nhóm triển khai không liên quan đến các thao tác thủ công trong quá trình tạo. Ví lúa mì có thể giúp phục hồi nếu người dùng mất tài sản do hoạt động không đúng..</string>
+    <string name="eos_account_create_by_exchange_copy_account">Sao chép tên tài khoản</string>
+    <string name="eos_account_create_by_exchange_copy_memo">Ghi chú chuẩn bị phức tạp</string>
+    <string name="eos_account_create_by_friend_prompt9">Sau khi thanh toán thành công, khóa riêng của bản sao lưu trước được nhập vào ví lúa mì, nghĩa là việc tạo tài khoản đã hoàn tất.</string>
+    <string name="eos_account_create_by_friend_share_title">Chia sẻ mã QR</string>
+    <string name="eos_account_create_by_friend_section_title">Thông tin tài khoản</string>
+    <string name="eos_account_create_by_friend_account_title">Tài khoản</string>
+    <string name="eos_account_create_by_friend_owner_title">Khóa công khai của chủ sở hữu</string>
+    <string name="eos_account_create_by_friend_active_title">Khóa công khai</string>
+    <string name="eos_account_create_by_friend_prompt10">Yêu cầu bạn bè của bạn sử dụng ví lúa mì để quét mã QR bên dưới, trả khoảng% s EOS để bảo đảm tài nguyên mạng và CPU và mua bộ nhớ..</string>
+    <string name="swft_crosschain">一Trao đổi chuỗi chéo chính</string>
+    <string name="swft_wait_deposit_send">Tiền đang chờ xử lý</string>
+    <string name="swft_timeout">Hết giờ</string>
+    <string name="swft_exchanging">Mua lại</string>
+    <string name="swft_receive_complete">Đã hoàn thành (đổi quà thành công) </string>
+    <string name="swft_wait_refund_send">Mua lại không thành công, chờ hoàn trả</string>
+    <string name="swft_refund_complete">Nghỉ hưu</string>
+    <string name="swft_logo">Powered by SWFT Blockchain </string>
+    <string name="swft_exchange_record">Hồ sơ quy đổi</string>
+    <string name="swft_notSupport">Giao dịch đã bị đình chỉ để mua lại</string>
+    <string name="swft_order_id">Số thứ tự</string>
+    <string name="swft_detail_question">Có một câu hỏi về thứ tự này?</string>
+    <string name="swft_reconnect">Mua lại tỷ giá hối đoái thất bại, nhấp để lấy lại</string>
+    <string name="trx_wallet">Ví TRX</string>
+    <string name="create_trx_wallet_success_title">Tài khoản TRX đã được tạo thành công</string>
+
+    <string name="recently_used">Được sử dụng gần đây</string>
+    <string name="trx_multiple_candidates">Multiple Candidates</string>
+    <string name="trx_votes_reset">Votes Reset</string>
+    <string name="trx_duration">Duration</string>
+    <string name="mine_medishares_guild">Hội</string>
+    <string name="location">Thông tin vị trí</string>
+    <string name="allow_access_to_your_location">Cho phép truy cập vào thông tin vị trí của bạn？</string>
+    <string name="dapps_upgrade_disclaimer">Phiên bản ví của bạn quá thấp và ứng dụng có thể không hoạt động chính xác. Chúng tôi khuyên bạn nên nâng cấp ví của mình lên phiên bản mới nhất càng sớm càng tốt. Cảm ơn bạn rất nhiều！</string>
+    <string name="dapps_open_risk_disclaimer">Bạn sắp chuyển sang trang DAPP của bên thứ ba và việc bạn sử dụng DAPP của bên thứ ba sẽ áp dụng cho Thỏa thuận bảo mật và chính sách người dùng DAPP của bên thứ ba.》,Chịu trách nhiệm trực tiếp và riêng biệt bởi DAPP của bên thứ ba.</string>
+    <string name="dapps_risk_disclaimer">Việc bạn sử dụng DAPP của bên thứ ba sẽ tuân theo Thỏa thuận người dùng và Chính sách quyền riêng tư của DAPP của bên thứ ba, sẽ chịu trách nhiệm trực tiếp và riêng biệt với DAPP của bên thứ ba.</string>
+    <string name="close_dapp_no_finger">Không có xác nhận bật lên trước khi đóng Dapp</string>
+    <string name="eos_account_create_success_pendding_propmt">Tài khoản đã được tạo và gửi đến mạng chính. Vui lòng xác nhận giao dịch sau khi xác nhận mạng chính (khoảng 3 phút) để đảm bảo việc tạo thành công.</string>
+    <string name="dapp_rankings">Bảng xếp hạng ứng dụng</string>
+    <string name="dapps_24h_users">Người dùng 24H</string>
+    <string name="dapps_24h_transactions">Giao dịch 24 giờ</string>
+    <string name="dapps_24h_volume">Số tiền giao dịch 24H</string>
+    <string name="dapps_rank_date_source">Nguồn dữ liệu：%s</string>
+    <string name="dapps_rank_data_source_empty">Nguồn dữ liệu: không có</string>
+    <string name="check_trxExplorer_transation">Xem chi tiết giao dịch TronExplorer</string>
+    <string name="trx_bandWidth">Băng thông</string>
+    <string name="trx_energy">Năng lượng</string>
+    <string name="trx_balance_avaiable">Số dư khả dụng</string>
+    <string name="trx_balance_freeze">Đóng băng</string>
+    <string name="trx_resource_freeze">Đóng băng</string>
+    <string name="trx_resource_unfreeze">Làm tan băng</string>
+    <string name="trx_resource">Tài nguyên</string>
+    <string name="trx_hasUsed">Đã qua sử dụng</string>
+    <string name="trx_limit">Giới hạn</string>
+    <string name="trx_stake_unit">Đông lạnh%s %s TRX</string>
+    <string name="balance_avaiable_token">Số dư khả dụng %s %s</string>
+    <string name="trx_freeze_hint">Nhập số lượng tài nguyên bị đóng băng</string>
+    <string name="trx_freeze_tip">Đóng băng ít nhất 3 ngày</string>
+    <string name="trx_unfreeze_tips">%sĐóng băng ít hơn ba ngày, không tan</string>
+    <string name="freeze">Đóng băng-</string>
+    <string name="unfreeze">Làm tan băng</string>
+    <string name="trx_not_transfer">Mã thông báo không hỗ trợ giao dịch tại thời điểm này.</string>
+    <string name="vote">Bình chọn</string>
+    <string name="exchange_transfer">Giao dịch-</string>
+
+    <string name="trx_buy">Mua số lượng</string>
+    <string name="trx_pre_cost">Chi phí ước tính</string>
+    <string name="trx">TRX</string>
+    <string name="transaction_rate_possible">%s ≈ %s</string>
+    <string name="trx_direction">Hướng</string>
+    <string name="trx_transaction_amount">Số tiền giao dịch</string>
+    <string name="trx_sell">Bán số lượng</string>
+    <string name="trx_pre_get">Dự tính biên lai</string>
+    <string name="eos_transfer_delay_set_placeholder">Đặt giờ giao dịch</string>
+
+    <string name="pickerview_cancel" translatable="false">Hủy bỏ</string>
+    <string name="pickerview_day" translatable="false">Ngày</string>
+    <string name="pickerview_hours" translatable="false">Giờ</string>
+    <string name="pickerview_minutes" translatable="false">Phút</string>
+    <string name="pickerview_month" translatable="false">Tháng</string>
+    <string name="pickerview_seconds" translatable="false">Giây</string>
+    <string name="pickerview_submit" translatable="false">Xác định</string>
+    <string name="pickerview_year" translatable="false">Năm</string>
+
+    <string name="eos_account_permission_text_placeholder">Nhập khóa công khai hoặc tài khoản mới của EOS</string>
+    <string name="telos_account_permission_text_placeholder">Nhập khóa công khai hoặc tài khoản TELOS mới</string>
+    <string name="bos_account_permission_text_placeholder">Nhập khóa công khai hoặc tài khoản BOS mới</string>
+    <string name="enu_account_permission_text_placeholder">Nhập khóa công khai hoặc tài khoản ENU mới</string>
+    <string name="eos_account_permission_text_invalid">Tài khoản hoặc tài khoản công khai không hợp lệ của EOS</string>
+    <string name="eos_threshold_totalweight">Tổng trọng số không thể nhỏ hơn ngưỡng</string>
+    <string name="dapps_item_recently_title">Được sử dụng gần đây</string>
+    <string name="dapps_item_new_online_title">Khu vực sản phẩm mới</string>
+    <string name="dapps_item_recommend_title">Khu vực cửa hàng</string>
+    <string name="trx_market_5_min">5 phút</string>
+    <string name="trx_market_30_m">30 phút</string>
+    <string name="trx_market_4_h">4 Giờ</string>
+    <string name="trx_buy_tips">Tăng nhẹ chi phí ước tính để tăng xác suất đóng cửa</string>
+    <string name="trx_sell_tips">Thu nhập ước tính giảm nhẹ có thể làm tăng xác suất đóng cửa</string>
+    <string name="eos_transaction_choose_broswer">Truy cập trình duyệt blockchain để kiểm tra chi tiết giao dịch</string>
+    <string name="trx_buy_failed_tips">Cần thêm TRX để hoàn thành giao dịch</string>
+    <string name="sign_message">Chữ ký yêu cầu</string>
+    <string name="debug">Gỡ lỗi</string>
+    <string name="decode_error">Lỗi giải mã</string>
+    <string name="encrypt_error">Lỗi mã hóa</string>
+    <string name="update_password_error">Cập nhật lỗi mật khẩu</string>
+    <string name="other_wallet">Khác</string>
+
+    <string name="hardware_wallet">Ví phần cứng</string>
+    <string name="hardware_Search">Tìm kiếm thiết bị...</string>
+    <string name="hardware_connection">Kết nối</string>
+    <string name="hardware_connection_current">Thiết bị được kết nối hiện tại</string>
+    <string name="hardware_connection_other">Thiết bị khác</string>
+    <string name="hardware_Initialize">Khởi tạo thiết bị</string>
+    <string name="hardware_setPin">Đặt mã PIN</string>
+    <string name="hardware_setPin_hint">Để bảo vệ ví của bạn, vui lòng đặt mã PIN của bạn trước. Mã PIN sẽ được sử dụng để mở khóa ví, chuyển tiền, v.v. Vui lòng giữ an toàn mã PIN của bạn.</string>
+    <string name="hardware_setPin_input">Nhập mã PIN</string>
+    <string name="hardware_setPin_input_again">Nhập lại mã PIN của bạn</string>
+    <string name="hardware_setFinger">Đặt dấu vân tay</string>
+    <string name="hardware_setFinger_hint">Sau khi đặt dấu vân tay, bạn không cần nhập mã PIN, bạn có thể sử dụng nhận dạng dấu vân tay để mở khóa ví, chuyển tiền, v.v..</string>
+    <string name="hardware_setFinger_no">Chưa được đặt</string>
+    <string name="hardware_setFinger_start">Bắt đầu nhập dấu vân tay\ngõ một ngón tay vào dấu vân tay xác minh thiết bị</string>
+    <string name="hardware_setFinger_goodFinger">Nhập xong\n Vui lòng xóa ngón tay của bạn</string>
+    <string name="hardware_setFinger_continue">Tiếp tục nhập dấu vân tay\nVui lòng đặt lại ngón tay tương tự vào dấu vân tay xác minh thiết bị.</string>
+    <string name="hardware_setFinger_complete">Mục nhập đã hoàn thành\ndấu vân tay của bạn đã được đặt</string>
+    <string name="hardware_PinAndFinger">Mã PIN và dấu vân tay</string>
+    <string name="hardware_backup_mnemonic_phrase">Sao lưu dự phòng</string>
+    <string name="hardware_Initialize_again">Tái cấp hóa thiết bị</string>
+    <string name="hareware_initialize_alert">Sắp xếp lại thiết bị sẽ xóa tất cả các ví được liên kết của bạn. Vui lòng xác nhận rằng bạn đã sao lưu khóa riêng của mình?</string>
+    <string name="hardware_delete">Xóa thiết bị</string>
+    <string name="hardware_delete_alert">Xóa thiết bị của bạn cũng sẽ xóa ví bạn đã thêm, nhưng trong tương lai bạn có thể kết nối lại và nhập nó.</string>
+    <string name="hardware_resetPin">Đặt lại mã PIN</string>
+    <string name="hardware_resetFinger">Đặt lại dấu vân tay</string>
+    <string name="hardware_verify_finger">Vui lòng xác minh dấu vân tay trên thiết bị để xác nhận chuyển tiền</string>
+    <string name="hardware_verify_pin">Vui lòng xác minh mã PIN trên thiết bị để xác nhận chuyển tiền</string>
+    <string name="hareware_choose">Chọn ví phần cứng</string>
+    <string name="hardware_mywallet">Ví của tôi</string>
+    <string name="hardware_pin_diffrent">Hai mã PIN không nhất quán</string>
+    <string name="hardware_account">Tài khoản</string>
+    <string name="hardware_press_btn">Please press the button to confirm.</string>
+
+    <string name="dapp_search_hint">Tìm kiếm hoặc nhập địa chỉ DApp</string>
+    <string name="open_link">Mở liên kết: </string>
+    <string name="dapp_search_open_otherwallet_message">Vui lòng chuyển sang ví%strước để nhập cái nàyDAPP</string>
+    <string name="dapp_search_nothing">Chưa có kết quả tìm kiếm</string>
+    <string name="eth_sigh_address">Địa chỉ chữ ký</string>
+    <string name="eth_sign_content">Chữ ký nội dung</string>
+
+    <string name="eos_account_permission_accounts_add">Thêm tài khoản</string>
+    <string name="eos_account_permission_accounts_update">Thay đổi tài khoản</string>
+    <string name="update_permission_eos">Thay đổi</string>
+    <string name="eos_account_permission_choose">Chọn quyền</string>
+    <string name="eos_account_permission_weight_placeholder">Đặt trọng lượng</string>
+    <string name="eos_account_permission_weight_title">Cân nặng</string>
+    <string name="eos_account_permission_permission_title">Giấy phép</string>
+    <string name="eos_account_permission_accounts_invalid">Tài khoản không hợp lệ</string>
+    <string name="eos_account_permission_keys_add">Thêm khóa công khai</string>
+    <string name="eos_account_permission_keys_update">Thay đổi khóa công khai</string>
+    <string name="eos_account_permission_keys_invalid">Khóa công khai không hợp lệ</string>
+    <string name="eos_account_permission_waits_add">Thêm chờ đợi</string>
+    <string name="eos_account_permission_waits_update">Thay đổi chờ đợi</string>
+    <string name="eos_account_permission_waits_time_title">Thời gian chờ đợi</string>
+    <string name="eos_account_permission_waits_time_placeholder">Đặt thời gian chờ</string>
+    <string name="eos_account_permission_parent_title_placeholder">Quyền phụ huynh %s · %s</string>
+    <string name="eos_account_permission_import_operation_warning">Tài khoản nhập hiện tại là quyền%svà quyền%skhông thể thay đổi.</string>
+    <string name="eos_account_permission_parent_placeholder">Chọn quyền của phụ huynh</string>
+    <string name="eos_account_permission_delete_warning">Quyền sở hữu và quyền hoạt động không thể bị xóa, các quyền khác có thể bị xóa.</string>
+    <string name="eos_account_permission_keys_delete">Xóa khóa công khai</string>
+    <string name="eos_account_permission_accounts_delete">Xóa tài khoản</string>
+    <string name="eos_account_permission_waits_delete">Xóa chờ</string>
+    <string name="eos_account_permission_name_title">Tên đặc quyền</string>
+    <string name="eos_account_permission_name_placeholder">Đặt tên cho phép</string>
+    <string name="eos_account_permission_parent_title">Quyền phụ huynh</string>
+    <string name="eos_account_permission_threshold_placeholder">Đặt ngưỡng</string>
+    <string name="eos_account_permission_waits_title">Chờ đợi</string>
+    <string name="eos_account_permission_no">Không</string>
+    <string name="trade">trade</string>
+    <string name="eos_permission_inconsistent">Please import the %s permission first.</string>
+    <string name="gallery">gallery</string>
+    <string name="module_wallet">%s Wallet</string>
+    <string name="check_tokens">Please check the tokens</string>
+    <string name="add_token_first">Please add the token first</string>
+    <string name="wallet_password_forget_password">Forget Wallet Password？</string>
+    <string name="webview_transfer_warning">You are making a large amount transfer, please be cautious.</string>
+    <string name="report">Report Scam</string>
+    <string name="dapps_risk_warning">Risk warning</string>
+    <string name="dapps_report_warning">The third-party DApp is reported by other users and may involve high-risk situations such as malicious scams, token locks, or hacking! Please be cautious!</string>
+
+    <string name="invaild_plugin">Invaild Plugin</string>
+    <string name="invaild_privatekey">Invaild Privatekey</string>
+    <string name="chains_password_error">Password Error</string>
+    <string name="invaild_mnenic">Invaild Mnemonic</string>
+    <string name="sign_error">Sign Error</string>
+    <string name="invaild_address">Invaild Address</string>
+    <string name="invaild_keystore">Invaild Keystore</string>
+    <string name="unknow_error">Unknow Error</string>
+    <string name="balances_locked">locked</string>
+    <string name="balance_free">free</string>
+
+    <string name="eos_account_create_way_exchange_instructions">Support multiple exchange withdrawal or wallet transfer.
+</string>
+    <string name="eos_account_create_way_alipay_instructions">Support purchasing invitation code via Alipay and Paypal.
+</string>
+    <string name="eos_account_create_way_friends_instructions">Invite friends to use the Math Wallet scanning payment.
+</string>
+    <string name="eos_account_create_way_phone">Create by phone number.</string>
+    <string name="eos_account_create_way_phone_instructions">Create by phone number.</string>
+    <string name="create_eos_account_by_phone">Create by phone number</string>
+    <string name="cancel_backup">Cancel Backup </string>
+    <string name="backup_by_organization">Organizaton Backup </string>
+    <string name="backup_by_organization_success">Organization backup succeeded. </string>
+    <string name="import_by_organization">Import by phone number </string>
+    <string name="find_eos_account_by_organization"> Retrieve EOS account </string>
+    <string name="find_eos_account_input_account_name"> Enter the EOS account </string>
+    <string name="find_eos_account_set_new_password">Set new account password </string>
+    <string name="what_is_the_organization_backup0">	•	The organization backup has been completed. Please do not change your owner permission, otherwise, the organization backup may be invalid；</string>
+    <string name="what_is_the_organization_backup1">	• 	Organization backup is the new feature that developed by Math Wallet based on EOS MultiSig technology; </string>
+    <string name="what_is_the_organization_backup2">	• 	When you open the organization backup, Math Wallet will involve your account management and will only provide service when you need to retrieve the account；</string>
+    <string name="open_organization_backup">Open</string>
+    <string name="wallet_password_require_txt1">At least 8 characters </string>
+    <string name="wallet_password_require_txt2">At least 1 uppercase </string>
+    <string name="wallet_password_require_txt3"> At least one lowercase letter </string>
+    <string name="wallet_password_require_txt4">At least one digit </string>
+
+    <string name="backup_by_organization_instructions"> Need to verify your identity and improve the your account information. If your account is lost or something unexpected happens to your account, it can be retrieved in Math Wallet through your phone number. </string>
+    <string name="backup_by_organization_instructions1"> In view of the security situation of your account, Math Wallet will provide you with the service of retrieving your account through your mobile phone. </string>
+    <string name="skip">Skip</string>
+    <string name="cant_import_wallet">Unable to import account </string>
+    <string name="cant_import_wallet_reason"> Detected that you had not created the EOS account in Math Wallet. </string>
+    <string name="account_security_authentication">Account security verification</string>
+    <string name="account_security_authentication_instructions"> After the verification, you can retrieve the account through the security verification system when your mobile phone is lost, the system is reinstalled or other unexpected circumstances occur. </string>
+    <string name="security_authentication">Security Verification</string>
+    <string name="kyc_success">Identity verification approved. </string>
+    <string name="kyc_success_tosecurity_txt"> In view of the security of your account, maiziwallet will provide you with the service of retrieving your account number through your mobile phone。</string>
+    <string name="immediate_authorization_now">To authorize. </string>
+    <string name="find_eos_by_phone_submit_success_txt"> Identity verification submitted, we will review as soon as possible, please wait patiently. </string>
+    <string name="checking">（Verifying）</string>
+    <string name="checking_failed">（Verification Failed）</string>
+    <string name="eosaccount_status0">Account in verifying, cannot make operation now </string>
+    <string name="eosaccount_status1"> Account verification failed, unable to operate. </string>
+    <string name="eosaccount_status2"> The information you submitted does not match the information reserved when you created the account. Please submit again.</string>
+    <string name="eosaccount_status_fail">Verification Failed </string>
+    <string name="eosaccount_status_again">Submit Information</string>
+    <string name="user_kyc_failed">The identity information you submitted is not approved, please submit again. </string>
+    <string name="eos_create_account_failed">Fail to create EOS account.</string>
+    <string name="eos_create_account_failed_call_service">Please contact Math Wallet for support：MDSjiangzuo </string>
+    <string name="hardware_reset_pin_fingerprint">Reset PIN code fingerprint </string>
+    <string name="hardware_valid_fingerprint">Valid Fingerprint</string>
+    <string name="hardware_continue_typing">Continue recording fingerprint </string>
+    <string name="hardware_success_typing">Fingerprint Recorded </string>
+    <string name="iris_liquid_placeholder">Liquid</string>
+    <string name="iris_delegate_placeholder">Delegate</string>
+    <string name="iris_indelegating">Undelegating</string>
+
+    <string name="exit_tips">Do you want to exit login?？</string>
+
+    <string name="privatekey_qrcode">QRCode</string>
+    <string name="app_is_root_warming">It is detected that your mobile phone has been ROOT, please take care of the asset security.</string>
+    <string name="maximum_30_characters">Maximum 30 characters, optional.</string>
+    <string name="iris_simple_setting">Basic</string>
+    <string name="iris_advance_setting">Advanced</string>
+    <string name="view_the_update_history">Change Log</string>
+    <string name="backup_switch_mnemonic_cn">Back up Chinese mnemonic word</string>
+    <string name="backup_switch_mnemonic_en">Back up English mnemonic word</string>
+    <string name="btc_transfer_add_opreturn">Add OP_RETURN</string>
+    <string name="btc_transfer_enter_hex">enter Hex</string>
+    <string name="btc_transfer_text_ascii">text ASCII</string>
+    <string name="cloud_wallet_search_token">Search Token</string>
+    <string name="cloud_wallet_hide_token">Hide Small Balances</string>
+    <string name="bill">Transactions</string>
+    <string name="cloud_wallet_transfer_amount">Amount</string>
+    <string name="cloud_transfer_all_amount">全部转账</string>
+    <string name="cloud_walllet_real_receive">Receive Amount</string>
+    <string name="cloud_wallet_receive_address_qr">Receive address QR code</string>
+    <string name="cloud_wallet_bill_filter">Fliter</string>
+    <string name="copy_paste_address">Enter or paste address</string>
+
+    <string name="setPin_setPin">Set Payment Password</string>
+    <string name="setPin_countlimit">6 digits</string>
+    <string name="setting_update_pin">Update Payment Password</string>
+    <string name="setting_update_pin_old_pin">Enter old Payment Password</string>
+    <string name="setPin_different_pin">Payment Password Incorrect</string>
+    <string name="withdraw_input_pin_code">Enter Payment Password</string>
+    <string name="withdraw_mini_amount">At least withdraw %s</string>
+    <string name="withdraw_too_large_tips">At most withdraw %s</string>
+    <string name="wallet_password_pin_placeholder">"Enter payment password to unlock "</string>
+    <string name="cloud_transfer_warning">⚠️ Please confirm the receive address before transfer, the asset transfer cannot be canceled once executed.transferred will not be withdrawn.</string>
+    <string name="pin_code">Payment Password</string>
+    <string name="setting_repet_pin">Repeat Payment Password</string>
+    <string name="cloud_wallet_show_token">Show All</string>
+    <string name="not_open_for_now">Not Open</string>
+    <string name="encharge">Deposit</string>
+    <string name="cloud_all">All</string>
+    <string name="account_login_log">登录日志</string>
+    <string name="account_exit">退出登录</string>
+    <string name="account_google_verify">Google 验证</string>
+    <string name="account_pay_pwd">Payment Password</string>
+    <string name="account_verified">Verified</string>
+    <string name="account_verified_info">Verification Information</string>
+    <string name="account_google_tips">Here’s the Google verified key, please copy and bind with Google Verification. Make sure you backup the key in a safe place, Google Verification cannot be recovered if you lost the key.</string>
+    <string name="account_copy_pk">The key is bound and backed up.</string>
+    <string name="account_google_hint">Please enter the Google verification code</string>
+    <string name="account_log_history">登录日志</string>
+    <string name="locate">位置</string>
+    <string name="ip_address">IP Address</string>
+    <string name="device">Device</string>
+
+    <string name="wallet_import_mnemonic_phrase_chinese">Enter the Chinese mnemonic word</string>
+    <string name="wallet_import_mnemonic_phrase_english">Enter the English mnemonic word</string>
+    <string name="wallet_import_mnemonic_phrase_chinese_placeholder">Enter the Chinese mnemonic word and separate with space</string>
+    <string name="wallet_import_mnemonic_phrase_english_placeholder">Enter the English mnemonic word and separate with space</string>
+    <string name="screen_capture_warming">Do not screen capture and storage, which may be collected by third-party malware, resulting in asset loss</string>
+    <string name="fail_to_generate_seed">Fail to generate seed</string>
+    <string name="local_device">Local Device</string>
+    <string name="the_device_has_been_disconnected">The device has been disconnected</string>
+    <string name="imported_mnemonic_not_match_mnemonic">The imported mnemonic does not match the mnemonic in the hardware wallet!</string>
+    <string name="pin_code_cannot_be_empty">PIN code cannot be empty</string>
+    <string name="pin_code_cannot_be_less">PIN code cannot be less than 6 digits</string>
+    <string name="pin_code_does_not_match">PIN code does not match</string>
+    <string name="your_fingerprint_has_been_set">Completed\nYour fingerprint has been set</string>
+    <string name="reset_pin_successfully">Reset PIN Successfully</string>
+    <string name="reset_pin_failed">Reset PIN Failed</string>
+    <string name="set_fingerprint">Set Fingerprint</string>
+    <string name="view_the_website">Visit Website</string>
+    <string name="email_update_new_hint">Have sent 6 character verification code to your new email</string>
+    <string name="withdraw_success">Withdrawn</string>
+    <string name="order_record">Transactions</string>
+    <string name="amount_unit">Amount(%s)</string>
+    <string name="figure">Chữ số</string>
+    <string name="depth">Độ sâu</string>
+
+    <string name="three_decimal_places">3 decimal</string>
+    <string name="four_decimal_places">4 decimal</string>
+    <string name="five_decimal_places">5 decimal</string>
+    <string name="six_decimal_places">6 decimal</string>
+    <string name="simple_wallet_sign_sure">Confirm the signature</string>
+    <string name="precision">decimal</string>
+    <string name="one_decimal_places">1 decimal</string>
+    <string name="two_decimal_places">2 decimal</string>
+    <string name="seven_decimal_places">7 decimal</string>
+    <string name="eight_decimal_places">8 decimal</string>
+</resources>
