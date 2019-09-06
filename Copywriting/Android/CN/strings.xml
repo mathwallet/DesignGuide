@@ -1507,4 +1507,19 @@
     <string name="two_decimal_places">2 位小数</string>
     <string name="seven_decimal_places">7 位小数</string>
     <string name="eight_decimal_places">8 位小数</string>
+
+    <string name="copy_wallet_tag">复制标签</string>
+    <string name="receive_warn_text">⚠️该地址仅接收 %s 资产，请勿充值其它币种资产，否则资产将无法找回。</string>
+    <string name="receive_warn_tag_text">请填写此地址标签，若遗漏标签将导致资金丢失!</string>
+    <string name="receive_text_title">%s 收款</string>
+    <string name="hd_wallet">HD钱包</string>
+    <string name="account_google_set_auth">如何设置 Google 验证？</string>
+    <string name="cloud_security_google_auth_prompt">完成Google二次验证器设置后，即可解除提现数量限制</string>
+    <string name="cloud_security_google_auth_set">去设置</string>
+    <string name="cloud_security_verification_title">安全验证</string>
+    <string name="cloud_security_verification_mobile_code">短信或邮箱验证码</string>
+    <string name="cloud_security_verification_mobile_code_placeholder">输入验证码</string>
+    <string name="cloud_send_code">发送</string>
+    <string name="cloud_resend_code">%d\'s 后可重发</string>
+    <string name="wallet_connect_wait">等待连接。。。</string>
 </resources>

@@ -99,8 +99,8 @@
     <string name="fenbushi_capital">Vốn phân phối</string>
     <string name="Danhua_capital">Danhua Thủ đô</string>
     <string name="disclaimer_warning_title">Khước từ</string>
-    <string name="create_wallet_success_copy_prompt">Vui lòng sao chép và sao lưu trước Keystore 文件</string>
-    <string name="create_wallet_success_copy_privateKey_prompt">Vui lòng sao chép và sao lưu trước WIF 文件</string>
+    <string name="create_wallet_success_copy_prompt">Vui lòng sao chép và sao lưu trước Keystore File</string>
+    <string name="create_wallet_success_copy_privateKey_prompt">Vui lòng sao chép và sao lưu trước WIF File</string>
     <string name="create_wallet_success_copy_eos_privateKey_prompt">Vui lòng sao chép và sao lưu tập tin khóa riêng trước.</string>
     <string name="disclaimer_warning_message">Chúng tôi không chịu trách nhiệm bởi vì Keystore Mất tài sản do mất và quên mật khẩu！</string>
     <string name="disclaimer_privatekey_warning_message">Chúng tôi không chấp nhận bất kỳ mất tài sản nào do mất khóa riêng và quên mật khẩu.！</string>
@@ -135,7 +135,7 @@
     <string name="manage_wallet_backup_privatekey">Sao lưu khóa riêng</string>
     <string name="manage_wallet_backup_mnemonic_phrase">Sao lưu dự phòng</string>
     <string name="remove_wallet">Xóa ví</string>
-    <string name="wallet_address">地址：</string>
+    <string name="wallet_address">Wallet Address</string>
     <string name="save_wallet_failed">Ví lưu trữ không thành công</string>
     <string name="rename_wallet_failed">Không thể sửa đổi tên ví</string>
     <string name="delete_wallet_failed">Xóa ví không thành công</string>
@@ -381,6 +381,8 @@
     <string name="contact_account_btc_address_title">Địa chỉ ví BTC</string>
     <string name="contact_account_trx_address_title">Địa chỉ ví TRX</string>
     <string name="contact_account_nas_address_title">Địa chỉ ví NAS</string>
+    <string name="contact_account_zilliqa_address_title">Địa chỉ ví ZIL</string>
+
     <string name="contact_account_eth_address_placeholder">Nhập hoặc dán địa chỉ ví ETH</string>
     <string name="contact_account_bnb_address_placeholder">Nhập hoặc dán địa chỉ ví BNB</string>
     <string name="contact_account_iris_address_placeholder">Nhập hoặc dán địa chỉ ví IRIS</string>
@@ -396,6 +398,7 @@
     <string name="contact_account_btc_address_placeholder">Nhập hoặc dán địa chỉ ví BTC</string>
     <string name="contact_account_trx_address_placeholder">Nhập hoặc dán địa chỉ ví TRX</string>
     <string name="contact_account_nas_address_placeholder">Nhập hoặc dán địa chỉ ví NAS</string>
+    <string name="contact_account_zilliqa_address_placeholder">Nhập hoặc dán địa chỉ ví ZIL</string>
 
     <string name="select_contact">Chọn liên hệ</string>
     <string name="my_wallet">Ví của tôi</string>
@@ -436,8 +439,8 @@
 
     <!--关注微信公众号-->
     <string name="medishares_wechat_description">Chúng tôi chân thành mời bạn tham gia trò chuyện nhóm WeChat chính thức của chúng tôi, trước tiên hãy chú ý đến tín hiệu vi mô: mathwallet666</string>
-    <string name="medishares_telegram_description">Trân trọng mời bạn tham gia nhóm Telegram chính thức của chúng tôi và tham gia ngay bây giờ：https://t.me/mathwallet</string>
-    <string name="medishares_kakao_description">Trân trọng mời bạn tham gia trò chuyện nhóm KaKao chính thức của chúng tôi và tham gia ngay bây giờ：https://open.kakao.com/o/g5TSeeM</string>
+    <string name="medishares_telegram_description">Trân trọng mời bạn tham gia nhóm Telegram chính thức của chúng tôi và tham gia ngay bây giờ:https://t.me/mathwallet</string>
+    <string name="medishares_kakao_description">Trân trọng mời bạn tham gia trò chuyện nhóm KaKao chính thức của chúng tôi và tham gia ngay bây giờ:https://open.kakao.com/o/g5TSeeM</string>
     <string name="medishares_wechat_public_copy">Sao chép tín hiệu vi mô</string>
     <string name="medishares_wechat_public">MDSjiangzuo</string>
     <string name="joinwx_notinstall_wx">Kiểm tra xem điện thoại của bạn chưa cài đặt WeChat, vui lòng cài đặt WeChat</string>
@@ -539,7 +542,7 @@
     <string name="copy_wallet_address">Sao chép địa chỉ</string>
     <string name="account_address_qr_title">Địa chỉ ví mã QR</string>
     <string name="account_code_qr_title">QR Code</string>
-    <string name="scan_qr_failed">二维码识别失败</string>
+    <string name="scan_qr_failed">Scan QR Code Failed</string>
     <string name="wrong_eth_qr_code">Mã QR không phải là địa chỉ ETH</string>
     <string name="wrong_esn_qr_code">Mã QR không phải là địa chỉ ESN</string>
     <string name="wrong_eos_qr_code">Mã QR không phải là tài khoản EOS</string>
@@ -556,6 +559,7 @@
     <string name="wrong_eos_force_qr_code">Mã QR không phải là tài khoản EOS Force</string>
     <string name="wrong_trx_qr_code">Mã QR không phải là địa chỉ TRX</string>
     <string name="wrong_nas_qr_code">Mã QR không phải là địa chỉ NAS</string>
+    <string name="wrong_zil_qr_code">Mã QR không phải là địa chỉ ZIL</string>
 
     <!--交易记录-->
     <string name="recent_transaction_records">Lịch sử giao dịch gần đây</string>
@@ -1153,7 +1157,7 @@
     <string name="eos_account_create_by_friend_account_title">Tài khoản</string>
     <string name="eos_account_create_by_friend_owner_title">Khóa công khai của chủ sở hữu</string>
     <string name="eos_account_create_by_friend_active_title">Khóa công khai</string>
-    <string name="eos_account_create_by_friend_prompt10">Yêu cầu bạn bè của bạn sử dụng ví lúa mì để quét mã QR bên dưới, trả khoảng% s EOS để bảo đảm tài nguyên mạng và CPU và mua bộ nhớ..</string>
+    <string name="eos_account_create_by_friend_prompt10">Yêu cầu bạn bè của bạn sử dụng ví lúa mì để quét mã QR bên dưới, trả khoảng %s EOS để bảo đảm tài nguyên mạng và CPU và mua bộ nhớ..</string>
     <string name="swft_crosschain">一Trao đổi chuỗi chéo chính</string>
     <string name="swft_wait_deposit_send">Tiền đang chờ xử lý</string>
     <string name="swft_timeout">Hết giờ</string>
@@ -1290,6 +1294,8 @@
     <string name="dapp_search_nothing">Chưa có kết quả tìm kiếm</string>
     <string name="eth_sigh_address">Địa chỉ chữ ký</string>
     <string name="eth_sign_content">Chữ ký nội dung</string>
+    <string name="zilliqa_wallet">ZIL Wallet</string>
+    <string name="please_enter_the_correct_zilliqa_address">Please enter the correct ZIL publicKey.</string>
 
     <string name="eos_account_permission_accounts_add">Thêm tài khoản</string>
     <string name="eos_account_permission_accounts_update">Thay đổi tài khoản</string>
@@ -1342,12 +1348,29 @@
     <string name="balances_locked">locked</string>
     <string name="balance_free">free</string>
 
-    <string name="eos_account_create_way_exchange_instructions">Support multiple exchange withdrawal or wallet transfer.
-</string>
-    <string name="eos_account_create_way_alipay_instructions">Support purchasing invitation code via Alipay and Paypal.
-</string>
-    <string name="eos_account_create_way_friends_instructions">Invite friends to use the Math Wallet scanning payment.
-</string>
+    <string name="price">Price</string>
+    <string name="cancel_order">Cancel</string>
+    <string name="price_unit">Price(%s)</string>
+    <string name="volume_parentheses">Executed(%s)</string>
+    <string name="transaction_data_error">Invalid Amount</string>
+    <string name="no_open_order">No Record</string>
+    <string name="now_open_order">Open Orders</string>
+    <string name="cancel_order_success">Canceled</string>
+
+    <string name="my_hardware_device">My device</string>
+    <string name="other_hardware_device">Other device</string>
+    <string name="connect_hardware_device">Connecting device</string>
+    <string name="has_connected">Connected</string>
+    <string name="hardware_device_disconnect">Please make sure your hardware wallet is open</string>
+    <string name="please_input_pin">Please enter your PIN</string>
+    <string name="please_verify_pin">Please verify your PIN first</string>
+    <string name="connect_device_failed">The card is not detected, please confirm that the card is turned on.</string>
+    <string name="device_disconnected">The device has been disconnected!</string>
+    <string name="pin_error">PIN code error</string>
+
+    <string name="eos_account_create_way_exchange_instructions">Support multiple exchange withdrawal or wallet transfer.</string>
+    <string name="eos_account_create_way_alipay_instructions">Support purchasing invitation code via Alipay and Paypal.</string>
+    <string name="eos_account_create_way_friends_instructions">Invite friends to use the Math Wallet scanning payment.</string>
     <string name="eos_account_create_way_phone">Create by phone number.</string>
     <string name="eos_account_create_way_phone_instructions">Create by phone number.</string>
     <string name="create_eos_account_by_phone">Create by phone number</string>
@@ -1414,7 +1437,7 @@
     <string name="cloud_wallet_hide_token">Hide Small Balances</string>
     <string name="bill">Transactions</string>
     <string name="cloud_wallet_transfer_amount">Amount</string>
-    <string name="cloud_transfer_all_amount">全部转账</string>
+    <string name="cloud_transfer_all_amount">All</string>
     <string name="cloud_walllet_real_receive">Receive Amount</string>
     <string name="cloud_wallet_receive_address_qr">Receive address QR code</string>
     <string name="cloud_wallet_bill_filter">Fliter</string>
@@ -1436,17 +1459,17 @@
     <string name="not_open_for_now">Not Open</string>
     <string name="encharge">Deposit</string>
     <string name="cloud_all">All</string>
-    <string name="account_login_log">登录日志</string>
-    <string name="account_exit">退出登录</string>
-    <string name="account_google_verify">Google 验证</string>
+    <string name="account_login_log">Login Record</string>
+    <string name="account_exit">Logout</string>
+    <string name="account_google_verify">Google Verification</string>
     <string name="account_pay_pwd">Payment Password</string>
     <string name="account_verified">Verified</string>
     <string name="account_verified_info">Verification Information</string>
     <string name="account_google_tips">Here’s the Google verified key, please copy and bind with Google Verification. Make sure you backup the key in a safe place, Google Verification cannot be recovered if you lost the key.</string>
     <string name="account_copy_pk">The key is bound and backed up.</string>
     <string name="account_google_hint">Please enter the Google verification code</string>
-    <string name="account_log_history">登录日志</string>
-    <string name="locate">位置</string>
+    <string name="account_log_history">Login Record</string>
+    <string name="locate">Location</string>
     <string name="ip_address">IP Address</string>
     <string name="device">Device</string>
 
@@ -1469,7 +1492,7 @@
     <string name="view_the_website">Visit Website</string>
     <string name="email_update_new_hint">Have sent 6 character verification code to your new email</string>
     <string name="withdraw_success">Withdrawn</string>
-    <string name="order_record">Transactions</string>
+    <string name="order_record">Trade History</string>
     <string name="amount_unit">Amount(%s)</string>
     <string name="figure">Chữ số</string>
     <string name="depth">Độ sâu</string>
@@ -1484,4 +1507,21 @@
     <string name="two_decimal_places">2 decimal</string>
     <string name="seven_decimal_places">7 decimal</string>
     <string name="eight_decimal_places">8 decimal</string>
+
+    <string name="copy_wallet_tag">Copy the memo</string>
+    <string name="receive_warn_text">⚠️ This address only accepts %s assets, please do not top up other currency assets, otherwise the assets will not be recovered.</string>
+    <string name="receive_warn_tag_text">Please enter the memo. Losing the code will result in asset lost!</string>
+    <string name="receive_text_title">%s receive</string>
+    <string name="hd_wallet">HD Wallet</string>
+    <string name="account_google_set_auth">How to setup Google Authenticator?</string>
+    <string name="cloud_security_google_auth_prompt">Turn on Google Authenticator to release the withdrawal limit</string>
+    <string name="cloud_security_google_auth_set">Go setting</string>
+    <string name="cloud_security_verification_title">Security Verification</string>
+    <string name="cloud_security_verification_mobile_code">SMS or Email verification code</string>
+    <string name="cloud_security_verification_mobile_code_placeholder">Input the verification code</string>
+    <string name="cloud_send_code">Send</string>
+    <string name="cloud_resend_code">%d\'s Gửi lại mã xác minh</string>
+    <string name="wallet_connect_wait">Waiting for the connection。。。</string>
+
+
 </resources>

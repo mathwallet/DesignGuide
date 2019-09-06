@@ -1092,11 +1092,11 @@
     <string name="eos_market_1_mouth">1 M</string>
     <string name="tips_btc_address"><Data> <![CDATA[Tips:<br/>•주소 유형은 일반 혹은 Segwit로 구분할 수 있습니다. <font color="#5ac8fa">about Segwit</font>;<br/>•비트코인 지갑은 여러 개의 주소를 생성하여 주소의 중용을 피하며 개인 정보를 보호할 수 있습니다;<br/>•선택된 주소는 묵인된 입금지가 될 것입니다;]]> </Data></string>
     <string name="dapps_contract_args_detail">자세히 보기</string>
-    <string name="swft_fastchange">闪兑</string>
+    <string name="swft_fastchange">패스트 체인지</string>
     <string name="swft_inputAmount">출금 금액</string>
     <string name="swft_chooseReceiveWallet">입금 지갑을 선택</string>
     <string name="swft_change">환전</string>
-    <string name="swft_change_rate">实时汇率</string>
+    <string name="swft_change_rate">실시간 환율</string>
     <string name="swft_receiveAmount">입금 금액</string>
     <string name="swft_change_record">환전 기록</string>
     <string name="all">전체</string>
@@ -1508,4 +1508,19 @@
     <string name="two_decimal_places">2 소수점</string>
     <string name="seven_decimal_places">7 소수점</string>
     <string name="eight_decimal_places">8 소수점</string>
+
+    <string name="copy_wallet_tag">메모 복사</string>
+    <string name="receive_warn_text">⚠️ This address only accepts %s assets, please do not top up other currency assets, otherwise the assets will not be recovered.</string>
+    <string name="receive_warn_tag_text">이 메모를 기입해 주세요, 메모가 누락될 경우 자금이 분실될 수 있습니다!</string>
+    <string name="receive_text_title">%s 접수</string>
+    <string name="hd_wallet">HD Wallet</string>
+    <string name="account_google_set_auth">How to setup Google Authenticator?</string>
+    <string name="cloud_security_google_auth_prompt">Google 2차 인증 설치를 완료되면 현금 인출 수량 제한을 해제할 수 있습니다.</string>
+    <string name="cloud_security_google_auth_set">설치하기</string>
+    <string name="cloud_security_verification_title">안전인증</string>
+    <string name="cloud_security_verification_mobile_code">문자 혹은 메일 인증코드</string>
+    <string name="cloud_security_verification_mobile_code_placeholder">인증코드를 입력</string>
+    <string name="cloud_send_code">Send</string>
+    <string name="cloud_resend_code">%d\'s 후 인증번호를 다시 발송</string>
+    <string name="wallet_connect_wait">기다리고 잇는。。。</string>
 </resources>

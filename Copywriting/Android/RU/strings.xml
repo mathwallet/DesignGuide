@@ -556,6 +556,7 @@
     <string name="wrong_eos_force_qr_code">Неправильный QR-код для EOS FORCE-адреса</string>
     <string name="wrong_trx_qr_code">Неправильный QR-код для TRX-адреса</string>
     <string name="wrong_nas_qr_code">Неправильный QR-код для NAS-адреса</string>
+    <string name="wrong_zil_qr_code">Неправильный QR-код для ZIL-адреса</string>
 
     <!--交易记录-->
     <string name="recent_transaction_records">Последние транзакции</string>
@@ -1350,12 +1351,30 @@
     <string name="balances_locked">locked</string>
     <string name="balance_free">free</string>
 
-    <string name="eos_account_create_way_exchange_instructions">Support multiple exchange withdrawal or wallet transfer.
-</string>
-    <string name="eos_account_create_way_alipay_instructions">Support purchasing invitation code via Alipay and Paypal.
-</string>
-    <string name="eos_account_create_way_friends_instructions">Invite friends to use the Math Wallet scanning payment.
-</string>
+    <string name="price">Price</string>
+    <string name="cancel_order">Cancel</string>
+    <string name="price_unit">Price(%s)</string>
+    <string name="volume_parentheses">Executed(%s)</string>
+    <string name="transaction_data_error">Invalid Amount</string>
+    <string name="no_open_order">No Record</string>
+    <string name="now_open_order">Open Orders</string>
+    <string name="cancel_order_success">Canceled</string>
+
+
+    <string name="my_hardware_device">My device</string>
+    <string name="other_hardware_device">Other device</string>
+    <string name="connect_hardware_device">Connecting device</string>
+    <string name="has_connected">Connected</string>
+    <string name="hardware_device_disconnect">Please make sure your hardware wallet is open</string>
+    <string name="please_input_pin">Please enter your PIN</string>
+    <string name="please_verify_pin">Please verify your PIN first</string>
+    <string name="connect_device_failed">The card is not detected, please confirm that the card is turned on.</string>
+    <string name="device_disconnected">The device has been disconnected!</string>
+    <string name="pin_error">PIN code error</string>
+
+    <string name="eos_account_create_way_exchange_instructions">Support multiple exchange withdrawal or wallet transfer.</string>
+    <string name="eos_account_create_way_alipay_instructions">Support purchasing invitation code via Alipay and Paypal.</string>
+    <string name="eos_account_create_way_friends_instructions">Invite friends to use the Math Wallet scanning payment.</string>
     <string name="eos_account_create_way_phone">Create by phone number.</string>
     <string name="eos_account_create_way_phone_instructions">Create by phone number.</string>
     <string name="create_eos_account_by_phone">Create by phone number</string>
@@ -1444,16 +1463,16 @@
     <string name="not_open_for_now">Not Open</string>
     <string name="encharge">Deposit</string>
     <string name="cloud_all">All</string>
-    <string name="account_login_log">登录日志</string>
-    <string name="account_exit">退出登录</string>
-    <string name="account_google_verify">Google 验证</string>
+    <string name="account_login_log">Login Record</string>
+    <string name="account_exit">Logout</string>
+    <string name="account_google_verify">Google Verification</string>
     <string name="account_pay_pwd">Payment Password</string>
     <string name="account_verified">Verified</string>
     <string name="account_verified_info">Verification Information</string>
     <string name="account_google_tips">Here’s the Google verified key, please copy and bind with Google Verification. Make sure you backup the key in a safe place, Google Verification cannot be recovered if you lost the key.</string>
     <string name="account_copy_pk">The key is bound and backed up.</string>
     <string name="account_google_hint">Please enter the Google verification code</string>
-    <string name="account_log_history">登录日志</string>
+    <string name="account_log_history">Login Record</string>
     <string name="locate">Location</string>
     <string name="ip_address">IP Address</string>
     <string name="device">Device</string>
@@ -1477,7 +1496,7 @@
     <string name="view_the_website">Visit Website</string>
     <string name="email_update_new_hint">Have sent 6 character verification code to your new email</string>
     <string name="withdraw_success">Withdrawn</string>
-    <string name="order_record">Transactions</string>
+    <string name="order_record">Trade History</string>
     <string name="amount_unit">Amount(%s)</string>
     <string name="figure">цифр</string>
     <string name="depth">глубина</string>
@@ -1492,4 +1511,19 @@
     <string name="two_decimal_places">2 decimal</string>
     <string name="seven_decimal_places">7 decimal</string>
     <string name="eight_decimal_places">8 decimal</string>
+
+    <string name="copy_wallet_tag">Copy the memo</string>
+    <string name="receive_warn_text">⚠️ This address only accepts %s assets, please do not top up other currency assets, otherwise the assets will not be recovered.</string>
+    <string name="receive_warn_tag_text">Please enter the memo. Losing the code will result in asset lost!</string>
+    <string name="receive_text_title">%s receive</string>
+    <string name="hd_wallet">HD Wallet</string>
+    <string name="account_google_set_auth">How to setup Google Authenticator?</string>
+    <string name="cloud_security_google_auth_prompt">Turn on Google Authenticator to release the withdrawal limit</string>
+    <string name="cloud_security_google_auth_set">Go setting</string>
+    <string name="cloud_security_verification_title">Security Verification</string>
+    <string name="cloud_security_verification_mobile_code">SMS or Email verification code</string>
+    <string name="cloud_security_verification_mobile_code_placeholder">Input the verification code</string>
+    <string name="cloud_send_code">Send</string>
+    <string name="cloud_resend_code">Отправить повторно после %d\'s</string>
+    <string name="wallet_connect_wait">Waiting for the connection。。。</string>
 </resources>
