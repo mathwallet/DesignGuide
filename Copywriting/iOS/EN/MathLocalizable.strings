@@ -1,6 +1,6 @@
 /*
  Localizable.strings
- MediShares-iOS
+ MathWallet-iOS
  
  Created by Yuzhiyou on 2018/1/17.
  Copyright © 2018年 zhongtuobang. All rights reserved.
@@ -23,6 +23,7 @@
 "eos_jsonrpc_error_transaction_expired" = "Transaction expired, please try again.";
 
 "eos_account_error_permission_changed" = "Please import the %@ permission first.";
+"account_error_permission_changed" = "The account permission has changed, please re import.";
 
 // NeoClientError
 "Invalid seed" = "Invalid seed";
@@ -107,6 +108,7 @@
 "update"="Update";
 "edit"="Edit";
 "discover_new_version"="Discover New Version";
+"open_testflight_to_upgrade"="Please open testflight to upgrade";
 "currently_lastest_version"="This is the lastest version.";
 "version_upgrade"="Update";
 "delete_cache"="Delete Cache";
@@ -130,6 +132,7 @@
 "report" = "Report Scam";
 "risk_warning" = "Risk warning";
 "risk_warning_text" = "The third-party Website is reported by other users and may involve high-risk situations such as malicious scams, token locks, or hacking! Please be cautious!";
+"send" = "Send";
 
 // 权限
 "take_photo"="Take Photo";
@@ -147,7 +150,7 @@
 "empty_data_trasfer"="No transfer record";
 "empty_data_contacts"="No contacts to show";
 "empty_data_contacts_know"="No known contacts";
-"empty_data_candy"="No record";
+"empty_data_cloud"="No record";
 "empty_data_withdraw"="No record";
 "empty_data_search"="No search result";
 "empty_whiteList_contacts" = "No white list contacts";
@@ -226,6 +229,9 @@
 "wallet_import_mnemonic_phrase_placeholder"="Please use space to separate the mnemonic words";
 "wallet_import_mnemonic_phrase_path_title"="Path";
 "wallet_import_mnemonic_phrase_custom_path"="m/44'/60'/0'/0/0 your custom path";
+"wallet_import_mnemonic_phrase_crypto_type_title"="Crypto type";
+"wallet_import_mnemonic_phrase_crypto_type_schnorrkel"="Schnorrkel (sr25519)";
+"wallet_import_mnemonic_phrase_crypto_type_edwards"="Edwards (ed25519)";
 "wallet_import_mnemonic_phrase_nickname_title"="Wallet Name";
 "wallet_import_mnemonic_phrase_nickname_placeholder"="Set wallet name";
 "wallet_import_mnemonic_phrase_password_title"="Transaction Password";
@@ -315,22 +321,13 @@
 "eos_account_create_way_buy"="Buy Invitation Code";
 "eos_account_create_way_exchange"=" Withdrawal or Transfer ";
 "eos_account_create_way_friends"="Invite friends to scan and pay by Math Wallet. ";
-"eos_account_create_way_phone"="Create by phone number.";
-"eos_account_create_way_buy_hint"="Support purchasing invitation code via Alipay and Paypal.
-";
+"eos_account_create_way_buy_hint"="Support purchasing invitation code via Alipay and Paypal.";
 "eos_account_create_way_exchange_hint"="Support multiple exchange withdrawal or wallet transfer.";
 "eos_account_create_way_friends_hint"="Invite friends to use the Math Wallet scanning payment.";
-"eos_account_create_way_phone_hint"="Create by phone number.";
 "eos_account_create_way_recommend"=" Recommendation";
 "eos_account_create_set_account"="Set EOS Account Name";
 "eos_account_create_backup_prompt"="• Below is the private key, please back it up carefully and it cannot be restore once lost.\n• When the transaction is successful, you need to import the private key to complete account creation.";
 "eos_account_create_backup_private_title"="Private Key";
-"eos_account_create_succeed_phone" = "EOS 账户已创建成功";
-"eos_account_create_remark_phone" = "需进行实名认证，完善账户信息。当您的账户出现账户丢失等意外情况的时候可以使用您在麦子钱包实名认证的手机号码找回。";
-"eos_account_create_remark_phone_noImage" = "完善信息后。当您的账户出现账户丢失等意外情况的时候可以使用您在麦子钱包实名认证的手机号码找回。";
-"eos_account_create_remark_phone_noImage_btn" = "完善账户信息";
-"eos_account_fillBack_KycImage" = "去完善";
-"eos_account_create_remark_phone_skip" = "跳过";
 
 "eos_account_create_by_friend_prompt"="• Invite friends to use the Math Wallet to scan the QR code and pay around  %@ EOS to stick CPU and network resource，and purchase RAM。\n• When the payment is successful, you need to import the private key that backed up in previous step to complete account creation. ";
 "eos_account_create_by_friend_share_title"=" Share QR Code ";
@@ -517,6 +514,16 @@
 "telos_account_create_by_friends_publickey_prompt"="Please copy the public key to your friend in order to create an Telos account.";
 "telos_account_create_by_friends_privatekey_title"="Private Key";
 "telos_account_create_by_friends_privatekey_prompt"="Please keep your private key confidential and do NOT send it to anyone including your friend. You will need the private key to add your Telos account to your wallet after creating the Telos account by your friend.";
+
+// FT 钱包创建
+"ft_account_create"="Create FT Account";
+
+"ft_account_import"="Import FT Account";
+"ft_account_import_name_titile"="Account Name";
+"ft_account_import_name_placeholder"="Enter FT Account Name";
+"ft_account_error_invalid_name"="Invalid Account Name";
+
+"ft_account"="FT Account";
 // 创建企业钱包
 "company_wallet_tips" = "Biz. Wallet";
 "company_wallet_create_inviteCode_placeholder" = "Please enter your invitation code";
@@ -539,31 +546,11 @@
 "eos_account_remove"="Delete Account";
 
 "eos_account_permission_manage"="Manage Permission";
-"eos_account_institutions_backup" = "机构备份";
-"eos_account_backup" = "备份";
-"eos_account_institutions_backup_remark_top" = "  •  机构备份是麦子钱包以 EOS 多签技术为基础开发的新功能.";
-"eos_account_institutions_backup_remark_bottom" = "  •  当您开启后麦子钱包将参与到您的账户多签管理中，仅在您需要使用找回账户功能时提供服务.";
-"eos_account_institutions_open" = "开启";
-"eos_account_institutions_open_succeed" = "机构备份成功";
-"eos_account_institutions_open_remark_top" = "  •  已完成机构备份设置，请后续勿要修改您的 owner 权限，否则可能导致机构备份功能失效；";
-"eos_account_institutions_open_remark_mid" = "  •  机构备份是麦子钱包以 EOS 多签技术为基础开发的新功能；";
-"eos_account_institutions_open_remark_bottom" = "  •  当您开启后麦子钱包将参与到您的账户多签管理中，仅在您需要使用找回账户功能时提供服务。";
-"eos_account_institutions_canle" = "取消备份";
 
 "eos_account_name"="Account Name";
 "eos_account_password"="Account Password";
 
 "eos_account_no_exist_privatekeys"="The encrypted private key does not exist locally and cannot be exported.";
-
-"eos_account_phone_authentication_title" = "账户安全认证";
-"eos_account_phone_authentication_remark" = "完成认证后，当您的手机丢失、系统重装等意外情况发生时，您将可以通过安全认证系统找回该账号。";
-"eos_account_phone_authentication_confirm" = "安全认证";
-"eos_account_phone_authentication_pass" = "实名认证审核已通过";
-"eos_account_phone_authentication_remark" = "鉴于您的账户安全情况，麦子钱包将向您提供通过手机号找回账号的服务。";
-"eos_account_phone_authentication_soon" = "立即授权";
-"eos_account_phone_import" = "通过手机号码导入";
-"eos_account_phone_fail_remark" = "请联系麦子钱包官方客服协助解决：";
-"eos_account_phone_fail_wechat" = "MDSjiangzuo";
 
 // EOS 权限
 "eos_account_permission_name_title"="Permission Name";
@@ -667,6 +654,7 @@
 "transaction_menu_enu_account"="ENU Account";
 "transaction_menu_telos_account"="Telos Account";
 "transaction_menu_codex_account"="Codex Account";
+"transaction_menu_ft_account"="FT Account";
 "transaction_menu_scan_qrcode"="Scan QR Code";
 
 "recently_transfer"="Transaction Records";
@@ -677,7 +665,8 @@
 "normal" = "Normal";
 "fast" = "Fast";
 "super_fast" = "Fastest";
-"transaction_account_invalid" = "Invalid transaction account";
+"transaction_to_account_invalid" = "Invalid transaction account";
+"transaction_to_address_invalid" = "Invalid transaction address";
 "transaction_nonce_invalid" = "Invalid nonce transaction";
 "transaction_tx_fee" = "Mining Fee %@ ETH";
 "transaction_tx_fee_custom" = "Mining Fee %@ %@";
@@ -688,12 +677,15 @@
 "transaction_account_balance" = "Balance %@ %@";
 "transaction_tx_fee_esn" = "Mining Fee %@ ESN";
 "transaction_to_address_placeholder" = "Receiver's address";
+"transaction_to_account_placeholder" = "Receiver's account";
 "transaction_to_address_checking_security"="Checking address security";
 "transaction_tx_fee_with_price_esn" = "Mining Fee %@ ESN ≈ %@%@";
 "transaction_tx_fee_nas" = "Mining Fee %@ NAS";
 "transaction_tx_fee_with_price_nas" = "Mining Fee %@ NAS ≈ %@%@";
 "transaction_tx_fee_zil" = "Mining Fee %@ ZIL";
 "transaction_tx_fee_with_price_zil" = "Mining Fee %@ ZIL ≈ %@%@";
+"transaction_tx_fee_ft" = "Mining Fee %@ FT";
+"transaction_tx_fee_with_price_ft" = "Mining Fee %@ FT ≈ %@%@";
 
 "transaction_to_value_placeholder" = "Amount";
 "transaction_to_balance_low" = "The balance is not enough";
@@ -714,6 +706,7 @@
 "transaction_to_gas_price_invalid" = "Gas Price no Less Than%@gwei";
 "transaction_to_hex_data_invalid" = "Invalid Hexadecimal Data";
 "transaction_to_address_null" = "Please enter the receiver's address.";
+"transaction_to_account_null" = "Please enter the receiver's account.";
 "transaction_to_address_myself_invalid" = "The address can not be yourself";
 "transaction_to_value_null" = "Please enter the amount.";
 "transaction_to_value_zero" = "The transfer amount cannot be \"0\".";
@@ -731,6 +724,9 @@
 "transaction_double_pay" = "Same transaction existed. Please pay attention to the risk of double pay.";
 "transaction_gas_fee_notice" = "Please increase the gas fee above Normal";
 
+"transaction_to_memo_placeholder" = "Add memo.";
+"transaction_to_memo_exchange_recharge_warning" = "Memo is required for deposits to exchanges.";
+
 // 代币不支持交易
 "transaction_token_not_support" = "The token is not available for exchanging";
 
@@ -740,18 +736,15 @@
 "btc_text_ascii" = "Text ASCII";
 
 // 交易-EOS
-"eos_transaction_to_account_placeholder" = "Enter the receiver's account.";
-"eos_transaction_to_memo_placeholder" = "Add memo.";
 "eos_transaction_to_memo_length_warning" = "At most 256 chars";
-"eos_transaction_to_memo_exchange_recharge_warning" = "Memo is required for deposits to exchanges.";
-
 "eosforce_transaction_fee" = "Fee 0.01 %@";
 
 // 交易-TRX
 "trx_transaction_token_not_support" = "The token is not available for exchanging";
 
+// 手续费
+"transaction_fee" = "Fee %@ %@";
 // 交易 - BNB
-"bnb_transaction_fee" = "Fee %@ %@";
 "bnb_transaction_to_memo_length_warning" = "Maximum 30 characters, optional.";
 
 // 确认转账信息
@@ -790,37 +783,83 @@
 "refund"="refund";
 
 // 云端钱包
-"candy_cloud" = "Cloud";
-"candy_set_pin_code" = "Please set PIN code";
-"candy_record" = "Transactions";
-"candy_search_token" = "Search Token";
-"candy_hide_zero_token" = "Hide Small Balances";
-"candy_show_all_token" = "Show All";
-"candy_select_token" = "Select Tokens";
-"candy_transfer_title" = "%@ transfer";
-"candy_transfer_notice" = "⚠️ Please confirm the receive address before transfer, the asset transfer cannot be canceled once executed.";
-"candy_transfer_to_address_title" = "Receive Address";
-"candy_transfer_input_or_paste_address_placeholder" = "Please enter or paste address";
-"candy_transfer_select_wallet" = "Select Wallet";
-"candy_transfer_amount_title" = "Amount";
-"candy_transfer_amount_input_placeholder" = "Enter amount";
-"candy_transfer_balance_available" = "Available balance %@ %@";
-"candy_transfer_all" = "All";
-"candy_transfer" = "Transfer";
-"candy_receive_title" = "%@ Receive";
-"candy_receive_notice" = "⚠️ The address only receive %@ asset，please do not deposit other asset, otherwise the assets will not be recovered.";
-"candy_receive_address_title" = "Receive Address";
-"candy_receive_memo_title" = "Please enter the memo. Losing the code will result in asset lost.";
-"candy_receive_address_qrcode_title" = "Receive address QR code";
-"candy_withdraw_success" = "Withdrawn";
-"candy_withdraw_address_error" = "Invalid Address";
-"candy_record_all" = "All";
-"candy_record_out" = "Transfer";
-"candy_record_in" = "Receive";
-"candy_record_select_token" = "Filter";
-"candy_receive_not_support" = "Not open";
-"candy_token_all_name" = "All";
+"cloud_wallet" = "Cloud";
+"cloud_set_pin_code" = "Please set PIN code";
+"cloud_record" = "Transactions";
+"cloud_record_details" = "Details";
+"cloud_record_details_type" ="Type";
+"cloud_record_details_from" ="From";
+"cloud_record_details_to" ="To";
+"cloud_search_token" = "Search Token";
+"cloud_hide_zero_token" = "Hide Small Balances";
+"cloud_show_all_token" = "Show All";
+"cloud_select_token" = "Select Tokens";
+"cloud_transfer_title" = "%@ transfer";
+"cloud_transfer_notice" = "⚠️ Please confirm the receive address before transfer, the asset transfer cannot be canceled once executed.";
+"cloud_transfer_to_address_title" = "Receive Address";
+"cloud_transfer_input_or_paste_address_placeholder" = "Please enter or paste address";
+"cloud_transfer_select_wallet" = "Select Wallet";
+"cloud_transfer_amount_title" = "Amount";
+"cloud_transfer_amount_input_placeholder" = "Enter amount";
+"cloud_transfer_balance_available" = "Available balance %@ %@";
+"cloud_transfer_all" = "All";
+"cloud_transfer_memo_title" = "Memo";
+"cloud_transfer_memo_placeholder" = "Enter Memo";
+"cloud_transfer" = "Transfer";
+"cloud_receive_title" = "%@ Receive";
+"cloud_receive_notice" = "⚠️ The address only receive %@ asset，please do not deposit other asset, otherwise the assets will not be recovered.";
+"cloud_receive_address_title" = "Receive Address";
+"cloud_receive_memo_title" = "Please enter the memo. Losing the code will result in asset lost.";
+"cloud_receive_address_qrcode_title" = "Receive address QR code";
+"cloud_withdraw_success" = "Withdrawn";
+"cloud_withdraw_address_error" = "Invalid Address";
+"cloud_withdraw_address_myself_invalid" = "The address can not be yourself";
+"cloud_record_all" = "All";
+"cloud_record_out" = "Transfer";
+"cloud_record_in" = "Receive";
+"cloud_record_select_token" = "Filter";
+"cloud_receive_not_support" = "Not open";
+"cloud_token_all_name" = "All";
 
+"cloud_record_state_pending"="Pending";
+"cloud_record_state_approved"="Approved";
+"cloud_record_state_rejected"="Rejected";
+"cloud_record_state_completed"="Completed";
+"cloud_record_state_refund"="Refund";
+"cloud_record_state_airdrop"="Airdrop";
+"cloud_record_state_in_progress"="In-progress";
+"cloud_record_state_failed"="Failed";
+
+"cloud_withdraw_amount_placeholder"="Input Amount";
+"cloud_withdraw_minimum_amount"="Amount no Less Than %@ %@";
+"cloud_withdraw_maximum_amount"="Amount no more Than %@ %@";
+"cloud_withdraw_fee"="Fee";
+"cloud_withdraw_inner_fee"="0";
+"cloud_withdraw_receive"="Receive Amount";
+
+// 安全验证
+"cloud_security_verification_title" = "Security Verification";
+"cloud_security_verification_mobile_code" = "SMS or Email verification code";
+"cloud_security_verification_mobile_code_placeholder" = "Input the verification code";
+"cloud_security_google_auth_prompt" = "Turn on Google Authenticator to release the withdrawal limit";
+"cloud_security_google_auth_skip" = "Skip";
+"cloud_security_google_auth_set" = "Go setting";
+
+"cloud_withdraw_input_pin_code" ="Verify the payment password";
+"cloud_switch_coin_support" ="Mutual exchange not supported";
+//order
+"cloud_swap_exchange_order_state_pending_new" = "Pending";
+"cloud_swap_exchange_order_state_new" = "Pending";
+"cloud_swap_exchange_order_state_partially_filled" = "Partially Done";
+"cloud_swap_exchange_order_state_filled" = "Done";
+"cloud_swap_exchange_order_state_rejected" = "Failed";
+"cloud_swap_exchange_reference_rate" ="Reference rate";
+"cloud_swap_exchange_kline_error" ="Data loading error,try again";
+"cloud_swap_exchange_math_gas_comment" ="Pay the fee with MATH (%@ off)";
+"cloud_swap_exchange_kline_min" ="%@ mins";
+"cloud_swap_exchange_rate_return" ="refund";
+"cloud_swap_exchange_transfer_success"="Order created，wait for confirmation";
+"cloud_swap_exchange_math_comment"="No sufficient MATH，will pay with source currency";
 // PIN 码（文案统一改成 "支付密码"）
 "pin_code" = "Payment Password";
 "pin_code_set" = "Set Payment Password";
@@ -950,6 +989,9 @@
 "codex_account_copy"="Copy Account";
 "codex_account_qrcode"="Codex Account QR Code";
 "codex_qr_transfer_warining"="Note：Transfers betweent Codex and EOS are not supported as they are differant chains.";
+
+"ft_account_copy"="Copy Account";
+"ft_account_qrcode"="FT Account QR Code";
 //资产
 "home_active_account_address" = "Wallet Address";
 "home_scan_qrcode" = "Scan";
@@ -972,7 +1014,7 @@
 "claim_gas_count"="Claim %@ GAS";
 "claim_ong_count"="Claim %@ ONG";
 "submit_your_token" = "Recommend Your Token to Us";
-"auto_search" = "AutoSearch";
+"auto_search" = "Auto Search";
 
 // EOS Resource
 "eos_resource_eos_balance_low" = "%@ balance is not enough";
@@ -1087,7 +1129,7 @@
 "mine_medishares_account"="Math Account";
 "mine_medishares_transcations"="Transactions";
 "mine_medishares_contacts"="Address Book";
-"mine_medishares_candy"="Cloud Wallet";
+"mine_medishares_cloud"="Cloud Wallet";
 "mine_medishares_wechat_group"="Join Wechat Group";
 "mine_medishares_recommend"="Invite";
 "mine_medishares_recommend_subtitle"="View invitation rewards";
@@ -1159,7 +1201,7 @@
 "user_photo_title"="Photo";
 "user_email_title"="Email Address";
 "user_mobile_title"="Phone Number";
-"user_wallet_address_title"="Public Wallet";
+"user_wallet_address_title"="MATH Address";
 "user_name_title"="Name";
 "user_credential_type_title"="ID Type";
 "user_credential_number_title"="ID Number";
@@ -1228,7 +1270,6 @@
 "bind_kyc_complete_message"="Your identity information has submitted and we will process it as soon as possible.";
 
 // 联系人列表
-"someone_you_might_know"="Contacts You May Know";
 "contact_added_success"="Contacts Added";
 "manual_add_contact_title"="Create New Contacts";
 "qrcode_add_contact_title"="Scan and Add Wallet Address";
@@ -1236,47 +1277,22 @@
 "contact_name_title"="Name";
 "contact_name_placeholder"="Enter contact name";
 
-"contact_account_address_title"="ETH Wallet address";
-"contact_account_address_placeholder"="Enter or Paste ETH Wallet Address";
+"contact_address_title"="Address";
+"contact_address_placeholder"="Enter Address";
 
-"contact_account_eos_address_title"="EOS Account";
-"contact_account_eos_address_placeholder"="Enter or Paste EOS Account";
+"contact_memo_title"="Memo";
+"contact_memo_placeholder"="Enter Memo";
 
-"contact_account_eosforce_address_title"="EOS FORCE Account";
-"contact_account_eosforce_address_placeholder"="Enter or Paste EOS FORCE Account";
+"contact_blockchain_address"="%@ Address";
 
-"contact_account_neo_address_title"="NEO Wallet address";
-"contact_account_neo_address_placeholder"="Enter or Paste NEO Wallet Address";
-
-"contact_account_ont_address_title"="ONT Wallet address";
-"contact_account_ont_address_placeholder"="Enter or Paste ONT Wallet Address";
-
-"contact_account_esn_address_title"="ESN Wallet address";
-"contact_account_esn_address_placeholder"="Enter or Paste ESN Wallet Address";
-
-"contact_account_btc_address_title"="BTC Wallet address";
-"contact_account_btc_address_placeholder"="Enter or Paste BTC Wallet Address";
-
-"contact_account_trx_address_title"="TRX Wallet address";
-"contact_account_trx_address_placeholder"="Enter or Paste TRX Wallet Address";
-
-"contact_account_nas_address_title"="NAS Wallet address";
-"contact_account_nas_address_placeholder"="Enter or Paste NAS Wallet Address";
+"contact_blockchain_title"="Chain";
+"contact_blockchain_placeholder"="Select Chain Type";
 
 // 添加联系人
 "contact_add_title"="Add Contacts";
 
 "contact_error_exists_address"="Existing wallet address";
 "contact_error_invalid_address"="Incorrect wallet address";
-
-"contact_error_invalid_eth_address"="Incorrect ETH wallet address";
-"contact_error_invalid_neo_address"="Incorrect NEO wallet address";
-"contact_error_invalid_ont_address"="Incorrect ONT wallet address";
-"contact_error_invalid_eos_address"="Incorrect EOS wallet account";
-"contact_error_invalid_eosforce_address"="Incorrect EOS FORCE wallet account";
-"contact_error_invalid_esn_address" = "Incorrect ESN wallet address";
-"contact_error_invalid_trx_address" = "Incorrect TRX wallet address";
-"contact_error_invalid_nas_address" = "Incorrect NAS wallet address";
 
 // 联系人信息
 "contact_detail_title"="Contact Information";
@@ -1362,35 +1378,6 @@
 "unlock_face_id_enable"="Use Face ID";
 "unlock_password_enable"="Use PassLock";
 
-// 领糖果
-"candy_token_total_amount"="Total Candy";
-"candy_token_available_amount"="Available Candy";
-"candy_activity_task"="Candy Tasks";
-
-"candy_collect_record"="Deposit";
-"candy_collect"="Collect";
-"candy_collected"="Collected";
-"candy_collect_unenable"="Unable to Collect";
-
-"candy_record_state_checking"="Under Verifying";
-"candy_record_state_checked_success"="Verified";
-"candy_record_state_checked_fail"="Verification Failed";
-"candy_record_state_release"="Sent";
-
-"candy_withdraw"="Withdraw";
-"candy_withdraw_no_wallet_warning"="No %@ Wallet!";
-"candy_withdraw_records"="Withdraw";
-"candy_withdraw_title"="My Candies";
-"candy_withdraw_amount_placeholder"="Amount";
-"candy_withdraw_minimum_amount"="Amount no Less Than %@ %@";
-"candy_withdraw_maximum_amount"="Amount no more Than %@ %@";
-"candy_withdraw_all"="All";
-"candy_withdraw_fee"="Fee";
-"candy_withdraw_receive"="Receive Amount";
-
-"candy_withdraw_cell_title"="Withdraw";
-"candy_withdraw_notice" = "Because of the slow speed of Ethereum token transfer and cost saving of the airdrop, the transaction of your MDS may be delayed. Please be patient, and we promise your MDS will be in your address. Thanks for your understanding and support!";
-
 // 交易记录
 "transaction_records_title"="Transaction Records";
 "currency_type"="Currency";
@@ -1445,7 +1432,10 @@
 "dapps_error_ont_login_way" = "Unsupported login method";
 "dapps_error_ont_transaction_build_failed" = "Transaction built unsuccessfully";
 
-
+// NEO dApp
+"dapps_neo_authorize_get_account" = "正在请求获取当前账户信息";
+"dapps_neo_authorize_user_reject" = "用户拒绝了您的请求";
+"dapps_neo_data_invalid" = "数据异常";
 
 // 活体检测
 "LivenessRemindPromptMessage"="Get started face recognition to secure your transaction.";
@@ -1479,7 +1469,8 @@
 //持仓
 "position" ="Portfolio";
 "Position_total_assets" = "Overview";
-"Position_medishares_wallet" = "Math Wallet";
+"Position_vpos_assets" = "MATH VPoS Pool";
+"Position_medishares_wallet" = "HD Wallet";
 "Position_rank_list" = "Ranking";
 "Position_holding_assets" = "Portfolio";
 "Position_one_day" = "1D";
@@ -1516,6 +1507,7 @@
 "Position_Amount_Slogan" = "Import the API Key information from the Exchange";
 "Position_Amount_Description" = "• API key and other information will only be stored on your device in encrypted format;\n• we will not share the information to any third parties;\n• Please keep your API key secured and we are not responsible for any losses due to any misuses of the user;";
 "Position_Amount_tech" = "• Please keep your API key secured and we are not responsible for any losses due to any misuses of the user";
+"Position_Amount_tech_jumpURL" = "http://blog.mathwallet.org/?p=875";
 "Position_share_description" = "mathwallet.org";
 "Position_position_record" = "Transaction records";
 "Position_header_update" = "Updating Portfolio Details from %@";
@@ -1528,30 +1520,6 @@
 "Position_exchange" = "Exchange";
 "Position_updateRank_success" = "Succeeded";
 "Position_updateRank_failed" = "Failed";
-
-
-// ONTJS Error
-"ONTJSErrorCodeUnknow" = "Unknown error";
-"ONTJSErrorCodeSuccess" = "Success";
-"ONTJSErrorCodeSessionExpired" = "Invalid session or expired";
-"ONTJSErrorCodeServiceCeiling" = " Service ceiling reached";
-"ONTJSErrorCodeIllegalDataFormat" = "Invalid Data Format";
-"ONTJSErrorCodeInvalidVersion" = "Invalid Version";
-"ONTJSErrorCodeInvalidMethod" = "Invalid Method";
-"ONTJSErrorCodeInvalidParams" = "Invalid Parameter";
-"ONTJSErrorCodeInvalidTransaction" = "Invalid Transaction";
-"ONTJSErrorCodeInvalidAsset" = "Invalid Asset";
-"ONTJSErrorCodeInvalidBlock" = "Invalid Block";
-"ONTJSErrorCodeUnknowTransaction" = "Cannot find transaction";
-"ONTJSErrorCodeUnknowAsset" = "The asset could not be found";
-"ONTJSErrorCodeUnknowBlock" = "The block could not be found";
-"ONTJSErrorCodeUnknowContract" = "Cannot find contract";
-"ONTJSErrorCodeInternalError" = "Internal Error";
-"ONTJSErrorCodeSmartCodeError" = "Smart Contract Error";
-"ONTJSErrorCodeUnknowOntID" = "ONT ID does not exist";
-"ONTJSErrorCodeNetworkError" = "Network Error";
-"ONTJSErrorCodeDecryptoError" = "Decryption Error";
-"ONTJSErrorCodePreExecError" = "Transaction pre-execution error";
 
 
 // ONT mapping
@@ -1584,6 +1552,7 @@
 "redPacket_alert_get" = "Get Red Packet !!!";
 "redPacket_alert_remain" = "Red Packets have been taken";
 "redPacket_dated" = "The red packet is not available now.";
+"redPacket_collected" = "Collected";
 
 //BTC 钱包
 "wallet_address" = "Wallet Address";
@@ -1607,7 +1576,7 @@
 "transfer_btc_amount" = "%@ BTC";
 "transfer_fee_detail" = "= %@ sat/B * %@ B";
 "transaction_detail_query_title_btc" = "BLOCKCHAIN Transaction Detail";
-"transaction_tx_fee_btc_with_price" = "Fee %@ sat/B ≈ %@ %@";
+"transaction_tx_fee_btc_with_price" = "Fee %@ BTC ≈ %@ %@";
 "gas_fee_setting_slide" = "Slide to set gas fee";
 "gas_fee_setting_customize" = "Customize gas fee";
 "transaction_to_gas_price_invalid_btc" = "Gas Price no Less Than %@ sat/B";
@@ -1730,7 +1699,7 @@
 "bnb_exchange_trade_error" = "Invalid Amount";
 "bnb_exchange_trade_min_tick" = "Enter at least %@";
 "bnb_exchange_current_order" = "Open Orders";
-"bnb_exchange_complete_order" = "Transactions";
+"bnb_exchange_complete_order" = "Trade History";
 "bnb_exchange_no_order" = "No Record";
 "bnb_exchange_cancel_succeed" = "Canceled";
 
@@ -1790,13 +1759,16 @@
 "simplewallet_sign"="%@ sign";
 "simplewallet_sign_prompt"="You are using account “%@” to sign “%@”, please confirm it is your own operation.";
 "simplewallet_sign_confirm"="Confirm";
+"simplewallet_no_wallet_warning"="No %@ Wallet!";
 
 // WalletConnect
 "walletconnect_binance" = "Binance";
 "walletconnect_login" = "Login";
+"walletconnect_logged_in" = "Logged in";
 "walletconnect_login_prompt" = "You are using the account“%@” to login“%@”，please make sure you are the owner of the account.";
 "walletconnect_login_confirm"="Confirm";
 "walletconnect_login_again" = "Login Again";
+"walletconnect_login_exit" = "Exit";
 "walletconnect_login_cancel"="Cancel";
 "walletconnect_logout_prompt" = "Do you want to exit login?";
 
@@ -1884,6 +1856,7 @@
 "google_verify_input_placeholder" = "Please enter the Google verification code";
 "google_verify_no_code" = "Please enter the Google verification code";
 "google_verify_open_success" = "Google Verification opened";
+"google_verify_how_to_open" = "How to setup Google Authenticator?";
 
 // 登录日志
 "user_log_date_title" = "Time";
@@ -1905,4 +1878,40 @@
 "bnb_exchange_trade_record_filter_decimal_6" = "6 decimals";
 "bnb_exchange_trade_record_filter_decimal_7" = "7 decimals";
 "bnb_exchange_trade_record_filter_decimal_8" = "8 decimals";
+
+// 数字身份
+"math_identity" = "Math Identity";
+"math_identity_name" = "Name";
+"math_identity_name_update" = "Update Name";
+"math_identity_name_placeholder" = "Enter Name";
+"math_identity_password" = "Password";
+"math_identity_password_placeholder" = "Set password";
+"math_identity_password_again" = "Repeat password";
+"math_identity_password_again_placeholder" = "Enter password again";
+
+"math_identity_password_update" = "Update password";
+"math_identity_password_old" = "Password";
+"math_identity_password_old_placeholder" = "Enter password";
+"math_identity_password_new" = "New passwrod";
+"math_identity_password_new_placeholder" = "Set new password";
+"math_identity_password_new_again" = "Repeat new password";
+"math_identity_password_new_again_placeholder" = "Enter new password again";
+
+"math_identity_export_menmonic" = "Backup Mnemonic Word";
+"math_identity_add_wallet" = "Add Wallet";
+"math_identity_added_wallet" = "Added Wallet";
+"math_identity_create_wallet" = "Create Wallet";
+"math_identity_created_wallet" = "Created";
+"math_identity_create" = "Create Math Identity";
+"math_identity_import" = "Import Math Identity";
+"math_identity_remove" = "Delete Math Identity";
+"math_identity_backup" = "Backup Math Identity";
+"math_identity_backup_prompt" = "Please copy and store the mnemonic words to a safe offline place, once forgotten, it cannot be recovered.";
+"math_identity_remove_wallet" = "Delete Wallet";
+"math_identity_input_password_title" = "Please enter identity password";
+
+"math_identity_error_name_too_short" = "At least one character";
+"math_identity_error_create" = "Identity Creation Failed！";
+"math_identity_error_import" = "Identity Import Failed！";
+"math_identity_error_wallet_checked_prompt" = "Choose the wallet you want to create first";
 

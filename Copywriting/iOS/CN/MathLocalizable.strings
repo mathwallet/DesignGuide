@@ -1,6 +1,6 @@
 /*
  Localizable.strings
- MediShares-iOS
+ MathWallet-iOS
  
  Created by Yuzhiyou on 2018/1/17.
  Copyright © 2018年 zhongtuobang. All rights reserved.
@@ -23,6 +23,7 @@
 "eos_jsonrpc_error_transaction_expired" = "交易已过期，请重新发起交易";
 
 "eos_account_error_permission_changed" = "请导入该账户的 %@ 权限后，再进行操作。";
+"account_error_permission_changed" = "该账户的权限发生了变更，请重新导入该钱包。";
 
 // NeoClientError
 "Invalid seed" = "无效节点";
@@ -107,6 +108,7 @@
 "update"="更新";
 "edit"="编辑";
 "discover_new_version"="发现新版本";
+"open_testflight_to_upgrade"="请打开 TestFight 进行升级";
 "currently_lastest_version"="当前为最新版本";
 "version_upgrade"="版本更新";
 "delete_cache"="清理缓存";
@@ -130,6 +132,7 @@
 "report" = "举报";
 "risk_warning" = "风险警告";
 "risk_warning_text" = "该第三方网站被多名用户举报，可能涉及恶意诈骗、锁币或被黑客攻击等高风险情况！请谨慎操作！";
+"send" = "发送";
 
 // 权限
 "take_photo"="拍照";
@@ -147,7 +150,7 @@
 "empty_data_trasfer"="暂无转账记录";
 "empty_data_contacts"="暂无联系人";
 "empty_data_contacts_know"="暂无认识的联系人";
-"empty_data_candy"="暂无充值记录";
+"empty_data_cloud"="暂无充值记录";
 "empty_data_withdraw"="暂无提现记录";
 "empty_data_search"="无搜索结果";
 "empty_whiteList_contacts" = "暂无白名单联系人";
@@ -228,6 +231,9 @@
 "wallet_import_mnemonic_phrase_placeholder"="输入助记词，按空格分割";
 "wallet_import_mnemonic_phrase_path_title"="路径";
 "wallet_import_mnemonic_phrase_custom_path"="m/44'/60'/0'/0/0 自定义路径";
+"wallet_import_mnemonic_phrase_crypto_type_title"="加密类型";
+"wallet_import_mnemonic_phrase_crypto_type_schnorrkel"="Schnorrkel (sr25519)";
+"wallet_import_mnemonic_phrase_crypto_type_edwards"="Edwards (ed25519)";
 "wallet_import_mnemonic_phrase_nickname_title"="钱包名称";
 "wallet_import_mnemonic_phrase_nickname_placeholder"="设置钱包名称";
 "wallet_import_mnemonic_phrase_password_title"="钱包密码";
@@ -318,21 +324,13 @@
 "eos_account_create_way_buy"="通过邀请码创建";
 "eos_account_create_way_exchange"="通过转账创建";
 "eos_account_create_way_friends"="通过好友创建";
-"eos_account_create_way_phone"="手机号码创建";
 "eos_account_create_way_buy_hint"="支持支付宝、Paypal 购买邀请码";
 "eos_account_create_way_exchange_hint"="支持多个交易所提币或钱包转账";
 "eos_account_create_way_friends_hint"="邀请好友使用麦子钱包扫码支付";
-"eos_account_create_way_phone_hint"="使用手机号码快捷创建账户";
 "eos_account_create_way_recommend"="推荐";
 "eos_account_create_set_account"="设置 EOS 账户名";
 "eos_account_create_backup_prompt"="• 以下是新账户的私钥，请备份私钥并妥善保管，不要发给任何人。一旦丢失，钱包将无法恢复。\n• 转账成功后，您需要通过导入此私钥以完成账户创建。";
 "eos_account_create_backup_private_title"="账户私钥";
-"eos_account_create_succeed_phone" = "EOS 账户已创建成功";
-"eos_account_create_fail_phone" = "EOS 账户创建失败";
-"eos_account_create_remark_phone" = "需进行实名认证，完善账户信息。当您的账户出现账户丢失等意外情况的时候可以使用您在麦子钱包实名认证的手机号码找回。";
-"eos_account_create_remark_phone_skip" = "跳过";
-
-
 
 "eos_account_create_by_friend_prompt"="• 请好友使用麦子钱包扫描以下二维码，大约支付 %@ EOS 用以抵押 CPU 和网络资源，及购买内存。\n• 支付成功后，将上一步备份的私钥导入麦子钱包，即完成账户创建。";
 "eos_account_create_by_friend_share_title"="分享二维码";
@@ -521,6 +519,17 @@
 "telos_account_create_by_friends_publickey_prompt"="请复制公钥并发给您的朋友用于创建 Telos 账户。";
 "telos_account_create_by_friends_privatekey_title"="私钥";
 "telos_account_create_by_friends_privatekey_prompt"="请备份私钥并妥善保管，不要发给任何人（包括您的朋友），您的朋友帮你完成账户创建后，您需要通过此私钥导入 Telos 账户。";
+
+// FT 钱包创建
+"ft_account_create"="创建 FT 账户";
+
+"ft_account_import"="导入 FT 账户";
+"ft_account_import_name_titile"="账户名";
+"ft_account_import_name_placeholder"="输入 FT 账户名";
+"ft_account_error_invalid_name"="无效账户名";
+
+"ft_account"="FT 账户";
+
 // 创建企业钱包
 "company_wallet_tips" = "企业钱包";
 "company_wallet_create_inviteCode_placeholder" = "输入您的邀请码";
@@ -543,39 +552,8 @@
 // 管理账户-EOS
 "eos_account_manage"="管理账户";
 "eos_account_remove"="删除账户";
-
 "eos_account_permission_manage"="管理权限";
-"eos_account_institutions_backup" = "机构备份";
-"eos_account_backup" = "备份";
-"eos_account_institutions_backup_remark_top" = "  •  机构备份是麦子钱包以 EOS 多签技术为基础开发的新功能.";
-"eos_account_institutions_backup_remark_bottom" = "  •  当您开启后麦子钱包将参与到您的账户多签管理中，仅在您需要使用找回账户功能时提供服务.";
-"eos_account_institutions_open" = "开启";
-"eos_account_institutions_open_succeed" = "机构备份成功";
-"eos_account_institutions_open_remark_top" = "  •  已完成机构备份设置，请后续勿要修改您的 owner 权限，否则可能导致机构备份功能失效；";
-"eos_account_institutions_open_remark_mid" = "  •  机构备份是麦子钱包以 EOS 多签技术为基础开发的新功能；";
-"eos_account_institutions_open_remark_bottom" = "  •  当您开启后麦子钱包将参与到您的账户多签管理中，仅在您需要使用找回账户功能时提供服务。";
-"eos_account_institutions_canle" = "取消备份";
 
-//EOS 手机账户
-"eos_account_phone_authentication_title" = "账户安全认证";
-"eos_account_phone_authentication_remark" = "完成认证后，当您的手机丢失、系统重装等意外情况发生时，您将可以通过安全认证系统找回该账号。";
-"eos_account_phone_authentication_confirm" = "安全认证";
-"eos_account_phone_authentication_pass" = "实名认证审核已通过";
-"eos_account_phone_authentication_remark" = "鉴于您的账户安全情况，麦子钱包将向您提供通过手机号找回账号的服务。";
-"eos_account_phone_authentication_soon" = "去授权";
-"eos_account_phone_import" = "通过手机号码导入";
-"eos_account_phone_import_placeholder" = "输入要导入的 EOS 账户";
-"eos_account_phone_import_confirm" = "找回 EOS 账户";
-"eos_account_phone_import_confirm_wait" = "实名验证信息已提交，我们会尽快审核并返回结果，请耐心等待。";
-"eos_account_phone_import_nor" = "无法导入账户";
-"eos_account_phone_import_nor_remark" = "检测到您未在麦子钱包通过手机号码创建该 EOS 账户。";
-"eos_account_phone_review" = "(审核中)";
-"eos_account_phone_review_fail" = "(审核失败)";
-"eos_account_phone_review_remark" = "账户审核中,无法进行操作";
-"eos_account_phone_review_fail" = "审核失败";
-"eos_account_phone_review_fail_remark" = "您提交的信息与创建账户时预留的信息不匹配，请再次提交。";
-"eos_account_phone_review_fail_confirm" = "提交信息";
-"eos_account_phone_kyc_fail" =  "您提交的实名审核信息审核未通过。请再次提交";
 "eos_account_name"="账户名";
 "eos_account_password"="账户密码";
 "eos_account_no_exist_privatekeys"="该账户不存在加密的私钥，无法导出。";
@@ -682,6 +660,7 @@
 "transaction_menu_enu_account"="ENU 账户";
 "transaction_menu_telos_account"="Telos 账户";
 "transaction_menu_codex_account"="Codex 账户";
+"transaction_menu_ft_account"="FT 账户";
 "transaction_menu_scan_qrcode"="扫描二维码";
 
 "recently_transfer"="最近转账";
@@ -692,7 +671,8 @@
 "normal" = "标准";
 "fast" = "快";
 "super_fast" = "极快";
-"transaction_account_invalid" = "无效交易账户";
+"transaction_to_account_invalid" = "无效交易账户";
+"transaction_to_address_invalid" = "无效交易地址";
 "transaction_nonce_invalid" = "交易 nonce 无效";
 "transaction_tx_fee" = "矿工费 %@ ETH";
 "transaction_tx_fee_custom" = "矿工费 %@ %@";
@@ -707,8 +687,11 @@
 "transaction_tx_fee_with_price_nas" = "矿工费 %@ NAS ≈ %@ %@";
 "transaction_tx_fee_zil" = "矿工费 %@ ZIL";
 "transaction_tx_fee_with_price_zil" = "矿工费 %@ ZIL ≈ %@ %@";
+"transaction_tx_fee_ft" = "矿工费 %@ FT";
+"transaction_tx_fee_with_price_ft" = "矿工费 %@ FT ≈ %@ %@";
 
-"transaction_to_address_placeholder" = "填写钱包地址";
+"transaction_to_address_placeholder" = "填写收款地址";
+"transaction_to_account_placeholder" = "填写收款账户";
 "transaction_to_address_checking_security"="正在检测账户安全";
 
 "transaction_to_value_placeholder" = "填写转账金额";
@@ -728,6 +711,7 @@
 "transaction_to_gas_price_invalid" = "Gas Price 不小于 %@gwei";
 "transaction_to_hex_data_invalid" = "十六进制数据无效";
 "transaction_to_address_null" = "请填写转账地址";
+"transaction_to_account_null" = "请填写转账账户";
 "transaction_to_address_myself_invalid" = "收款人地址不能是自己";
 "transaction_to_value_null" = "请填写转账金额";
 "transaction_to_value_zero" = "转账金额不能为0";
@@ -745,6 +729,9 @@
 "transaction_double_pay" = "相同的交易正在打包中,请注意双重支付的风险！";
 "transaction_gas_fee_notice" = "请调高矿工费至标准值及以上";
 
+"transaction_to_memo_placeholder" = "添加备注";
+"transaction_to_memo_exchange_recharge_warning" = "交易所充值务必填写备注";
+
 // 代币不支持交易
 "transaction_token_not_support" = "该代币暂不支持交易";
 
@@ -753,20 +740,15 @@
 "btc_input_hex_data" = "输入十六进制 Hex";
 "btc_text_ascii" = "文本 ASCII";
 
-
 // 交易-EOS
-"eos_transaction_to_account_placeholder" = "填写收款账户";
-"eos_transaction_to_memo_placeholder" = "添加备注";
 "eos_transaction_to_memo_length_warning" = "最多 256 字符";
-"eos_transaction_to_memo_exchange_recharge_warning" = "交易所充值务必填写备注";
-
 "eosforce_transaction_fee" = "手续费 0.01 %@";
 
 // 交易-TRX
 "trx_transaction_token_not_support" = "该代币暂不支持交易";
-
+// 手续费
+"transaction_fee" = "手续费 %@ %@";
 // 交易 - BNB
-"bnb_transaction_fee" = "手续费 %@ %@";
 "bnb_transaction_to_memo_length_warning" = "最多 30 字符，选填";
 
 // 确认转账信息
@@ -804,37 +786,84 @@
 "refund"="赎回";
 
 // 云端钱包
-"candy_cloud" = "云端钱包";
-"candy_set_pin_code" = "请先设置支付密码";
-"candy_record" = "账单";
-"candy_search_token" = "搜索币种";
-"candy_hide_zero_token" = "隐藏小额资产";
-"candy_show_all_token" = "显示全部资产";
-"candy_select_token" = "选择币种";
-"candy_transfer_title" = "%@ 转账";
-"candy_transfer_notice" = "⚠️ 转账前请确认收款地址信息无误，资产一旦转出将无法撤回。";
-"candy_transfer_to_address_title" = "收款地址";
-"candy_transfer_input_or_paste_address_placeholder" = "输入或粘贴收款地址";
-"candy_transfer_select_wallet" = "选择钱包";
-"candy_transfer_amount_title" = "转账金额";
-"candy_transfer_amount_input_placeholder" = "输入转账金额";
-"candy_transfer_balance_available" = "可用余额 %@ %@";
-"candy_transfer_all" = "全部转账";
-"candy_transfer" = "转账";
-"candy_receive_title" = "%@ 收款";
-"candy_receive_notice" = "⚠️ 该地址仅接收 %@ 资产，请勿充值其它币种资产，否则资产将无法找回。";
-"candy_receive_address_title" = "收款地址";
-"candy_receive_memo_title" = "请填写此地址标签，若遗漏标签将导致资金丢失!";
-"candy_receive_address_qrcode_title" = "收款地址二维码";
-"candy_withdraw_success" = "提现成功";
-"candy_withdraw_address_error" = "无效收款地址";
-"candy_record_all" = "全部";
-"candy_record_out" = "转账";
-"candy_record_in" = "收款";
-"candy_record_select_token" = "筛选";
-"candy_receive_not_support" = "暂未开放";
-"candy_token_all_name" = "全部";
+"cloud_wallet" = "云端钱包";
+"cloud_set_pin_code" = "请先设置支付密码";
+"cloud_record" = "账单";
+"cloud_record_details" = "账单明细";
+"cloud_record_details_type" ="项目";
+"cloud_record_details_from" ="转出";
+"cloud_record_details_to" ="转入";
+"cloud_search_token" = "搜索币种";
+"cloud_hide_zero_token" = "隐藏小额资产";
+"cloud_show_all_token" = "显示全部资产";
+"cloud_select_token" = "选择币种";
+"cloud_transfer_title" = "%@ 转账";
+"cloud_transfer_notice" = "⚠️ 转账前请确认收款地址信息无误，资产一旦转出将无法撤回。";
+"cloud_transfer_to_address_title" = "收款地址";
+"cloud_transfer_input_or_paste_address_placeholder" = "输入或粘贴收款地址";
+"cloud_transfer_select_wallet" = "选择钱包";
+"cloud_transfer_amount_title" = "转账金额";
+"cloud_transfer_amount_input_placeholder" = "输入转账金额";
+"cloud_transfer_balance_available" = "可用余额 %@ %@";
+"cloud_transfer_all" = "全部转账";
+"cloud_transfer_memo_title" = "备注";
+"cloud_transfer_memo_placeholder" = "输入转账备注";
+"cloud_transfer" = "转账";
+"cloud_receive_title" = "%@ 收款";
+"cloud_receive_notice" = "⚠️ 该地址仅接收 %@ 资产，请勿充值其它币种资产，否则资产将无法找回。";
+"cloud_receive_address_title" = "收款地址";
+"cloud_receive_memo_title" = "请填写此地址标签，若遗漏标签将导致资金丢失!";
+"cloud_receive_address_qrcode_title" = "收款地址二维码";
+"cloud_withdraw_success" = "提现成功";
+"cloud_withdraw_address_error" = "无效收款地址";
+"cloud_withdraw_address_myself_invalid" = "收款人地址不能是自己";
+"cloud_record_all" = "全部";
+"cloud_record_out" = "转账";
+"cloud_record_in" = "收款";
+"cloud_record_select_token" = "筛选";
+"cloud_receive_not_support" = "暂未开放";
+"cloud_token_all_name" = "全部";
 
+"cloud_record_state_pending"="待审核";
+"cloud_record_state_approved"="审核通过";
+"cloud_record_state_rejected"="审核未通过";
+"cloud_record_state_completed"="已完成";
+"cloud_record_state_refund"="已退款";
+"cloud_record_state_airdrop"="自动空投";
+"cloud_record_state_in_progress"="处理中";
+"cloud_record_state_failed"="发放失败";
+
+"cloud_withdraw_amount_placeholder"="填写提现金额";
+"cloud_withdraw_minimum_amount"="最少提现 %@ %@";
+"cloud_withdraw_maximum_amount"="最多提现 %@ %@";
+"cloud_withdraw_fee"="手续费";
+"cloud_withdraw_inner_fee"="云端钱包之间转账零手续费";
+"cloud_withdraw_receive"="实际到账";
+
+// 安全验证
+"cloud_security_verification_title" = "安全验证";
+"cloud_security_verification_mobile_code" = "短信或邮箱验证码";
+"cloud_security_verification_mobile_code_placeholder" = "请输入短信或邮箱验证码";
+"cloud_security_google_auth_prompt" = "完成Google二次验证器设置后，即可解除提现数量限制";
+"cloud_security_google_auth_skip" = "跳过";
+"cloud_security_google_auth_set" = "去设置";
+
+"cloud_withdraw_input_pin_code" ="输入云端钱包支付密码";
+
+"cloud_switch_coin_support" ="暂不支持双向兑换";
+//order
+"cloud_swap_exchange_order_state_pending_new" = "处理中";
+"cloud_swap_exchange_order_state_new" = "处理中";
+"cloud_swap_exchange_order_state_partially_filled" = "部分成交";
+"cloud_swap_exchange_order_state_filled" = "全部成交";
+"cloud_swap_exchange_order_state_rejected" = "订单失败";
+"cloud_swap_exchange_reference_rate" ="参考汇率";
+"cloud_swap_exchange_kline_error" ="加载数据出错，请点击重试";
+"cloud_swap_exchange_math_gas_comment" ="使用 MATH 支付手续费 (%@ 折扣)";
+"cloud_swap_exchange_kline_min" ="%@ 分钟";
+"cloud_swap_exchange_rate_return" ="退回";
+"cloud_swap_exchange_transfer_success"="下单成功, 等待确认";
+"cloud_swap_exchange_math_comment"="MATH 余额不足，将使用原币支付";
 // PIN 码（文案统一改成 "支付密码"）
 "pin_code" = "支付密码";
 "pin_code_set" = "设置支付密码";
@@ -966,6 +995,9 @@
 "codex_account_copy"="复制账户";
 "codex_account_qrcode"="Codex 账户二维码";
 "codex_qr_transfer_warining"="注意：Codex 和 EOS 不是一个公链，不能互相转账";
+
+"ft_account_copy"="复制账户";
+"ft_account_qrcode"="FT 账户二维码";
 //资产
 "home_active_account_address" = "地址：";
 "home_scan_qrcode" = "扫一扫";
@@ -1072,7 +1104,7 @@
 "trx_resource_error_freeze_amount" = "输入冻结资源数量";
 "trx_resource_error_freeze_amount_not_int" = "冻结资源数量必须为整数";
 "trx_resource_error_freeze_amount_zero" = "冻结资源数量有误";
-"trx_resource__error_trx_balance_low" = "TRX 余额不足";
+"trx_resource_error_trx_balance_low" = "TRX 余额不足";
 
 
 "trx_api_response_code_Sigerror" = "签名错误";
@@ -1107,7 +1139,7 @@
 "mine_medishares_account"="麦子账号";
 "mine_medishares_transcations"="交易记录";
 "mine_medishares_contacts"="地址本";
-"mine_medishares_candy"="云端钱包";
+"mine_medishares_cloud"="云端钱包";
 "mine_medishares_wechat_group"="加入官方微信群";
 "mine_medishares_recommend"="邀请";
 "mine_medishares_recommend_subtitle"="查看邀请奖励";
@@ -1180,7 +1212,7 @@
 "user_photo_title"="头像";
 "user_email_title"="邮箱";
 "user_mobile_title"="手机号";
-"user_wallet_address_title"="好友可见钱包";
+"user_wallet_address_title"="MATH 地址";
 "user_name_title"="姓名";
 "user_credential_type_title"="证件类型";
 "user_credential_number_title"="证件号";
@@ -1247,7 +1279,6 @@
 
 
 // 联系人列表
-"someone_you_might_know"="可能认识的联系人";
 "contact_added_success"="添加联系人成功";
 "manual_add_contact_title"="手动添加";
 "qrcode_add_contact_title"="扫描二维码添加";
@@ -1255,47 +1286,22 @@
 "contact_name_title"="姓名";
 "contact_name_placeholder"="输入联系人姓名";
 
-"contact_account_address_title"="ETH 钱包地址";
-"contact_account_address_placeholder"="输入或粘贴 ETH 钱包地址";
+"contact_address_title"="地址";
+"contact_address_placeholder"="输入地址";
 
-"contact_account_eos_address_title"="EOS 账户";
-"contact_account_eos_address_placeholder"="输入或粘贴 EOS 账户";
+"contact_memo_title"="备注";
+"contact_memo_placeholder"="添加备注";
 
-"contact_account_eosforce_address_title"="EOS 原力账户";
-"contact_account_eosforce_address_placeholder"="输入或粘贴 EOS 原力账户";
+"contact_blockchain_address"="%@ 地址";
 
-"contact_account_neo_address_title"="NEO 钱包地址";
-"contact_account_neo_address_placeholder"="输入或粘贴 NEO 钱包地址";
-
-"contact_account_ont_address_title"="ONT 钱包地址";
-"contact_account_ont_address_placeholder"="输入或粘贴 ONT 钱包地址";
-
-"contact_account_esn_address_title"="ESN 钱包地址";
-"contact_account_esn_address_placeholder"="输入或粘贴 ESN 钱包地址";
-
-"contact_account_btc_address_title"="BTC 钱包地址";
-"contact_account_btc_address_placeholder"="输入或粘贴 BTC 钱包地址";
-
-"contact_account_trx_address_title"="TRX 钱包地址";
-"contact_account_trx_address_placeholder"="输入或粘贴 TRX 钱包地址";
-
-"contact_account_nas_address_title"="NAS 钱包地址";
-"contact_account_nas_address_placeholder"="输入或粘贴 NAS 钱包地址";
+"contact_blockchain_title"="链";
+"contact_blockchain_placeholder"="选择链";
 
 // 添加联系人
 "contact_add_title"="添加联系人";
 
 "contact_error_exists_address"="钱包地址已存在";
 "contact_error_invalid_address"="无效钱包地址";
-"contact_error_invalid_eth_address"="无效 ETH 钱包地址";
-"contact_error_invalid_neo_address"="无效 NEO 钱包地址";
-"contact_error_invalid_ont_address"="无效 ONT 钱包地址";
-"contact_error_invalid_eos_address"="无效 EOS 账户";
-"contact_error_invalid_eosforce_address"="无效 EOS 原力账户";
-"contact_error_invalid_esn_address" = "无效 ESN 钱包地址";
-"contact_error_invalid_btc_address"="无效 BTC 钱包地址";
-"contact_error_invalid_trx_address"="无效 TRX 钱包地址";
-"contact_error_invalid_nas_address"="无效 NAS 钱包地址";
 
 // 联系人信息
 "contact_detail_title"="联系人信息";
@@ -1381,35 +1387,6 @@
 "unlock_face_id_enable"="使用面容解锁";
 "unlock_password_enable"="使用密码解锁";
 
-// 领糖果
-"candy_token_total_amount"="累计糖果";
-"candy_token_available_amount"="可提现糖果";
-"candy_activity_task"="糖果任务";
-
-"candy_collect_record"="充值记录";
-"candy_collect"="领取";
-"candy_collected"="已领取";
-"candy_collect_unenable"="不可领取";
-
-"candy_record_state_checking"="待审核";
-"candy_record_state_checked_success"="审核通过";
-"candy_record_state_checked_fail"="审核未通过";
-"candy_record_state_release"="已发放";
-
-"candy_withdraw"="提现";
-"candy_withdraw_no_wallet_warning"="无%@钱包，请先创建！";
-"candy_withdraw_records"="提现记录";
-"candy_withdraw_title"="我的糖果";
-"candy_withdraw_amount_placeholder"="填写提现金额";
-"candy_withdraw_minimum_amount"="最少提现 %@ %@";
-"candy_withdraw_maximum_amount"="最多提现 %@ %@";
-"candy_withdraw_all"="全部提现";
-"candy_withdraw_fee"="手续费";
-"candy_withdraw_receive"="实际到账";
-
-"candy_withdraw_cell_title"="糖果提现";
-"candy_withdraw_notice" = "由于最近以太坊网络拥堵，为节省项目空投成本，您的 MDS 到账时间可能会较慢，但请放心您的MDS可能会迟到，但绝不会缺席，感谢您的理解和支持！";
-
 // 交易记录
 "transaction_records_title"="交易记录";
 "currency_type"="币种";
@@ -1464,6 +1441,10 @@
 "dapps_error_ont_login_way" = "不支持的登录方式";
 "dapps_error_ont_transaction_build_failed" = "交易构造失败";
 
+// NEO dApp
+"dapps_neo_authorize_get_account" = "正在请求获取当前账户信息";
+"dapps_neo_authorize_user_reject" = "用户拒绝了您的请求";
+"dapps_neo_data_invalid" = "数据异常";
 
 
 // 活体检测
@@ -1499,7 +1480,8 @@
 //持仓
 "position" = "持仓";
 "Position_total_assets" = "全部资产";
-"Position_medishares_wallet" = "麦子钱包";
+"Position_vpos_assets" = "VPoS矿池";
+"Position_medishares_wallet" = "HD钱包";
 "Position_rank_list" = "排行榜";
 "Position_holding_assets" = "持仓资产";
 "Position_one_day" = "1日";
@@ -1536,6 +1518,7 @@
 "Position_Amount_Slogan" = "输入交易所账户的 API 授权信息";
 "Position_Amount_Description" = "• API 密钥等信息会且仅会以加密形式保存在您的设备中，并不会向任何第三方设备或平台服务发送；\n• 请妥善保管好 API 密钥等信息，并且一定不要向任何人透露该信息；\n• 对于任何个人原因泄漏 API 密钥等信息或误用而导致的损失，我们不承担责任；";
 "Position_Amount_tech" = "• 查看《获取交易所 API Key 教程》";
+"Position_Amount_tech_jumpURL" = "http://blog.mathwallet.net/?p=184#zb";
 "Position_share_description" = "识别二维码下载麦子钱包";
 "Position_position_record" = "调仓记录";
 "Position_header_update" = "正在更新%@持仓信息";
@@ -1548,30 +1531,6 @@
 "Position_exchange" = "交易所";
 "Position_updateRank_success" = "更新成功";
 "Position_updateRank_failed" = "更新失败";
-
-
-// ONTJS Error
-"ONTJSErrorCodeUnknow" = "未知错误";
-"ONTJSErrorCodeSuccess" = "成功";
-"ONTJSErrorCodeSessionExpired" = "会话无效或已过期";
-"ONTJSErrorCodeServiceCeiling" = "达到服务上限";
-"ONTJSErrorCodeIllegalDataFormat" = "不合法数据格式";
-"ONTJSErrorCodeInvalidVersion" = "不合法的版本";
-"ONTJSErrorCodeInvalidMethod" = "无效的方法";
-"ONTJSErrorCodeInvalidParams" = "无效的参数";
-"ONTJSErrorCodeInvalidTransaction" = "无效的交易";
-"ONTJSErrorCodeInvalidAsset" = "无效的资产";
-"ONTJSErrorCodeInvalidBlock" = "无效的块";
-"ONTJSErrorCodeUnknowTransaction" = "找不到交易";
-"ONTJSErrorCodeUnknowAsset" = "找不到资产";
-"ONTJSErrorCodeUnknowBlock" = "找不到块";
-"ONTJSErrorCodeUnknowContract" = "找不到合约";
-"ONTJSErrorCodeInternalError" = "内部错误";
-"ONTJSErrorCodeSmartCodeError" = "智能合约错误";
-"ONTJSErrorCodeUnknowOntID" = "不存在的 ONT ID";
-"ONTJSErrorCodeNetworkError" = "网络错误";
-"ONTJSErrorCodeDecryptoError" = "解密错误";
-"ONTJSErrorCodePreExecError" = "交易预执行错误";
 
 
 // ONT 映射
@@ -1604,8 +1563,7 @@
 "redPacket_alert_get" = "大吉大利,红包拿去";
 "redPacket_alert_remain" = "红包已领完";
 "redPacket_dated" = "该红包已失效";
-
-
+"redPacket_collected" = "已领取";
 
 // BTC 钱包
 "wallet_address" = "钱包地址";
@@ -1629,7 +1587,7 @@
 "transfer_btc_amount" = "%@ BTC";
 "transfer_fee_detail" = "= %@ sat/B * %@ B";
 "transaction_detail_query_title_btc" = "查询 BLOCKCHAIN 交易详情";
-"transaction_tx_fee_btc_with_price" = "矿工费 %@ sat/B ≈ %@ %@";
+"transaction_tx_fee_btc_with_price" = "矿工费 %@ BTC ≈ %@ %@";
 "gas_fee_setting_slide" = "滑动设置矿工费";
 "gas_fee_setting_customize" = "自定义矿工费";
 "transaction_to_gas_price_invalid_btc" = "Gas Price 不小于 %@ sat/B";
@@ -1810,13 +1768,16 @@
 "simplewallet_sign"="%@ 签名";
 "simplewallet_sign_prompt"="即将使用账户 “%@” 签名 “%@”，请确认是本人操作？";
 "simplewallet_sign_confirm"="确认签名";
+"simplewallet_no_wallet_warning"="无%@钱包，请先创建！";
 
 // WalletConnect
 "walletconnect_binance" = "Binance";
 "walletconnect_login" = "登录";
+"walletconnect_logged_in" = "已登录";
 "walletconnect_login_prompt" = "即将使用账户 “%@” 登录 “%@”，请确认是本人操作？";
 "walletconnect_login_confirm" = "确认登录";
 "walletconnect_login_again" = "重新登录";
+"walletconnect_login_exit" = "退出";
 "walletconnect_login_cancel" = "取消";
 "walletconnect_logout_prompt" = "您想要退出登录吗？";
 
@@ -1905,6 +1866,7 @@
 "google_verify_input_placeholder" = "输入 Google 验证码";
 "google_verify_no_code" = "请输入验证码";
 "google_verify_open_success" = "Google 验证开启成功";
+"google_verify_how_to_open" = "如何设置 Google 验证？";
 
 // 登录日志
 "user_log_date_title" = "时间";
@@ -1926,3 +1888,40 @@
 "bnb_exchange_trade_record_filter_decimal_6" = "6 位小数";
 "bnb_exchange_trade_record_filter_decimal_7" = "7 位小数";
 "bnb_exchange_trade_record_filter_decimal_8" = "8 位小数";
+
+// 数字身份
+"math_identity" = "数字身份";
+"math_identity_name" = "名称";
+"math_identity_name_update" = "修改数字身份名称";
+"math_identity_name_placeholder" = "数字身份名称";
+"math_identity_password" = "密码";
+"math_identity_password_placeholder" = "设置密码";
+"math_identity_password_again" = "重复密码";
+"math_identity_password_again_placeholder" = "再次输入密码";
+
+"math_identity_password_update" = "修改数字身份密码";
+"math_identity_password_old" = "密码";
+"math_identity_password_old_placeholder" = "输入密码";
+"math_identity_password_new" = "新密码";
+"math_identity_password_new_placeholder" = "设置新密码";
+"math_identity_password_new_again" = "重复新密码";
+"math_identity_password_new_again_placeholder" = "再次输入新密码";
+
+"math_identity_export_menmonic" = "备份助记词";
+"math_identity_add_wallet" = "添加钱包";
+"math_identity_added_wallet" = "已添加钱包";
+"math_identity_create_wallet" = "创建钱包";
+"math_identity_created_wallet" = "已创建";
+"math_identity_create" = "创建数字身份";
+"math_identity_import" = "导入数字身份";
+"math_identity_remove" = "删除数字身份";
+"math_identity_backup" = "备份数字身份";
+"math_identity_backup_prompt" = "以下是数字身份的助记词，抄写下来并导出至安全的地方存放。一旦丢失，无法找回。";
+"math_identity_remove_wallet" = "删除";
+"math_identity_input_password_title" = "输入该数字身份密码";
+
+"math_identity_error_name_too_short" = "数字身份名称至少 1 位字符";
+"math_identity_error_create" = "创建数字身份失败！";
+"math_identity_error_import" = "导入数字身份失败！";
+"math_identity_error_wallet_checked_prompt" = "请先选择要创建的钱包";
+
