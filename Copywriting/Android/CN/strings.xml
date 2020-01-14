@@ -7,17 +7,6 @@
 
     <!--多钱包选择页面-->
     <string name="wallet_create_or_import_prompt">暂无钱包，请创建钱包或导入钱包</string>
-    <string name="eth_wallet">ETH 钱包</string>
-    <string name="neo_wallet">NEO 钱包</string>
-    <string name="eos_wallet">EOS 钱包</string>
-    <string name="bos_wallet">BOS 钱包</string>
-    <string name="enu_wallet">ENU 钱包</string>
-    <string name="esn_wallet">ESN 钱包</string>
-    <string name="nas_wallet">NAS 钱包</string>
-    <string name="telos_wallet">TELOS 钱包</string>
-    <string name="eos_force_wallet">EOS 原力钱包</string>
-    <string name="eos_force_fee_wallet">EOS 原力钱包</string>
-    <string name="btc_wallet">BTC 钱包</string>
     <string name="choose_wallet_type">选择钱包类型</string>
     <string name="create_eth_wallet_prompt">• 仅支持备份及导出 Keystore，不能导入其他钱包\n• 可参与数字资产账户安全保障，被盗最高获赔 100,000 MDS\n• 支持多重安全验证</string>
     <string name="create_eth_wallet_other_support_prompt">• 支持其它钱包的 Keystore、私钥和助记词导入</string>
@@ -74,6 +63,7 @@
 
     <!--助记词-->
     <string name="wallet_mnemonic_title">助记词</string>
+    <string name="vpos_pool">VPOS 矿池</string>
     <string name="wallet_import_mnemonic_phrase_placeholder">输入助记词，按空格分割</string>
     <string name="wallet_import_mnemonic_phrase_path_title">路径</string>
     <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx，Metamask (ETH)</string>
@@ -94,10 +84,7 @@
     <string name="password_strength_high">强</string>
     <string name="create_wallet_success_backup_prompt_only">以下是钱包的 Keystore 文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复，该文件只能通过麦子钱包进行导入。</string>
     <string name="create_wallet_success_backup_prompt">以下是钱包的 Keystore 文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。</string>
-    <string name="create_neo_wallet_success_backup_prompt">以下是 NEO 钱包的 私钥（WIF） 文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。</string>
-    <string name="Investors">投资机构</string>
-    <string name="fenbushi_capital">分布式资本</string>
-    <string name="Danhua_capital">丹华资本</string>
+    <string name="create_neo_wallet_success_backup_prompt">以下是 NEO 钱包的 私钥（WIF）文件，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。</string>
     <string name="disclaimer_warning_title">免责声明</string>
     <string name="create_wallet_success_copy_prompt">请先复制并备份 Keystore 文件</string>
     <string name="create_wallet_success_copy_privateKey_prompt">请先复制并备份 WIF 文件</string>
@@ -110,17 +97,9 @@
     <string name="the_name_is_taken">钱包名称不能重复</string>
     <string name="the_account_name_is_taken">账户名称不能重复</string>
     <string name="password_is_too_weak">密码强度太弱</string>
-    <string name="nodes_of_community">节点社区</string>
 
     <!--管理钱包-->
     <string name="select_wallet">选择钱包</string>
-    <string name="select_eth_wallet">选择 ETH 钱包</string>
-    <string name="select_eos_wallet">选择 EOS 钱包</string>
-    <string name="select_neo_wallet">选择 NEO 钱包</string>
-    <string name="select_ont_wallet">选择 ONT 钱包</string>
-    <string name="select_btc_wallet">选择 BTC 钱包</string>
-    <string name="select_esn_wallet">选择 ESN 钱包</string>
-    <string name="manage_wallet">管理钱包</string>
     <string name="create_wallet">创建钱包</string>
     <string name="eos_owner">Owner</string>
     <string name="eos_active">Active</string>
@@ -200,9 +179,7 @@
     <string name="gas_price_is_null">Gas price 不能为空</string>
     <string name="gas_limit_is_null">Gas Limit 不能为空</string>
     <string name="insufficient_balance">余额不足</string>
-    <string name="insufficient_eth_balance">ETH 余额不足</string>
-    <string name="insufficient_eos_balance">EOS 余额不足</string>
-    <string name="insufficient_nas_balance">NAS 余额不足</string>
+    <string name="insufficient_module_balance">%s 余额不足</string>
     <string name="gas_should_be_more_than_25200">Gas Limit 应该不小于 25200</string>
     <string name="gas_should_be_more_than_60000">Gas Limit 应该不小于 60000</string>
     <string name="gas_should_be_more_than">Gas Limit 应该不小于%s</string>
@@ -263,7 +240,7 @@
     <string name="mine_medishares_about">关于</string>
     <string name="mine_medishares_setting">设置</string>
     <string name="mine_medishares_candy">云端钱包</string>
-    <string name="mds_app_download">MDS App Download</string>
+    <string name="mds_app_download">MATH App Download</string>
     <string name="token_price">查看邀请奖励</string>
 
     <!--注册或登录-->
@@ -367,49 +344,14 @@
     <string name="manual_add_contact_title">手动添加</string>
     <string name="qrcode_add_contact_title">扫描二维码添加</string>
     <string name="contact_name_placeholder">输入联系人姓名</string>
-    <string name="contact_account_eth_address_title">ETH&#160;钱包地址</string>
-    <string name="contact_account_esn_address_title">ESN&#160;钱包地址</string>
-    <string name="contact_account_iris_address_title">IRIS&#160;钱包地址</string>
-    <string name="contact_account_cosmos_address_title">COSMOS&#160;钱包地址</string>
-    <string name="contact_account_bnb_address_title">BNB &#160;钱包地址</string>
-    <string name="contact_account_eos_address_title">EOS&#160;账号</string>
-    <string name="contact_account_bos_address_title">BOS&#160;账号</string>
-    <string name="contact_account_enu_address_title">ENU&#160;账号</string>
-    <string name="contact_account_telos_address_title">TELOS&#160;账号</string>
-    <string name="contact_account_neo_address_title">NEO&#160;钱包地址</string>
-    <string name="contact_account_eosforce_address_title">EOS 原力&#160;账号</string>
-    <string name="contact_account_btc_address_title">BTC&#160;钱包地址</string>
-    <string name="contact_account_trx_address_title">TRX&#160;钱包地址</string>
-    <string name="contact_account_nas_address_title">NAS&#160;钱包地址</string>
-    <string name="contact_account_zilliqa_address_title">ZIL&#160;钱包地址</string>
-    <string name="contact_account_eth_address_placeholder">输入或粘贴&#160;ETH&#160;钱包地址</string>
-    <string name="contact_account_bnb_address_placeholder">输入或粘贴&#160;BNB&#160;钱包地址</string>
-    <string name="contact_account_iris_address_placeholder">输入或粘贴&#160;IRIS&#160;钱包地址</string>
-    <string name="contact_account_cosmos_address_placeholder">输入或粘贴&#160;COSMOS&#160;钱包地址</string>
-    <string name="contact_account_eos_address_placeholder">输入或粘贴&#160;EOS&#160;账号</string>
-    <string name="contact_account_bos_address_placeholder">输入或粘贴&#160;BOS&#160;账号</string>
-    <string name="contact_account_enu_address_placeholder">输入或粘贴&#160;ENU&#160;账号</string>
-    <string name="contact_account_esn_address_placeholder">输入或粘贴&#160;ESN&#160;钱包地址</string>
-    <string name="contact_account_telos_address_placeholder">输入或粘贴&#160;TELOS&#160;账号</string>
-    <string name="contact_account_neo_address_placeholder">输入或粘贴&#160;NEO&#160;钱包地址</string>
-    <string name="contact_account_eosforce_address_placeholder">输入或粘贴&#160;EOS 原力账号</string>
-    <string name="contact_account_ont_address_placeholder">输入或粘贴 ONT 钱包地址</string>
-    <string name="contact_account_btc_address_placeholder">输入或粘贴&#160;BTC&#160;钱包地址</string>
-    <string name="contact_account_trx_address_placeholder">输入或粘贴&#160;TRX&#160;钱包地址</string>
-    <string name="contact_account_nas_address_placeholder">输入或粘贴&#160;NAS&#160;钱包地址</string>
-    <string name="contact_account_zilliqa_address_placeholder">输入或粘贴&#160;ZIL&#160;钱包地址</string>
 
     <string name="select_contact">选择联系人</string>
     <string name="my_wallet">我的钱包</string>
 
     <!--添加联系人-->
-    <string name="contact_add_title">添加联系人</string>
     <string name="contact_detail_title">联系人信息</string>
     <string name="sava_contacts_failed">保存联系人失败</string>
     <string name="update_contacts_failed">更新联系人失败</string>
-    <string name="already_added_eth_contact">已添加相同 ETH 地址的联系人</string>
-    <string name="already_added_eos_contact">已添加相同 EOS 账号的联系人</string>
-    <string name="already_added_neo_contact">已添加相同 NEO 地址的联系人</string>
     <string name="please_input_name">请填写姓名</string>
 
     <!--联系人信息-->
@@ -470,7 +412,7 @@
     <string name="unable_to_recognize_fingerprint">指纹不匹配，还有 %d 机会</string>
     <string name="fingerprint_suspended">错误太多，已锁定，请稍后再试</string>
     <string name="device_locked">设备被锁定，请稍后再试</string>
-    <string name="Mds_touchId">\'MDS\'的触控 ID</string>
+    <string name="Mds_touchId">\'MATH\'的触控 ID</string>
     <string name="place_fingerprint_to_recognize">轻触指纹键验证已有手机指纹</string>
 
     <!--领糖果-->
@@ -484,6 +426,7 @@
     <string name="candy_collect_unenable">不可领取</string>
     <string name="user_credential_number_title">证件号</string>
     <string name="candy_record_state_release">已发放</string>
+    <string name="candy_record_state_completed">已完成</string>
     <string name="candy_record_state_checking">待审核</string>
     <string name="candy_record_state_checked_success">审核通过</string>
     <string name="candy_record_state_checked_fail">审核未通过</string>
@@ -542,23 +485,8 @@
     <string name="account_address_qr_title">钱包地址二维码</string>
     <string name="account_code_qr_title">钱包私钥二维码</string>
     <string name="scan_qr_failed">二维码识别失败</string>
-    <string name="wrong_eth_qr_code">该二维码不是 ETH 地址</string>
-    <string name="wrong_esn_qr_code">该二维码不是 ESN 地址</string>
-    <string name="wrong_eos_qr_code">该二维码不是 EOS 账号</string>
-    <string name="wrong_enu_qr_code">该二维码不是 ENU 账号</string>
-    <string name="wrong_bnb_qr_code">该二维码不是 BNB 账号</string>
-    <string name="wrong_cosmos_qr_code">该二维码不是 COSMOS 账号</string>
-    <string name="wrong_chainx_qr_code">该二维码不是 ChainX 账号</string>
-    <string name="wrong_iris_qr_code">该二维码不是 IRIS 账号</string>
-    <string name="wrong_telos_qr_code">该二维码不是 TELOS 账号</string>
-    <string name="wrong_bos_qr_code">该二维码不是 BOS 账号</string>
-    <string name="wrong_neo_qr_code">该二维码不是 NEO 地址</string>
-    <string name="wrong_ont_qr_code">该二维码不是 ONT 地址</string>
-    <string name="wrong_btc_qr_code">该二维码不是 BTC 地址</string>
-    <string name="wrong_eos_force_qr_code">该二维码不是 EOS 原力账号</string>
-    <string name="wrong_trx_qr_code">该二维码不是 TRX 地址</string>
-    <string name="wrong_nas_qr_code">该二维码不是 NAS 地址</string>
-    <string name="wrong_zil_qr_code">该二维码不是 ZIL 地址</string>
+    <string name="wrong_module_qr_code_address">该二维码不是 %s 地址</string>
+    <string name="wrong_module_qr_code_account">该二维码不是 %s 账号</string>
 
     <!--交易记录-->
     <string name="recent_transaction_records">最近交易记录</string>
@@ -619,23 +547,8 @@
     <string name="unable_find_version">找不到版本信息</string>
     <string name="password_cannot_be_empty">密码不能为空</string>
     <string name="code_cannot_be_empty">验证码不能为空</string>
-    <string name="please_enter_the_correct_eth_address">请输入正确的 ETH 地址</string>
-    <string name="please_enter_the_correct_bnb_address">请输入正确的 BNB 地址</string>
-    <string name="please_enter_the_correct_iris_address">请输入正确的 IRIS 地址</string>
-    <string name="please_enter_the_correct_cosmos_address">请输入正确的 COSMOS 地址</string>
-    <string name="please_enter_the_correct_esn_address">请输入正确的 ESN 地址</string>
-    <string name="please_enter_the_correct_eos_address">请输入正确的 EOS 账号</string>
-    <string name="please_enter_the_correct_telos_address">请输入正确的 TELOS 账号</string>
-    <string name="please_enter_the_correct_bos_address">请输入正确的 BOS 账号</string>
-    <string name="please_enter_the_correct_enu_address">请输入正确的 ENU 账号</string>
-    <string name="please_enter_the_correct_neo_address">请输入正确的 NEO 地址</string>
-    <string name="please_enter_the_correct_btc_address">请输入正确的 BTC 地址</string>
-    <string name="please_enter_the_correct_trx_address">请输入正确的 TRX 地址</string>
-    <string name="please_enter_the_correct_nas_address">请输入正确的 NAS 地址</string>
-    <string name="please_enter_the_correct_eos_force_address">请输入正确的 EOS 原力账号</string>
     <string name="please_enter_the_correct_module_address">请输入正确的 %s 地址</string>
-    <string name="please_enter_the_correct_ont_address">请输入正确的 ONT 地址</string>
-    <string name="please_enter_the_correct_zilliqa_address">请输入正确的 ZIL 地址</string>
+    <string name="please_enter_the_correct_module_account">请输入正确的 %s 账号</string>
 
     <string name="address_cannot_be_empty">地址不能为空</string>
     <string name="address_unmatched_with_private_key">地址不匹配私钥</string>
@@ -792,10 +705,12 @@
 
     <!--创建 EOS 账户-->
     <string name="create_eos_account">创建 EOS 账户</string>
+    <string name="create_ft_account">创建 FT 账户</string>
     <string name="create_bos_account">创建 BOS 账户</string>
     <string name="create_enu_account">创建 ENU 账户</string>
     <string name="create_telos_account">创建 TELOS 账户</string>
     <string name="import_eos_account">导入 EOS 账户</string>
+    <string name="import_ft_account">导入 FT 账户</string>
     <string name="import_bos_account">导入 BOS 账户</string>
     <string name="import_enu_account">导入 ENU 账户</string>
     <string name="import_telos_account">导入 TELOS 账户</string>
@@ -806,6 +721,7 @@
     <string name="import_eos_force_account">导入 EOS 原力账户</string>
     <string name="choose_eos_force_account">选择 EOS 原力账户</string>
     <string name="eos_account">EOS 账户</string>
+    <string name="ft_account">FT 账户</string>
     <string name="bos_account">BOS 账户</string>
     <string name="enu_account">ENU 账户</string>
     <string name="eos_force">EOS 原力</string>
@@ -839,6 +755,7 @@
     <string name="manage_key">管理密钥</string>
     <string name="copy_account_address">复制账户</string>
     <string name="eos_account_qrcode">EOS 账户二维码</string>
+    <string name="ft_account_qrcode">FT 账户二维码</string>
     <string name="bos_account_qrcode">BOS 账户二维码</string>
     <string name="enu_account_qrcode">ENU 账户二维码</string>
     <string name="telos_account_qrcode">TELOS 账户二维码</string>
@@ -866,6 +783,7 @@
     <string name="meno_most_30_charter">备注最多30字符</string>
     <string name="add_note">添加备注</string>
     <string name="send_to_eosaccount">转到 EOS 账户</string>
+    <string name="send_to_ftaccount">转到 FT 账户</string>
     <string name="send_to_bosaccount">转到 BOS 账户</string>
     <string name="send_to_enuaccount">转到 ENU 账户</string>
     <string name="send_to_telosaccount">转到 TELOS 账户</string>
@@ -1351,42 +1269,20 @@
     <string name="eos_account_create_way_exchange_instructions">支持多个交易所提币或钱包转账</string>
     <string name="eos_account_create_way_alipay_instructions">支持支付宝、Paypal 购买邀请码</string>
     <string name="eos_account_create_way_friends_instructions">邀请好友使用麦子钱包扫码支付</string>
-    <string name="eos_account_create_way_phone">手机号码创建</string>
-    <string name="eos_account_create_way_phone_instructions">使用手机号码快捷创建账户</string>
-    <string name="create_eos_account_by_phone">手机号码创建</string>
-    <string name="cancel_backup">取消备份</string>
-    <string name="backup_by_organization">机构备份</string>
-    <string name="backup_by_organization_success">机构备份成功</string>
-    <string name="import_by_organization">通过手机号码导入</string>
-    <string name="find_eos_account_by_organization">找回 EOS 账户</string>
-    <string name="find_eos_account_input_account_name">输入要导入的 EOS 账户</string>
-    <string name="find_eos_account_set_new_password">设置新的账户密码</string>
-    <string name="what_is_the_organization_backup0">	•	已完成机构备份设置，请后续勿要修改您的 owner 权限，否则可能导致机构备份功能失效；</string>
-    <string name="what_is_the_organization_backup1">	• 	机构备份是麦子钱包以 EOS 多签技术为基础开发的新功能。</string>
-    <string name="what_is_the_organization_backup2">	• 	当您开启后麦子钱包将参与到您的账户多签管理中，仅在您需要使用找回账户功能时提供服务；</string>
-    <string name="open_organization_backup">开启</string>
     <string name="wallet_password_require_txt1">至少 8 位字符</string>
     <string name="wallet_password_require_txt2">至少有 1 位大写字母</string>
     <string name="wallet_password_require_txt3">至少有 1 位小写字母</string>
     <string name="wallet_password_require_txt4">至少有 1 位数字</string>
 
-    <string name="backup_by_organization_instructions">需进行实名认证，完善账户信息。当您的账户出现账户丢失等意外情况的时候可以使用您在麦子钱包实名认证的手机号码找回。</string>
-    <string name="backup_by_organization_instructions1">鉴于您的账户安全情况，麦子钱包将向您提供通过手机号找回账号的服务。</string>
     <string name="skip">跳过</string>
     <string name="cant_import_wallet">无法导入账户</string>
-    <string name="cant_import_wallet_reason">检测到您未在麦子钱包通过手机号码创建该 EOS 账户。</string>
     <string name="account_security_authentication">账户安全认证</string>
-    <string name="account_security_authentication_instructions">完成认证后，当您的手机丢失、系统重装等意外情况发生时，您将可以通过安全认证系统找回该账号。</string>
     <string name="security_authentication">安全认证</string>
     <string name="kyc_success">实名认证审核已通过</string>
-    <string name="kyc_success_tosecurity_txt">鉴于您的账户安全情况，麦子钱包将向您提供通过手机号找回账号的服务。</string>
     <string name="immediate_authorization_now">去授权</string>
-    <string name="find_eos_by_phone_submit_success_txt">实名验证信息已提交，我们会尽快审核并返回结果，请耐心等待。</string>
     <string name="checking">（审核中）</string>
     <string name="checking_failed">（审核失败）</string>
-    <string name="eosaccount_status0">账户审核中，无法进行操作</string>
-    <string name="eosaccount_status1">账户审核失败，无法进行操作</string>
-    <string name="eosaccount_status2">您提交的信息与创建账户时预留的信息不匹配，请再次提交。</string>
+    <string name="open_organization_backup">开启</string>
     <string name="eosaccount_status_fail">审核失败</string>
     <string name="eosaccount_status_again">提交信息</string>
     <string name="user_kyc_failed">您提交的实名审核信息审核未通过。请再次提交。</string>
@@ -1522,4 +1418,94 @@
     <string name="cloud_send_code">发送</string>
     <string name="cloud_resend_code">%d\'s 后可重发</string>
     <string name="wallet_connect_wait">等待连接。。。</string>
+    <string name="candy_record_state_refund">已退款</string>
+    <string name="candy_record_state_airdrop">自动空投</string>
+    <string name="candy_record_state_progress">处理中</string>
+    <string name="candy_record_state_failed">发放失败</string>
+    <string name="math_identity">数字身份</string>
+    <string name="create_math_identity">创建数字身份</string>
+    <string name="name_math_identity">数字身份名称</string>
+    <string name="set_name_math_identity">设置身份名称</string>
+    <string name="back_up_math_identity">备份数字身份</string>
+    <string name="back_up_math_identity_promt">以下是数字身份的助记词，抄写下来并导出至安全的地方存放。一旦丢失，无法找回。</string>
+    <string name="import_math_identity">导入数字身份</string>
+    <string name="already_create_identity">已创建</string>
+    <string name="choose_math_identity">请选择数字身份</string>
+    <string name="identity_delete">删除</string>
+
+    <string name="ft_account_import_warning_not_exist">FT 账户不存在</string>
+    <string name="ft_account_reg">小写字母开头的12-16位字母或数字</string>
+    <string name="ft_gas_cost">矿工费 %s FT %s</string>
+    <string name="math_identity_name_update">修改数字身份名称</string>
+    <string name="math_identity_name_placeholder">数字身份名称</string>
+    <string name="math_identity_password_update">修改数字身份密码</string>
+    <string name="math_identity_password_old">输入密码</string>
+    <string name="math_identity_password_new_placeholder">设置新密码</string>
+    <string name="math_identity_password_new_again_placeholder">再次输入新密码</string>
+    <string name="math_identity_password">密码</string>
+    <string name="math_identity_password_new">新密码</string>
+    <string name="math_identity_password_new_again">重复新密码</string>
+    <string name="math_identity_add_wallet">添加钱包</string>
+    <string name="math_identity_added_wallet">已添加钱包</string>
+    <string name="math_identity_name">名称</string>
+    <string name="wallet_import_mnemonic_phrase_crypto_type_title">加密类型</string>
+    <string name="temporary_does_not_support_this_model">暂不支持此机型</string>
+    <string name="account_info_math_address">MATH 地址</string>
+    <string name="math_account_title">账号</string>
+    <string name="mutual_exchange_not_supported">暂不支持双向兑换</string>
+    <string name="not_supported">暂不支持</string>
+
+    <string name="cloud_withdraw_input_pin_code">输入云端钱包支付密码</string>
+    <string name="cloud_swap_exchange_order_state_new">处理中</string>
+    <string name="cloud_swap_exchange_order_state_partially_filled">部分成交</string>
+    <string name="cloud_swap_exchange_order_state_filled">全部成交</string>
+    <string name="cloud_swap_exchange_order_state_rejected">订单失败</string>
+    <string name="create_account">创建账户</string>
+    <string name="import_account">导入账户</string>
+    <string name="_100_min">1分钟</string>
+    <string name="_500_min">5分钟</string>
+
+    <string name="reference_rate">参考汇率: </string>
+    <string name="loading_hint">加载中…</string>
+    <string name="math_pay_hint">使用%s支付手续费(%s折扣)\n%s MATH</string>
+
+    <string name="refund">退回</string>
+    <string name="done_money">成交</string>
+
+    <string name="order_create_success">下单成功，等待确认</string>
+    <string name="data_loading_error">加载数据出错，点击重试</string>
+
+    <string name="math_no_sufficient">MATH 余额不足，将使用原币支付</string>
+    <string name="bill_details">账单明细</string>
+    <string name="bill_type">项目</string>
+    <string name="bill_from">转出</string>
+    <string name="bill_to">转入</string>
+    <string name="min_amount">最小交易量: %s %s</string>
+    <string name="trx_market_1_min">1 分</string>
+
+
+    <string name="contact_blockchain">链</string>
+    <string name="contact_choose_blockchain">选择链</string>
+    <string name="contact_address">地址</string>
+    <string name="contact_input_address_placeholder">输入钱包地址</string>
+    <string name="contact_delete_address">删除地址</string>
+    <string name="manual_contact_address_info">编辑地址信息</string>
+    <string name="contact_add_address">添加地址</string>
+    <string name="contact_address_detail">地址信息</string>
+    <string name="home_notice_title">通知</string>
+    <string name="cloud_set_pin_code">请先设置支付密码</string>
+    <string name="trx_new_address_fee_promt">收款地址激活费用 0.1 trx</string>
+    <string name="account_change_password">修改密码</string>
+    <string name="account_forget_password">忘记密码</string>
+
+    <string name="swap_guide_tip">可切换至云端钱包⚡️闪兑</string>
+    <string name="swap_guide_title">云端⚡️闪兑的优势</string>
+    <string name="swap_guide_one">•  速度更快，5 秒完成交易</string>
+    <string name="swap_guide_two">•  费率更低，减少链上成本</string>
+    <string name="swap_guide_three">•  策略更优，成交价格更好</string>
+    <string name="swap_guide_step_one">步骤 1</string>
+    <string name="swap_guide_step_two">步骤 2</string>
+    <string name="swap_guide_into">进入云端钱包交易</string>
+    <string name="swap_guide_switch">切换并登录云端钱包</string>
+
 </resources>
