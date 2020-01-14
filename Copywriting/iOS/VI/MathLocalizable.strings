@@ -659,6 +659,7 @@
 "transaction_tx_fee_with_price_zil" = "Phí khai thác %@ ZIL ≈ %@ %@";
 "transaction_tx_fee_ft" = "Phí khai thác% @ FT";
 "transaction_tx_fee_with_price_ft" = "Phí khai thác %@ FT ≈ %@ %@";
+"transaction_tx_fee_tron_address_activation" = "Payment address activation fee 0.1 TRX";
 
 "transaction_to_address_placeholder" = "Điền địa chỉ ví";
 "transaction_to_account_placeholder" = "Receiver's account";
@@ -762,7 +763,7 @@
 "cloud_set_pin_code" = "Please set PIN code";
 "cloud_record" = "Transactions";
 "cloud_record_details" = "Details";
-"cloud_record_details_type" ="Type";
+"cloud_record_details_type" ="Item";
 "cloud_record_details_from" ="From";
 "cloud_record_details_to" ="To";
 "cloud_search_token" = "Search Token";
@@ -843,6 +844,8 @@
 "pin_code_set_six_number" = "6 digits";
 "pin_code_set_success" = "Payment Password Set Successfully";
 "pin_code_update_success" = "Payment Password Updated";
+"pin_code_update_tips" = "Change";
+"pin_code_forget_tips" = "Forget";
 "withdraw_input_pin_code" = "Enter Payment Password";
 "error_pin_code_not_same" = "Payment Password Incorrect";
 
@@ -1150,19 +1153,12 @@
 "country_code_title"="Chọn quốc gia và khu vực";
 
 // MediShares账户-实名
-"medishares_account_page_security_title"="An toàn";
-"medishares_account_page_security_subtitle"="MediShares bảo mật thông tin xác thực tên thật của bạn";
-
-"medishares_account_page_insurance_title"="Bảo vệ";
-"medishares_account_page_insurance_subtitle"="Hoàn thành chứng nhận tên thật là điều kiện tiên quyết để tham gia bảo vệ hợp đồng thông minh";
-
-"medishares_account_page_convenient_title"="Thuận tiện và nhanh chóng";
-"medishares_account_page_convenient_subtitle"="Chứng nhận độc quyền logo, giao dịch chuyển tiền thuận tiện và nhanh chóng";
 
 "bind_kyc_status_default"="Chứng nhận tên thật";
 "bind_kyc_status_process"="Thông tin chứng nhận tên thật của bạn đã được gửi và chúng tôi sẽ xem xét nó sớm nhất có thể và gửi lại cho bạn.。";
 "bind_kyc_status_success"="Chứng nhận tên thật đã được hoàn thành (%@)";
 "bind_kyc_status_fail"="Kiểm toán thất bại, xác thực lại tên";
+"bind_kyc_need_tips"="Please complete real-name authentication first，then continue to next step.";
 
 // MediShares账户-信息
 "user_detail_title"="Thông tin tài khoản";
@@ -1815,6 +1811,7 @@
 // Google 验证
 "google_verify_open" = "open";
 "google_verify_opened" = "opened";
+"google_verify_unbind" = "unbind";
 "google_verify_notice" = "Here’s the Google verified key, please copy and bind with Google Verification. Make sure you backup the key in a safe place, Google Verification cannot be recovered if you lost the key.";
 "google_verify_done" = "The key is bound and backed up.";
 "google_verify_input_title" = "Google Verification";

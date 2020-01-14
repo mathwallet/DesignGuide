@@ -686,7 +686,8 @@
 "transaction_tx_fee_zil" = "Mining Fee %@ ZIL";
 "transaction_tx_fee_with_price_zil" = "Mining Fee %@ ZIL ≈ %@%@";
 "transaction_tx_fee_ft" = "Mining Fee %@ FT";
-"transaction_tx_fee_with_price_zil" = "Mining Fee %@ FT ≈ %@%@";
+"transaction_tx_fee_with_price_ft" = "Mining Fee %@ FT ≈ %@%@";
+"transaction_tx_fee_tron_address_activation" = "수취 주소 활성화 비용은 0.1 TRX입니다";
 
 "transaction_to_value_placeholder" = "이체 금액을 기입하세요";
 "transaction_to_balance_low" = "잔액이 부족합니다";
@@ -873,6 +874,8 @@
 "pin_code_set_six_number" = "6 개자 숫자";
 "pin_code_set_success" = "지불 비밀번호 설치 완료";
 "pin_code_update_success" = "지불 비밀번호 재설치 완료";
+"pin_code_update_tips" = "Change";
+"pin_code_forget_tips" = "Forget";
 "withdraw_input_pin_code" = "지불 비밀번호를 입력";
 "error_pin_code_not_same" = "지불 비밀번호 불일치";
 
@@ -1174,19 +1177,12 @@
 "country_code_title" = "국가 및 지역을 선택하세요";
 
 // MediShares账户-实名
-"medishares_account_page_security_title" = "안전";
-"medishares_account_page_security_subtitle" = "MediShares는 회원님의 실명 인증 정보 안전을 보장합니다";
-
-"medishares_account_page_insurance_title" = "보장";
-"medishares_account_page_insurance_subtitle" = "실명 인증을 완료하신 후, 스마트 계약 보장에 가입할 수 있습니다";
-
-"medishares_account_page_convenient_title" = "편리하고 신속함";
-"medishares_account_page_convenient_subtitle" = "실명 인증 전속 로고가 있으며, 이체 거래는 편리하고 신속합니다";
 
 "bind_kyc_status_default" = "실명 인증";
 "bind_kyc_status_process" = "회원님의 실명 인증 정보가 제출되었습니다. 최대한 빠르게 심사하여 피드백드리겠습니다";
 "bind_kyc_status_success" = "실명 인증 완료(%@)";
 "bind_kyc_status_fail" = "검증 실패, 실명 인증을 다시 제출하세요";
+"bind_kyc_need_tips"="먼저 실명인증을 진행해주시고, 그다음에 진행해주세요.";
 
 // MediShares账户-信息
 "user_detail_title" = "계정 정보";
@@ -1852,6 +1848,7 @@
 // Google 验证
 "google_verify_open" = "오픈";
 "google_verify_opened" = "오픈됨";
+"google_verify_unbind" = "unbind";
 "google_verify_notice" = "다음은 지갑의 Google 인증 코드입니다. 복사하고 Google 인증에 연동하십시오. 잃어버리시면 Google 인증을 복구할 수 없습니다.";
 "google_verify_done" = "인증 코드를 이미 복사하고 연동했습니다";
 "google_verify_input_title" = "Google 인증";
