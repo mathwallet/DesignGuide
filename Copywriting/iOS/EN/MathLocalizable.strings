@@ -679,6 +679,7 @@
 "transaction_to_address_placeholder" = "Receiver's address";
 "transaction_to_account_placeholder" = "Receiver's account";
 "transaction_to_address_checking_security"="Checking address security";
+
 "transaction_tx_fee_with_price_esn" = "Mining Fee %@ ESN ≈ %@%@";
 "transaction_tx_fee_nas" = "Mining Fee %@ NAS";
 "transaction_tx_fee_with_price_nas" = "Mining Fee %@ NAS ≈ %@%@";
@@ -686,6 +687,7 @@
 "transaction_tx_fee_with_price_zil" = "Mining Fee %@ ZIL ≈ %@%@";
 "transaction_tx_fee_ft" = "Mining Fee %@ FT";
 "transaction_tx_fee_with_price_ft" = "Mining Fee %@ FT ≈ %@%@";
+"transaction_tx_fee_tron_address_activation" = "Payment address activation fee 0.1 TRX";
 
 "transaction_to_value_placeholder" = "Amount";
 "transaction_to_balance_low" = "The balance is not enough";
@@ -787,7 +789,7 @@
 "cloud_set_pin_code" = "Please set PIN code";
 "cloud_record" = "Transactions";
 "cloud_record_details" = "Details";
-"cloud_record_details_type" ="Type";
+"cloud_record_details_type" ="Item";
 "cloud_record_details_from" ="From";
 "cloud_record_details_to" ="To";
 "cloud_search_token" = "Search Token";
@@ -869,6 +871,8 @@
 "pin_code_set_six_number" = "6 digits";
 "pin_code_set_success" = "Payment Password Set Successfully";
 "pin_code_update_success" = "Payment Password Updated";
+"pin_code_update_tips" = "Change";
+"pin_code_forget_tips" = "Forget";
 "withdraw_input_pin_code" = "Enter Payment Password";
 "error_pin_code_not_same" = "Payment Password Incorrect";
 
@@ -1171,19 +1175,12 @@
 "country_code_title"="Select Country and Region";
 
 // Math账户-实名
-"medishares_account_page_security_title"="Secure";
-"medishares_account_page_security_subtitle"="IPFS + Encryption, secure your identity information.";
-
-"medishares_account_page_insurance_title"="Insured";
-"medishares_account_page_insurance_subtitle"= "Complete verification is the first step to join mutual contract.";
-
-"medishares_account_page_convenient_title"="Convenient";
-"medishares_account_page_convenient_subtitle"="Your friends can find your address through mobile.";
 
 "bind_kyc_status_default"="Identity Verification";
 "bind_kyc_status_process"="Your identity information has submitted and we will process it as soon as possible.";
 "bind_kyc_status_success"="Verification completed (%@)";
 "bind_kyc_status_fail"="Verification failed, please submit your information again.";
+"bind_kyc_need_tips"="Please complete real-name authentication first，then continue to next step.";
 
 // Math账户-信息
 "user_detail_title"="My Account";
@@ -1850,6 +1847,7 @@
 // Google 验证
 "google_verify_open" = "open";
 "google_verify_opened" = "opened";
+"google_verify_unbind" = "unbind";
 "google_verify_notice" = "Here’s the Google verified key, please copy and bind with Google Verification. Make sure you backup the key in a safe place, Google Verification cannot be recovered if you lost the key.";
 "google_verify_done" = "The key is bound and backed up.";
 "google_verify_input_title" = "Google Verification";

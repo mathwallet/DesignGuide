@@ -689,6 +689,7 @@
 "transaction_tx_fee_with_price_zil" = "矿工费 %@ ZIL ≈ %@ %@";
 "transaction_tx_fee_ft" = "矿工费 %@ FT";
 "transaction_tx_fee_with_price_ft" = "矿工费 %@ FT ≈ %@ %@";
+"transaction_tx_fee_tron_address_activation" = "收款地址激活费用 0.1 TRX";
 
 "transaction_to_address_placeholder" = "填写收款地址";
 "transaction_to_account_placeholder" = "填写收款账户";
@@ -864,6 +865,7 @@
 "cloud_swap_exchange_rate_return" ="退回";
 "cloud_swap_exchange_transfer_success"="下单成功, 等待确认";
 "cloud_swap_exchange_math_comment"="MATH 余额不足，将使用原币支付";
+
 // PIN 码（文案统一改成 "支付密码"）
 "pin_code" = "支付密码";
 "pin_code_set" = "设置支付密码";
@@ -873,6 +875,8 @@
 "pin_code_set_six_number" = "6 位数字";
 "pin_code_set_success" = "支付密码设置成功";
 "pin_code_update_success" = "支付密码更新成功";
+"pin_code_update_tips" = "修改密码";
+"pin_code_forget_tips" = "忘记密码";
 "withdraw_input_pin_code" = "输入支付密码";
 "error_pin_code_not_same" = "支付密码不一致";
 
@@ -1182,19 +1186,12 @@
 "country_code_title"="选择国家和地区";
 
 // MediShares账户-实名
-"medishares_account_page_security_title"="安全";
-"medishares_account_page_security_subtitle"="MediShares 保障您的实名认证信息安全";
-
-"medishares_account_page_insurance_title"="保障";
-"medishares_account_page_insurance_subtitle"="完成实名认证，是加入智能合约保障的前提";
-
-"medishares_account_page_convenient_title"="方便快捷";
-"medishares_account_page_convenient_subtitle"="实名认证专属标志，转账交易方便快捷";
 
 "bind_kyc_status_default"="实名认证";
 "bind_kyc_status_process"="您的实名认证信息已提交，我们会尽快审核，并反馈给您。";
 "bind_kyc_status_success"="已完成实名认证 (%@)";
 "bind_kyc_status_fail"="审核失败，重新实名认证";
+"bind_kyc_need_tips"="请先完成实名认证，再进行此操作";
 
 // MediShares账户-信息
 "user_detail_title"="账号信息";
@@ -1860,6 +1857,7 @@
 // Google 验证
 "google_verify_open" = "开启";
 "google_verify_opened" = "已开启";
+"google_verify_unbind" = "解除绑定";
 "google_verify_notice" = "以下是 Google 验证的密钥，请复制并绑定 Google 验证，密钥备份在安全的地方，遗失密钥将无法恢复 Google 验证。";
 "google_verify_done" = "已绑定并备份密钥";
 "google_verify_input_title" = "Google 验证";
