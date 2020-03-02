@@ -133,7 +133,8 @@
 "risk_warning" = "风险警告";
 "risk_warning_text" = "该第三方网站被多名用户举报，可能涉及恶意诈骗、锁币或被黑客攻击等高风险情况！请谨慎操作！";
 "send" = "发送";
-
+"assets"="资产";
+"collections"="藏品";
 // 权限
 "take_photo"="拍照";
 "photo_album"="从相册选取";
@@ -154,6 +155,7 @@
 "empty_data_withdraw"="暂无提现记录";
 "empty_data_search"="无搜索结果";
 "empty_whiteList_contacts" = "暂无白名单联系人";
+"empty_data_collectibles" = "无藏品记录";
 
 // 选择钱包
 "select_custom_wallet"="选择 %@ 钱包";
@@ -165,7 +167,7 @@
 
 // 切换钱包
 "switch_wallet" = "切换钱包";
-
+"switch_wallet_pop_prompt" = "支持 20+ 公链，上下滑动看看。";
 // 创建或导入钱包
 "create_wallet" = "创建钱包";
 "import_wallet" = "导入钱包";
@@ -294,7 +296,6 @@
 "eos_account_invite_code"="邀请码";
 "eos_account_invite_code_placeholder"="输入 EOS 账户邀请码";
 "eos_account_invite_code_help"="如何获得邀请码？";
-"eos_account_invite_code_warning"="\n• 我们会给之前已经完成实名认证的老用户发放邀请码，您可以加入麦子社群询问和转让；\n\n• 我们会在麦子社群每日消息中不定期发放邀请码，推荐您关注；\n\n• 完成麦子钱包实名认证也有机会获得邀请码。";
 
 "eos_account"="EOS 账户";
 "eos_account_select"="选择 EOS 账户";
@@ -354,7 +355,6 @@
 "eosforce_account_invite_code"="邀请码";
 "eosforce_account_invite_code_placeholder"="输入 EOS 原力账户邀请码";
 "eosforce_account_invite_code_help"="如何获得邀请码？";
-"eosforce_account_invite_code_warning"="• 我们会给之前已经完成实名认证的老用户发放邀请码，您可以加入麦子社群询问和转让；\n• 我们会在麦子社群每日消息中不定期发放邀请码，推荐您关注；\n• 完成麦子钱包实名认证也有机会获得邀请码。";
 
 "eosforce_account"="EOS 原力账户";
 "eosforce_account_select"="选择 EOS 原力账户";
@@ -388,7 +388,6 @@
 "bos_account_invite_code"="邀请码";
 "bos_account_invite_code_placeholder"="输入 BOS 账户邀请码";
 "bos_account_invite_code_help"="如何获得邀请码？";
-"bos_account_invite_code_warning"="• 我们会给之前已经完成实名认证的老用户发放邀请码，您可以加入麦子社群询问和转让；\n• 我们会在麦子社群每日消息中不定期发放邀请码，推荐您关注；\n• 完成麦子钱包实名认证也有机会获得邀请码。";
 
 "bos_account"="BOS 账户";
 "bos_account_select"="选择 BOS 账户";
@@ -422,7 +421,6 @@
 "enu_account_invite_code"="邀请码";
 "enu_account_invite_code_placeholder"="输入 ENU 账户邀请码";
 "enu_account_invite_code_help"="如何获得邀请码？";
-"enu_account_invite_code_warning"="• 我们会给之前已经完成实名认证的老用户发放邀请码，您可以加入麦子社群询问和转让；\n• 我们会在麦子社群每日消息中不定期发放邀请码，推荐您关注；\n• 完成麦子钱包实名认证也有机会获得邀请码。";
 
 "enu_account"="ENU 账户";
 "enu_account_select"="选择 ENU 账户";
@@ -457,7 +455,6 @@
 "codex_account_invite_code"="邀请码";
 "codex_account_invite_code_placeholder"="输入 Codex 账户邀请码";
 "codex_account_invite_code_help"="如何获得邀请码？";
-"codex_account_invite_code_warning"="• 我们会给之前已经完成实名认证的老用户发放邀请码，您可以加入麦子社群询问和转让；\n• 我们会在麦子社群每日消息中不定期发放邀请码，推荐您关注；\n• 完成麦子钱包实名认证也有机会获得邀请码。";
 
 "codex_account"="Codex 账户";
 "codex_account_select"="选择 Codex 账户";
@@ -492,7 +489,6 @@
 "telos_account_invite_code"="邀请码";
 "telos_account_invite_code_placeholder"="输入 Telos 账户邀请码";
 "telos_account_invite_code_help"="如何获得邀请码？";
-"telos_account_invite_code_warning"="• 我们会给之前已经完成实名认证的老用户发放邀请码，您可以加入麦子社群询问和转让；\n• 我们会在麦子社群每日消息中不定期发放邀请码，推荐您关注；\n• 完成麦子钱包实名认证也有机会获得邀请码。";
 
 "telos_account"="Telos 账户";
 "telos_account_select"="选择 Telos 账户";
@@ -519,7 +515,39 @@
 "telos_account_create_by_friends_publickey_prompt"="请复制公钥并发给您的朋友用于创建 Telos 账户。";
 "telos_account_create_by_friends_privatekey_title"="私钥";
 "telos_account_create_by_friends_privatekey_prompt"="请备份私钥并妥善保管，不要发给任何人（包括您的朋友），您的朋友帮你完成账户创建后，您需要通过此私钥导入 Telos 账户。";
+// 创建 YAS 账户
+"yas_account_create"="创建 YAS 账户";
+"yas_account_import"="导入 YAS 账户";
 
+"yas_account_invite_code"="邀请码";
+"yas_account_invite_code_placeholder"="输入 YAS 账户邀请码";
+"yas_account_invite_code_help"="如何获得邀请码？";
+
+"yas_account"="YAS 账户";
+"yas_account_select"="选择 YAS 账户";
+"yas_account_input_placeholder"="12 位字符，包含数字“1~5”、字母“a~z”";
+
+"yas_account_password"="密码";
+"yas_account_password_input_placeholder"="至少 8 位字符，包含大小写字母和数字";
+"yas_account_password_repeat"="重复密码";
+"yas_account_password_repeat_input_placeholder"="再次输入密码";
+
+"yas_account_create_warning_exist"="YAS 账户已存在";
+"yas_account_create_warning_fail"="创建 YAS 账户失败";
+
+"yas_account_create_warning_success"="YAS 账户已创建成功";
+"yas_account_privatekey_backup_warning"="以下是账户的私钥信息，复制并导出至安全的地方存放。一旦丢失，钱包将无法恢复。";
+"yas_account_privatekey_backup_complete"="私钥已备份完成";
+
+"yas_create_account_success_copy_prompt"= "请先复制并备份私钥（WIF）文件";
+
+"yas_account_privatekey_backup_disclaimer"= "我们不承担任何因为私钥丢失以及忘记密码导致的资产损失！";
+
+"yas_account_create_by_friends_title"="让朋友帮忙创建 YAS 账户";
+"yas_account_create_by_friends_publickey_title"="公钥";
+"yas_account_create_by_friends_publickey_prompt"="请复制公钥并发给您的朋友用于创建 YAS 账户。";
+"yas_account_create_by_friends_privatekey_title"="私钥";
+"yas_account_create_by_friends_privatekey_prompt"="请备份私钥并妥善保管，不要发给任何人（包括您的朋友），您的朋友帮你完成账户创建后，您需要通过此私钥导入 YAS 账户。";
 // FT 钱包创建
 "ft_account_create"="创建 FT 账户";
 
@@ -659,6 +687,7 @@
 "transaction_menu_bos_account"="BOS 账户";
 "transaction_menu_enu_account"="ENU 账户";
 "transaction_menu_telos_account"="Telos 账户";
+"transaction_menu_yas_account"="YAS 账户";
 "transaction_menu_codex_account"="Codex 账户";
 "transaction_menu_ft_account"="FT 账户";
 "transaction_menu_scan_qrcode"="扫描二维码";
@@ -697,6 +726,7 @@
 
 "transaction_to_value_placeholder" = "填写转账金额";
 "transaction_to_balance_low" = "余额不足";
+"transaction_to_eth_gas_not_enough" = "需要更多的 ETH 支付转账 GAS 费用";
 "transaction_to_eth_balance_low" = "ETH 余额不足";
 "transaction_to_ong_balance_low" = "ONG 余额不足";
 "transaction_to_zil_balance_low" = "ZIL 余额不足";
@@ -709,7 +739,7 @@
 "transaction_to_advance_setting_hex_data" = "十六进制数据";
 
 "transaction_to_gas_limit_invalid" = "Gas Limit 不小于 %@";
-"transaction_to_gas_price_invalid" = "Gas Price 不小于 %@gwei";
+"transaction_to_gas_price_invalid" = "Gas Price 不小于 %@ gwei";
 "transaction_to_hex_data_invalid" = "十六进制数据无效";
 "transaction_to_address_null" = "请填写转账地址";
 "transaction_to_account_null" = "请填写转账账户";
@@ -783,12 +813,11 @@
 "transfer_esn_amount"="%@%@ ESN";
 "transfer_fee_trx_amount"="%@ TRX";
 "transfer_NAS_amount"="%@%@ NAS";
-
 "refund"="赎回";
-
 // 云端钱包
 "cloud_wallet" = "云端钱包";
 "cloud_set_pin_code" = "请先设置支付密码";
+"cloud_vpos" = "挖矿";
 "cloud_record" = "账单";
 "cloud_record_details" = "账单明细";
 "cloud_record_details_type" ="项目";
@@ -865,7 +894,17 @@
 "cloud_swap_exchange_rate_return" ="退回";
 "cloud_swap_exchange_transfer_success"="下单成功, 等待确认";
 "cloud_swap_exchange_math_comment"="MATH 余额不足，将使用原币支付";
+"cloud_swap_exchange_unavailable_comment" = "该交易对暂不可用";
+"cloud_swap_exchange_invite" = "邀请送 USDT ";
+"cloud_swap_exchange_invite_more" = "(多邀请，多赠送) ";
 
+"cloud_swap_exchange_recommend_title" = "云端⚡️闪兑的优势";
+"cloud_swap_exchange_recommend_content" = "•     速度更快，5 秒完成交易\n•     费率更低，减少链上成本\n•     策略更优，成交价格更好";
+"cloud_swap_exchange_recommend_step1_title" = "步骤1";
+"cloud_swap_exchange_recommend_step1_content" = "切换并登录云端钱包";
+"cloud_swap_exchange_recommend_step2_title" = "步骤2";
+"cloud_swap_exchange_recommend_step2_content" = "进入云端钱包交易";
+"cloud_swap_exchange_recommend_empty" = "可切换至云端钱包⚡️闪兑";
 // PIN 码（文案统一改成 "支付密码"）
 "pin_code" = "支付密码";
 "pin_code_set" = "设置支付密码";
@@ -950,6 +989,7 @@
 "transaction_detail_to_address_title"="收款地址";
 "transaction_detail_to_account_title" = "收款";
 "transaction_detail_tx_fee_title"="矿工费";
+"transaction_detail_tx_data_title"="数据";
 "transaction_detail_tx_time_title"="交易时间";
 "transaction_detail_remark_title"="备注";
 "transaction_detail_tx_hash_title"="交易单号";
@@ -995,6 +1035,10 @@
 "telos_account_copy"="复制账户";
 "telos_account_qrcode"="Telos 账户二维码";
 "telos_qr_transfer_warining"="注意：Telos 和 EOS 不是一个公链，不能互相转账";
+
+"yas_account_copy"="复制账户";
+"yas_account_qrcode"="YAS 账户二维码";
+"yas_qr_transfer_warining"="注意：YAS 和 EOS 不是一个公链，不能互相转账";
 
 "codex_account_copy"="复制账户";
 "codex_account_qrcode"="Codex 账户二维码";
@@ -1141,7 +1185,6 @@
 // 我
 "mine_login_hint"="登录";
 "mine_medishares_account"="麦子账号";
-"mine_medishares_transcations"="交易记录";
 "mine_medishares_contacts"="地址本";
 "mine_medishares_cloud"="云端钱包";
 "mine_medishares_wechat_group"="加入官方微信群";
@@ -1799,6 +1842,7 @@
 "instant_exchange_select_wallet_empty_data" = "您还没有 %@ 钱包";
 "instant_exchange_select_wallet_create" = "请先创建 %@ 钱包";
 "instant_exchange_title" = "兑换";
+"instant_swapbutton_title" = "⚡️闪兑";
 "instant_exchange_rate" = "1 %@ = %@ %@";
 "instant_exchange_token_empty_data" = "暂无兑换币种";
 "instant_exchange_token_request_data" = "重新获取数据";
@@ -1923,3 +1967,12 @@
 "math_identity_error_import" = "导入数字身份失败！";
 "math_identity_error_wallet_checked_prompt" = "请先选择要创建的钱包";
 
+// NFT
+"nft_collections_count"="%d个藏品";
+"nft_collections_introduction_title"="简介: ";
+"nft_collections_platform_title"="平台: ";
+"nft_collections_send"="发送";
+"nft_collections_view"="查看详情";
+"nft_collections_view_open"="打开 %@ 查看";
+"nft_collections_transfer_title"="发送藏品";
+"nft_collections_transcations"="交易记录";

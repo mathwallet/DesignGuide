@@ -10,28 +10,28 @@
 "powered_by_maizi" = "Powered by Math Wallet";
 "app_name_title" = "Math Wallet";
 
-//Errors
+// Errors
 "wrong_password_warning" = "비밀번호가 틀렸습니다";
 "wrong_unkown_warning" = "unknown error";
 
-// EOS Errors
+// Eos Error
 "eos_jsonrpc_error_ram_low" = "계정을 구동하기 위한 RAM이 충분하지 않습니다. RAM을 더 구매하세요.";
-"eos_jsonrpc_error_net_low" = "계정을 구동하기 위한 넷이 충분하지 않습니다. 넷을 더 저당하거나 친구에게 도움을 요청하세요.";
-"eos_jsonrpc_error_cpu_low" = "계정을 구동하기 위한 CPU가 충분하지 않습니다. CPU를 더 저당하거나 친구에게 도움을 요청하세요.";
+"eos_jsonrpc_error_net_low" = "계정을 구동하기 위한 넷이 충분하지 않습니다. 넷을 더 스테이크하거나 친구에게 도움을 요청하세요.";
+"eos_jsonrpc_error_cpu_low" = "계정을 구동하기 위한 CPU가 충분하지 않습니다. CPU를 더 스테이크하거나 친구에게 도움을 요청하세요.";
 "eos_jsonrpc_error_account_invalid" = "전송 받는 계정이 존재하지 않습니다.";
 "eos_jsonrpc_error_quantity_positive" = "전송 금액은 0보다 커야 합니다.";
 "eos_jsonrpc_error_transaction_expired" = "거래가 만료되었습니다. 다시 시도해주십시오.";
-"eos_account_error_permission_changed" = "이 계정의 %@ 권한을 도입한 후 다시 조작하세요.";
-"account_error_permission_changed" = "The account permission has changed, please re import.";
+"eos_account_error_permission_changed" = "이 계정의 %@ 권한을 도입한 후 다시 실행하세요.";
+"account_error_permission_changed" = "계정의 권한이 변경되었습니다. 계정권한을 다시 설정하세요.";
 
 // NeoClientError
 "Invalid seed" = "유효하지 않은 노드";
 "Invalid body Request" = "유효하지 않은 청구";
 "Invalid response data" = "유효하지 않은 데이터";
 "Invalid server request" = "유효하지 않은 서버 요청";
-"No Internet connection" = "인터넷 연결을 찾을 수 없습니다.";
+"No Internet connection" = "인터넷이 연결되어있지 않습니다.";
 
-//提取GAS
+// 提取GAS
 "claim_gas_no_gas_to_claim" = "추출 가능한 GAS가 없습니다";
 "claim_gas_once_every_five_mins" = "5분마다 %@를 한번씩 추출할 수 있습니다";
 "claiming_gas" = "%@ 추출 중...";
@@ -73,28 +73,27 @@
 "network_server_timeout" = "서버가 규정한 시간을 초과했으니 다시 시도하십시오";
 "network_error_unkown" = "오류 발생, 다시 시도하십시오";
 "network_error_data_format" = "데이터 격식 이상";
+"network_error_device_unregister" = "디바이스 등록 실패";
 
-"network_error_device_unregister" = "기기 등록 실패";
-"enterprise_wallet_active_error" = "Enterprise wallet activation failed";
-"enterprise_wallet_import_error" = "Enterprise wallet import failed";
+"enterprise_wallet_active_error" = "엔터프라이즈 월렛 활성화 실패";
+"enterprise_wallet_import_error" = "엔터프라이즈 월렛 불러오기 실패";
 
 "node_setting_error_exist" = "유효하지 않은 URL";
 
 "sign_message_account_invalid" = "유효하지 않은 Address";
-"address_not_whiteList" = "이 주소는 화이트 리스트 중의 사용자가 아닙니다";
+"address_not_whiteList" = "이 주소는 화이트 리스트 사용자의 주소가 아닙니다";
 
-"simplewallet_data_format_error" = "데이터 격식 이상";
+"simplewallet_data_format_error" = "데이터 형식 오류";
 
 // Date
 "today" = "오늘";
 "yesterday" = "어제";
 "second"="sec";
-//Alert
 "confirm" = "확인";
 "cancel" = "취소";
 "prompt" = "알림";
 "setting" = "설치";
-"i_know" = "알았음";
+"i_know" = "동의";
 "next" = "다음";
 "search" = "검색";
 "submit" = "제출";
@@ -113,7 +112,7 @@
 "delete_cache"="캐시 삭제";
 "upgrade" = "업데이트";
 "retry" = "다시 시도";
-"save" = "Save";
+"save" = "저장";
 "continue" = "계속";
 "copy_link" = "링크 복사";
 "reload" = "회복";
@@ -121,7 +120,7 @@
 "success"="성공";
 "fail"="실패";
 "whitelist" = "화이트 리스트";
-"disclaimer" = "면책 성명";
+"disclaimer" = "면책조항 서명";
 "about" = "관련";
 "kakao" = "Kakao";
 "wechat" = "Wechat";
@@ -130,12 +129,14 @@
 "debug" = "Debug";
 "report" = "신고";
 "risk_warning" = "리스크 경고";
-"risk_warning_text" = "해당 제3자 Website은 많은 사용자의 신고를 받았습니다. 악의적인 사기, 화폐 잠금 또는 해킹 등 위험 상황이 있을 수 있으니 조심하십시오!";
-"send" = "Send";
-
-// 权限
+"risk_warning_text" = "해당 Website는 많은 사용자들의 신고를 받았습니다. 악의적인 사기, 화폐 잠금 또는 해킹 등 위험 상황이 있을 수 있으니 조심하십시오!";
+"send" = "발송";
+"assets"="자산";
+"collections"="소장품";
 "take_photo" = "사진 찍기";
 "photo_album" = "앨범 사진 선택";
+
+// 权限
 "camera_not_supported" = "카메라에 접근할 수 없습니다";
 "photo_library_not_supported" = "앨범에 접근할 수 없습니다";
 "camera_permission_authorize" = "카메라에 접근할 권한이 없습니다. 권한을 변경하시겠습니까？";
@@ -148,32 +149,36 @@
 "empty_data_transaction" = "거래 기록이 없습니다";
 "empty_data_trasfer" = "이체 기록이 없습니다";
 "empty_data_contacts" = "연락처가 없습니다";
-"empty_data_contacts_know" = "아시는 분이 없습니다";
+"empty_data_contacts_know" = "친구 리스트가 없습니다";
 "empty_data_cloud" = "충전 기록 없음";
 "empty_data_withdraw"="출금 기록 없음";
 "empty_data_search" = "검색 결과가 없습니다";
-"empty_whiteList_contacts" = "화이트 리스트 연락인이 없습니다";
+"empty_whiteList_contacts" = "화이트 리스트 친구가 없습니다";
+"empty_data_collectibles" = "No collectibles";
+
 // 选择钱包
 "select_custom_wallet"="%@ 지갑 선택";
 
-//多钱包选择页面
+// 多钱包选择页面
 "wallet_create_or_import_prompt" = "지갑이 없으니 지갑을 새로 만들거나 기존의 지갑을 불러오세요";
 "wallet_create_or_import_type" = "지갑의 종류를 선택하세요";
 "wallet_create_type_other"="기타";
 
 // 切换钱包
 "switch_wallet" = "지갑 전환";
+"switch_wallet_pop_prompt" = "20개 이상의 퍼블릭 체인을 지원, 위아래로 스크롤하여 확인해보세요";
+
 // 创建或导入钱包
-"create_wallet" = "지갑을 만들기";
-"import_wallet" = "기존의 지갑을 불러오기";
+"create_wallet" = "지갑 만들기";
+"import_wallet" = "기존 지갑 불러오기";
 "other_wallet" = "기타";
 "create_maizi_wallet" = "Math Wallet 안전 지갑 만들기";
-"create_company_wallet" = "기업 지갑 만들기";
+"create_company_wallet" = "엔터프라이즈 지갑 만들기";
 
-"wallet_create_warning"="• Keystore, Private key와  Mnemonic 백업 및 도출을 지원";
-"wallet_create_maizi_warning" = "• Keystore 백업 및 도출만 지원, 기타 지갑은 불러올 수 없음\n• 암호화폐 자산 안전 보장, 도난 사고 발생 시 최대 100,000개 MDS까지 배상해드립니다\n• 다중의 안전 검사를 지원";
-"wallet_import_warning" = "• 기타 지갑의 keystore, private key 및 mnemonic를 통한 불러오기를 지원합니다 ";
-"wallet_create_company_warning" = "• 기업 지갑은 Token Fund등 조직을 위해 만든 맞춤형 지갑입니다. 자세히 보기";
+"wallet_create_warning"="• Keystore, Private key와  Mnemonic 백업 및 도출 지원";
+"wallet_create_maizi_warning" = "• Keystore 백업 및 엑스포트만 지원, 기타 지갑은 불러올 수 없음\n• 암호화폐 자산 안전 보장, 도난 사고 발생 시 최대 100,000 MDS까지 보상해드립니다\n• 다중안전 지원";
+"wallet_import_warning" = "• 기타 지갑의 keystore, private key 및 mnemonic를 통한 불러오기를 지원합니다";
+"wallet_create_company_warning" = "• 기업 지갑은 Token Fund등과 같은 조직을 위해 만든 맞춤형 지갑입니다. 자세히 보기";
 "wallet_create_company_warning_url" = "자세히 보기";
 
 "wallet_create_or_import_title" = "지갑을 새로 만들거나 기존의 지갑을 불러오세요";
@@ -190,6 +195,7 @@
 "wallet_import_keystore_password_placeholder" = "Keystore 비밀번호를 입력하세요";
 "wallet_import_keystore_nickname_title" = "지갑 명칭";
 "wallet_import_keystore_nickname_placeholder" = "지갑 명칭 설정";
+
 // 私钥导入
 "wallet_import_privatekey_privatekey_title" = "private key";
 "wallet_import_privatekey_privatekey_placeholder" = "private key 붙여넣기";
@@ -203,7 +209,7 @@
 
 "wallet_import_privatekey_comfirm"="지갑 불러오기";
 
-"wallet_import_privatekey_no_account"="%@ 계정이 조회되지 않습니다. 먼저 계정을 만들어주세요";
+"wallet_import_privatekey_no_account"="%@ 계정이 조회되지 않습니다. 계정을 만드시기 바랍니다";
 
 // WIF 导入
 "wallet_import_wif_wif_title" = "WIF";
@@ -238,7 +244,7 @@
 "wallet_import_mnemonic_phrase_repeat_password_placeholder" = "지갑 비밀번호를 다시 입력해주세요";
 "wallet_import_mnemonic_phrase_comfirm"="import";
 
-//创建钱包
+// 创建钱包
 "wallet_name" = "지갑 명칭";
 "wallet_name_placeholder" = "지갑 명칭 설정";
 "wallet_password" = "지갑 비밀번호";
@@ -253,12 +259,12 @@
 "wallet_repeat_password" = "지갑 비밀번호를 다시 입력해주세요";
 "wallet_repeat_password_placeholder" = "지갑 비밀번호를 다시 입력해주세요";
 "conditions_prompt_normal" = "자세히 읽고 동의합니다";
-"conditions_prompt_active" = "《서비스 및 프라이버시 조항》";
-"terms_of_service" = "서비스 및 프라이버시 조항";
+"conditions_prompt_active" = "《서비스 및 개인정보 조항》";
+"terms_of_service" = "서비스 및 개인정보 조항";
 "password_strength_low" = "약";
 "password_strength_high" = "강";
 "password_save_warning_title" = "지갑 비밀번호 확인";
-"password_save_warning_message" = "지갑 비밀번호를 찾아 드릴 수 없으니 지갑 비밀번호를 반드시 확인하고 잘 보관해 주시기 바랍니다";
+"password_save_warning_message" = "지갑 비밀번호 분실 시 복원이 불가능하니 지갑 비밀번호를 반드시 확인하고 잘 보관해 주시기 바랍니다";
 
 "password_rule_6_count" = "최소 6자 이상이어야 합니다.";
 "password_rule_8_count" = "최소 8자 이상이어야 합니다.";
@@ -267,9 +273,9 @@
 "password_rule_numerical" = "최소 1자 이상의 숫자가 포함되어야 합니다.";
 
 "create_wallet_success_title" = "지갑 생성 완료";
-"create_wallet_success_backup_prompt" = "다음은 지갑의 Keystore 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
-"create_wallet_success_backup_prompt_wif" = "다음은 지갑의 WIF 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
-"create_wallet_success_backup_prompt_privatekey" = "다음은 지갑의 PrivateKey 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
+"create_wallet_success_backup_prompt" = "다음은 지갑의 Keystore 파일입니다. 복사 후 안전한 곳에 보관하십시오. 분실 시 지갑을 복구할 수 없습니다";
+"create_wallet_success_backup_prompt_wif" = "다음은 지갑의 WIF 파일입니다. 복사 후 안전한 곳에 보관하십시오. 분실 시 지갑을 복구할 수 없습니다";
+"create_wallet_success_backup_prompt_privatekey" = "다음은 지갑의 PrivateKey 파일입니다. 복사 후 안전한 곳에 보관하십시오. 분실 시 지갑을 복구할 수 없습니다";
 
 "create_wallet_success_copy_prompt" = "우선 Keystore 파일을 복사 및 백업하십시오";
 "create_wallet_success_copy_prompt_wif" = "우선 WIF 파일을 복사 및 백업하십시오";
@@ -279,7 +285,7 @@
 "create_wallet_success_backup_completed_wif" = "WIF 백업 완료";
 "create_wallet_success_backup_completed_privatekey" = "PrivateKey 백업 완료";
 
-"disclaimer_warning_title" = "면책 성명";
+"disclaimer_warning_title" = "면책조항 서명";
 "disclaimer_warning_message" = "저희는 Keystore 및 비밀번호 분실로 인한 자산 손실에 대해 책임을 지지 않습니다！";
 "disclaimer_warning_message_wif" = "저희는 WIF 및 비밀 번호 분실으로 인한 자산 손실에 대해 책임을 지지 않습니다！";
 "disclaimer_warning_message_mnemonic" = "저희는 Mnemonic 및 비밀 번호 분실으로 인한 자산 손실에 대해 책임을 지지 않습니다！";
@@ -291,8 +297,7 @@
 
 "eos_account_invite_code"="초대 코드";
 "eos_account_invite_code_placeholder"="EOS 계정의 초대 코드를 입력하십시오";
-"eos_account_invite_code_help"="어떻게 초대 코드를 얻을 수 있나요？";
-"eos_account_invite_code_warning"="\n• 저희는 기존의 실명 인증을 완료하신 회원님에게 초대 코드를 발송해드릴 것이며, Medishares 채팅방에 가입하여 문의 및 양도할 수 있습니다\n\n• 저희는 Medishares 채팅방의 매일 소식에서 비정기적으로 초대 코드를 드리고 있습니다. 저희 공식 계정을 팔로우하십시오\n\n• Math Wallet 실명인증을 완료하시면 초대 코드를 받을 수 있습니다";
+"eos_account_invite_code_help"="초대 코드는 어떻게 만들 수 있나요?";
 
 "eos_account"="EOS 계정";
 "eos_account_select"="EOS 계정 선택";
@@ -302,36 +307,35 @@
 "eos_account_node_select_placeholder"="노드 커뮤니티를 선택";
 
 "eos_account_password"="비밀번호";
-"eos_account_password_input_placeholder"="최소 8자 이상으로 설정해주세요（대,소문자 및 숫자 포함）";
+"eos_account_password_input_placeholder"="최소 8개자로 설정（대,소 문자 및 숫자 포함）";
 "eos_account_password_repeat"="비밀번호 다시 입력";
 "eos_account_password_repeat_input_placeholder"="비밀번호 다시 입력";
 
 "eos_account_create_warning_exist"="EOS 계정이 이미 존재합니다";
-"eos_account_create_warning_fail"="EOS 계정 만들기 실패";
+"eos_account_create_warning_fail"="EOS 계정 생성 실패";
 
-"eos_account_create_warning_success"="EOS 계정 만들기 성공";
+"eos_account_create_warning_success"="EOS 계정 생성 성공";
 "eos_account_privatekey_backup_warning"="다음은 계정의 Private Key파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
 "eos_account_privatekey_backup_complete"="Private Key 백업 완료";
 
 "eos_create_account_success_copy_prompt"= "우선 private key 파일을 복사 및 백업하십시오";
 
-"eos_account_privatekey_backup_disclaimer"= "저희는 Private Key 및 비밀 번호 분실으로 인한 자산 손실에 대해 책임을 지지 않습니다";
-"eos_account_create_success_pendding_propmt"="이미 계정이 생성되었고 메인넷에 제출되었습니다. 먼저 메인넷에서 계정을 확인한 후에(약 3분 소요), 거래를 시작하세요.";
+"eos_account_privatekey_backup_disclaimer"= "저희는 Private Key 및 비밀번호 분실으로 인한 자산 손실에 대해 책임을 지지 않습니다";
+"eos_account_create_success_pendding_propmt"="이미 계정이 생성되어 메인넷에 제출되었습니다. 먼저 메인넷에서 계정을 확인한 후에(약 3분 소요), 거래를 시작하세요.";
 
-"eos_account_select_create_way"="생성 방식을 선택하다";
+"eos_account_select_create_way"="계정 생성 방식 선택";
 "eos_account_create_way_buy"="초대 코드를 구매하기";
 "eos_account_create_way_exchange"="거래소 출금 혹은 지갑 이체";
-"eos_account_create_way_friends"="친구를 초대해 Math Wallet으로 QR코드를 스캔하여 지불하기";
+"eos_account_create_way_friends"="친구 도움으로 계정 만들기";
 "eos_account_create_way_buy_hint"="Alipay, Paypal로 초대코드 구매하기";
 "eos_account_create_way_exchange_hint"="거래소 출금 혹은 지갑 이체";
-"eos_account_create_way_friends_hint"="친구 도움으로 QR 코드를 스캔하기";
+"eos_account_create_way_friends_hint"="친구 도움으로 QR 코드 스캔하기";
 "eos_account_create_way_recommend"="추천";
 "eos_account_create_set_account"="EOS 계정명 설치";
-"eos_account_create_backup_prompt"="• 다음은 신 계정의 private key입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. \n• 이체 완료 후, 이 private key를 도입함으로써 계정 생성을 완성해야 합니다. ";
-"eos_account_create_backup_private_title"="계정 private key";
+"eos_account_create_backup_prompt"="• 다음은 계정의 private key입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. \n• 회원님 친구의 도움을 통해 계정을 생성한 후, 본인의 private key를 이용해 EOS계정을 불러올 수 있습니다";
 
-"eos_account_create_by_friend_prompt"="• 친구는 Math Wallet을 이용해 이 QR코드를 스캔해 약 % EOS를 지불하여 CPU와 넷을 저당잡히고 RAM을 구매하기.\n• 결제가 완료되면, 미리 백업된private key를 도입하여 계정을 생성하기.";
-"eos_account_create_by_friend_share_title"="QR코드를 공유하기";
+"eos_account_create_by_friend_prompt"="• 친구가 Math Wallet을 이용해 제공된 QR코드를 스캔하여 약 %@ EOS를 지불하면 CPU와 넷을 스테이킹하고 RAM을 구매할 수 있습니다..\n• 회원님 친구의 도움을 통해 계정을 생성한 후, 본인의 private key를 이용해 EOS계정을 불러올 수 있습니다.";
+"eos_account_create_by_friend_share_title"="QR코드 공유하기";
 "eos_account_create_by_friend_section_title"="계정 정보";
 "eos_account_create_by_friend_account_title"="계정";
 "eos_account_create_by_friend_owner_title"="Owner public key";
@@ -340,10 +344,10 @@
 "eos_account_create_by_friend_cpu_title"="CPU";
 "eos_account_create_by_friend_net_title"="Net";
 
-"eos_account_create_by_exchange_prompt"="• 거래소 출금 혹은 이체를 통해 계약 주소로 최소 1 EOS를 이체합니다. 0.2 EOS가 CPU와 넷을 저당되며, 나머지는 RAM을 구매하기\n• 현재 지원하는 거래소가 OTCBTC, Gate.io, Bitfinex 이며, 다른 거래소를 사용하지 말 것을 건의합니다. \n• 다음은 입금계정 및 이체 비고입니다. 복사하고 거래소나 지갑에 기입해 주십시오. \n• 인출이나 이체가 성공되면, 백업된 private key를 Math Wallet으로 도입하시면 바로 계정을 생성할 수 있습니다. ";
+"eos_account_create_by_exchange_prompt"="• 거래소 출금 혹은 이체를 통해 계약 주소로 최소 1 EOS를 이체합니다. 0.2 EOS가 CPU와 넷을 스테이크되며, 나머지는 RAM 구매에 사용됩니다. \n• 현재 지원하는 거래소는 OTCBTC, Gate.io, Bitfinex 이며, 다른 거래소는 지원되지 않습니다. \n• 다음은 입금계정 및 이체 내역입니다. 복사 후 거래소나 지갑에 기입해 주십시오. \n• 인출이나 이체 성공 후, 백업된 private key를 Math Wallet으로 도입하시면 바로 계정을 생성할 수 있습니다. ";
 "eos_account_create_by_exchange_account_title"="계정으로 이체";
 "eos_account_create_by_exchange_memo_title"="비고 추가";
-"eos_account_create_by_exchange_prompt2"="• 이 방식은 Dappub팀이 배치한 스마트 계약을 사용합니다. 사용자가 잘 못한 조작으로 인해 자산 손실에 대해 저희가 책임을 지지 않습니다.\n• 스마트 계약 주소：https://github.com/dappub/signupeoseos";
+"eos_account_create_by_exchange_prompt2"="• 이 방식은 Dappub팀이 배치한 스마트 컨트랙트를 사용합니다. 사용자의 조작 실수로 인한 자산 손실에 대한 책임은 사용자 본인에게 있습니다.\n• 스마트 컨트랙트 주소：https://github.com/dappub/signupeoseos";
 
 // 创建 EOS 原力账户
 "eosforce_account_create"=" EOS FORCE 계정 만들기";
@@ -351,22 +355,21 @@
 
 "eosforce_account_invite_code"="초대 코드";
 "eosforce_account_invite_code_placeholder"="EOS FORCE 계정의 초대 코드를 입력하십시오";
-"eosforce_account_invite_code_help"="어떻게 초대 코드를 얻을 수 있니요？";
-"eosforce_account_invite_code_warning"="• 저희는 기존의 실명 인증을 완료하신 회원님에게 초대 코드를 발송해드릴 것이며, Medishares 채팅방에 가입하여 문의 및 양도할 수 있습니다\n• 저희는 Medishares 채팅방의 매일 소식에서 비정기적으로 초대 코드를 드리고 있습니다. 저희 공식 계정을 팔로우하십시오\n• Math Wallet 실명인증을 완료하시면 초대 코드를 받을 수 있습니다";
+"eosforce_account_invite_code_help"="초대 코드는 어떻게 만들 수 있나요?";
 
 "eosforce_account"="EOS FORCE 계정";
 "eosforce_account_select"="EOS FORCE 계정 선택";
 "eosforce_account_input_placeholder"="1-12개 문자， 숫자'1~5'、 소문자'a~z'、 부호'.' 포함";
 
 "eosforce_account_password"="비밀번호";
-"eosforce_account_password_input_placeholder"="최소 8개 이상으로 설정해주세요（대,소문자 및 숫자 포함）";
+"eosforce_account_password_input_placeholder"="최소 8개자로 설정（대,소 문자 및 숫자 포함）";
 "eosforce_account_password_repeat"="비밀번호 다시 입력";
 "eosforce_account_password_repeat_input_placeholder"="비밀번호 다시 입력";
 
 "eosforce_account_create_warning_exist"="EOS FORCE 계정이 이미 존재합니다";
 "eosforce_account_create_warning_fail"="EOS FORCE 계정 생성 실패";
 
-"eosforce_account_create_warning_success"="EOS 계정 만들기 성공";
+"eosforce_account_create_warning_success"="EOS FORCE 계정 생성 성공";
 "eosforce_account_privatekey_backup_warning"="다음은 계정의 Private Key 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
 "eosforce_account_privatekey_backup_complete"="Private Key 백업 완료";
 
@@ -376,31 +379,31 @@
 
 "eosforce_account_create_by_friends_title"="친구 도움으로 EOS FORCE 계정 생성하기";
 "eosforce_account_create_by_friends_publickey_title"="Public Key";
-"eosforce_account_create_by_friends_publickey_prompt"="public key를 복제해 회원님의 친구에게 발송하여 EOS FORCE 계정을 만드세요";
+"eosforce_account_create_by_friends_publickey_prompt"="public key를 복사해 회원님의 친구에게 발송하여 EOS FORCE 계정을 만드세요";
 "eosforce_account_create_by_friends_privatekey_title"="Private Key";
-"eosforce_account_create_by_friends_privatekey_prompt"="private key를 잘 보관하시고, 누구에게도(친구를 포함) 알려주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 EOS FORCE 계정을 불러올 수 있습니다";
+"eosforce_account_create_by_friends_privatekey_prompt"="다음은 계정의 private key입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. 회원님 친구의 도움을 통해 계정을 생성한 후, 본인의 private key를 이용해EOS FORCE계정을 불러올 수 있습니다";
+
 // 创建 BOS 账户
 "bos_account_create"="BOS 계정 만들기";
 "bos_account_import"="기존의 BOS 계정 불러오기";
 
 "bos_account_invite_code"="초대 코드";
 "bos_account_invite_code_placeholder"="BOS 계정의 초대 코드를 입력하십시오";
-"bos_account_invite_code_help"="어떻게 초대 코드를 얻을 수 있니요？";
-"bos_account_invite_code_warning"="• 저희는 기존의 실명 인증을 완료하신 회원님에게 초대 코드를 발송해드릴 것이며, Medishares 채팅방에 가입하여 문의 및 양도할 수 있습니다\n• 저희는 Medishares 채팅방의 매일 소식에서 비정기적으로 초대 코드를 드리고 있습니다. 저희 공식 계정을 팔로우하십시오\n• Math Wallet 실명인증을 완료하시면 초대 코드를 받을 수 있습니다";
+"bos_account_invite_code_help"="초대 코드는 어떻게 만들 수 있나요?";
 
 "bos_account"="BOS 계정";
 "bos_account_select"="BOS 계정 선택";
 "bos_account_input_placeholder"="12개 문자， 숫자'1~5'、소문자'a~z'포함";
 
 "bos_account_password"="비밀번호";
-"bos_account_password_input_placeholder"="최소 8개 이상으로 설정해주세요（대,소문자 및 숫자 포함）";
+"bos_account_password_input_placeholder"="최소 8개자로 설정（대,소 문자 및 숫자 포함）";
 "bos_account_password_repeat"="비밀번호 다시 입력";
 "bos_account_password_repeat_input_placeholder"="비밀번호 다시 입력";
 
 "bos_account_create_warning_exist"="BOS 계정이 이미 존재합니다";
 "bos_account_create_warning_fail"="BOS 계정 생성 실패";
 
-"bos_account_create_warning_success"="BOS 계정 만들기 성공";
+"bos_account_create_warning_success"="BOS 계정 생성 성공";
 "bos_account_privatekey_backup_warning"="다음은 계정의 Private Key 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
 "bos_account_privatekey_backup_complete"="Private Key 백업 완료";
 
@@ -410,31 +413,31 @@
 
 "bos_account_create_by_friends_title"="친구 도움으로 BOS 계정 생성하기";
 "bos_account_create_by_friends_publickey_title"="Public Key";
-"bos_account_create_by_friends_publickey_prompt"="public key를 복제해 회원님의 친구에게 발송하여 BOS 계정을 만드세요";
+"bos_account_create_by_friends_publickey_prompt"="public key를 복사해 회원님의 친구에게 발송하여 BOS 계정을 만드세요";
 "bos_account_create_by_friends_privatekey_title"="Private Key";
-"bos_account_create_by_friends_privatekey_prompt"="private key를 잘 보관하시고, 누구에게도(친구를 포함) 알려주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 BOS 계정을 불러올 수 있습니다";
+"bos_account_create_by_friends_privatekey_prompt"="다음은 계정의 private key입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. 회원님 친구의 도움을 통해 계정을 생성한 후, 본인의 private key를 이용해 BOS 계정을 불러올 수 있습니다";
+
 // 创建 ENU 账户
 "enu_account_create"="ENU 계정 만들기";
 "enu_account_import"="기존의 ENU 계정 불러오기";
 
 "enu_account_invite_code"="초대 코드";
 "enu_account_invite_code_placeholder"="ENU 계정의 초대 코드를 입력하십시오";
-"enu_account_invite_code_help"="어떻게 초대 코드를 얻을 수 있니요？";
-"enu_account_invite_code_warning"="• 저희는 기존의 실명 인증을 완료하신 회원님에게 초대 코드를 발송해드릴 것이며, Medishares 채팅방에 가입하여 문의 및 양도할 수 있습니다\n• 저희는 Medishares 채팅방의 매일 소식에서 비정기적으로 초대 코드를 드리고 있습니다. 저희 공식 계정을 팔로우하십시오\n• Math Wallet 실명인증을 완료하시면 초대 코드를 받을 수 있습니다";
+"enu_account_invite_code_help"="초대 코드는 어떻게 만들 수 있나요?";
 
 "enu_account"="ENU 계정";
 "enu_account_select"="ENU 계정 선택";
 "enu_account_input_placeholder"="12개 문자， 숫자'1~5'、소문자'a~z'포함";
 
 "enu_account_password"="비밀번호";
-"enu_account_password_input_placeholder"="최소 8개 이상으로 설정해주세요（대,소문자 및 숫자 포함）";
+"enu_account_password_input_placeholder"="최소 8개자로 설정（대,소 문자 및 숫자 포함）";
 "enu_account_password_repeat"="비밀번호 다시 입력";
 "enu_account_password_repeat_input_placeholder"="비밀번호 다시 입력";
 
 "enu_account_create_warning_exist"="ENU 계정이 이미 존재합니다";
 "enu_account_create_warning_fail"="ENU 계정 생성 실패";
 
-"enu_account_create_warning_success"="ENU 계정 만들기 성공";
+"enu_account_create_warning_success"="ENU 계정 생성 성공";
 "enu_account_privatekey_backup_warning"="다음은 계정의 Private Key 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
 "enu_account_privatekey_backup_complete"="Private Key 백업 완료";
 
@@ -444,31 +447,31 @@
 
 "enu_account_create_by_friends_title"="친구 도움으로 ENU 계정 생성하기";
 "enu_account_create_by_friends_publickey_title"="Public Key";
-"enu_account_create_by_friends_publickey_prompt"="public key를 복제해 회원님의 친구에게 발송하여 ENU 계정을 만드세요";
+"enu_account_create_by_friends_publickey_prompt"="public key를 복사해 회원님의 친구에게 발송하여 ENU 계정을 만드세요";
 "enu_account_create_by_friends_privatekey_title"="Private Key";
-"enu_account_create_by_friends_privatekey_prompt"="private key를 잘 보관하시고, 누구에게도(친구를 포함) 알려주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 ENU 계정을 불러올 수 있습니다";
+"enu_account_create_by_friends_privatekey_prompt"="다음은 계정의 private key입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. 회원님 친구의 도움을 통해 계정을 생성한 후, 본인의 private key를 이용해ENU 계정을 불러올 수 있습니다";
+
 // 创建 Codex 账户
 "codex_account_create"="Codex 계정 만들기";
 "codex_account_import"="기존의 Codex 계정 불러오기";
 
 "codex_account_invite_code"="초대 코드";
 "codex_account_invite_code_placeholder"="Codex 계정의 초대 코드를 입력하십시오";
-"codex_account_invite_code_help"="어떻게 초대 코드를 얻을 수 있니요？";
-"codex_account_invite_code_warning"="• 저희는 기존의 실명 인증을 완료하신 회원님에게 초대 코드를 발송해드릴 것이며, Medishares 채팅방에 가입하여 문의 및 양도할 수 있습니다\n• 저희는 Medishares 채팅방의 매일 소식에서 비정기적으로 초대 코드를 드리고 있습니다. 저희 공식 계정을 팔로우하십시오\n• Math Wallet 실명인증을 완료하시면 초대 코드를 받을 수 있습니다";
+"codex_account_invite_code_help"="초대 코드는 어떻게 만들 수 있나요?";
 
 "codex_account"="Codex 계정";
 "codex_account_select"="Codex 계정 선택";
 "codex_account_input_placeholder"="1-12개 문자， 숫자'1~5'、소문자'a~z'포함";
 
 "codex_account_password"="비밀번호";
-"codex_account_password_input_placeholder"="최소 8개 이상으로 설정해주세요（대,소문자 및 숫자 포함）";
+"codex_account_password_input_placeholder"="최소 8개자로 설정（대,소 문자 및 숫자 포함）";
 "codex_account_password_repeat"="비밀번호 다시 입력";
 "codex_account_password_repeat_input_placeholder"="비밀번호 다시 입력";
 
 "codex_account_create_warning_exist"="Codex 계정이 이미 존재합니다";
 "codex_account_create_warning_fail"="Codex 계정 생성 실패";
 
-"codex_account_create_warning_success"="Codex 계정 만들기 성공";
+"codex_account_create_warning_success"="Codex 계정 생성 성공";
 "codex_account_privatekey_backup_warning"="다음은 계정의 Private Key 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
 "codex_account_privatekey_backup_complete"="Private Key 백업 완료";
 
@@ -478,31 +481,31 @@
 
 "codex_account_create_by_friends_title"="친구 도움으로 Codex 계정 생성하기";
 "codex_account_create_by_friends_publickey_title"="Public Key";
-"codex_account_create_by_friends_publickey_prompt"="public key를 복제해 회원님의 친구에게 발송하여 Codex 계정을 만드세요";
+"codex_account_create_by_friends_publickey_prompt"="public key를 복사해 회원님의 친구에게 발송하여 Codex 계정을 만드세요";
 "codex_account_create_by_friends_privatekey_title"="Private Key";
-"codex_account_create_by_friends_privatekey_prompt"="private key를 잘 보관하시고, 누구에게도(친구를 포함) 알려주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 Codex 계정을 불러올 수 있습니다";
+"codex_account_create_by_friends_privatekey_prompt"="다음은 계정의 private key입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. 회원님 친구의 도움을 통해 계정을 생성한 후, 본인의 private key를 이용해 Codex 계정을 불러올 수 있습니다";
+
 // 创建 Telos 账户
 "telos_account_create"="Telos 계정 만들기";
 "telos_account_import"="기존의 Telos 계정 불러오기";
 
 "telos_account_invite_code"="초대 코드";
 "telos_account_invite_code_placeholder"="Telos 계정의 초대 코드를 입력하십시오";
-"telos_account_invite_code_help"="어떻게 초대 코드를 얻을 수 있니요？";
-"telos_account_invite_code_warning"="• 저희는 기존의 실명 인증을 완료하신 회원님에게 초대 코드를 발송해드릴 것이며, Medishares 채팅방에 가입하여 문의 및 양도할 수 있습니다\n• 저희는 Medishares 채팅방의 매일 소식에서 비정기적으로 초대 코드를 드리고 있습니다. 저희 공식 계정을 팔로우하십시오\n• Math Wallet 실명인증을 완료하시면 초대 코드를 받을 수 있습니다";
+"telos_account_invite_code_help"="초대 코드는 어떻게 만들 수 있나요?";
 
 "telos_account"="Telos 계정";
 "telos_account_select"="Telos 계정 선택";
 "telos_account_input_placeholder"="12개 문자， 숫자'1~5'、소문자'a~z'포함";
 
 "telos_account_password"="비밀번호";
-"telos_account_password_input_placeholder"="최소 8개 이상으로 설정해주세요（대,소문자 및 숫자 포함）";
+"telos_account_password_input_placeholder"="최소 8개자로 설정（대,소 문자 및 숫자 포함）";
 "telos_account_password_repeat"="비밀번호 다시 입력";
 "telos_account_password_repeat_input_placeholder"="비밀번호 다시 입력";
 
 "telos_account_create_warning_exist"="Telos 계정이 이미 존재합니다";
 "telos_account_create_warning_fail"="Telos 계정 생성 실패";
 
-"telos_account_create_warning_success"="Telos 계정 만들기 성공";
+"telos_account_create_warning_success"="Telos 계정 생성 성공";
 "telos_account_privatekey_backup_warning"="다음은 계정의 Private Key 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
 "telos_account_privatekey_backup_complete"="Private Key 백업 완료";
 
@@ -512,9 +515,44 @@
 
 "telos_account_create_by_friends_title"="친구 도움으로 Telos 계정 생성하기";
 "telos_account_create_by_friends_publickey_title"="Public Key";
-"telos_account_create_by_friends_publickey_prompt"="public key를 복제해 회원님의 친구에게 발송하여 Telos 계정을 만드세요";
+"telos_account_create_by_friends_publickey_prompt"="public key를 복사해 회원님의 친구에게 발송하여 Telos 계정을 만드세요";
 "telos_account_create_by_friends_privatekey_title"="Private Key";
-"telos_account_create_by_friends_privatekey_prompt"="private key를 잘 보관하시고, 누구에게도(친구를 포함) 알려주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 Telos 계정을 불러올 수 있습니다";
+"telos_account_create_by_friends_privatekey_prompt"="다음은 계정의 private key입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. 회원님 친구의 도움을 통해 계정을 생성한 후, 본인의 private key를 이용해 Telos 계정을 불러올 수 있습니다";
+
+// 创建 YAS 账户
+"yas_account_create"="YAS 계정 만들기";
+"yas_account_import"="기존의 YAS 계정 불러오기";
+
+"yas_account_invite_code"="초대 코드";
+"yas_account_invite_code_placeholder"="YAS 계정의 초대 코드를 입력하십시오";
+"yas_account_invite_code_help"="초대 코드는 어떻게 만들 수 있나요?";
+
+"yas_account"="YAS 계정";
+"yas_account_select"="YAS 계정 선택";
+"yas_account_input_placeholder"="12개 문자， 숫자'1~5'、소문자'a~z'포함";
+
+"yas_account_password"="비밀번호";
+"yas_account_password_input_placeholder"="최소 8개자로 설정（대,소 문자 및 숫자 포함）";
+"yas_account_password_repeat"="비밀번호 다시 입력";
+"yas_account_password_repeat_input_placeholder"="비밀번호 다시 입력";
+
+"yas_account_create_warning_exist"="YAS 계정이 이미 존재합니다";
+"yas_account_create_warning_fail"="YAS 계정 생성 실패";
+
+"yas_account_create_warning_success"="YAS 계정 생성 성공";
+"yas_account_privatekey_backup_warning"="다음은 계정의 Private Key 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
+"yas_account_privatekey_backup_complete"="Private Key 백업 완료";
+
+"yas_create_account_success_copy_prompt"= "우선 private key 파일을 복사 및 백업하십시오";
+
+"yas_account_privatekey_backup_disclaimer"= "저희는 Private Key 및 비밀번호 분실로 인한 자산 손실에 대해 책임을 지지 않습니다";
+
+"yas_account_create_by_friends_title"="친구 도움으로 YAS 계정 생성하기";
+"yas_account_create_by_friends_publickey_title"="Public Key";
+"yas_account_create_by_friends_publickey_prompt"="public key를 복사해 회원님의 친구에게 발송하여 YAS 계정을 만드세요";
+"yas_account_create_by_friends_privatekey_title"="Private Key";
+"yas_account_create_by_friends_privatekey_prompt"="다음은 계정의 private key입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. 회원님 친구의 도움을 통해 계정을 생성한 후, 본인의 private key를 이용해 YAS 계정을 불러올 수 있습니다";
+
 // FT 钱包创建
 "ft_account_create"="FT 계정 만들기";
 
@@ -528,7 +566,8 @@
 // 创建企业钱包
 "company_wallet_tips" = "기업 지갑 만들기";
 "company_wallet_create_inviteCode_placeholder" = "초대 코드를 입력";
-//管理钱包
+
+// 管理钱包
 "manage_wallet" = "지갑 관리";
 "manage_wallet_address" = "지갑 주소";
 "manage_wallet_name" = "지갑 명칭";
@@ -539,7 +578,7 @@
 "manage_wallet_backup_wif" = "WIF 백업";
 "manage_wallet_backup_mnemonic_phrase" = "mnemonic 백업";
 "remove_wallet" = "지갑 삭제";
-"account_remove_warning_message" = "이 조작은 철회할 수 없으니 신중하게 결정해주세요";
+"account_remove_warning_message" = "삭제 후 취소할 수 없으니 신중하게 결정하시기 바랇니다.";
 
 // 管理账户-EOS
 "eos_account_manage"="계정 관리";
@@ -581,7 +620,7 @@
 "eos_account_permission_update"="권한 변경";
 "eos_account_permission_delete"="권한 삭제";
 "eos_account_permission_update_confirm"="변경 요청 제출";
-"eos_account_permission_tips"="Tips: \n• 권한 변경으로 인해 계정이 사용 불가능할 수 있으니 신중하세요\n• Owner permission: Owner owns the account, manages account permissions, manages Active and other roles; \n• Active permissions: Active has other permissions such as transfer, voting, etc. \n• Weight threshold: The weight threshold is the minimum weight requirement for using permission; \n• Weight: The weight standard of public key. The higher the number, the higher the weight; \n• Permission change should starts from small to large, such as Active first and then Owner; \n• When changing permissions, please ensure that the new public key or account name is accurate; \n• Before changing permissions, please make sure the assets has been properly managed.";
+"eos_account_permission_tips"="Tips: \n• 권한 변경으로 인해 계정을 사용하지 못할 수도 있습니다. 신중하게 변경하십시오.\n• Owner 권한(소유권한): 소유권한은 가장 높은 수준의 권한이며, 이 권한을 통해 계정과 연결된 public key와 private key를 변경할 수 있습니다; \n• Active 권한(활동권한): 활동권한은 소유권한보다 한 단계 낮은 수준의 권한이며, 토큰 이체 및 투표 등 기본적인 활동을 승인하는 권한입니다; \n• Threshold(임계값): Threshold는 해당 권한을 집행하기 위한 최소weight 요구 값입니다; \n• Weight(가중치): 가중등급, 숫자가 클수록 가중치가 높습니다; \n• 권한 변경은 작은 권한부터 변경해야 하며 예를 들어 Active부터 변경하고 Owner권한를 변경해야 합니다; \n• 권한 변경의 경우, 새 public key 또는 계정 명칭를 정확하게 확인해야 합니다; \n• 권한을 변경하기 전에 자산을 따로 빼두시기를 권장드립니다.";
 
 "eos_account_permission_keys_invalid"="무효 Public Key";
 "eos_account_permission_accounts_invalid"="무효 계정";
@@ -614,7 +653,7 @@
 "wallet_password_update" = "지갑 비밀번호 변경";
 "wallet_password_update_completed" = "비밀번호 변경 완료";
 
-"wallet_password_forget" = "지갑 비밀번호를 잊었습니까?";
+"wallet_password_forget" = "지갑 비밀번호를 분실하셨나요?";
 
 "wallet_password_old_password_title" = "현재 비밀번호";
 "wallet_password_new_password_title" = "새 비밀번호";
@@ -627,39 +666,42 @@
 
 // 备份私钥
 "wallet_backup_privatekey_completed" = "백업 완료";
-"wallet_backup_privatekey_prompt" = "다음은 지갑의 private key 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
+"wallet_backup_privatekey_prompt" = "다음은 지갑의 private key 파일입니다. 복사 후 안전한 곳에 보관하십시오. 분실 시 지갑을 복구할 수 없습니다";
 
 // 备份 WIF
-"wallet_backup_wif_prompt" = "다음은 지갑의 WIF 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
+"wallet_backup_wif_prompt" = "다음은 지갑의 WIF 파일입니다. 복사 후 안전한 곳에 보관하십시오. 분실 시 지갑을 복구할 수 없습니다";
 "wallet_backup_wif_completed" = "백업 완료";
 
-"wallet_backup_privatekey_prompt" = "다음은 지갑의 private key 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
+"wallet_backup_privatekey_prompt" = "다음은 지갑의 private key 파일입니다. 복사 후 안전한 곳에 보관하십시오. 분실 시 지갑을 복구할 수 없습니다";
 
 // 备份助记词
 "wallet_backup_mnemonic_phrase_chinese"="Chinese";
 "wallet_backup_mnemonic_phrase_english"="English";
 "wallet_backup_mnemonic_phrase_write_down" = "mnemonic write down";
-"wallet_backup_mnemonic_phrase_write_down_prompt" = "다음은 지갑의 mnemonic 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다";
+"wallet_backup_mnemonic_phrase_write_down_prompt" = "다음은 지갑의 mnemonic 파일입니다. 복사 후 안전한 곳에 보관하십시오. 분실 시 지갑을 복구할 수 없습니다";
 "wallet_backup_mnemonic_phrase_completed" = "mnemonic 백업 완료";
-"wallet_backup_mnemonic_phrase_prompt" = "Mnemonic가 정확한지 여부를 확인하기 위해 순서대로 클릭해주세요. 잃어버리시면 지갑이 회복할 수 없습니다";
+"wallet_backup_mnemonic_phrase_prompt" = "Mnemonic가 정확한지 여부를 확인하기 위해 순서대로 클릭해주세요. 분실 시 지갑을 복구할 수 없습니다";
 "wallet_backup_mnemonic_phrase_remove_prompt" = "Mnemonic 순서가 정확합니다. Math에서 mnemonic를 제거하시겠습니까?";
 
 // 钱包密码
 "input_trans_password_title" = "지갑 비밀번호 입력";
+
 // 转账菜单
-"transaction_menu_contacts" = "연락처로 이체";
+"transaction_menu_contacts" = "저장된 연락처로 이체";
 "transaction_menu_account_address" = "지갑 주소로 이체";
 "transaction_menu_eos_account"="EOS 계정";
 "transaction_menu_eosforce_account"="EOSForce 계정";
 "transaction_menu_bos_account"="BOS 계정";
 "transaction_menu_enu_account"="ENU 계정";
 "transaction_menu_telos_account"="Telos 계정";
+"transaction_menu_yas_account"="YAS 계정";
 "transaction_menu_codex_account"="Codex 계정";
 "transaction_menu_ft_account"="Codex 계정";
 "transaction_menu_scan_qrcode" = "QR코드 스캔";
 
 "recently_transfer" = "최근 이체 기록";
-//交易
+
+// 交易
 "transaction_title" = "%@ 이체";
 "super_slow" = "매우 느림";
 "slow" = "느림";
@@ -668,17 +710,17 @@
 "super_fast" = "매우 빠름";
 "transaction_to_account_invalid" = "유효하지 않은 거래 계정";
 "transaction_to_address_invalid" = "Invalid transaction address";
-"transaction_nonce_invalid" = "유효하지 않은 거래 nonce";
+"transaction_nonce_invalid" = "유효하지 않은 거래 nonce";
 "transaction_tx_fee" = "Mining Fee %@ ETH";
 "transaction_tx_fee_custom" = "Mining Fee %@ %@";
 "transaction_tx_fee_market_custom" = "Mining Fee %@ %@ ≈ %@ %@";
 "transaction_tx_fee_with_price" = "Mining Fee %@ ETH ≈ %@ %@";
 "transaction_tx_fee_ong" = "Mining Fee %@ ONG";
 "transaction_tx_fee_ong_with_price" = "Mining Fee %@ ONG ≈ %@ %@";
-"transaction_account_balance" = "현재 자산 %@ %@";
+"transaction_account_balance" = "현재 자산 %@ %@";
 "transaction_tx_fee_esn" = "Mining Fee %@ ESN";
 "transaction_to_address_placeholder" = "지갑 주소 입력";
-"transaction_to_account_placeholder" = "Receiver's account";
+"transaction_to_account_placeholder" = "수취인 계정";
 "transaction_to_address_checking_security" = "계정 안전 검사 중";
 "transaction_tx_fee_with_price_esn" = "Mining Fee %@ ESN ≈ %@%@";
 "transaction_tx_fee_nas" = "Mining Fee %@ NAS";
@@ -691,6 +733,7 @@
 
 "transaction_to_value_placeholder" = "이체 금액을 기입하세요";
 "transaction_to_balance_low" = "잔액이 부족합니다";
+"transaction_to_eth_gas_not_enough" = "GAS 수수료를 지불하기 위해 더 많은 ETH가 필요합니다";
 "transaction_to_eth_balance_low" = "ETH 잔액이 부족합니다";
 "transaction_to_ong_balance_low" = "ONG 잔액이 부족합니다";
 "transaction_to_zil_balance_low" = "ZIL 잔액이 부족합니다";
@@ -698,8 +741,8 @@
 "transaction_to_amount_higher" = "충전 금액이 최고%@";
 "transaction_to_advance_setting" = "고급 설정";
 "transaction_to_simple_setting" = "기분 설치";
-"transaction_to_advance_setting_gas_limit" = "자체 정의한 Gas Limit";
-"transaction_to_advance_setting_gas_price" = "자체 정의한 Gas Price";
+"transaction_to_advance_setting_gas_limit" = "자체 설정한 Gas Limit";
+"transaction_to_advance_setting_gas_price" = "자체 설정한 Gas Price";
 "transaction_to_advance_setting_hex_data" = "16비트 데이터";
 
 "transaction_to_gas_limit_invalid" = "Gas Limit 최소 %@";
@@ -725,13 +768,13 @@
 
 "transaction_timeout_free" = "무료";
 "transaction_timeout_guarantee_contract" = "이체 시간 초과 보장 계약";
-"transaction_timeout_compensation" = "패킹 시간이 1시간 초과될 경우 5개 MDS를 배상해드립니다";
+"transaction_timeout_compensation" = "패킹 시간이 1시간 초과될 경우 5 MDS를 보상해드립니다";
 
-"transaction_double_pay" = "동일한 거래가 패킹 중이오니 이중 결제 위험에 주의하시기 바랍니다";
+"transaction_double_pay" = "동일한 거래가 패킹 중이오니 이중 결제에 주의하시기 바랍니다";
 "transaction_gas_fee_notice" = "Gas 비를 기준치 혹은 기준치 이상으로 올려주십시오";
 
-"transaction_to_memo_placeholder" = "비고 추가";
-"transaction_to_memo_exchange_recharge_warning" = "거래소 지갑으로 이체시 반드시 memo를 입력하십시오";
+"transaction_to_memo_placeholder" = "메모 추가";
+"transaction_to_memo_exchange_recharge_warning" = "거래소 지갑으로 이체시 반드시 메모를 입력하십시오";
 
 // 代币不支持交易
 "transaction_token_not_support" = "해당 토큰은 아직 거래할 수 없습니다";
@@ -748,6 +791,7 @@
 
 // 手续费
 "transaction_fee" = "Fee %@ %@";
+
 // 交易 - BNB
 "bnb_transaction_to_memo_length_warning" = "최대한 30개자, 필수 아님";
 
@@ -757,6 +801,7 @@
 // 确认转账信息
 "transaction_confirm_title" = "이체 내역 확인";
 "transaction_confirm_send" = "이체 확인";
+
 // 交易完成
 "transaction_complete_status_title" = "거래 상태";
 "transaction_complete_to_address_title" = "수납 주소";
@@ -764,7 +809,7 @@
 "transaction_complete_remark_title" = "비고";
 "transaction_complete_remark_add" = "비고 추가";
 
-//交易记录
+// 交易记录
 "recently_transaction_records" = "최근 거래 기록";
 "transfer" = "출금";
 "claim_gas" = "GAS 추출";
@@ -785,35 +830,35 @@
 "transfer_esn_amount"="%@%@ ESN";
 "transfer_fee_trx_amount"="%@ TRX";
 "transfer_NAS_amount"="%@%@ NAS";
-
 "refund"="refund";
 
 // 云端钱包
 "cloud_wallet" = "Cloud";
 "cloud_set_pin_code" = "우선 지불 비밀번호를 설치하세요";
+"cloud_vpos" = "Mining";
 "cloud_record" = "오더";
 "cloud_record_details" = "내역";
 "cloud_record_details_type" ="종목";
 "cloud_record_details_from" ="전출";
 "cloud_record_details_to" ="전입";
 "cloud_search_token" = "토큰 검색";
-"cloud_hide_zero_token" = "미소지 토큰종류를 숨기기";
+"cloud_hide_zero_token" = "미보유 토큰 숨기기";
 "cloud_show_all_token" = "전체 토큰 표시";
 "cloud_select_token" = "토큰을 선택";
 "cloud_transfer_title" = "%@ 이체";
-"cloud_transfer_notice" = "️⚠️ 이체 전에 입금 주소를 확인하시고, 자산이 전출될 경우 철회할 수 없습니다.";
+"cloud_transfer_notice" = "️⚠️ 이체 전에 입금 주소를 확인하시기 바랍니다. 자산이 송금된 이후에는 취소할 수 없습니다.";
 "cloud_transfer_to_address_title" = "입금 주소";
 "cloud_transfer_input_or_paste_address_placeholder" = "입금 주소 입력 혹은 붙여넣기";
 "cloud_transfer_select_wallet" = "지갑 선택";
 "cloud_transfer_amount_title" = "이체 금액";
-"cloud_transfer_amount_input_placeholder" = "이체 금액을 입력";
+"cloud_transfer_amount_input_placeholder" = "이체 금액 입력";
 "cloud_transfer_balance_available" = "사용 가능한 잔액 %@ %@";
 "cloud_transfer_all" = "전체 이체";
 "cloud_transfer_memo_title" = "Memo";
 "cloud_transfer_memo_placeholder" = "Enter Memo";
 "cloud_transfer" = "이체";
 "cloud_receive_title" = "%@ 입금";
-"cloud_receive_notice" = "️⚠️ 이 주소는 %@ 자산만 수취할 수 있습니다. 다른 토큰을 이체하지 마십시오";
+"cloud_receive_notice" = "️⚠️ 이 주소는 %@ 자산만 입금할 수 있습니다. 다른 토큰을 이체하지 마십시오";
 "cloud_receive_address_title" = "입금 주소";
 "cloud_receive_memo_title" = "이 메모를 기입해 주세요, 메모가 누락될 경우 자금이 분실될 수 있습니다!";
 "cloud_receive_address_qrcode_title" = "입금 주소 QR 코드";
@@ -829,7 +874,7 @@
 
 "cloud_record_state_pending"="심사 대기";
 "cloud_record_state_approved"="심사 통과";
-"cloud_record_state_rejected"="심사 미 통과";
+"cloud_record_state_rejected"="심사 미통과";
 "cloud_record_state_completed"="완료";
 "cloud_record_state_refund"="환급 완료";
 "cloud_record_state_airdrop"="에어드랍";
@@ -847,12 +892,13 @@
 "cloud_security_verification_title" = "안전인증";
 "cloud_security_verification_mobile_code" = "문자 혹은 메일 인증코드";
 "cloud_security_verification_mobile_code_placeholder" = "인증코드를 입력";
-"cloud_security_google_auth_prompt" = "Google 2차 인증 설치를 완료되면 현금 인출 수량 제한을 해제할 수 있습니다.";
+"cloud_security_google_auth_prompt" = "Google 2차 인증 설치가 완료되면 현금 인출 수량 제한을 해제할 수 있습니다.";
 "cloud_security_google_auth_skip" = "스킵";
 "cloud_security_google_auth_set" = "설치하기";
 "cloud_withdraw_input_pin_code" ="클라우드 월렛 비밀번호 입력";
 "cloud_switch_coin_support" ="상호 거래가 지원되지 않습니다";
-//order
+
+// order
 "cloud_swap_exchange_order_state_pending_new" = "처리 중";
 "cloud_swap_exchange_order_state_new" = "처리 중";
 "cloud_swap_exchange_order_state_partially_filled" = "일부 거래 완료";
@@ -864,13 +910,25 @@
 "cloud_swap_exchange_kline_min" ="%@ mins";
 "cloud_swap_exchange_rate_return" ="반려";
 "cloud_swap_exchange_transfer_success"="오더 확인 대기";
-"cloud_swap_exchange_math_comment"="MATH 잔액 부족으로 기준 토큰으로 지불되겠습니다";
+"cloud_swap_exchange_math_comment"="MATH 잔액 부족으로 인하여 기존 토큰으로 지불이 됩니다";
+"cloud_swap_exchange_unavailable_comment" = "해당 거래페어가 없습니다";
+"cloud_swap_exchange_invite" = " 친구 초대 시 USDT 지급";
+"cloud_swap_exchange_invite_more" = "";
+
+"cloud_swap_exchange_recommend_title" = "swap의 장점";
+"cloud_swap_exchange_recommend_content" = "•    더 빠르게, 5초 만에 거래 완료\n•    더 낮은 수수료, 코스트 절감\n•    더 나은 거래전략, 합리적 거래 가격";
+"cloud_swap_exchange_recommend_step1_title" = "스텝 1";
+"cloud_swap_exchange_recommend_step1_content" = "클라우드 월렛 로그인";
+"cloud_swap_exchange_recommend_step2_title" = "스텝 2";
+"cloud_swap_exchange_recommend_step2_content" = "클라우드 월렛 거래에 접속";
+"cloud_swap_exchange_recommend_empty" = "클라우드 월렛으로 전화⚡️클라우드 월렛 swap";
+
 // PIN 码（文案统一改成 "支付密码"）
 "pin_code" = "지불 비밀번호";
 "pin_code_set" = "지불 비밀번호 설치";
-"pin_code_set_update" = " 지불 비밀번호 변경";
-"pin_code_set_update_old" = "기준 지불 비밀번호를 입력";
-"pin_code_set_repeat" = "지불 비밀번호를 다시 입력";
+"pin_code_set_update" = "지불 비밀번호 변경";
+"pin_code_set_update_old" = "기준 지불 비밀번호 입력";
+"pin_code_set_repeat" = "지불 비밀번호 다시 입력";
 "pin_code_set_six_number" = "6 개자 숫자";
 "pin_code_set_success" = "지불 비밀번호 설치 완료";
 "pin_code_update_success" = "지불 비밀번호 재설치 완료";
@@ -879,11 +937,10 @@
 "withdraw_input_pin_code" = "지불 비밀번호를 입력";
 "error_pin_code_not_same" = "지불 비밀번호 불일치";
 
-
 // EOS 交易记录
 "eos_balance_liquid_title"="liquid";
-"eos_balance_staked_title"="저당";
-"eos_balance_refunding_title"="되찾기";
+"eos_balance_staked_title"="스테이크";
+"eos_balance_refunding_title"="리펀드";
 
 "eos_transfer_delay_set_placeholder"="거래 시간 설정";
 "eos_transfer_delay_time_title"="연기";
@@ -892,7 +949,7 @@
 // EOS 原力交易记录
 "eosforce_balance_liquid_title"="liquid";
 "eosforce_balance_frozen_title"="동결";
-"eosforce_balance_refunding_title"="되찾기";
+"eosforce_balance_refunding_title"="리펀드";
 
 // other 交易记录
 "balance_free_title"="Balance";
@@ -904,6 +961,7 @@
 // TRX 交易记录
 "trx_balance_available_title"="Available";
 "trx_balance_frozen_title"="동결";
+
 // 合约类型
 "trx_transaction_contract_type_Unknown" = "Unknown";
 "trx_transaction_contract_type_AccountCreateContract" = "AccountCreate";
@@ -945,6 +1003,7 @@
 "transaction_detail_to_address_title" = "수납 주소";
 "transaction_detail_to_account_title" = "수납";
 "transaction_detail_tx_fee_title" = "Gas fee";
+"transaction_detail_tx_data_title"="Data";
 "transaction_detail_tx_time_title" = "거래 시간";
 "transaction_detail_remark_title" = "비고";
 "transaction_detail_tx_hash_title" = "거래 번호";
@@ -958,10 +1017,10 @@
 "transaction_detail_query_title_trx"="TRONSCAN 거래 내역 조회";
 
 "transaction_resend" = "다시 이체";
-"transaction_deay_payout" = "시간 초과 배상";
-"transaction_deay_payout_claim_approved" = "배상 신청 완료";
+"transaction_deay_payout" = "시간 초과 보상";
+"transaction_deay_payout_claim_approved" = "보상 신청 완료";
 
-//二维码 & 扫描二维码
+// 二维码 & 扫描二维码
 "account_address" = "지갑 주소";
 "account_address_qr_title" = "지갑 주소 QR코드";
 "copy_account_address" = "주소 복사";
@@ -971,7 +1030,6 @@
 "scan_failed" = "QR코드 스캔 실패";
 "scan_failed_TokenInexistence" = "먼저 토큰을 추가하세요 %@";
 "scan_failed_TokenUnFit" = "토큰이 일치하는지 확인해 주세요";
-
 
 "eos_account_copy"="계정 복사";
 "eos_account_qrcode"="EOS 계정 코드";
@@ -992,13 +1050,18 @@
 "telos_account_qrcode"="Telos 계정 코드";
 "telos_qr_transfer_warining"="주의：Telos 와 EOS는 같은 메인체인이 아니라 서로 이체할 수 없습니다";
 
+"yas_account_copy"="계정 복사";
+"yas_account_qrcode"="YAS 계정 코드";
+"yas_qr_transfer_warining"="주의：YAS 와 EOS는 같은 메인체인이 아니라 서로 이체할 수 없습니다";
+
 "codex_account_copy"="계정 복사";
 "codex_account_qrcode"="Codex 계정 코드";
 "codex_qr_transfer_warining"="주의：Codex 와 EOS는 같은 메인체인이 아니라 서로 이체할 수 없습니다";
 
 "ft_account_copy"="계정 복사";
 "ft_account_qrcode"="FT 계정 코드";
-//资产
+
+// 资产
 "home_active_account_address" = "주소:";
 "home_scan_qrcode" = "Scan";
 "home_account_qrcode" = "계정";
@@ -1025,6 +1088,7 @@
 // EOS Resource
 "eos_resource_eos_balance_low" = "%@ 잔액 부족";
 "eos_resource_eos_balance"="%@ %@ 사용 가능";
+
 // EOS RAM
 "eos_resource_ram"=" RAM ";
 "eos_resource_ram_used_title"="이미 사용됨";
@@ -1048,30 +1112,29 @@
 
 // EOS NET & CPU
 "eos_resource_net"="넷";
-"eos_resource_net_stake"="넷을 저당";
-"eos_resource_net_refund"="넷을 되찾기";
+"eos_resource_net_stake"="넷을 스테이크";
+"eos_resource_net_refund"="넷을 리펀드";
 "eos_resource_net_used_title"="이미 사용됨";
 "eos_resource_net_limit_title"="상한";
-"eos_resource_net_staked_total"="%@저당 중";
+"eos_resource_net_staked_total"="%@스테이크 중";
 "eos_resource_net_self_staked"="%@ 사용 가능";
-"eos_resource_net_stake_placeholder"="저당 수량을 입력";
-"eos_resource_net_refund_placeholder"="되찾을 수량을 입력";
-"eos_resource_net_refund_balance_low" = "저당된 넷 수량을 초과하면 안됩니다";
+"eos_resource_net_stake_placeholder"="스테이크 수량을 입력";
+"eos_resource_net_refund_placeholder"="리펀드 수량을 입력";
+"eos_resource_net_refund_balance_low" = "스테이크된 넷 수량을 초과하면 안됩니다";
 
 "eos_resource_cpu"="CPU";
-"eos_resource_cpu_stake"="CPU저당";
-"eos_resource_cpu_refund"="CPU 되찾기";
+"eos_resource_cpu_stake"="CPU스테이크";
+"eos_resource_cpu_refund"="CPU 리펀드";
 "eos_resource_cpu_used_title"="이미 사용됨";
 "eos_resource_cpu_limit_title"="상한";
-"eos_resource_cpu_staked_total"="저당중 %@";
+"eos_resource_cpu_staked_total"="스테이크중 %@";
 "eos_resource_cpu_self_staked"="%@ 사용 가능";
-"eos_resource_cpu_stake_placeholder"="저당 수량을 입력";
+"eos_resource_cpu_stake_placeholder"="스테이크 수량을 입력";
 "eos_resource_cpu_refund_placeholder"="되찾을 수량을 입력";
-"eos_resource_cpu_refund_balance_low" = "저당된 cpu 수량을 초과하면 안됩니다";
+"eos_resource_cpu_refund_balance_low" = "스테이크된 cpu 수량을 초과하면 안됩니다";
 
-"eos_resource_stake_tab"="저당";
-"eos_resource_refund_tab"="되찾기";
-
+"eos_resource_stake_tab"="스테이크";
+"eos_resource_refund_tab"="리펀드";
 
 // TRX BP & CPU
 "trx_resource" = "Resource";
@@ -1079,8 +1142,8 @@
 "trx_resource_tab_unfreeze" = "동결 해제";
 "trx_resource_freeze_placeholder" = "동결 수량 입력";
 "trx_resource_available_balance" = "Available %@ TRX";
-"trx_resource_freeze_notice" = "동결 시간은 최소 3일";
-"trx_resource_unfreeze_net_notice" = "Bandwith 동결 시간이 3일보다 적으니 해동할 수 없습니다";
+"trx_resource_freeze_notice" = "동결 시간은 최소 3일입니다";
+"trx_resource_unfreeze_net_notice" = "Bandwith 동결 시간이 3일보다 적어 해제할 수 없습니다";
 "trx_resource_unfreeze_cpu_notice" = "Energy 동결 시간이 3일보다 적으니 해동할 수 없습니다";
 
 "trx_resource_bp" = "BP";
@@ -1113,13 +1176,12 @@
 "trx_api_response_code_ServerBusy" = "ServerBusy";
 "trx_api_response_code_OtherError" = "OtherError";
 
-
 // TabBar
 "wallet" = "지갑";
 "exchange" = "거래";
-"dapps" = " DApps ";
+"dapps" = " DApp ";
 "browser"="브라우저";
-"news" = "속보";
+"news" = "뉴스";
 "mine" = "나";
 
 // 保障详情
@@ -1137,9 +1199,8 @@
 "mine_medishares_cloud" = "클라우드 월렛";
 "mine_medishares_wechat_group" = "공식 wechat 채팅방에 가입";
 "mine_medishares_recommend" = "초대";
-"mine_medishares_recommend_subtitle" = "초대 장려 조회";
+"mine_medishares_recommend_subtitle" = "초대 보상 조회";
 "mine_medishares_suggestion" = "피드백";
-"mine_medishares_guild"="공회";
 "mine_medishares_about" = "관련";
 "mine_medishares_setting" = "설정";
 
@@ -1150,12 +1211,12 @@
 
 "verify_code_unreceived_email" = "이메일을 받지 못했습니까? 스팸 메일함을 확인해주세요\n";
 "verify_code_unreceived" = "못받았습니까？";
-"verify_code_send_again" = "인증 번호를 다시 발송";
+"verify_code_send_again" = "인증 번호 재발송";
 "verify_code_send_or"=" 혹은 ";
 "verify_code_send_voice_code"="음성 인증 번호";
 "verify_code_send_again_timeout" = "%ds 후 다시 발송";
 
-"mobile_format_error" = "전화번호 격식 오류";
+"mobile_format_error" = "전화번호 형식 오류";
 
 "register_acccount_title" = "Math 계정 만들기";
 "register_acccount_with_email" = "이메일 주소로 계정 만들기";
@@ -1177,12 +1238,11 @@
 "country_code_title" = "국가 및 지역을 선택하세요";
 
 // MediShares账户-实名
-
 "bind_kyc_status_default" = "실명 인증";
-"bind_kyc_status_process" = "회원님의 실명 인증 정보가 제출되었습니다. 최대한 빠르게 심사하여 피드백드리겠습니다";
+"bind_kyc_status_process" = "회원님의 실명 인증 정보가 제출되었습니다. 빠른 심사 후 결과를 알려드리겠습니다";
 "bind_kyc_status_success" = "실명 인증 완료(%@)";
-"bind_kyc_status_fail" = "검증 실패, 실명 인증을 다시 제출하세요";
-"bind_kyc_need_tips"="먼저 실명인증을 진행해주시고, 그다음에 진행해주세요.";
+"bind_kyc_status_fail" = "실명인증 실패, 실명 인증을 다시 진행하세요";
+"bind_kyc_need_tips"="먼저 실명인증을 진행하세요.";
 
 // MediShares账户-信息
 "user_detail_title" = "계정 정보";
@@ -1231,6 +1291,7 @@
 
 "user_update_email_placeholder" = "이메일 주소 입력";
 "user_update_email_code_placeholder" = "6자리 인증번호를 입력하세요";
+
 // MediShares账户-添加手机号或更改手机号
 "user_update_mobile_number" = "전화번호 변경";
 "user_update_mobile_checked" = "인증되었습니다";
@@ -1243,6 +1304,7 @@
 
 "user_update_mobile_placeholder" = "전화번호를 입력";
 "user_update_mobile_code_placeholder" = "6자리 인증번호를 입력하세요";
+
 // MediShares账户-绑定钱包地址
 "user_update_wallet_address" = "지갑 변경";
 "user_bind_wallet_address" = "지금 연동합니다";
@@ -1254,6 +1316,7 @@
 "bind_account_confirm" = "연동 확인";
 "bind_account_complete_title" = "연동 완료";
 "bind_account_complete_message" = "회원님의 Medishares 계정이 지갑 주소와 연동되었습니다.";
+
 // MediShares账户-实名认证
 "bind_kyc_page_title" = "실명 인증";
 "bind_kyc_page_subtitle" = "아래 내용을 입력하여 실명 인증을 하십시오";
@@ -1291,27 +1354,28 @@
 "contact_error_invalid_address" = "유효하지 않은 지갑 주소";
 
 // 联系人信息
-"contact_detail_title"="연락인 정보";
+"contact_detail_title"="친구 정보";
+
 // 编辑联系人
-"contact_edit_title"="연락인 편집";
-"contact_edit_remove"="연락인 삭제";
-"contact_edit_remove_waring_prompt"="이 연락인을 삭제하시겠습니까？";
+"contact_edit_title"="친구 편집";
+"contact_edit_remove"="친구 삭제";
+"contact_edit_remove_waring_prompt"="이 친구를 삭제하시겠습니까？";
 
 // 关于
 "about_version_code" = "버전%@";
-"about_version_description" = "Math Wallet은 가장 안전하고 강력한 다중체인 모바일 지갑으로서 EOS、BTC、ETH 생태계를 완벽하게 지원합니다. 또한 탈중앙화 기반으로 체인-체인 간의 거래를 지원하며, 다중체인 app 생태계를 완벽하게 구축하였습니다.";
+"about_version_description" = "Math Wallet은 가장 안전하고 강력한 다중체인 모바일 지갑으로서 EOS、BTC、ETH 생태계를 완벽하게 지원합니다. 또한 탈중앙화 기반으로 체인-체인 간의 거래를 지원하며, 다중체인 DApp 생태계를 완벽하게 구축하였습니다.";
 
 "website_title" = "Website:";
 
 "website_content" = "http://www.mathwallet.org/ko/";
 "app_release_history"="버전 업데이트 기록 보기";
 
-"about_website_title" = "공식 홈페이지에 접속";
+"about_website_title" = "공식 홈페이지 접속";
 "about_version_release_title" = "버전 기록";
 "about_version_update_title" = "버전 업데이트";
 
 // 关注微信公众号
-"medishares_wechat_focus" = "저희 공식 Wechat 채팅방에 가입해보세요, 우선 공식 Wechat를 팔로우해주세요:";
+"medishares_wechat_focus" = "저희 공식 Wechat 채팅방에 가입해보세요, 공식 Wechat를 팔로우해주세요:";
 "medishares_wechat_public" = "mathwallet666";
 
 "medishares_telegram_focus" = "저희 텔레그램 그룹에 가입해보세요. 지금 가입하기:";
@@ -1328,8 +1392,8 @@
 
 "medishares_setting_payment_face_id"="Face ID로 지불";
 "medishares_setting_payment_touch_id"="Touch ID로 지불";
-"medishares_setting_payment_face_id_prompt"="오픈 후 안면인식을 통해 빠른 지급 가능";
-"medishares_setting_payment_touch_id_prompt"="오픈 후 지문 확인을 통해 빠른 결제 가능";
+"medishares_setting_payment_face_id_prompt"="오픈 후 안면 인식을 통해 빠른 결제 가능";
+"medishares_setting_payment_touch_id_prompt"="오픈 후 지문을 통해 빠른 결제 가능";
 
 "medishares_setting_language" = "언어";
 "medishares_setting_language_provider"="Math Wallet 커뮤니티 지원 번역자 여러분의 도움에 진심으로 감사드립니다.\n러시아어 번역자: Alexey Koroln\n베트남어 번역자: Nguyễn Văn Đắc";
@@ -1363,14 +1427,14 @@
 
 // Unlock
 "unlock_touch_id" = "지문으로 열기";
-"unlock_face_id" = "안면으로 열기";
+"unlock_face_id" = "안면인식으로 열기";
 "unlock_device_password"="Password";
 "unlock_confirm" = "확인";
-"unlock_touch_id_prompt" = "'지문으로 열기'를 사용하시겠습니까";
-"unlock_face_id_prompt" = "'안면으로 열기'를 사용하시겠습니까";
+"unlock_touch_id_prompt" = "지문으로 열기'를 사용하시겠습니까";
+"unlock_face_id_prompt" = "안면인식으로 열기'를 사용하시겠습니까";
 "unlock_password_input_placeholder" = "지갑 비밀번호를 사용하시겠습니까";
-"unlock_touch_id_enable" = "'지문으로 열기'를 사용";
-"unlock_face_id_enable" = "'안면으로 열기'을 사용";
+"unlock_touch_id_enable" = "지문으로 열기'를 사용";
+"unlock_face_id_enable" = "안면으로 열기'을 사용";
 "unlock_password_enable" = "지갑 비밀번호를 사용";
 
 // 交易记录
@@ -1390,30 +1454,30 @@
 
 "web3_sign_message" = "메시지 사인";
 "web3_sign_personal_message" = "개인 메시지 사인";
-"web3_sign_message_warning" = "주의: 현재 웹 사이트가 안전 여부를 확인해주십시오";
+"web3_sign_message_warning" = "주의: 현재 웹 사이트의 안전 여부를 확인해주십시오";
 
 "dapps_transfer_fee" = "Fee";
 "dapps_transfer_to" = "Remitted";
 "dapps_transfer_memo" = "Memo";
 "dapps_transfer_desc" = "Description";
-"dapps_transfer_warning" = "당신은 지금 거액 이체를 진행하고 있으니 신중하십시오.";
-"dapps_upateauth_warning" = "You are updating the current account permissions，please be cautious.";
+"dapps_transfer_warning" = "현재 거액의 이체를 진행중입니다. 수취인이 맞는지 정확히 확인 바랍니다.";
+"dapps_upateauth_warning" = "현재 계정의 정보를 업데이트 하고 있습니다. 주의해서 진행하시기 바랍니다.";
 "dapps_contract" = "Code";
 "dapps_contract_function" = "Action";
 "dapps_contract_args" = "Fields";
 "dapps_contract_args_detail" = "자세히 보기";
 "dapps_sign_address_title" = "사인 주소";
 "dapps_sign_message_title" = "사인 내용";
-"dapps_auto_payment_confirm_propmpt" = "댑을 끄기 전에 추가 확인을 하지 않습니다";
+"dapps_auto_payment_confirm_propmpt" = "DApp을 종료하기 전에는 추가 인증을 하지 않습니다";
 
 "dapps_about_developer" = "개발자";
 "dapps_about_blockchain" = "메인넷";
 "dapps_about_category" = "유형";
 "dapps_about_share" = "친구에게 공유하기";
 
-"dapps_open_risk_disclaimer" = "Math Wallet은 귀하가 제3자의 Website 페이지에 방문하시고 사용하시는 과정에서 제3자의 Website의 《사용자 협의》 및 《프라이버시 정책》을 주의하실 것을 당부드립니다. Website을 이용하면서 발생 가능한 위험과 그 결과에 따른 모든 책임은 Website을 제공하는 제3자가 지고 있습니다.";
-"dapps_risk_disclaimer" = "제3자의 Website의 《사용자 협의》 및 《프라이버시 정책》을 주의하시기 바랍니다. Website을 이용하면서 발생 가능한 위험과 그 결과에 따른 모든 책임은 Website을 제공하는 제3자가 지고 있습니다.";
-"dapps_upgrade_disclaimer" = "회원님의 지갑 버전이 너무 낮아서 이 응용은 사용할 수 없습니다. 먼저 지갑을 업그레이드하시기 바랍니다. 감사합니다!";
+"dapps_open_risk_disclaimer" = "Math Wallet은 귀하가 제3자 DApp 페이지에 방문하시고 사용하시는 과정에서 제3자 DApp의 《사용자 협의》 및 《개인정보 정책》을 주의하여 보실 것을 권장합니다. DApp을 이용하면서 발생한 일의 결과에 따른 모든 책임은 사용자와 Dapp의 제공자에게 있으며 Math Wallet 은 책임을 지지 않습니다.";
+"dapps_risk_disclaimer" = "DApp 사용 시 제3자 DApp의 《사용자 협의》 및 《개인정보 정책》을 주의하여 보실 것을 권장합니다. DApp을 이용하면서 발생한 일의 결과에 따른 모든 책임은 사용자와 DApp의 제공자에게 있으며 Math Wallet 은 책임을 지지 않습니다.";
+"dapps_upgrade_disclaimer" = "회원님의 지갑 버전이 낮아서 본 DApp을 사용할 수 없습니다. 먼저 지갑을 업그레이드하시기 바랍니다. 감사합니다!";
 
 "dapps_rank_24h_ua" = "24H 사용자";
 "dapps_rank_24h_tx_amount" = "24H 거래수";
@@ -1428,9 +1492,9 @@
 "dapps_error_ont_transaction_build_failed" = "거래 구조 실패";
 
 // NEO dApp
-"dapps_neo_authorize_get_account" = "正在请求获取当前账户信息";
-"dapps_neo_authorize_user_reject" = "用户拒绝了您的请求";
-"dapps_neo_data_invalid" = "数据异常";
+"dapps_neo_authorize_get_account" = "계정 정보를 불러오는 중";
+"dapps_neo_authorize_user_reject" = "사용자가 해당 요청을 거부했습니다";
+"dapps_neo_data_invalid" = "데이터 에러";
 
 // 活体检测
 "LivenessRemindPromptMessage" = "회원님의 계정을 안전하게 보호하기 위해 안면 인식을 시작하겠습니다";
@@ -1439,7 +1503,7 @@
 "LivenessRemindCodeYawOutofLeftRange" = "오른쪽으로 고개를 조금 돌려주세요";
 "LivenessRemindCodeYawOutofRightRange" = "왼쪽으로 고개를 조금 돌려주세요";
 "LivenessRemindCodePoorIllumination" = "조명이 너무 어둡습니다";
-"LivenessRemindCodeNoFaceDetected" = "얼굴을 틀에 넣어주세요";
+"LivenessRemindCodeNoFaceDetected" = "얼굴을 선 안에 넣어주세요";
 "LivenessRemindCodeImageBlured" = "움직이지 마세요";
 "LivenessRemindCodeOcclusionLeftEye" = "왼쪽 눈에 가려진 부분이 있습니다";
 "LivenessRemindCodeOcclusionRightEye" = "오른쪽 눈에 가려진 부분이 있습니다";
@@ -1461,7 +1525,7 @@
 "LivenessRemindCodeFinished" = "좋습니다";
 "LivenessRemindCodeError" = "인증 실패";
 
-//持仓
+// 持仓
 "position" ="자산";
 "Position_total_assets" = "총 자산";
 "Position_vpos_assets" = "MATH VPoS Pool";
@@ -1499,16 +1563,16 @@
 "Position_exchange_bind" = "즉시 연동";
 "Position_Amount_bind" = "연동";
 "Position_Amount_amount" = "계정";
-"Position_Amount_Slogan" = "거래소 계정의 API 정보를 입력";
-"Position_Amount_Description" = "• API Key등 정보가 회원님의 기기에 저장될 것이며 제3자 설비나 플랫폼 서비스에게 발송되지 않습니다;\n•  API Key등 정보를 잘 보관해 주시고, 누구에게도 알려주지 마십시오;\n• 개인적인 이유로 API Key 등의 정보 유출 및 오용하는 데에 따른 손실은 저희가 책임 지지 않습니다;";
-"Position_Amount_tech" = "• 《거래소 API Key 획득 방법》을 살펴봅니다";
+"Position_Amount_Slogan" = "거래소 계정의 API 정보 입력";
+"Position_Amount_Description" = "• API Key등 정보는 회원님의 디바이스에만 저장되고 제3자의 디바이스나 플랫폼에는 저장되지 않습니다;\n• API Key등 정보를 잘 보관해 주시고, 누구와도 공유하시지 마십시오;\n• 개인의 잘못으로 인한 API Key 등의 정보 유출에 따른 손실은 저희가 책임을 지지 않습니다;";
+"Position_Amount_tech" = "• 《거래소 API Key 를 가져오는 방법》을 살펴봅니다";
 "Position_Amount_tech_jumpURL" = "http://blog.mathwallet.org/?p=875";
 "Position_share_description" = "QR 코드를 스캔하여 Math Wallet 다운로드하기";
 "Position_position_record" = "거래 기록";
-"Position_header_update" = "%@ 자산 보유 내역이 업데이트 중";
+"Position_header_update" = "%@ 자산 보유 내역 업데이트 중";
 "Position_update_failed" = "%@ 자산 보유 내역 획득 실패";
 "Position_exit_succeed" = "로그아웃 성공";
-"Position_unbind_alert" = "연동 해제된 후, 자산 보유 데이터가 이 기기에서 삭제될 것입니다. 다음에 이 계정 정보를 획득하시려면 다시 연동하셔야 합니다";
+"Position_unbind_alert" = "연동이 해제되면, 회원님의 자산 보유 데이터가 이 디바이스에서 삭제되며 향후 이 계정 정보를 보시려면 다시 연동하셔야 합니다";
 "Position_record_buyRecord" = "매수";
 "Position_record_sellRecord" = "매도";
 "Position_bind_success" = "연동 완료";
@@ -1525,29 +1589,31 @@
 "ont_map_transfer_to_address" = "매핑-%@";
 "ont_map_notice" = "• The main network was launched on June 30, 2018. The mapping began on July 9, 2018 (UTC) and will end on October 1, 2018 (UTC). When all NEP-5 ONTs are mapped, only could map integer amount. Large amount ONT mapping. Since NEO and ONT use the same public/private key pair system, your NEO wallet address, private key, WIF Is the corresponding ONT wallet address, private key, WIF. Please restore your private key and WIF of NEO wallet and ONT wallet .";
 
-//快讯
-"math_wallet_news" = "Math 속보";
+// 快讯
+"math_wallet_news" = "Math 뉴스";
 "news_wechat" = "Wechat";
 "news_friends" = "모멘트";
-"news_download" = "사진을 저장하기";
-"news_share_title" = "등록 후 10개 MDS를 증여하며, 친구를 초대하면 또한 10개 MDS를 증여";
+"news_download" = "사진 저장하기";
+"news_share_title" = "등록이 완료되면 10 MDS를 드리며, 친구를 초대하면 추가로 10 MDS를 드립니다.";
 "news_share_content" = "QR 코드를 스캔하여 Math Wallet 다운로드하기";
-"news_tab_flash" = "속보";
+"news_tab_flash" = "뉴스";
 "news_tab_strategy" = "공략";
 "news_tab_news" = "뉴스";
 
 "news_search_history" = "검색 기록";
 "news_search_hot" = "실시 검색";
-"news_search_noResult" = "검색 결과가 없으니 키워드를 바꿔 보세요";
+"news_search_noResult" = "검색 결과가 없습니다. 다른 키워드를 사용해보세요";
 "news_time_justnow" = "방금";
 "news_time_minuteAgo" = "%ld분 전";
 "news_time_hourAgo" = "%ld시간 전";
 "news_time_dayAgo" = "%ld 일 전";
 "news_time_monthAgo" = "%ld 개월 전";
-"redPacket_giveRed" = "홍바오 하나 보내드렸습니다";
+
+// 红包
+"redPacket_giveRed" = "코인봉투를 보내드렸습니다";
 "redPacket_alert_get" = "행운을 빕니다!";
-"redPacket_alert_remain" = "홍바오 다 수령했습니다";
-"redPacket_dated" = "무효 홍바오";
+"redPacket_alert_remain" = "코인봉투를 다 수령했습니다";
+"redPacket_dated" = "무효 코인봉투";
 "redPacket_collected" = "수령했습니다";
 
 // BTC 钱包
@@ -1560,7 +1626,7 @@
 "address_add_new_address" = "새 주소 생성";
 "address_about_segwit_title" = "Segwit";
 "address_about_segwit" = "Segwit관하여";
-"address_tips" = "Tips：\n• 주소 유형은 일반 혹은 Segwit로 구분할 수 있습니다. Segwit관하여;\n• 비트코인 지갑은 여러 개의 주소를 생성하여 주소의 중용을 피하며 개인 정보를 보호할 수 있습니다;\n• 선택된 주소는 묵인된 입금지가 될 것입니다;";
+"address_tips" = "Tips：\n• 주소 유형은 일반 혹은 Segwit로 구분할 수 있습니다. Segwit 이란?;\n• 비트코인 지갑은 여러 개의 주소를 생성하여 주소의 중복을 피하며 개인 정보를 보호할 수 있습니다;\n• 선택된 주소가 입금주소가 될 것입니다;";
 "address_error" = "주소 이상";
 "address_error_title" = "지갑 주소 생성";
 "address_error_message" = "Math Wallet은 현재 일반과 SegWit 두 가지 방식을 지원하고 있습니다. 여기서 BTC 지갑을 생성하세요.";
@@ -1570,7 +1636,7 @@
 "transaction_input" = "Input";
 "transaction_output" = "Output";
 "transfer_btc_amount" = "%@ BTC";
-"transfer_fee_detail" = "= %@ sat/B * %@ B";
+"transfer_fee_detail" = "거래 비용 내역";
 "transaction_detail_query_title_btc" = "BLOCKCHAIN 거래 내역 조회";
 "transaction_tx_fee_btc_with_price" = "Fee %@ BTC ≈ %@ %@";
 "gas_fee_setting_slide" = "슬라이드 하여 가스비 설정";
@@ -1578,11 +1644,10 @@
 "transaction_to_gas_price_invalid_btc" = "Gas Price 최소 %@ sat/B";
 "transaction_tx_fee_btc" = "Fee %@ BTC";
 "transfer_signature_fail" = "사인 실패";
-"transfer_change_address_error" = " Wrong Address";
-
+"transfer_change_address_error" = "잘못된 주소";
 
 // MDS 交易对
-"mds_exchange_trade_coming_soon" = "곧 출시";
+"mds_exchange_trade_coming_soon" = "출시 예정";
 "mds_exchange_trade_developing" = "거래가 없습니다";
 
 "mds_exchange_trade_buy" = "매수";
@@ -1595,7 +1660,7 @@
 "mds_exchange_trade_record_account" = "계정";
 "mds_exchange_trade_record_amount" = "수량(%@)";
 "mds_exchange_trade_record_recently" = "최근 거래 기록";
-"mds_exchange_trade_record_history" = "역사적 기록";
+"mds_exchange_trade_record_history" = "거래 기록";
 "mds_exchange_trade_record_all" = "전체";
 "mds_exchange_trade_record_time" = "시간";
 "mds_exchange_trade_record_direction" = "방향";
@@ -1627,14 +1692,13 @@
 "mds_exchange_trade_kline_time_1week" = "1week";
 "mds_exchange_trade_kline_time_1month" = "1month";
 
-
 // TRX 交易对
-"trx_exchange_trade_coming_soon" = "곧 출시";
+"trx_exchange_trade_coming_soon" = "출시 예정";
 "trx_exchange_trade_developing" = "거래가 없습니다";
 
 "trx_exchange_trade_record_empty" = "거래 기록이 없습니다";
 "trx_exchange_trade_record_recently" = "최근 거래 기록";
-"trx_exchange_trade_record_history" = "역사적 기록";
+"trx_exchange_trade_record_history" = "거래 기록";
 "trx_exchange_trade_record_all" = "전체";
 "trx_exchange_trade_record_time" = "시간";
 "trx_exchange_trade_record_account" = "계정";
@@ -1643,11 +1707,11 @@
 "trx_exchange_trade_records_buy" = "매수";
 "trx_exchange_trade_records_sell" = "매도";
 
-"trx_exchange_trade_record_filter" = "선별";
+"trx_exchange_trade_record_filter" = "선택";
 "trx_exchange_trade_record_filter_option1" = "제한 없음";
-"mds_exchange_trade_record_filter_option2" = "Large deal，> 2000 TRX";
-"mds_exchange_trade_record_filter_option3" = "Medium deal，500 to 2000 TRX";
-"mds_exchange_trade_record_filter_option4" = "Small deal，<500 TRX";
+"trx_exchange_trade_record_filter_option2" = "Large deal，> 2000 TRX";
+"trx_exchange_trade_record_filter_option3" = "Medium deal，500 to 2000 TRX";
+"trx_exchange_trade_record_filter_option4" = "Small deal，<500 TRX";
 
 "trx_exchange_trade_buy" = "매수";
 "trx_exchange_trade_sell" = "매도";
@@ -1685,8 +1749,7 @@
 "trx_exchange_trade_error_no_expect_amount" = "예측 수량 입력";
 "trx_exchange_trade_error_balance_not_enough" = "잔액이 부족합니다";
 
-
-//BNB 交易对
+// BNB 交易对
 "bnb_exchange_trade_price" = "가격";
 "bnb_exchange_trade_cancle_order" = "취소";
 "bnb_exchange_trade_amount" = "거래액";
@@ -1700,51 +1763,49 @@
 "bnb_exchange_no_order" = "주문 기록이 없습니다";
 "bnb_exchange_cancel_succeed" = "취소 완료";
 
-
-//hardware
+// hardware
 "hardware_wallet" = "하드월렛";
-"hardware_Search" = "설비를 불러오는 중...";
+"hardware_Search" = "하드월렛을 불러오는 중...";
 "hardware_connection" = "접속";
-"hardware_connection_current" = "현재 연결 설비";
-"hardware_connection_other" = "기타 설비";
-"hardware_Initialize" = "설비 초기화";
+"hardware_connection_current" = "현재 연결되어잇는 하드웰렛";
+"hardware_connection_other" = "기타 하드웰렛";
+"hardware_Initialize" = "하드월렛 초기화";
 "hardware_setPin" = "PIN 코드 설치";
 "hardware_setPin_hint" = "지갑의 안전을 위해서 먼저 PIN 코드를 설치하십시오. PIN 코드는 지갑 잠금해제, 이체 등에 사용되니 PIN 코드를 잘 보관해 주십시오.";
-"hardware_setPin_input" = "PIN 코드를 입력";
-"hardware_setPin_input_again" = "PIN 코드를 다시 입력";
+"hardware_setPin_input" = "PIN 코드 입력";
+"hardware_setPin_input_again" = "PIN 코드 다시 입력";
 "hardware_setFinger" = "지문 설치";
-"hardware_setFinger_hint" = "지문을 설치한 후 PIN 코드 없이 지문인식을 통해 지갑 잠금해제, 이체 등을 할 수 있습니다.";
-"hardware_setFinger_no" = "설치하지 않습니다";
+"hardware_setFinger_hint" = "지문을 등록하면 PIN 코드 없이 지문인식을 통해 지갑 잠금해제, 이체 등을 할 수 있습니다.";
+"hardware_setFinger_no" = "등록하지 않습니다";
 "hardware_setFinger_start" = "지문을 등록하기 시작합니다\n장비에 손가락을 넣어 지문을 등록하세요";
 "hardware_setFinger_goodFinger" = "등록 완료\n손가락을 떼십시오";
-"hardware_setFinger_continue" = "지문 등록 계속하기\n장비에 같은 손가락을 넣어 지문을 등록하세요";
+"hardware_setFinger_continue" = "지문 등록 계속하기\n하드월렛에 같은 손가락을 넣어 지문을 등록하세요";
 "hardware_setFinger_complete" = "등록 완료\n지문 등록이 완료되었습니다";
 "hardware_PinAndFinger" = "PIN 코드와 지문";
 "hardware_backup_mnemonic_phrase" = "mnemonic 백업";
-"hardware_Initialize_again" = "설비 초기화";
+"hardware_Initialize_again" = "하드월렛 초기화";
 "hareware_initialize_alert" = "설비 초기화에 연동된 모든 지갑을 삭제할 것입니다. Mnemonic Word를 잘 보관하셨습니까?";
-"hardware_delete" = "설비 삭제";
-"hardware_delete_alert" = "설비를 삭제하시면 추가된 지갑이 제거될 것입니다. 앞으로는 이 설비를 다시 연동하여 지갑을 불러올 수 있습니다.";
+"hardware_delete" = "하드월렛 삭제";
+"hardware_delete_alert" = "하드월렛을 삭제하시면 추가된 월렛이 제거됩니다. 앞으로는 이 하드월렛을 다시 연동하여 월렛을 불러올 수 있습니다.";
 "hardware_resetPin" = "PIN 코드 다시 설치";
-"hardware_resetFinger" =  "지문을 다시 설치";
-"hardware_verify_finger" = "설비에서 지문을 인증하여 이체를 확인하세요";
-"hardware_verify_pin" = "설비에서 PIN 코드를 인증하여 이체를 확인하세요";
+"hardware_resetFinger" = "지문 다시 등록";
+"hardware_verify_finger" = "하드월렛에서 지문을 인증한 후 이체를 확인하세요";
+"hardware_verify_pin" = "하드월렛에서 PIN 코드를 인증한 후 이체를 확인하세요";
 "hardware_choose" = "하드월렛 선택";
 "hardware_mywallet" = "나의 지갑";
 "hardware_pin_diffrent" = "PIN 코드가 일치하지 않습니다";
 "hardware_account" = "계정";
-"hardware_pin_format" = "PIN격식 오류";
-"hardware_pin_confirm" = "우선 PIN코드를 검증하세요";
-"hardware_pin_confirm" = "PIN 코드를  확인하세요";
-"hardware_confirm_rightTop" = "설비 상 확인 버튼을 누르십시오";
+"hardware_pin_format" = "PIN 형식 오류";
+"hardware_pin_confirm" = "PIN 코드를 확인하세요";
+"hardware_pin_confirm" = "PIN 코드를 확인하세요";
+"hardware_confirm_rightTop" = "하드월렛의 확인 버튼을 누르세요";
 "hardware_wallet_name" = "Wookong Bio";
-"hardware_pin_error" = "Incorrect PIN";
-"hardware_disConnect" = "카드가 감지되지 않으므로 카드가 켜져 있는지 확인하십시오.";
+"hardware_pin_error" = "PIN 오류";
+"hardware_disConnect" = "하드월렛이 감지되지 않습니다. 전원이 켜져 있는지 확인하십시오.";
 "hardware_connection" = "설비 연결";
 "hardware_connection_already" = "연결됨";
-"hardware_mnemonic_not_match" = "불러온 mnemonic이 하드웨어 지갑 내의 mnemonic과 일치하지 않음";
+"hardware_mnemonic_not_match" = "불러온 mnemonic이 하드월렛의 mnemonic과 일치하지 않음";
 "hardware_already_disconnected" = "연결이 끊어졌습니다!";
-
 
 // SimpleWallet
 "simplewallet_login"="%@ 로그인";
@@ -1763,75 +1824,76 @@
 "walletconnect_binance" = "Binance";
 "walletconnect_login" = "Login";
 "walletconnect_logged_in" = "Logged in";
-"walletconnect_login_prompt" = "계정“%@”로 “%@”로그인할 겁니다，확인하세요";
+"walletconnect_login_prompt" = "계정“%@”로 “%@”로그인 합니다.";
 "walletconnect_login_confirm" = "로그인 확인";
-"walletconnect_login_again" = "Login Again";
-"walletconnect_login_exit" = "Exit";
+"walletconnect_login_again" = "다시 로그인 해주세요";
+"walletconnect_login_exit" = "나가기";
 "walletconnect_login_cancel" = "취소";
 "walletconnect_logout_prompt" = "로그아웃 하시겠습니까?";
 
-"walletconnect_error_uri" = "Invalid URI";
-"walletconnect_error_connect" = "Connect error";
+"walletconnect_error_uri" = "유효하지 않은 uri";
+"walletconnect_error_connect" = "연결오류";
 "walletconnect_error_not_support" = "Not support";
-"walletconnect_error_bad_server_response" = "Bad server response";
-"walletconnect_error_bad_jsonrpc_request" = "Bad JSONRPC Request";
-"walletconnect_error_invalid_transaction" = "Invalid Transaction";
-"walletconnect_error_cancled" = "Math Wallet User Cancled Or Error";
-"walletconnect_error_request_timeout" = "시간 초과했습니다. QR 코드를 업데이트하여 다시 스캔하십시오！";
+"walletconnect_error_bad_server_response" = "서버응답 오류";
+"walletconnect_error_bad_jsonrpc_request" = "잘못된 JSONRPC 요청";
+"walletconnect_error_invalid_transaction" = "유효하지 않은 거래";
+"walletconnect_error_cancled" = "Math Wallet 사용자가 취소를 했거나 오류가 발생했습니다.";
+"walletconnect_error_request_timeout" = "입력시간이 초과했습니다. QR 코드를 업데이트하여 다시 스캔하십시오！";
 
 // 兑换
 "normal_exchange" = "거래";
-"instant_exchange" = "환전";
-"instant_exchange_one_step" = "체인-체인 환전";
+"instant_exchange" = "토큰 스왑";
+"instant_exchange_one_step" = "체인간 스왑";
 "instant_exchange_send_amount" = "출금 금액";
 "instant_exchange_receive_amount" = "입금 금액";
 "instant_exchange_available_balance" = "사용 가능";
-"instant_exchange_select_asset" = "코인을 선택";
+"instant_exchange_select_asset" = "코인 선택";
 "instant_exchange_select_wallet" = "입금 지갑을 선택";
 "instant_exchange_select_wallet_empty_data" = "아직은 %@지갑이 없습니다";
 "instant_exchange_select_wallet_create" = "우선 %@지갑을 만드세요";
-"instant_exchange_title" = "환전";
+"instant_exchange_title" = "토큰 스왑";
+"instant_swapbutton_title" = "⚡️환전";
 "instant_exchange_rate" = "1 %@ = %@ %@";
 "instant_exchange_token_empty_data" = "환전 종류가 없습니다";
-"instant_exchange_token_request_data" = "데이터를 다시 불러오기";
-"instant_exchange_records" = "환전 기록";
-"instant_exchange_records_empty_data" = "환전 기록이 없습니다";
-"instant_exchange_records_detail" = "환전 내역";
+"instant_exchange_token_request_data" = "데이터 다시 불러오기";
+"instant_exchange_records" = "토큰 스왑 기록";
+"instant_exchange_records_empty_data" = "토큰 스왑 기록이 없습니다.";
+"instant_exchange_records_detail" = "토큰 스왑 상세내역";
 "instant_exchange_records_all" = "전체";
 "instant_exchange_to" = "%@ 대 %@";
-"instant_exchange_send_title" = "전출(%@)";
-"instant_exchange_receive_title" = "접수(%@)";
+"instant_exchange_send_title" = "보내기(%@)";
+"instant_exchange_receive_title" = "받기(%@)";
 "instant_exchange_time" = "시간";
-"instant_exchange_confirm_transfer_title" = "전출";
-"instant_exchange_confirm_receiver_title" = "접수";
+"instant_exchange_confirm_transfer_title" = "보내기";
+"instant_exchange_confirm_receiver_title" = "받기";
 "instant_exchange_confirm_rate_title" = "환율";
 "instant_exchange_confirm_fee_title" = "수수료";
 "instant_exchange_transfer_success" = "이체 성공, 확인 중";
 "instant_exchange_order_state" = "이체 상태";
 "instant_exchange_order_state_wait_deposits" = "입금 대기";
-"instant_exchange_order_state_exchange" = "환전 중";
+"instant_exchange_order_state_exchange" = "토큰 스왑 중";
 "instant_exchange_order_state_complete" = "성공";
 "instant_exchange_order_state_timeout" = "시간 초과";
-"instant_exchange_order_state_wait_refund" = "환전 실패, 환불 대기";
+"instant_exchange_order_state_wait_refund" = "스왑 실패, 환불 대기";
 "instant_exchange_order_state_refund_complete" = "환볼 완료";
 "instant_exchange_order_rate" = "환율";
 "instant_exchange_order_fee" = "수수료";
 "instant_exchange_order_time" = "시간";
 "instant_exchange_order_id" = "오더 번호";
-"instant_exchange_order_call_for_help" = "이 오더에 대해 의문이 있습니까?";
-"instant_exchange_error_wallet_type" = "지갑 종유 오류";
-"instant_exchange_error_token_send" = "출금 코인을 선택";
-"instant_exchange_error_token_receive" = "입금 코인을 선택";
+"instant_exchange_order_call_for_help" = "이 오더에 대해 질문이 있습니까?";
+"instant_exchange_error_wallet_type" = "지갑 종류 오류";
+"instant_exchange_error_token_send" = "출금 코인 선택";
+"instant_exchange_error_token_receive" = "입금 코인 선택";
 "instant_exchange_error_amount_send" = "출금 금액 오류";
-"instant_exchange_error_amount_send_not_int" = "해당 화폐 이체 금액은 반드시 정수가 되어야 한다 ";
+"instant_exchange_error_amount_send_not_int" = "해당 코인의 이체 금액은 반드시 정수여야 합니다.";
 "instant_exchange_error_amount_receive" = "입금 금액 오류";
 "instant_exchange_error_wallet_account" = "입금 지갑을 선택";
-"instant_exchange_error_amount_send_range" = "환전 가능 금액%@ ~ %@";
+"instant_exchange_error_amount_send_range" = "거래 가능 금액%@ ~ %@";
 "instant_exchange_error_balance_not_enough" = "잔액이 부족합니다";
 "instant_exchange_error_order_failed" = "오더 생성 실패";
-"instant_exchange_error_rate_failed" = "환율 접속 실패";
+"instant_exchange_error_rate_failed" = "스왑환율 조회 실패";
 "instant_exchange_coin_not_support" = "이 거래는 잠시 중단되었습니다";
-"instant_exchange_rate_failed_notice" = "환율 접속 실패, 클릭하시고 다시 불러오세요";
+"instant_exchange_rate_failed_notice" = "스왑환율 조회 실패, 클릭하시고 다시 불러오세요";
 
 // Dapp
 "dapp_enter_url" = "주소 입력";
@@ -1849,11 +1911,11 @@
 "google_verify_open" = "오픈";
 "google_verify_opened" = "오픈됨";
 "google_verify_unbind" = "unbind";
-"google_verify_notice" = "다음은 지갑의 Google 인증 코드입니다. 복사하고 Google 인증에 연동하십시오. 잃어버리시면 Google 인증을 복구할 수 없습니다.";
+"google_verify_notice" = "다음은 지갑의 Google 인증 코드입니다. 복사 후 Google 인증에 연동하십시오. 분실 시 Google 인증을 복구할 수 없습니다.";
 "google_verify_done" = "인증 코드를 이미 복사하고 연동했습니다";
 "google_verify_input_title" = "Google 인증";
-"google_verify_input_placeholder" = "Google 인증 코드를 입력";
-"google_verify_no_code" = "Google 인증 코드를 입력";
+"google_verify_input_placeholder" = "Google 인증 코드 입력";
+"google_verify_no_code" = "Google 인증 코드 입력";
 "google_verify_open_success" = "Google 인증 오픈 완료";
 "google_verify_how_to_open" = "How to setup Google Authenticator?";
 
@@ -1862,7 +1924,6 @@
 "user_log_area_title" = "위치";
 "user_log_ip_title" = "IP 주소";
 "user_log_device_title" = "설비";
-
 
 "transfer_failed" = "Transfer Failed";
 
@@ -1879,21 +1940,21 @@
 "bnb_exchange_trade_record_filter_decimal_8" = "8 소수점";
 
 // 数字身份
-"math_identity" = "디지털 신분";
+"math_identity" = "디지털 신분증";
 "math_identity_name" = "명칭";
-"math_identity_name_update" = "디지털 신분 명칭 수정";
-"math_identity_name_placeholder" = "디지털 신분 명칭";
+"math_identity_name_update" = "디지털 신분증 명칭 수정";
+"math_identity_name_placeholder" = "디지털 신분증 명칭";
 "math_identity_password" = "비밀번호";
 "math_identity_password_placeholder" = "비밀번호 설치";
 "math_identity_password_again" = "비밀번호 재 입력";
 "math_identity_password_again_placeholder" = "비밀번호 다시 입력";
 
-"math_identity_password_update" = "디지털 신분 비밀번호 수정";
-"math_identity_password_old" = "기준 비밀번호";
-"math_identity_password_old_placeholder" = "기준 비밀번호를 입력";
+"math_identity_password_update" = "디지털 신분증 비밀번호 수정";
+"math_identity_password_old" = "기존 비밀번호";
+"math_identity_password_old_placeholder" = "기존 비밀번호 입력";
 "math_identity_password_new" = "새 비밀번호";
-"math_identity_password_new_placeholder" = "새 비밀번호 설치";
-"math_identity_password_new_again" = "새 비밀번호 재 설치";
+"math_identity_password_new_placeholder" = "새 비밀번호 등록";
+"math_identity_password_new_again" = "새 비밀번호 재 등록";
 "math_identity_password_new_again_placeholder" = "새 비밀번호 다시 입력";
 
 "math_identity_export_menmonic" = "니모닉 백업";
@@ -1901,15 +1962,25 @@
 "math_identity_added_wallet" = "지갑 추가 완료";
 "math_identity_create_wallet" = "지갑 생성";
 "math_identity_created_wallet" = "지갑 생성 완료";
-"math_identity_create" = "디지털 신분 생성";
-"math_identity_import" = "디지털 신분 불러오기";
-"math_identity_remove" = "디지털 신분 삭제";
-"math_identity_backup" = "디지털 신분 백업";
-"math_identity_backup_prompt" = "다음은 디지털 신분의 니모닉입니다. 백업해서 안전한 곳에 보관하세요.";
+"math_identity_create" = "디지털 신분증 생성";
+"math_identity_import" = "디지털 신분증 불러오기";
+"math_identity_remove" = "디지털 신분증 삭제";
+"math_identity_backup" = "디지털 신분증 백업";
+"math_identity_backup_prompt" = "다음은 디지털 신분증의 니모닉입니다. 백업 후 안전한 곳에 보관하세요.";
 "math_identity_remove_wallet" = "삭제";
-"math_identity_input_password_title" = "디지털 신분의 비밀번호를 입력";
+"math_identity_input_password_title" = "디지털 신분증 비밀번호 입력";
 
-"math_identity_error_name_too_short" = "디지털 신분 명칭은 최소 1 글자를 입력하셔야 됩니다";
-"math_identity_error_create" = "디지털 신분 생성 실패！";
-"math_identity_error_import" = "디지털 신분 불러오기 실패！";
+"math_identity_error_name_too_short" = "디지털 신분증 명칭은 최소 1 글자를 입력하셔야 됩니다";
+"math_identity_error_create" = "디지털 신분증 생성 실패！";
+"math_identity_error_import" = "디지털 신분증 불러오기 실패！";
 "math_identity_error_wallet_checked_prompt" = "우선 생성하실 지갑을 선택하세요";
+
+// NFT
+"nft_collections_count"="%d 개 소장품";
+"nft_collections_introduction_title"="소개: ";
+"nft_collections_platform_title"="플랫폼: ";
+"nft_collections_send"="발송";
+"nft_collections_view"="조회";
+"nft_collections_view_open"="%@ 열어 조회";
+"nft_collections_transfer_title"="소장품 발송";
+"nft_collections_transcations" = "거래 기록";

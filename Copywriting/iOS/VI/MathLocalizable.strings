@@ -130,6 +130,8 @@
 "risk_warning" = "Risk warning";
 "risk_warning_text" = "The third-party Website is reported by other users and may involve high-risk situations such as malicious scams, token locks, or hacking! Please be cautious!";
 "send" = "Send";
+"assets"="Assets";
+"collections"="Collectibles";
 
 // 权限
 "take_photo"="Chụp ảnh";
@@ -151,6 +153,7 @@
 "empty_data_withdraw"="Không có hồ sơ rút tiền";
 "empty_data_search"="Không có kết quả tìm kiếm";
 "empty_whiteList_contacts" = "Không có liên hệ danh sách trắng";
+"empty_data_collectibles" = "No collectibles";
 
 // 选择钱包
 "select_custom_wallet"="Chọn %@ Ví";
@@ -162,6 +165,7 @@
 
 // 切换钱包
 "switch_wallet" = "Đổi ví";
+"switch_wallet_pop_prompt" = "Support 20+ public chains, scroll up and down to check.";
 // 创建或导入钱包
 "create_wallet" = "Tạo ví";
 "create_maizi_wallet" = "Tạo ví an toàn lúa mì";
@@ -287,7 +291,6 @@
 "eos_account_invite_code"="Mã mời";
 "eos_account_invite_code_placeholder"="Nhập mã thư mời tài khoản EOS";
 "eos_account_invite_code_help"="Cách lấy mã thư mời？";
-"eos_account_invite_code_warning"="\n• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n\n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; \n\n• Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
 
 "eos_account"="Tài khoản EOS";
 "eos_account_select"="Chọn một tài khoản EOS";
@@ -347,7 +350,6 @@
 "eosforce_account_invite_code"="Mã mời";
 "eosforce_account_invite_code_placeholder"="Nhập mã thư mời tài khoản của EOS Force";
 "eosforce_account_invite_code_help"="Cách lấy mã thư mời？";
-"eosforce_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
 
 "eosforce_account"="EOS 原力账户";
 "eosforce_account_select"="Chọn tài khoản EOS Force";
@@ -381,7 +383,6 @@
 "bos_account_invite_code"="Mã mời";
 "bos_account_invite_code_placeholder"="Nhập mã mời tài khoản BOS";
 "bos_account_invite_code_help"="Cách lấy mã thư mời？";
-"bos_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
 
 "bos_account"="Tài khoản BOS";
 "bos_account_select"="Chọn tài khoản BOS";
@@ -415,7 +416,6 @@
 "enu_account_invite_code"="Mã mời";
 "enu_account_invite_code_placeholder"="Nhập mã mời tài khoản ENU";
 "enu_account_invite_code_help"="Cách lấy mã thư mời？";
-"enu_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
 
 "enu_account"="Tài khoản ENU";
 "enu_account_select"="Chọn một tài khoản ENU";
@@ -449,7 +449,6 @@
 "codex_account_invite_code"="Mã mời";
 "codex_account_invite_code_placeholder"="Nhập mã mời tài khoản Codex";
 "codex_account_invite_code_help"="Cách lấy mã thư mời？";
-"codex_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
 
 "codex_account"="Tài khoản Codex";
 "codex_account_select"="Chọn một tài khoản Codex";
@@ -483,7 +482,6 @@
 "telos_account_invite_code"="Mã mời";
 "telos_account_invite_code_placeholder"="Nhập mã mời tài khoản Telos";
 "telos_account_invite_code_help"="Cách lấy mã thư mời？";
-"telos_account_invite_code_warning"="• Chúng tôi sẽ cấp mã mời cho những người dùng cũ đã hoàn thành chứng nhận tên thật. Bạn có thể tham gia cộng đồng lúa mì để hỏi và chuyển; \n• Chúng tôi sẽ phát hành mã mời từ tin tức hàng ngày của cộng đồng lúa mì và khuyến nghị bạn chú ý; • Hoàn thành chứng nhận tên thật của ví lúa mì cũng có cơ hội nhận được mã mời。";
 
 "telos_account"="Telos Tài khoản";
 "telos_account_select"="Chọn một tài khoản Telos";
@@ -510,6 +508,40 @@
 "telos_account_create_by_friends_publickey_prompt"="Vui lòng sao chép khóa công khai và gửi cho bạn bè của bạn để tạo tài khoản Telos。";
 "telos_account_create_by_friends_privatekey_title"="Khóa riêng";
 "telos_account_create_by_friends_privatekey_prompt"="Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn đã tạo tài khoản cho bạn, bạn cần nhập tài khoản Telos bằng khóa riêng này。";
+
+// 创建 YAS 账户
+"yas_account_create"="Tạo tài khoản YAS";
+"yas_account_import"="Nhập tài khoản YAS";
+
+"yas_account_invite_code"="Mã mời";
+"yas_account_invite_code_placeholder"="Nhập mã mời tài khoản YAS";
+"yas_account_invite_code_help"="Cách lấy mã thư mời？";
+
+"yas_account"="YAS Tài khoản";
+"yas_account_select"="Chọn một tài khoản YAS";
+"yas_account_input_placeholder"="12 ký tự, bao gồm số '1 ~ 5', chữ 'a ~ z', ký hiệu '.'";
+
+"yas_account_password"="Mật khẩu";
+"yas_account_password_input_placeholder"="Ít nhất 8 ký tự, bao gồm chữ hoa và chữ thường và số";
+"yas_account_password_repeat"="Lặp lại mật khẩu";
+"yas_account_password_repeat_input_placeholder"="Nhập lại mật khẩu của bạn";
+
+"yas_account_create_warning_exist"="YAS Tài khoản đã tồn tại";
+"yas_account_create_warning_fail"="Không thể tạo tài khoản YAS";
+
+"yas_account_create_warning_success"="Tài khoản YAS đã được tạo thành công";
+"yas_account_privatekey_backup_warning"="Sau đây là thông tin khóa riêng của tài khoản, được sao chép và xuất sang nơi an toàn để lưu trữ. Sau khi mất, ví sẽ không được khôi phục。";
+"yas_account_privatekey_backup_complete"="Khóa riêng đã được sao lưu";
+
+"yas_create_account_success_copy_prompt"= "Vui lòng sao chép và sao lưu tệp khóa riêng (WIF) trước";
+
+"yas_account_privatekey_backup_disclaimer"= "Chúng tôi không chấp nhận bất kỳ mất tài sản nào do mất khóa riêng và quên mật khẩu！";
+
+"yas_account_create_by_friends_title"="Hãy để một người bạn giúp tạo một tài khoản YAS";
+"yas_account_create_by_friends_publickey_title"="Khóa công khai";
+"yas_account_create_by_friends_publickey_prompt"="Vui lòng sao chép khóa công khai và gửi cho bạn bè của bạn để tạo tài khoản YAS。";
+"yas_account_create_by_friends_privatekey_title"="Khóa riêng";
+"yas_account_create_by_friends_privatekey_prompt"="Vui lòng sao lưu khóa riêng của bạn và giữ nó ở nơi an toàn. Đừng gửi cho bất kỳ ai (kể cả bạn bè của bạn). Sau khi bạn của bạn đã tạo tài khoản cho bạn, bạn cần nhập tài khoản YAS bằng khóa riêng này。";
 
 // FT 钱包创建
 "ft_account_create"="Create FT Account";
@@ -552,35 +584,58 @@
 "eos_account_no_exist_privatekeys"="Tài khoản không có khóa riêng được mã hóa và không thể xuất。";
 
 // EOS 权限
-"eos_account_permission_name"="%@ Giấy phép";
-"eos_account_permission_threshold"="Ngưỡng cân %d";
-"eos_account_permission_weight"="Cân nặng %d";
-"eos_account_permission_change"="Thay đổi %@ Giấy phép";
-"eos_account_permission_add"="Thêm %@ quyền";
-"eos_account_permission_update"="Thay đổi quyền";
-"eos_account_permission_delete"="Xóa quyền";
-"eos_account_permission_update_confirm"="Gửi thay đổi";
-"eos_account_permission_tips"="Tips：\n• Owner Quyền: Chủ sở hữu tài khoản, có thể quản lý quyền tài khoản, quản lý Hoạt động và các vai trò khác; \n• Quyền hoạt động: Hoạt động có các quyền khác như chuyển nhượng, bỏ phiếu, v.v. \N• Ngưỡng trọng lượng là ngưỡng trọng lượng tối thiểu để thực hiện quyền; \n• Trọng lượng: Trọng lượng là trọng lượng của khóa chung. Số càng cao, trọng số càng cao; \n• Thay đổi quyền nên được thay đổi từ các quyền nhỏ, chẳng hạn như Hoạt động sau Chủ sở hữu; \n• Khi thay đổi quyền, hãy đảm bảo mới Khóa công khai hoặc tên tài khoản là chính xác; \n• Trước khi thay đổi quyền, vui lòng đảm bảo rằng các tài sản được xử lý đúng cách。";
+"eos_account_permission_name_title"="Permission Name";
+"eos_account_permission_parent_title"="Parent";
+"eos_account_permission_threshold_title"="Threshold";
+"eos_account_permission_weight_title"="Weight";
+"eos_account_permission_keys_title"="Public Key";
+"eos_account_permission_accounts_title"="Account";
+"eos_account_permission_waits_title"="Wait";
+"eos_account_permission_waits_time_title"="Waiting Time";
 
-"eos_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản mới của EOS";
-"eos_account_permission_text_invalid"="Tài khoản hoặc tài khoản công khai không hợp lệ của EOS";
+"eos_account_permission_parent"="Parent %@";
+"eos_account_permission_threshold"="Threshold %d";
+"eos_account_permission_weight"="Weight %d";
 
-"eos_account_permission_threshold_invalid"="Hiện tại chỉ hỗ trợ thay đổi quyền với ngưỡng trọng số là 1 được hỗ trợ.";
-"eos_account_permission_import_owner_warning"="Không có quyền hoạt động, vui lòng nhập lại tài khoản bằng khóa riêng tương ứng với Chủ sở hữu！";
-"eos_account_permission_null_warning"="Thay đổi quyền không hợp lệ";
+"eos_account_permission_keys_add"="Add Public Key";
+"eos_account_permission_accounts_add"="Add Account";
+"eos_account_permission_waits_add"="Add Wait";
+
+"eos_account_permission_keys_update"="Update Public Key";
+"eos_account_permission_accounts_update"="Update Account";
+"eos_account_permission_waits_update"="Update Wait";
+
+"eos_account_permission_keys_delete"="Delete Public Key";
+"eos_account_permission_accounts_delete"="Delete Account";
+"eos_account_permission_waits_delete"="Delete Wait";
+
+"eos_account_permission_add"="Add Permission";
+"eos_account_permission_update"="Change Permission";
+"eos_account_permission_delete"="Delete Permission";
+"eos_account_permission_update_confirm"="Submit Change";
+"eos_account_permission_tips"="Tips: \n• permission changes may result in the account being unavailable, please be cautious.\n• Owner permission: Owner owns the account, manages account permissions, manages Active and other roles; \n• Active permissions: Active has other permissions such as transfer, voting, etc. \n• Weight threshold: The weight threshold is the minimum weight requirement for using permission; \n• Weight: The weight standard of public key. The higher the number, the higher the weight; \n• Permission change should starts from small to large, such as Active first and then Owner; \n• When changing permissions, please ensure that the new public key or account name is accurate; \n• Before changing permissions, please make sure the assets has been properly managed.";
+
+"eos_account_permission_keys_invalid"="Invalid Public Key";
+"eos_account_permission_accounts_invalid"="Invalid Account";
+"eos_account_permission_name_invalid"="Invalid Permission Name";
+"eos_account_permission_threshold_invalid"="Invalid Threshold";
+"eos_account_permission_weight_invalid"="Invalid Weight";
+"eos_account_permission_waits_time_invalid"="Invalid Waiting Time";
+"eos_account_permission_import_operation_warning"="The current account has %@ permission，cannot change %@ permission.";
+"eos_account_permission_null_warning"="Invalid Permission Change";
+"eos_account_permission_threshold_warning"="When threshold > 1 , the current wallet will NOT be able to make transaction, do you want to continue? ";
+"eos_account_permission_delete_warning"="Owner and Active permission cannot be deleted ";
+"eos_account_permission_update_warning"="The owner and active permission names cannot be changed. Other permission names can be changed.";
+
+"eos_account_permission_name_placeholder"="Set Permission Name";
+"eos_account_permission_parent_placeholder"="Set Parent";
+"eos_account_permission_select_placeholder"="Set Permission Name";
+"eos_account_permission_threshold_placeholder"="Set Threshold";
+"eos_account_permission_waits_time_placeholder"="Set Waiting Time";
+"eos_account_permission_weight_placeholder"="Set Weight";
+
 // EOS Force 权限
-"eosforce_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản mới của EOS Force";
-"eosforce_account_permission_text_invalid"="Tài khoản hoặc khóa công khai không hợp lệ của EOS Force";
-"eosforce_account_permission_update_fee"="Thay đổi phí thẩm quyền 0.1000 %@";
-// BOS 权限
-"bos_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản BOS mới";
-"bos_account_permission_text_invalid"="Tài khoản hoặc tài khoản BOS không hợp lệ";
-// ENU 权限
-"enu_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản ENU mới";
-"enu_account_permission_text_invalid"="Tài khoản hoặc tài khoản ENU không hợp lệ";
-// Telos 权限
-"telos_account_permission_text_placeholder"="Nhập khóa công khai hoặc tài khoản Telos mới";
-"telos_account_permission_text_invalid"="Tài khoản hoặc tài khoản Telos không hợp lệ";
+"eosforce_account_permission_update_fee"="Permission Change Fee: 0.1000 %@";
 
 // 修改钱包名称
 "wallet_nickname_update"="Sửa đổi tên ví";
@@ -629,6 +684,7 @@
 "transaction_menu_bos_account"="Tài khoản BOS";
 "transaction_menu_enu_account"="Tài khoản ENU";
 "transaction_menu_telos_account"="Tài khoản Telos";
+"transaction_menu_yas_account"="Tài khoản YAS";
 "transaction_menu_codex_account"="Tài khoản Codex";
 "transaction_menu_ft_account"="Tài khoản FT";
 "transaction_menu_scan_qrcode"="Quét mã QR";
@@ -667,6 +723,7 @@
 
 "transaction_to_value_placeholder" = "Điền vào số tiền chuyển";
 "transaction_to_balance_low" = "Số dư không đủ";
+"transaction_to_eth_gas_not_enough" = "Need more ETH to pay the GAS fee";
 "transaction_to_eth_balance_low" = "Số dư ETH không đủ";
 "transaction_to_ong_balance_low" = "Số dư ONG không đủ";
 "transaction_to_zil_balance_low" = "Số dư ZIL không đủ";
@@ -679,7 +736,7 @@
 "transaction_to_advance_setting_hex_data" = "Dữ liệu không hợp lệ";
 
 "transaction_to_gas_limit_invalid" = "Gas Limit Không ít hơn %@";
-"transaction_to_gas_price_invalid" = "Gas Price Không ít hơn %@gwei";
+"transaction_to_gas_price_invalid" = "Gas Price Không ít hơn %@ gwei";
 "transaction_to_hex_data_invalid" = "Dữ liệu không hợp lệ";
 "transaction_to_address_null" = "Vui lòng điền địa chỉ chuyển";
 "transaction_to_account_null" = "Please enter the receiver's account.";
@@ -761,6 +818,7 @@
 // 云端钱包
 "cloud_wallet" = "Cloud";
 "cloud_set_pin_code" = "Please set PIN code";
+"cloud_vpos" = "Mining";
 "cloud_record" = "Transactions";
 "cloud_record_details" = "Details";
 "cloud_record_details_type" ="Item";
@@ -835,6 +893,17 @@
 "cloud_swap_exchange_rate_return" ="refund";
 "cloud_swap_exchange_transfer_success"="Order created，wait for confirmation";
 "cloud_swap_exchange_math_comment"="No sufficient MATH，will pay with source currency";
+"cloud_swap_exchange_unavailable_comment" = "The trading pair is temporarily unavailable";
+"cloud_swap_exchange_invite" = " Invite friends to get USDT";
+"cloud_swap_exchange_invite_more" = "";
+
+"cloud_swap_exchange_recommend_title" = "Cloud Wallet⚡️SWAP";
+"cloud_swap_exchange_recommend_content" = "•    Faster\n•    No Gas Fee\n•    Better Price";
+"cloud_swap_exchange_recommend_step1_title" = " Step 1";
+"cloud_swap_exchange_recommend_step1_content" = "Switch to Cloud Wallet";
+"cloud_swap_exchange_recommend_step2_title" = "Step 2";
+"cloud_swap_exchange_recommend_step2_content" = "Go  the Trade tab";
+"cloud_swap_exchange_recommend_empty" = "Switch to cloud wallet⚡️Swap";
 // PIN 码（文案统一改成 "支付密码"）
 "pin_code" = "Payment Password";
 "pin_code_set" = "Set Payment Password";
@@ -918,6 +987,7 @@
 "transaction_detail_to_address_title"="Địa chỉ thu gom";
 "transaction_detail_to_account_title" = "Biên lai";
 "transaction_detail_tx_fee_title"="Phí khai thác";
+"transaction_detail_tx_data_title"="Data";
 "transaction_detail_tx_time_title"="Thời gian giao dịch";
 "transaction_detail_remark_title"="Nhận xét";
 "transaction_detail_tx_hash_title"="Số thứ tự giao dịch";
@@ -961,6 +1031,10 @@
 "telos_account_copy"="Sao chép tài khoản";
 "telos_account_qrcode"="Mã QR tài khoản Telos";
 "telos_qr_transfer_warining"="Lưu ý: Telos và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau.";
+
+"yas_account_copy"="Sao chép tài khoản";
+"yas_account_qrcode"="Mã QR tài khoản YAS";
+"yas_qr_transfer_warining"="Lưu ý: YAS và EOS không phải là một chuỗi công khai và không thể được chuyển giao cho nhau.";
 
 "codex_account_copy"="Sao chép tài khoản";
 "codex_account_qrcode"="Mã QR tài khoản Codex";
@@ -1093,7 +1167,7 @@
 // TabBar
 "wallet"="Ví";
 "exchange"="Giao dịch";
-"dapps" = " DApps ";
+"dapps" = " DApp ";
 "browser"="Browser";
 "news" = "Thông tin";
 "mine"="Tôi";
@@ -1108,7 +1182,6 @@
 // 我
 "mine_login_hint"="Đăng nhập";
 "mine_medishares_account"="Tài khoản Math Wallet";
-"mine_medishares_transcations"="Giao dịch";
 "mine_medishares_contacts"="Địa chỉ liên hệ";
 "mine_medishares_cloud"="Ví điện toán đám mây";
 "mine_medishares_wechat_group"="Tham gia nhóm WeChat chính thức";
@@ -1402,9 +1475,9 @@
 "dapps_error_ont_transaction_build_failed" = "Xây dựng giao dịch thất bại";
 
 // NEO dApp
-"dapps_neo_authorize_get_account" = "正在请求获取当前账户信息";
-"dapps_neo_authorize_user_reject" = "用户拒绝了您的请求";
-"dapps_neo_data_invalid" = "数据异常";
+"dapps_neo_authorize_get_account" = "Requesting current account information";
+"dapps_neo_authorize_user_reject" = "User rejected your request";
+"dapps_neo_data_invalid" = "Invalid Data";
 
 // 活体检测
 "LivenessRemindPromptMessage"="Mô-đun nhận dạng khuôn mặt sẽ được gọi để bảo vệ an ninh chuyển khoản của bạn";
@@ -1753,6 +1826,7 @@
 "instant_exchange_select_wallet_empty_data" = "Bạn chưa có ví %@";
 "instant_exchange_select_wallet_create" = "Vui lòng tạo ví %@ trước";
 "instant_exchange_title" = "Mua lại";
+"instant_swapbutton_title" = "⚡️Swap";
 "instant_exchange_rate" = "1 %@ = %@ %@";
 "instant_exchange_token_empty_data" = "Không có tiền tệ trao đổi";
 "instant_exchange_token_request_data" = "Phản hồi dữ liệu";
@@ -1876,3 +1950,14 @@
 "math_identity_error_create" = "Identity Creation Failed！";
 "math_identity_error_import" = "Identity Import Failed！";
 "math_identity_error_wallet_checked_prompt" = "Choose the wallet you want to create first";
+
+// NFT
+"nft_collections_count"="%d collectible";
+"nft_collections_introduction_title"="Introduction: ";
+"nft_collections_platform_title"="Platform: ";
+"nft_collections_send"="Send";
+"nft_collections_view"="View";
+"nft_collections_view_open"="Open %@ to review";
+"nft_collections_transfer_title"="Send collectible";
+"nft_collections_transcations"="Giao dịch";
+
