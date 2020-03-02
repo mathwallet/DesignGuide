@@ -116,7 +116,7 @@
 "retry"="Retry";
 "save"="Save";
 "continue"="Continue";
-"copy_link"="Copy link";
+"copy_link"="Copy Link";
 "reload"="Reload";
 "share"="Share";
 "success"="Succeeded";
@@ -133,7 +133,8 @@
 "risk_warning" = "Risk warning";
 "risk_warning_text" = "The third-party Website is reported by other users and may involve high-risk situations such as malicious scams, token locks, or hacking! Please be cautious!";
 "send" = "Send";
-
+"assets"="Assets";
+"collections"="Collectibles";
 // 权限
 "take_photo"="Take Photo";
 "photo_album"="Select from Album";
@@ -154,6 +155,7 @@
 "empty_data_withdraw"="No record";
 "empty_data_search"="No search result";
 "empty_whiteList_contacts" = "No white list contacts";
+"empty_data_collectibles" = "No collectibles";
 // 选择钱包
 "select_custom_wallet"="Select %@ wallet";
 
@@ -164,7 +166,7 @@
 
 // 切换钱包
 "switch_wallet" = "Switch Wallet";
-
+"switch_wallet_pop_prompt" = "Support 20+ public chains, scroll up and down to check.";
 // 创建或导入钱包
 "create_wallet" = "Create Wallet";
 "import_wallet" = "Import Wallet";
@@ -291,7 +293,6 @@
 "eos_account_invite_code"="Invitation Code";
 "eos_account_invite_code_placeholder"="Enter your EOS invitation code here";
 "eos_account_invite_code_help"="How may I get one?";
-"eos_account_invite_code_warning"="\n• We will issue an invitation code to an old user who has previously completed real-name authentication. You can join the MDS community (e.g, Wechat Group, Telegram) to inquire or transfer invitation codes.\n\n• We recommend you pay attention to the MDS community daily news, in which invitation codes are distributed occasionally.\n\n• New users completing real-name authentication may have chances to get invitation codes as well.";
 
 "eos_account"="EOS Account";
 "eos_account_select"="Select EOS Account";
@@ -351,7 +352,6 @@
 "eosforce_account_invite_code"="Invitation Code";
 "eosforce_account_invite_code_placeholder"="Enter your EOS FORCE invitation code here";
 "eosforce_account_invite_code_help"="How may I get one?";
-"eosforce_account_invite_code_warning"="• We will issue an invitation code to an old user who has previously completed real-name authentication. You can join the MDS community (e.g, Wechat Group, Telegram) to inquire or transfer invitation codes.\n• We recommend you pay attention to the MDS community daily news, in which invitation codes are distributed occasionally.\n• New users completing real-name authentication may have chances to get invitation codes as well.";
 
 "eosforce_account"="EOS FORCE Account";
 "eosforce_account_select"="Select EOS FORCE Account";
@@ -385,7 +385,6 @@
 "bos_account_invite_code"="Invitation Code";
 "bos_account_invite_code_placeholder"="Enter your BOS invitation code here";
 "bos_account_invite_code_help"="How may I get one?";
-"bos_account_invite_code_warning"="• We will issue an invitation code to an old user who has previously completed real-name authentication. You can join the MDS community (e.g, Wechat Group, Telegram) to inquire or transfer invitation codes.\n• We recommend you pay attention to the MDS community daily news, in which invitation codes are distributed occasionally.\n• New users completing real-name authentication may have chances to get invitation codes as well.";
 
 "bos_account"="BOS Account";
 "bos_account_select"="Select BOS Account";
@@ -419,7 +418,6 @@
 "enu_account_invite_code"="Invitation Code";
 "enu_account_invite_code_placeholder"="Enter your ENU invitation code here";
 "enu_account_invite_code_help"="How may I get one?";
-"enu_account_invite_code_warning"="• We will issue an invitation code to an old user who has previously completed real-name authentication. You can join the MDS community (e.g, Wechat Group, Telegram) to inquire or transfer invitation codes.\n• We recommend you pay attention to the MDS community daily news, in which invitation codes are distributed occasionally.\n• New users completing real-name authentication may have chances to get invitation codes as well.";
 
 "enu_account"="ENU Account";
 "enu_account_select"="Select ENU Account";
@@ -453,7 +451,6 @@
 "codex_account_invite_code"="Invitation Code";
 "codex_account_invite_code_placeholder"="Enter your Codex invitation code here";
 "codex_account_invite_code_help"="How may I get one?";
-"codex_account_invite_code_warning"="• We will issue an invitation code to an old user who has previously completed real-name authentication. You can join the MDS community (e.g, Wechat Group, Telegram) to inquire or transfer invitation codes.\n• We recommend you pay attention to the MDS community daily news, in which invitation codes are distributed occasionally.\n• New users completing real-name authentication may have chances to get invitation codes as well.";
 
 "codex_account"="Codex Account";
 "codex_account_select"="Select Codex Account";
@@ -487,7 +484,6 @@
 "telos_account_invite_code"="Invitation Code";
 "telos_account_invite_code_placeholder"="Enter your Telos invitation code here";
 "telos_account_invite_code_help"="How may I get one?";
-"telos_account_invite_code_warning"="• We will issue an invitation code to an old user who has previously completed real-name authentication. You can join the MDS community (e.g, Wechat Group, Telegram) to inquire or transfer invitation codes.\n• We recommend you pay attention to the MDS community daily news, in which invitation codes are distributed occasionally.\n• New users completing real-name authentication may have chances to get invitation codes as well.";
 
 "telos_account"="Telos Account";
 "telos_account_select"="Select Telos Account";
@@ -514,7 +510,39 @@
 "telos_account_create_by_friends_publickey_prompt"="Please copy the public key to your friend in order to create an Telos account.";
 "telos_account_create_by_friends_privatekey_title"="Private Key";
 "telos_account_create_by_friends_privatekey_prompt"="Please keep your private key confidential and do NOT send it to anyone including your friend. You will need the private key to add your Telos account to your wallet after creating the Telos account by your friend.";
+// 创建 YAS 账户
+"yas_account_create"="Create YAS Account";
+"yas_account_import"="Import YAS Account";
 
+"yas_account_invite_code"="Invitation Code";
+"yas_account_invite_code_placeholder"="Enter your YAS invitation code here";
+"yas_account_invite_code_help"="How may I get one?";
+
+"yas_account"="YAS Account";
+"yas_account_select"="Select YAS Account";
+"yas_account_input_placeholder"="12 chars，with '1~5' and 'a~z'";
+
+"yas_account_password"="Password";
+"yas_account_password_input_placeholder"="At least 8 characters";
+"yas_account_password_repeat"="Repeat Password";
+"yas_account_password_repeat_input_placeholder"="Enter password again";
+
+"yas_account_create_warning_exist"="The YAS account existed.";
+"yas_account_create_warning_fail"="Fail to create YAS account.";
+
+"yas_account_create_warning_success"="YAS account created.";
+"yas_account_privatekey_backup_warning"="Below is the private key of the account, please backup and export the private key to a safe place, once lost, the wallet cannot be recovered.";
+"yas_account_privatekey_backup_complete"="Private Key Backup Completed.";
+
+"yas_create_account_success_copy_prompt"= "Please copy and store the Private Key";
+
+"yas_account_privatekey_backup_disclaimer"= "We will not be responsible for any assets loss because of private key lost or password forgotten!";
+
+"yas_account_create_by_friends_title"="Request an YAS account from a friend";
+"yas_account_create_by_friends_publickey_title"="Public Key";
+"yas_account_create_by_friends_publickey_prompt"="Please copy the public key to your friend in order to create an YAS account.";
+"yas_account_create_by_friends_privatekey_title"="Private Key";
+"yas_account_create_by_friends_privatekey_prompt"="Please keep your private key confidential and do NOT send it to anyone including your friend. You will need the private key to add your YAS account to your wallet after creating the YAS account by your friend.";
 // FT 钱包创建
 "ft_account_create"="Create FT Account";
 
@@ -653,6 +681,7 @@
 "transaction_menu_bos_account"="BOS Account";
 "transaction_menu_enu_account"="ENU Account";
 "transaction_menu_telos_account"="Telos Account";
+"transaction_menu_yas_account"="YAS Account";
 "transaction_menu_codex_account"="Codex Account";
 "transaction_menu_ft_account"="FT Account";
 "transaction_menu_scan_qrcode"="Scan QR Code";
@@ -691,6 +720,7 @@
 
 "transaction_to_value_placeholder" = "Amount";
 "transaction_to_balance_low" = "The balance is not enough";
+"transaction_to_eth_gas_not_enough" = "Need more ETH to pay the GAS fee";
 "transaction_to_eth_balance_low" = "The ETH balance is not enough";
 "transaction_to_ong_balance_low" = "The ONG balance is not enough";
 "transaction_to_zil_balance_low" = "The ZIL balance is not enough";
@@ -705,7 +735,7 @@
 "transaction_to_advance_setting_hex_data" = "Data";
 
 "transaction_to_gas_limit_invalid" = "Gas Limit no Less Than %@";
-"transaction_to_gas_price_invalid" = "Gas Price no Less Than%@gwei";
+"transaction_to_gas_price_invalid" = "Gas Price no Less Than %@ gwei";
 "transaction_to_hex_data_invalid" = "Invalid Hexadecimal Data";
 "transaction_to_address_null" = "Please enter the receiver's address.";
 "transaction_to_account_null" = "Please enter the receiver's account.";
@@ -781,12 +811,11 @@
 "transfer_esn_amount"="%@%@ ESN";
 "transfer_fee_trx_amount"="%@ TRX";
 "transfer_NAS_amount"="%@%@ NAS";
-
 "refund"="refund";
-
 // 云端钱包
 "cloud_wallet" = "Cloud";
 "cloud_set_pin_code" = "Please set PIN code";
+"cloud_vpos" = "Mining";
 "cloud_record" = "Transactions";
 "cloud_record_details" = "Details";
 "cloud_record_details_type" ="Item";
@@ -862,6 +891,17 @@
 "cloud_swap_exchange_rate_return" ="refund";
 "cloud_swap_exchange_transfer_success"="Order created，wait for confirmation";
 "cloud_swap_exchange_math_comment"="No sufficient MATH，will pay with source currency";
+"cloud_swap_exchange_unavailable_comment" = "The trading pair is temporarily unavailable";
+"cloud_swap_exchange_invite" = " Invite friends to get USDT";
+"cloud_swap_exchange_invite_more" = "";//英语韩语不需要
+
+"cloud_swap_exchange_recommend_title" = "Cloud Wallet⚡️SWAP";
+"cloud_swap_exchange_recommend_content" = "•    Faster\n•    No Gas Fee\n•    Better Price";
+"cloud_swap_exchange_recommend_step1_title" = " Step 1";
+"cloud_swap_exchange_recommend_step1_content" = "Switch to Cloud Wallet";
+"cloud_swap_exchange_recommend_step2_title" = "Step 2";
+"cloud_swap_exchange_recommend_step2_content" = "Go  the Trade tab";
+"cloud_swap_exchange_recommend_empty" = "Switch to cloud wallet⚡️Swap";
 // PIN 码（文案统一改成 "支付密码"）
 "pin_code" = "Payment Password";
 "pin_code_set" = "Set Payment Password";
@@ -943,6 +983,7 @@
 "transaction_detail_to_address_title"="Remitted";
 "transaction_detail_to_account_title" = "Remitted";
 "transaction_detail_tx_fee_title"="Gas fee";
+"transaction_detail_tx_data_title"="Data";
 "transaction_detail_tx_time_title"="Tx Time";
 "transaction_detail_remark_title"="Memo";
 "transaction_detail_tx_hash_title"="Tx Hash";
@@ -989,6 +1030,10 @@
 "telos_account_copy"="Copy Account";
 "telos_account_qrcode"="Telos Account QR Code";
 "telos_qr_transfer_warining"="Note：Transfers betweent Telos and EOS are not supported as they are differant chains.";
+
+"yas_account_copy"="Copy Account";
+"yas_account_qrcode"="YAS Account QR Code";
+"yas_qr_transfer_warining"="Note：Transfers betweent YAS and EOS are not supported as they are differant chains.";
 
 "codex_account_copy"="Copy Account";
 "codex_account_qrcode"="Codex Account QR Code";
@@ -1116,7 +1161,7 @@
 // TabBar
 "wallet"="Wallet";
 "exchange"="Trade";
-"dapps" = " DApps ";
+"dapps" = " DApp ";
 "browser"="Browser";
 "mine"="Me";
 "news"="News";
@@ -1131,7 +1176,6 @@
 // 我
 "mine_login_hint"="Sign In";
 "mine_medishares_account"="Math Account";
-"mine_medishares_transcations"="Transactions";
 "mine_medishares_contacts"="Address Book";
 "mine_medishares_cloud"="Cloud Wallet";
 "mine_medishares_wechat_group"="Join Wechat Group";
@@ -1430,9 +1474,9 @@
 "dapps_error_ont_transaction_build_failed" = "Transaction built unsuccessfully";
 
 // NEO dApp
-"dapps_neo_authorize_get_account" = "正在请求获取当前账户信息";
-"dapps_neo_authorize_user_reject" = "用户拒绝了您的请求";
-"dapps_neo_data_invalid" = "数据异常";
+"dapps_neo_authorize_get_account" = "Requesting current account information";
+"dapps_neo_authorize_user_reject" = "User rejected your request";
+"dapps_neo_data_invalid" = "Invalid Data";
 
 // 活体检测
 "LivenessRemindPromptMessage"="Get started face recognition to secure your transaction.";
@@ -1790,6 +1834,7 @@
 "instant_exchange_select_wallet_empty_data" = "You don't have %@ wallet";
 "instant_exchange_select_wallet_create" = "Please create %@ wallet first";
 "instant_exchange_title" = "Swap";
+"instant_swapbutton_title" = "⚡️Swap";
 "instant_exchange_rate" = "1 %@ = %@ %@";
 "instant_exchange_token_empty_data" = "No token yet";
 "instant_exchange_token_request_data" = "Refresh the data";
@@ -1913,3 +1958,12 @@
 "math_identity_error_import" = "Identity Import Failed！";
 "math_identity_error_wallet_checked_prompt" = "Choose the wallet you want to create first";
 
+// NFT
+"nft_collections_count"="%d collectible";
+"nft_collections_introduction_title"="Introduction: ";
+"nft_collections_platform_title"="Platform: ";
+"nft_collections_send"="Send";
+"nft_collections_view"="View";
+"nft_collections_view_open"="Open %@ to review";
+"nft_collections_transfer_title"="Send collectible";
+"nft_collections_transcations"="Transactions";
