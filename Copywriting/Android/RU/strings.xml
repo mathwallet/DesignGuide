@@ -363,7 +363,7 @@
 
     <!--关于-->
     <string name="about_version_code">Версия %s</string>
-    <string name="about_version_description">Math Wallet это самый мощный и безопасный универсальный крипто кошелек, который позволяет хранить всё: BTC, ETH/ERC20, EOS токены, поддерживает cross-chain обмен токенами и multi-chain магазин dApp.</string>
+    <string name="about_version_description">Math Wallet это самый мощный и безопасный универсальный крипто кошелек, который позволяет хранить всё: BTC, ETH/ERC20, EOS токены, поддерживает cross-chain обмен токенами и multi-chain магазин DApp.</string>
     <string name="website_title">Вебсайт: </string>
     <string name="github_title">GitHub: </string>
     <string name="twitter_title">Twitter: </string>
@@ -714,9 +714,11 @@
     <string name="import_eos_account">Импортировать EOS Аккаунт</string>
     <string name="import_ft_account">Импортировать FT Аккаунт</string>
     <string name="import_bos_account">Импортировать BOS Аккаунт</string>
+    <string name="import_yas_account">Импортировать YAS Аккаунт</string>
     <string name="import_enu_account">Импортировать ENU Аккаунт</string>
     <string name="import_telos_account">Импортировать TELOS Аккаунт</string>
     <string name="choose_eos_account">Выберите EOS аккаунт</string>
+    <string name="choose_yas_account">Выберите YAS аккаунт</string>
     <string name="choose_enu_account">Выберите ENU аккаунт</string>
     <string name="choose_telos_account">Выберите TELOS аккаунт</string>
     <string name="create_eos_force_account">Создать EOS FORCE Аккаунт</string>
@@ -725,6 +727,7 @@
     <string name="eos_account">EOS Аккаунт</string>
     <string name="ft_account">FT Аккаунт</string>
     <string name="bos_account">BOS Аккаунт</string>
+    <string name="yas_account">YAS Аккаунт</string>
     <string name="enu_account">ENU Аккаунт</string>
     <string name="telos_account">TELOS Аккаунт</string>
     <string name="eos_force_account">EOS FORCE Аккаунт</string>
@@ -764,6 +767,7 @@
     <string name="eos_force_account_qrcode">QR-код учетной записи EOS FORCE</string>
     <string name="not_query_to_the_eos_account">Учетная запись EOS не найдена.</string>
     <string name="not_query_to_the_bos_account">Учетная запись BOS не найдена.</string>
+    <string name="not_query_to_the_yas_account">Учетная запись YAS не найдена.</string>
     <string name="not_query_to_the_enu_account">Учетная запись ENU не найдена.</string>
     <string name="not_query_to_the_telos_account">Учетная запись TELOS не найдена.</string>
     <string name="not_query_to_the_eos_force_account">Учетная запись EOS FORCE не найдена.</string>
@@ -787,6 +791,7 @@
     <string name="send_to_eosaccount">EOS Аккаунт</string>
     <string name="send_to_ftaccount">FT Аккаунт</string>
     <string name="send_to_bosaccount">BOS Аккаунт</string>
+    <string name="send_to_yasaccount">YAS Аккаунт</string>
     <string name="send_to_enuaccount">ENU Аккаунт</string>
     <string name="send_to_telosaccount">TELOS Аккаунт</string>
     <string name="send_to_eos_force_account">EOS FORCE Аккаунт</string>
@@ -836,15 +841,18 @@
     <string name="eos_resource_ram_price_trend">EOS RAM Exchange</string>
     <string name="eos_resource_eos_balance">Доступно %s EOS</string>
     <string name="bos_resource_eos_balance">Доступно %s BOS</string>
+    <string name="yas_resource_eos_balance">Доступно %s YAS</string>
     <string name="enu_resource_eos_balance">Доступно %s ENU</string>
     <string name="telos_resource_eos_balance">Доступно %s TLOS</string>
     <string name="eos_resource_ram_sell_kb_balance">Доступно %s KB</string>
     <string name="eos_resource_ram_price_trade">Цена RAM: %s EOS/KB</string>
     <string name="bos_resource_ram_price_trade">Цена RAM: %s BOS/KB</string>
+    <string name="yas_resource_ram_price_trade">Цена RAM: %s YAS/KB</string>
     <string name="enu_resource_ram_price_trade">Цена RAM: %s ENU/KB</string>
     <string name="telos_resource_ram_price_trade">Цена RAM: %s TLOS/KB</string>
     <string name="eos_resource_ram_available_value">Доступно RAM ≈ %s EOS</string>
     <string name="bos_resource_ram_available_value">Доступно RAM ≈ %s BOS</string>
+    <string name="yas_resource_ram_available_value">Доступно RAM ≈ %s YAS</string>
     <string name="enu_resource_ram_available_value">Доступно RAM ≈ %s ENU</string>
     <string name="telos_resource_ram_available_value">Доступно RAM ≈ %s TLOS</string>
     <string name="eos_resource_ram_input_value_zero">Введенная сумма не может быть \'0\'</string>
@@ -1121,8 +1129,8 @@
     <string name="location">Местоположение</string>
     <string name="allow_access_to_your_location">Разрешить доступ к вашему местоположению ?</string>
     <string name="dapps_upgrade_disclaimer">Обновите ваш Math Wallet, спасибо за вашу поддержку.</string>
-    <string name="dapps_open_risk_disclaimer">Вы собираетесь перейти на стороннюю страницу DAPP. Использование стороннего DAPP будет применять к стороннему DAPP \ Пользовательское соглашение и Политику конфиденциальности, которые будут нести прямую и отдельную ответственность перед DAPP третьей стороной.</string>
-    <string name="dapps_risk_disclaimer">Использование вами DAPP третьей стороны будет регулироваться Соглашением с пользователем и Политикой конфиденциальности DAPP третьей стороны, которая несет прямую и отдельную ответственность.</string>
+    <string name="dapps_open_risk_disclaimer">Вы собираетесь перейти на стороннюю страницу DApp. Использование стороннего DApp будет применять к стороннему DApp \ Пользовательское соглашение и Политику конфиденциальности, которые будут нести прямую и отдельную ответственность перед DApp третьей стороной.</string>
+    <string name="dapps_risk_disclaimer">Использование вами DApp третьей стороны будет регулироваться Соглашением с пользователем и Политикой конфиденциальности DApp третьей стороны, которая несет прямую и отдельную ответственность.</string>
     <string name="eos_account_create_success_pendding_propmt">Учетная запись была создана и отправлена в основную сеть. Пожалуйста, подождите подтверждения в сети (около 3 минут), а затем начните транзакцию.</string>
     <string name="close_dapp_no_finger">Подтверждение не появляется перед закрытием DApp</string>
     <string name="dapp_rankings">DApp Рейтнг</string>
@@ -1211,9 +1219,9 @@
     <string name="hardware_press_btn">Please press the button to confirm.</string>
 
 
-    <string name="dapp_search_hint">Искать или перейти по адресу Dapp</string>
+    <string name="dapp_search_hint">Искать или перейти по адресу DApp</string>
     <string name="open_link">Перейти по адресу: </string>
-    <string name="dapp_search_open_otherwallet_message">Пожалуйста, переключитесь на %s кошелек, чтобы открыть Dapp</string>
+    <string name="dapp_search_open_otherwallet_message">Пожалуйста, переключитесь на %s кошелек, чтобы открыть DApp</string>
     <string name="dapp_search_nothing">Нет результатов</string>
     <string name="eth_sigh_address">Адрес</string>
     <string name="eth_sign_content">Содержимое</string>
@@ -1253,8 +1261,6 @@
 
     <string name="zilliqa_wallet">ZIL Wallet</string>
     <string name="please_enter_the_correct_zilliqa_address">Please enter the correct ZIL publicKey.</string>
-    <string name="contact_account_zilliqa_address_title">ZIL Beneficiary Wallet Address</string>
-    <string name="contact_account_zilliqa_address_placeholder">Enter or paste ZIL wallet publicKey</string>
     <string name="module_wallet">%s Wallet</string>
     <string name="check_tokens">Please check the tokens</string>
     <string name="add_token_first">Please add the token first</string>
@@ -1453,7 +1459,7 @@
     <string name="math_identity_password_new">New passwrod</string>
     <string name="math_identity_password_new_again">Repeat new password</string>
 
-    <string name="vpos_pool">MATH VPOS Pool</string>
+    <string name="vpos_pool">MATH VPoS Pool</string>
     <string name="math_identity_add_wallet">Add Wallet</string>
     <string name="math_identity_added_wallet">Added Wallet</string>
     <string name="math_identity_name">Name</string>
@@ -1509,12 +1515,28 @@
     <string name="account_forget_password">Forget Password</string>
 
     <string name="swap_guide_tip">Switch to cloud wallet/Swap at Cloud Wallet</string>
-    <string name="swap_guide_title">Why MATH Cloud SWAP?</string>
-    <string name="swap_guide_one"> • Better Speed</string>
-    <string name="swap_guide_two"> • Better Fee</string>
-    <string name="swap_guide_three">• Better Price</string>
+    <string name="swap_guide_title">Cloud Wallet ⚡ SWAP</string>
+    <string name="swap_guide_one"> • Faster</string>
+    <string name="swap_guide_two"> • No Gas Fee</string>
+    <string name="swap_guide_three"> • Better Price</string>
     <string name="swap_guide_step_one">Step 1</string>
     <string name="swap_guide_step_two">Step 2</string>
-    <string name="swap_guide_into"> Switch to Trade tab</string>
-    <string name="swap_guide_switch"> Switch to Cloud Wallet and login</string>
+    <string name="swap_guide_into"> Go the Trade tab</string>
+    <string name="swap_guide_switch"> Switch to Cloud Wallet</string>
+    <string name="btn_fastchange">⚡️Fast exchange</string>
+    <string name="need_more_eth_to_pay_the_gas_fee">Need more ETH to pay the GAS fee</string>
+    <string name="shard">Shard</string>
+    <string name="target_is_closed">The trading pair is temporarily unavailable</string>
+    <string name="chains_scroll_up_and_down_to_check">Support 20+ public chains, scroll up and down to check</string>
+    <string name="cloud_vpos">Mining</string>
+    <string name="token">Token</string>
+    <string name="collections">Collectible</string>
+    <string name="eth_collections_number">%d collectible</string>
+    <string name="introduction_of_collections">Introduction :</string>
+    <string name="platform_of_collections">Platform :</string>
+    <string name="open_opensea_to_review">Open OpenSea to review</string>
+    <string name="open_enjinx_to_review">Open EnjinX to review</string>
+    <string name="send_eth_collection">Send collectible</string>
+    <string name="invite_friends_to_get_usdt">Invite friends to get USDT</string>
+    <string name="more_rewards_with_more_invites">(more rewards with more invites)</string>
 </resources>

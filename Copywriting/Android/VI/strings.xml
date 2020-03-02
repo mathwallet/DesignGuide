@@ -2,7 +2,7 @@
     <string name="app_name">Math Wallet</string>
     <string name="wallet">Ví</string>
     <string name="position">Vị trí</string>
-    <string name="dapp">Ứng dụng</string>
+    <string name="dapp">DApp</string>
     <string name="profile">Tôi</string>
 
     <!--多钱包选择页面-->
@@ -349,6 +349,7 @@
     <string name="my_wallet">Ví của tôi</string>
 
     <!--添加联系人-->
+    <string name="contact_detail_title">Contact Information</string>
     <string name="sava_contacts_failed">Lưu liên lạc thất bại</string>
     <string name="update_contacts_failed">Cập nhật liên lạc thất bại</string>
     <string name="please_input_name">Vui lòng điền tên</string>
@@ -713,9 +714,11 @@
     <string name="import_eos_account">Nhập tài khoản EOS</string>
     <string name="import_ft_account">Nhập tài khoản FT</string>
     <string name="import_bos_account">Nhập tài khoản BOS</string>
+    <string name="import_yas_account">Nhập tài khoản YAS</string>
     <string name="import_enu_account">Nhập tài khoản ENU</string>
     <string name="import_telos_account">Nhập tài khoản TELOS</string>
     <string name="choose_eos_account">Chọn một tài khoản EOS</string>
+    <string name="choose_yas_account">Chọn một tài khoản YAS</string>
     <string name="choose_enu_account">Chọn một tài khoản ENU</string>
     <string name="choose_telos_account">Chọn một tài khoản TELOS</string>
     <string name="create_eos_force_account">Tạo một tài khoản lực lượng EOS</string>
@@ -724,6 +727,7 @@
     <string name="eos_account">Tài khoản EOS</string>
     <string name="ft_account">Tài khoản FT</string>
     <string name="bos_account">Tài khoản BOS</string>
+    <string name="yas_account">Tài khoản YAS</string>
     <string name="enu_account">Tài khoản ENU</string>
     <string name="eos_force">Lực lượng EOS</string>
     <string name="telos_account">Tài khoản TELOS</string>
@@ -764,6 +768,7 @@
     <string name="not_query_to_the_eos_account">Tài khoản EOS không được truy vấn</string>
     <string name="not_query_to_the_enu_account">Không tìm thấy trong tài khoản ENU</string>
     <string name="not_query_to_the_bos_account">Tài khoản BOS không được truy vấn</string>
+    <string name="not_query_to_the_yas_account">Tài khoản YAS không được truy vấn</string>
     <string name="not_query_to_the_telos_account">Không tìm thấy tài khoản TELOS</string>
     <string name="not_query_to_the_eos_force_account">Tài khoản EOS Force không được truy vấn</string>
 
@@ -786,6 +791,7 @@
     <string name="send_to_eosaccount">Chuyển đến tài khoản EOS</string>
     <string name="send_to_ftaccount">Chuyển đến tài khoản FT</string>
     <string name="send_to_bosaccount">Chuyển đến tài khoản BOS</string>
+    <string name="send_to_yasaccount">Chuyển đến tài khoản YAS</string>
     <string name="send_to_enuaccount">Chuyển đến tài khoản ENU</string>
     <string name="send_to_telosaccount">Chuyển đến tài khoản TELOS</string>
     <string name="send_to_eos_force_account">Chuyển đến Tài khoản EOS Force</string>
@@ -835,15 +841,18 @@
     <string name="eos_resource_ram_price_trend">EOS RAM Exchange</string>
     <string name="eos_resource_eos_balance">Có sẵn %s EOS</string>
     <string name="bos_resource_eos_balance">Có sẵn %s BOS</string>
+    <string name="yas_resource_eos_balance">Có sẵn %s YAS</string>
     <string name="enu_resource_eos_balance">Có sẵn %s ENU</string>
     <string name="telos_resource_eos_balance">Có sẵn %s TLOS</string>
     <string name="eos_resource_ram_sell_kb_balance">Có sẵn %s KB</string>
     <string name="eos_resource_ram_price_trade">RAM Giá: %s EOS/KB</string>
     <string name="bos_resource_ram_price_trade">RAM Giá: %s BOS/KB</string>
+    <string name="yas_resource_ram_price_trade">RAM Giá: %s YAS/KB</string>
     <string name="enu_resource_ram_price_trade">RAM Giá: %s ENU/KB</string>
     <string name="telos_resource_ram_price_trade">RAM Giá: %s TLOS/KB</string>
     <string name="eos_resource_ram_available_value">Bộ nhớ khả dụng ≈ %s EOS</string>
     <string name="bos_resource_ram_available_value">Bộ nhớ khả dụng ≈ %s BOS</string>
+    <string name="yas_resource_ram_available_value">Bộ nhớ khả dụng ≈ %s YAS</string>
     <string name="enu_resource_ram_available_value">Bộ nhớ khả dụng ≈ %s ENU</string>
     <string name="telos_resource_ram_available_value">Bộ nhớ khả dụng ≈ %s TLOS</string>
     <string name="eos_resource_ram_input_value_zero">Số tiền nhập không thể là0</string>
@@ -1068,7 +1077,7 @@
     <string name="eos_account_create_by_exchange_prompt7">Sau khi chuyển tiền hoặc chuyển tiền thành công, khóa riêng được sao lưu ở bước trước được nhập vào ví lúa mì, nghĩa là việc tạo tài khoản đã hoàn tất.</string>
     <string name="eos_account_create_by_exchange_account_title">Chuyển vào tài khoản</string>
     <string name="eos_account_create_by_exchange_memo_title">Điền vào ghi chú</string>
-    <string name="eos_account_create_by_exchange_prompt8">Phương pháp tạo này sử dụng Dappub Hợp đồng thông minh do nhóm triển khai không liên quan đến các thao tác thủ công trong quá trình tạo. Ví lúa mì có thể giúp phục hồi nếu người dùng mất tài sản do hoạt động không đúng..</string>
+    <string name="eos_account_create_by_exchange_prompt8">Phương pháp tạo này sử dụng DAppub Hợp đồng thông minh do nhóm triển khai không liên quan đến các thao tác thủ công trong quá trình tạo. Ví lúa mì có thể giúp phục hồi nếu người dùng mất tài sản do hoạt động không đúng..</string>
     <string name="eos_account_create_by_exchange_copy_account">Sao chép tên tài khoản</string>
     <string name="eos_account_create_by_exchange_copy_memo">Ghi chú chuẩn bị phức tạp</string>
     <string name="eos_account_create_by_friend_prompt9">Sau khi thanh toán thành công, khóa riêng của bản sao lưu trước được nhập vào ví lúa mì, nghĩa là việc tạo tài khoản đã hoàn tất.</string>
@@ -1102,9 +1111,9 @@
     <string name="location">Thông tin vị trí</string>
     <string name="allow_access_to_your_location">Cho phép truy cập vào thông tin vị trí của bạn？</string>
     <string name="dapps_upgrade_disclaimer">Phiên bản ví của bạn quá thấp và ứng dụng có thể không hoạt động chính xác. Chúng tôi khuyên bạn nên nâng cấp ví của mình lên phiên bản mới nhất càng sớm càng tốt. Cảm ơn bạn rất nhiều！</string>
-    <string name="dapps_open_risk_disclaimer">Bạn sắp chuyển sang trang DAPP của bên thứ ba và việc bạn sử dụng DAPP của bên thứ ba sẽ áp dụng cho Thỏa thuận bảo mật và chính sách người dùng DAPP của bên thứ ba.》,Chịu trách nhiệm trực tiếp và riêng biệt bởi DAPP của bên thứ ba.</string>
-    <string name="dapps_risk_disclaimer">Việc bạn sử dụng DAPP của bên thứ ba sẽ tuân theo Thỏa thuận người dùng và Chính sách quyền riêng tư của DAPP của bên thứ ba, sẽ chịu trách nhiệm trực tiếp và riêng biệt với DAPP của bên thứ ba.</string>
-    <string name="close_dapp_no_finger">Không có xác nhận bật lên trước khi đóng Dapp</string>
+    <string name="dapps_open_risk_disclaimer">Bạn sắp chuyển sang trang DApp của bên thứ ba và việc bạn sử dụng DApp của bên thứ ba sẽ áp dụng cho Thỏa thuận bảo mật và chính sách người dùng DApp của bên thứ ba.》,Chịu trách nhiệm trực tiếp và riêng biệt bởi DApp của bên thứ ba.</string>
+    <string name="dapps_risk_disclaimer">Việc bạn sử dụng DApp của bên thứ ba sẽ tuân theo Thỏa thuận người dùng và Chính sách quyền riêng tư của DApp của bên thứ ba, sẽ chịu trách nhiệm trực tiếp và riêng biệt với DApp của bên thứ ba.</string>
+    <string name="close_dapp_no_finger">Không có xác nhận bật lên trước khi đóng DApp</string>
     <string name="eos_account_create_success_pendding_propmt">Tài khoản đã được tạo và gửi đến mạng chính. Vui lòng xác nhận giao dịch sau khi xác nhận mạng chính (khoảng 3 phút) để đảm bảo việc tạo thành công.</string>
     <string name="dapp_rankings">Bảng xếp hạng ứng dụng</string>
     <string name="dapps_24h_users">Người dùng 24H</string>
@@ -1210,7 +1219,7 @@
 
     <string name="dapp_search_hint">Tìm kiếm hoặc nhập địa chỉ DApp</string>
     <string name="open_link">Mở liên kết: </string>
-    <string name="dapp_search_open_otherwallet_message">Vui lòng chuyển sang ví%strước để nhập cái nàyDAPP</string>
+    <string name="dapp_search_open_otherwallet_message">Vui lòng chuyển sang ví%strước để nhập cái nàyDApp</string>
     <string name="dapp_search_nothing">Chưa có kết quả tìm kiếm</string>
     <string name="eth_sigh_address">Địa chỉ chữ ký</string>
     <string name="eth_sign_content">Chữ ký nội dung</string>
@@ -1445,7 +1454,7 @@
     <string name="math_identity_password_new">New passwrod</string>
     <string name="math_identity_password_new_again">Repeat new password</string>
 
-    <string name="vpos_pool">MATH VPOS Pool</string>
+    <string name="vpos_pool">MATH VPoS Pool</string>
     <string name="math_identity_add_wallet">Add Wallet</string>
     <string name="math_identity_added_wallet">Added Wallet</string>
     <string name="math_identity_name">Name</string>
@@ -1500,12 +1509,28 @@
     <string name="account_forget_password">Forget Password</string>
 
     <string name="swap_guide_tip">Switch to cloud wallet/Swap at Cloud Wallet</string>
-    <string name="swap_guide_title">Why MATH Cloud SWAP?</string>
-    <string name="swap_guide_one"> • Better Speed</string>
-    <string name="swap_guide_two"> • Better Fee</string>
-    <string name="swap_guide_three">• Better Price</string>
+    <string name="swap_guide_title">Cloud Wallet ⚡ SWAP</string>
+    <string name="swap_guide_one"> • Faster</string>
+    <string name="swap_guide_two"> • No Gas Fee</string>
+    <string name="swap_guide_three"> • Better Price</string>
     <string name="swap_guide_step_one">Step 1</string>
     <string name="swap_guide_step_two">Step 2</string>
-    <string name="swap_guide_into"> Switch to Trade tab</string>
-    <string name="swap_guide_switch"> Switch to Cloud Wallet and login</string>
+    <string name="swap_guide_into"> Go the Trade tab</string>
+    <string name="swap_guide_switch"> Switch to Cloud Wallet</string>
+    <string name="btn_fastchange">⚡️Fast exchange</string>
+    <string name="need_more_eth_to_pay_the_gas_fee">Need more ETH to pay the GAS fee</string>
+    <string name="shard">Shard</string>
+    <string name="target_is_closed">The trading pair is temporarily unavailable</string>
+    <string name="chains_scroll_up_and_down_to_check">Support 20+ public chains, scroll up and down to check</string>
+    <string name="cloud_vpos">Mining</string>
+    <string name="token">Token</string>
+    <string name="collections">Collectible</string>
+    <string name="eth_collections_number">%d collectible</string>
+    <string name="introduction_of_collections">Introduction :</string>
+    <string name="platform_of_collections">Platform :</string>
+    <string name="open_opensea_to_review">Open OpenSea to review</string>
+    <string name="open_enjinx_to_review">Open EnjinX to review</string>
+    <string name="send_eth_collection">Send collectible</string>
+    <string name="invite_friends_to_get_usdt">Invite friends to get USDT</string>
+    <string name="more_rewards_with_more_invites">(more rewards with more invites)</string>
 </resources>
