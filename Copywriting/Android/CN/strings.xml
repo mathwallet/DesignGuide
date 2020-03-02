@@ -63,7 +63,7 @@
 
     <!--助记词-->
     <string name="wallet_mnemonic_title">助记词</string>
-    <string name="vpos_pool">VPOS 矿池</string>
+    <string name="vpos_pool">VPoS 矿池</string>
     <string name="wallet_import_mnemonic_phrase_placeholder">输入助记词，按空格分割</string>
     <string name="wallet_import_mnemonic_phrase_path_title">路径</string>
     <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx，Metamask (ETH)</string>
@@ -100,6 +100,7 @@
 
     <!--管理钱包-->
     <string name="select_wallet">选择钱包</string>
+    <string name="manage_wallet">管理钱包</string>
     <string name="create_wallet">创建钱包</string>
     <string name="eos_owner">Owner</string>
     <string name="eos_active">Active</string>
@@ -712,9 +713,11 @@
     <string name="import_eos_account">导入 EOS 账户</string>
     <string name="import_ft_account">导入 FT 账户</string>
     <string name="import_bos_account">导入 BOS 账户</string>
+    <string name="import_yas_account">导入 YAS 账户</string>
     <string name="import_enu_account">导入 ENU 账户</string>
     <string name="import_telos_account">导入 TELOS 账户</string>
     <string name="choose_eos_account">选择 EOS 账户</string>
+    <string name="choose_yas_account">选择 YAS 账户</string>
     <string name="choose_enu_account">选择 ENU 账户</string>
     <string name="choose_telos_account">选择 TELOS 账户</string>
     <string name="create_eos_force_account">创建 EOS 原力账户</string>
@@ -723,6 +726,7 @@
     <string name="eos_account">EOS 账户</string>
     <string name="ft_account">FT 账户</string>
     <string name="bos_account">BOS 账户</string>
+    <string name="yas_account">YAS 账户</string>
     <string name="enu_account">ENU 账户</string>
     <string name="eos_force">EOS 原力</string>
     <string name="telos_account">TELOS 账户</string>
@@ -763,6 +767,7 @@
     <string name="not_query_to_the_eos_account">未查询到 EOS 账户</string>
     <string name="not_query_to_the_enu_account">未查询到 ENU 账户</string>
     <string name="not_query_to_the_bos_account">未查询到 BOS 账户</string>
+    <string name="not_query_to_the_yas_account">未查询到 YAS 账户</string>
     <string name="not_query_to_the_telos_account">未查询到 TELOS 账户</string>
     <string name="not_query_to_the_eos_force_account">未查询到 EOS 原力账户</string>
 
@@ -785,6 +790,7 @@
     <string name="send_to_eosaccount">转到 EOS 账户</string>
     <string name="send_to_ftaccount">转到 FT 账户</string>
     <string name="send_to_bosaccount">转到 BOS 账户</string>
+    <string name="send_to_yasaccount">转到 YAS 账户</string>
     <string name="send_to_enuaccount">转到 ENU 账户</string>
     <string name="send_to_telosaccount">转到 TELOS 账户</string>
     <string name="send_to_eos_force_account">转到 EOS 原力账户</string>
@@ -834,15 +840,18 @@
     <string name="eos_resource_ram_price_trend">EOS RAM Exchange</string>
     <string name="eos_resource_eos_balance">可用 %s EOS</string>
     <string name="bos_resource_eos_balance">可用 %s BOS</string>
+    <string name="yas_resource_eos_balance">可用 %s YAS</string>
     <string name="enu_resource_eos_balance">可用 %s ENU</string>
     <string name="telos_resource_eos_balance">可用 %s TLOS</string>
     <string name="eos_resource_ram_sell_kb_balance">可用 %s KB</string>
     <string name="eos_resource_ram_price_trade">RAM 价格: %s EOS/KB</string>
     <string name="bos_resource_ram_price_trade">RAM 价格: %s BOS/KB</string>
+    <string name="yas_resource_ram_price_trade">RAM 价格: %s YAS/KB</string>
     <string name="enu_resource_ram_price_trade">RAM 价格: %s ENU/KB</string>
     <string name="telos_resource_ram_price_trade">RAM 价格: %s TLOS/KB</string>
     <string name="eos_resource_ram_available_value">可用内存 ≈ %s EOS</string>
     <string name="bos_resource_ram_available_value">可用内存 ≈ %s BOS</string>
+    <string name="yas_resource_ram_available_value">可用内存 ≈ %s YAS</string>
     <string name="enu_resource_ram_available_value">可用内存 ≈ %s ENU</string>
     <string name="telos_resource_ram_available_value">可用内存 ≈ %s TLOS</string>
     <string name="eos_resource_ram_input_value_zero">输入金额不能为0</string>
@@ -1067,7 +1076,7 @@
     <string name="eos_account_create_by_exchange_prompt7">提币或转账成功后，将上一步备份的私钥导入麦子钱包，即完成账户创建。</string>
     <string name="eos_account_create_by_exchange_account_title">转入账户</string>
     <string name="eos_account_create_by_exchange_memo_title">填写备注</string>
-    <string name="eos_account_create_by_exchange_prompt8">该创建方式使用 Dappub 团队部署的智能合约，创建过程中不涉及人工操作。如用户操作不当造成的资产损失，麦子钱包无法帮助找回。</string>
+    <string name="eos_account_create_by_exchange_prompt8">该创建方式使用 DAppub 团队部署的智能合约，创建过程中不涉及人工操作。如用户操作不当造成的资产损失，麦子钱包无法帮助找回。</string>
     <string name="eos_account_create_by_exchange_copy_account">复制账户名</string>
     <string name="eos_account_create_by_exchange_copy_memo">复制备注</string>
     <string name="eos_account_create_by_friend_prompt9">支付成功后，将上一步备份的私钥导入麦子钱包，即完成账户创建。</string>
@@ -1101,9 +1110,9 @@
     <string name="location">位置信息</string>
     <string name="allow_access_to_your_location">允许获取您的地理位置信息吗？</string>
     <string name="dapps_upgrade_disclaimer">您的钱包版本过低，可能无法正常使用该应用，建议您尽快将钱包升级到最新版本，非常感谢！</string>
-    <string name="dapps_open_risk_disclaimer">您即将跳转至第三方DAPP页面，您在第三方DAPP上的使用行为将适用该第三方DAPP的《用户协议》和《隐私政策》，由该第三方DAPP直接并单独向您承担责任。</string>
-    <string name="dapps_risk_disclaimer">您在第三方DAPP上的使用行为将适用该第三方DAPP的《用户协议》和《隐私政策》，由该第三方DAPP直接并单独向您承担责任。</string>
-    <string name="close_dapp_no_finger">关闭 Dapp 前不再弹出确认</string>
+    <string name="dapps_open_risk_disclaimer">您即将跳转至第三方DApp页面，您在第三方DApp上的使用行为将适用该第三方DApp的《用户协议》和《隐私政策》，由该第三方DApp直接并单独向您承担责任。</string>
+    <string name="dapps_risk_disclaimer">您在第三方DApp上的使用行为将适用该第三方DApp的《用户协议》和《隐私政策》，由该第三方DAPP直接并单独向您承担责任。</string>
+    <string name="close_dapp_no_finger">关闭 DApp 前不再弹出确认</string>
     <string name="eos_account_create_success_pendding_propmt">账户已创建并提交到主网，请在主网确认后（约3分钟）再进行交易，以确保创建成功</string>
     <string name="dapp_rankings">应用排行榜</string>
     <string name="dapps_24h_users">24H用户数</string>
@@ -1209,12 +1218,12 @@
 
     <string name="dapp_search_hint">搜索或输入 DApp 地址</string>
     <string name="open_link">打开链接: </string>
-    <string name="dapp_search_open_otherwallet_message">请先切换到%s钱包才能进入该DAPP</string>
+    <string name="dapp_search_open_otherwallet_message">请先切换到%s钱包才能进入该DApp</string>
     <string name="dapp_search_nothing">暂无搜索结果</string>
     <string name="eth_sigh_address">签名地址</string>
     <string name="eth_sign_content">签名内容</string>
     <string name="zilliqa_wallet">ZIL 钱包</string>
-
+    <string name="please_enter_the_correct_zilliqa_address">请输入正确的 Zilliqa 地址</string>
     <string name="eos_account_permission_accounts_add">添加账户</string>
     <string name="eos_account_permission_accounts_update">变更账户</string>
     <string name="update_permission_eos">变更</string>
@@ -1507,5 +1516,21 @@
     <string name="swap_guide_step_two">步骤 2</string>
     <string name="swap_guide_into">进入云端钱包交易</string>
     <string name="swap_guide_switch">切换并登录云端钱包</string>
+    <string name="btn_fastchange">⚡️闪兑</string>
+    <string name="need_more_eth_to_pay_the_gas_fee">需要更多的 ETH 支付转账 GAS 费用</string>
+    <string name="shard">Shard</string>
+    <string name="target_is_closed">该交易对暂不可用</string>
+    <string name="chains_scroll_up_and_down_to_check">支持 20+ 公链，上下滑动看看。</string>
+    <string name="cloud_vpos">挖矿</string>
+    <string name="token">代币</string>
+    <string name="collections">藏品</string>
+    <string name="eth_collections_number">%d 个藏品</string>
+    <string name="introduction_of_collections">简介:</string>
+    <string name="platform_of_collections">平台:</string>
+    <string name="open_opensea_to_review">打开 OpenSea 查看</string>
+    <string name="open_enjinx_to_review">打开 EnjinX 查看</string>
+    <string name="send_eth_collection">发送藏品</string>
+    <string name="invite_friends_to_get_usdt">邀请送 USDT</string>
+    <string name="more_rewards_with_more_invites">(多邀请，多赠送)</string>
 
 </resources>

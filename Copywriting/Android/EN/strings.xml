@@ -363,7 +363,7 @@
 
     <!--关于-->
     <string name="about_version_code">Version %s</string>
-    <string name="about_version_description">Math Wallet is the most powerful and secure universal crypto wallet that enables storage of all BTC, ETH/ERC20, EOS tokens, supports cross-chain token exchange and a multi-chain dApp store.</string>
+    <string name="about_version_description">Math Wallet is the most powerful and secure universal crypto wallet that enables storage of all BTC, ETH/ERC20, EOS tokens, supports cross-chain token exchange and a multi-chain DApp store.</string>
     <string name="website_title">Website:&#160;</string>
     <string name="github_title">GitHub:&#160;</string>
     <string name="twitter_title">Twitter:&#160;</string>
@@ -714,9 +714,11 @@
     <string name="import_eos_account">Import EOS Account</string>
     <string name="import_ft_account">Import FT Account</string>
     <string name="import_bos_account">Import BOS Account</string>
+    <string name="import_yas_account">Import YAS Account</string>
     <string name="import_enu_account">Import ENU Account</string>
     <string name="import_telos_account">Import TELOS Account</string>
     <string name="choose_eos_account">Select EOS Account</string>
+    <string name="choose_yas_account">Select YAS Account</string>
     <string name="choose_enu_account">Select ENU Account</string>
     <string name="choose_telos_account">Select TELOS Account</string>
     <string name="create_eos_force_account">Create EOS FORCE Account</string>
@@ -725,6 +727,7 @@
     <string name="eos_account">EOS Account</string>
     <string name="ft_account">FT Account</string>
     <string name="bos_account">BOS Account</string>
+    <string name="yas_account">YAS Account</string>
     <string name="enu_account">ENU Account</string>
     <string name="telos_account">TELOS Account</string>
     <string name="eos_force_account">EOS FORCE Account</string>
@@ -764,6 +767,7 @@
     <string name="eos_force_account_qrcode">EOS FORCE Account QR Code</string>
     <string name="not_query_to_the_eos_account">No EOS account found.</string>
     <string name="not_query_to_the_bos_account">No BOS account found.</string>
+    <string name="not_query_to_the_yas_account">No YAS account found.</string>
     <string name="not_query_to_the_enu_account">No ENU account found.</string>
     <string name="not_query_to_the_telos_account">No TELOS account found.</string>
     <string name="not_query_to_the_eos_force_account">No EOS FORCE account found.</string>
@@ -787,6 +791,7 @@
     <string name="send_to_eosaccount">EOS Account</string>
     <string name="send_to_ftaccount">FT Account</string>
     <string name="send_to_bosaccount">BOS Account</string>
+    <string name="send_to_yasaccount">YAS Account</string>
     <string name="send_to_enuaccount">ENU Account</string>
     <string name="send_to_telosaccount">TELOS Account</string>
     <string name="send_to_eos_force_account">EOS FORCE Account</string>
@@ -836,15 +841,18 @@
     <string name="eos_resource_ram_price_trend">EOS RAM Exchange</string>
     <string name="eos_resource_eos_balance">Available %s EOS</string>
     <string name="bos_resource_eos_balance">Available %s BOS</string>
+    <string name="yas_resource_eos_balance">Available %s YAS</string>
     <string name="enu_resource_eos_balance">Available %s ENU</string>
     <string name="telos_resource_eos_balance">Available %s TLOS</string>
     <string name="eos_resource_ram_sell_kb_balance">Available %s KB</string>
     <string name="eos_resource_ram_price_trade">RAM Price: %s EOS/KB</string>
     <string name="bos_resource_ram_price_trade">RAM Price: %s BOS/KB</string>
+    <string name="yas_resource_ram_price_trade">RAM Price: %s YAS/KB</string>
     <string name="enu_resource_ram_price_trade">RAM Price: %s ENU/KB</string>
     <string name="telos_resource_ram_price_trade">RAM Price: %s TLOS/KB</string>
     <string name="eos_resource_ram_available_value">Available RAM ≈ %s EOS</string>
     <string name="bos_resource_ram_available_value">Available RAM ≈ %s BOS</string>
+    <string name="yas_resource_ram_available_value">Available RAM ≈ %s YAS</string>
     <string name="enu_resource_ram_available_value">Available RAM ≈ %s ENU</string>
     <string name="telos_resource_ram_available_value">Available RAM ≈ %s TLOS</string>
     <string name="eos_resource_ram_input_value_zero">Input Amount cannot be \'0\'</string>
@@ -1069,7 +1077,7 @@
     <string name="eos_account_create_by_exchange_prompt7">When the withdrawal or transfer is successful, import the private key that backed up in previous step to complete account creation.</string>
     <string name="eos_account_create_by_exchange_account_title">Transfer To Account</string>
     <string name="eos_account_create_by_exchange_memo_title">Add Memo</string>
-    <string name="eos_account_create_by_exchange_prompt8">This account creation method applies Dappub team\'s smart contract, and there\'s no manual operation during the creation process. Math Wallet couldn't do anything if users loss assets due to wrong operation.</string>
+    <string name="eos_account_create_by_exchange_prompt8">This account creation method applies DAppub team\'s smart contract, and there\'s no manual operation during the creation process. Math Wallet couldn't do anything if users loss assets due to wrong operation.</string>
     <string name="eos_account_create_by_exchange_copy_account">copy account</string>
     <string name="eos_account_create_by_exchange_copy_memo">copy memo</string>
     <string name="eos_account_create_by_friend_prompt9">When the payment is successful, you need to import the private key that backed up in previous step to complete account creation. </string>
@@ -1120,8 +1128,8 @@
     <string name="location">location</string>
     <string name="allow_access_to_your_location">allow access to your location ?</string>
     <string name="dapps_upgrade_disclaimer">Your Math Wallet should be upgraded, thanks for your supporting.</string>
-    <string name="dapps_open_risk_disclaimer">You are about to jump to the third-party DAPP page. Your use of the third-party DAPP will apply to the third-party DAPP\'s User Agreement and Privacy Policy, which will be directly and separately liable to you by the third party DAPP.</string>
-    <string name="dapps_risk_disclaimer">Your use of third party DAPP will be subject to the User Agreement and Privacy Policy of the third party DAPP, which is directly and separately liable to you by the third party DAPP.</string>
+    <string name="dapps_open_risk_disclaimer">You are about to jump to the third-party DApp page. Your use of the third-party DApp will apply to the third-party DApp\'s User Agreement and Privacy Policy, which will be directly and separately liable to you by the third party DApp.</string>
+    <string name="dapps_risk_disclaimer">Your use of third party DApp will be subject to the User Agreement and Privacy Policy of the third party DApp, which is directly and separately liable to you by the third party DApp.</string>
     <string name="eos_account_create_success_pendding_propmt">The account has been created and submitted to the mainnet, please confirm in the mainnet (around 3 mins) first and then start transaction.</string>
     <string name="close_dapp_no_finger">No confirmation pops up before closing DApp</string>
     <string name="dapp_rankings">DApp Rankings</string>
@@ -1211,7 +1219,7 @@
 
     <string name="dapp_search_hint">Search or enter DApp address</string>
     <string name="open_link">Open link: </string>
-    <string name="dapp_search_open_otherwallet_message">Please switch to %s wallet to open the DAPP</string>
+    <string name="dapp_search_open_otherwallet_message">Please switch to %s wallet to open the DApp</string>
     <string name="dapp_search_nothing">No Result</string>
     <string name="eth_sigh_address">Address</string>
     <string name="eth_sign_content">Content</string>
@@ -1450,7 +1458,7 @@
     <string name="math_identity_password_new">New passwrod</string>
     <string name="math_identity_password_new_again">Repeat new password</string>
 
-    <string name="vpos_pool">MATH VPOS Pool</string>
+    <string name="vpos_pool">MATH VPoS Pool</string>
     <string name="math_identity_add_wallet">Add Wallet</string>
     <string name="math_identity_added_wallet">Added Wallet</string>
     <string name="math_identity_name">Name</string>
@@ -1506,13 +1514,29 @@
     <string name="account_forget_password">Forget Password</string>
 
     <string name="swap_guide_tip">Switch to cloud wallet/Swap at Cloud Wallet</string>
-    <string name="swap_guide_title">Why MATH Cloud SWAP?</string>
-    <string name="swap_guide_one"> • Better Speed</string>
-    <string name="swap_guide_two"> • Better Fee</string>
-    <string name="swap_guide_three">• Better Price</string>
+    <string name="swap_guide_title">Cloud Wallet ⚡ SWAP</string>
+    <string name="swap_guide_one"> • Faster</string>
+    <string name="swap_guide_two"> • No Gas Fee</string>
+    <string name="swap_guide_three"> • Better Price</string>
     <string name="swap_guide_step_one">Step 1</string>
     <string name="swap_guide_step_two">Step 2</string>
-    <string name="swap_guide_into"> Switch to Trade tab</string>
-    <string name="swap_guide_switch"> Switch to Cloud Wallet and login</string>
+    <string name="swap_guide_into"> Go the Trade tab</string>
+    <string name="swap_guide_switch"> Switch to Cloud Wallet</string>
+    <string name="btn_fastchange">⚡️Fast exchange</string>
+    <string name="need_more_eth_to_pay_the_gas_fee">Need more ETH to pay the GAS fee</string>
+    <string name="shard">Shard</string>
+    <string name="target_is_closed">The trading pair is temporarily unavailable</string>
+    <string name="chains_scroll_up_and_down_to_check">Support 20+ public chains, scroll up and down to check</string>
+    <string name="cloud_vpos">Mining</string>
+    <string name="token">Token</string>
+    <string name="collections">Collectible</string>
+    <string name="eth_collections_number">%d collectible</string>
+    <string name="introduction_of_collections">Introduction :</string>
+    <string name="platform_of_collections">Platform :</string>
+    <string name="open_opensea_to_review">Open OpenSea to review</string>
+    <string name="open_enjinx_to_review">Open EnjinX to review</string>
+    <string name="send_eth_collection">Send collectible</string>
+    <string name="invite_friends_to_get_usdt">Invite friends to get USDT</string>
+    <string name="more_rewards_with_more_invites">(more rewards with more invites)</string>
 
 </resources>
